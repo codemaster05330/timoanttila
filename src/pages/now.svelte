@@ -56,5 +56,16 @@
 		<h2>Contact:</h2>
 		<p><a href="tel:+358407746121" rel="nofollow">+358 40 774 6121</a><br />
 		<a href="mailto:info@tuspe.com" rel="nofollow">info@tuspe.com</a></p>
+		<h2>Find me around the web</h2>
+		<ul>
+			<li><a href="https://tuspe.com" rel="me noopener" target="_blank">https://tuspe.com</a></li>
+			<li><a href="https://www.linkedin.com/in/anttilatimo/" rel="me noopener" target="_blank">https://www.linkedin.com/in/anttilatimo/</a></li>
+			<li><a href="https://www.instagram.com/tewdin/" rel="me noopener" target="_blank">https://www.instagram.com/tewdin/</a></li>
+			<li><a href="https://twitter.com/tewdin" rel="me noopener" target="_blank">https://twitter.com/tewdin</a></li>
+			<li><a href="https://ello.co/timoanttila" rel="me noopener" target="_blank">https://ello.co/timoanttila</a></li>
+			<li><a href="https://www.flickr.com/photos/tewdin/" rel="me noopener" target="_blank">https://www.flickr.com/photos/tewdin/</a></li>
+			<li><a href="https://www.facebook.com/profile.php?id=100010578491925" rel="me noopener" target="_blank">https://www.facebook.com/profile.php?id=100010578491925</a></li>
+			<li><a href="https://www.facebook.com/TuspeDesign/" rel="me noopener" target="_blank">https://www.facebook.com/TuspeDesign/</a></li>
+		</ul>
 		<h2>Now?</h2>
 		<p>Now page is a place to tell where my focus is right now in my professional and personal life. If activities or priorities change, I'll update this page accordingly.<br/>Inspired by <a href="https://nownownow.com/" target="_blank">nownownow project</a>.</p></div></div>
