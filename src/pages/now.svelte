@@ -28,7 +28,8 @@
 		Chief Executive Officer<br />
 		Server Administrator</p>
 		<h2>Professional life:</h2>
-		<p>I'm a full stack web developer who is passionate about making websites better, faster and easy to update. Some technologies I enjoy working with include Svelte, PHP and SQL. Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.</p>
+		<p>I'm a full stack web developer who is passionate about making websites better, faster and easy to update. Some technologies I enjoy working with include Svelte, PHP and SQL.</p>
+		<p>Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.</p>
 		<p>I love my job and always try to develop better and faster websites and follow the latest coding trends.</p>
 		<ul>
 			<li>Designing and developing experiences that make people's lives simple.</li>
