@@ -10,7 +10,7 @@ I love my job and always try to develop better and faster websites and follow th
 - Developing a booking calendar Ratsukko for SatuMo Oy.
 - Partner and CEO at Dataline Group Oy.
 
-## LANGUAGES
+## Languages
 
 - Finnish, English
 - PHP, JavaScript, JQuery
