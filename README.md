@@ -20,6 +20,6 @@ I love my job and always try to develop better and faster websites and follow th
 - https://timoanttila.com
 - https://tuspe.com
 - https://www.linkedin.com/in/anttilatimo/
+- https://ello.co/timoanttila
 - https://www.instagram.com/tewdin/
 - https://twitter.com/tewdin
-- https://ello.co/timoanttila
