@@ -44,7 +44,7 @@
 			<li>Learning how to live a real life.</li>
 			<li>Interested in artificial intelligence, the wonders of technology, and human behavior.</li>
 			<li>Sea adventurer in the summer (Sailing Yatch Guyline 822).</li>
-			<li>Photographing all kinds of beautiful on <a href="https://www.instagram.com/tewdin/" title="Follow me on Instagram" target="_blank" rel="me noopener">Instagram</a> and <a href="https://ello.co/timoanttila" title="Follow me on Ello" target="_blank" rel="me noopener">Ello</a>.</li>
+			<li>Photographing all kinds of beautiful on <a href="https://ello.co/timoanttila" title="Follow me on Ello" target="_blank" rel="me noopener">Ello</a> and <a href="https://www.instagram.com/tewdin/" title="Follow me on Instagram" target="_blank" rel="me noopener">Instagram</a>.</li>
 			<li>Proud father of two pets; border collie Deli and cat Sera.</li>
 			<li>An avid visitor to all public events and involved in creating them.</li>
 			<li>Investing in stocks and funds.</li>
