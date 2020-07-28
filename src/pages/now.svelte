@@ -28,16 +28,16 @@
 		Chief Executive Officer<br />
 		Server Administrator</p>
 		<h2>Professional life:</h2>
+		<p>I'm a full stack web developer who is passionate about making websites better, faster and easy to update. Some technologies I enjoy working with include Svelte, PHP and SQL. Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.</p>
+		<p>I love my job and always try to develop better and faster websites and follow the latest coding trends.</p>
 		<ul>
 			<li>Designing and developing experiences that make people's lives simple.</li>
-			<li>Working at <a href="https://tuspe.com/" target="_blank" rel="noreferrer noopener">Tuspe Design Oy</a> as a full stack developer and developing its business as a owner.</li>
-			<li>Subcontractor for <a href="https://molentum.fi/" target="_blank" rel="noreferrer noopener">Molentum Oy</a>.</li>
-			<li>Developing a booking calendar <a href="https://www.ratsukko.com/" target="_blank" rel="noreferrer noopener">Ratsukko</a> for <a href="https://www.satumo.fi/en/" target="_blank" rel="noreferrer noopener">SatuMo Oy</a>.</li>
-			<li>Partner and CEO at <a href="https://www.dataline.fi/" target="_blank" rel="noreferrer noopener">Dataline Group Oy</a>.</li>
-			<li>Participating in the open source revolution on <a href="https://github.com/timoanttila?tab=repositories" target="_blank" rel="noreferrer noopener">Github</a>.</li>
+			<li>Working at <a href="https://tuspe.com/" target="_blank" rel="me noopener">Tuspe Design Oy</a> as a full stack developer and developing its business as a owner.</li>
+			<li>Subcontractor for <a href="https://molentum.fi/" target="_blank" rel="noopener">Molentum Oy</a>.</li>
+			<li>Developing a booking calendar <a href="https://www.ratsukko.com/" target="_blank" rel="me noopener">Ratsukko</a> for <a href="https://www.satumo.fi/en/" target="_blank" rel="noopener">SatuMo Oy</a>.</li>
+			<li>Partner and CEO at <a href="https://www.dataline.fi/" target="_blank" rel="me noopener">Dataline Group Oy</a>.</li>
+			<li>Participating in the open source revolution on <a href="https://github.com/timoanttila?tab=repositories" target="_blank" rel="me noopener">Github</a>.</li>
 		</ul>
-		<p>I've been making websites since 1999. I love creating new things and seeing how customers are happy with them, creating things that people really need.</p>
-		<p>I love my job and always try to develop better and faster websites and follow the latest coding trends.</p>
 		<h2>Personal life:</h2>
 		<ul>
 			<li>Learning how to live a real life.</li>
@@ -45,7 +45,7 @@
 			<li>Sea adventurer in the summer (Sailing Yatch Guyline 822).</li>
 			<li>Photographing all kinds of beautiful on <a href="https://www.instagram.com/tewdin/" title="Follow me on Instagram" target="_blank" rel="me noopener">Instagram</a> and <a href="https://ello.co/timoanttila" title="Follow me on Ello" target="_blank" rel="me noopener">Ello</a>.</li>
 			<li>Proud father of two pets; border collie Deli and cat Sera.</li>
-			<li>Organizing <a href="https://2020.ropecon.fi/etusivu/" target="_blank" rel="noreferrer noopener">Ropecon</a>.</li>
+			<li>An avid visitor to all public events and involved in creating them.</li>
 			<li>Investing in stocks and funds.</li>
 		</ul>
 		<h2>Languages:</h2>
@@ -60,12 +60,12 @@
 		<ul>
 			<li><a href="https://tuspe.com" rel="me noopener" target="_blank">https://tuspe.com</a></li>
 			<li><a href="https://www.linkedin.com/in/anttilatimo/" rel="me noopener" target="_blank">https://www.linkedin.com/in/anttilatimo/</a></li>
+			<li><a href="https://github.com/timoanttila" rel="me noopener" target="_blank">https://github.com/timoanttila</a></li>
 			<li><a href="https://www.instagram.com/tewdin/" rel="me noopener" target="_blank">https://www.instagram.com/tewdin/</a></li>
 			<li><a href="https://twitter.com/tewdin" rel="me noopener" target="_blank">https://twitter.com/tewdin</a></li>
 			<li><a href="https://ello.co/timoanttila" rel="me noopener" target="_blank">https://ello.co/timoanttila</a></li>
-			<li><a href="https://www.flickr.com/photos/tewdin/" rel="me noopener" target="_blank">https://www.flickr.com/photos/tewdin/</a></li>
-			<li><a href="https://www.facebook.com/profile.php?id=100010578491925" rel="me noopener" target="_blank">https://www.facebook.com/profile.php?id=100010578491925</a></li>
 			<li><a href="https://www.facebook.com/TuspeDesign/" rel="me noopener" target="_blank">https://www.facebook.com/TuspeDesign/</a></li>
+			<li><a href="https://www.facebook.com/profile.php?id=100010578491925" rel="me noopener" target="_blank">https://www.facebook.com/profile.php?id=100010578491925</a></li>
 		</ul>
 		<h2>Now?</h2>
 		<p>Now page is a place to tell where my focus is right now in my professional and personal life. If activities or priorities change, I'll update this page accordingly.<br/>Inspired by <a href="https://nownownow.com/" target="_blank">nownownow project</a>.</p></div></div>
