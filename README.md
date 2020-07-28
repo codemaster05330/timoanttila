@@ -18,7 +18,8 @@ I love my job and always try to develop better and faster websites and follow th
 ## Find me around the web
 
 - https://timoanttila.com
-- https://www.instagram.com/tewdin/
+- https://tuspe.com
 - https://www.linkedin.com/in/anttilatimo/
+- https://www.instagram.com/tewdin/
 - https://twitter.com/tewdin
 - https://ello.co/timoanttila
