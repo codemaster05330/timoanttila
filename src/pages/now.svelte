@@ -62,9 +62,9 @@
 			<li><a href="https://tuspe.com" rel="me noopener" target="_blank">https://tuspe.com</a></li>
 			<li><a href="https://www.linkedin.com/in/anttilatimo/" rel="me noopener" target="_blank">https://www.linkedin.com/in/anttilatimo/</a></li>
 			<li><a href="https://github.com/timoanttila" rel="me noopener" target="_blank">https://github.com/timoanttila</a></li>
+			<li><a href="https://ello.co/timoanttila" rel="me noopener" target="_blank">https://ello.co/timoanttila</a></li>
 			<li><a href="https://www.instagram.com/tewdin/" rel="me noopener" target="_blank">https://www.instagram.com/tewdin/</a></li>
 			<li><a href="https://twitter.com/tewdin" rel="me noopener" target="_blank">https://twitter.com/tewdin</a></li>
-			<li><a href="https://ello.co/timoanttila" rel="me noopener" target="_blank">https://ello.co/timoanttila</a></li>
 			<li><a href="https://www.facebook.com/TuspeDesign/" rel="me noopener" target="_blank">https://www.facebook.com/TuspeDesign/</a></li>
 			<li><a href="https://www.facebook.com/profile.php?id=100010578491925" rel="me noopener" target="_blank">https://www.facebook.com/profile.php?id=100010578491925</a></li>
 		</ul>
