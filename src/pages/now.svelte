@@ -32,7 +32,7 @@
 		<p>Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.</p>
 		<p>I love my job and always try to develop better and faster websites and follow the latest coding trends.</p>
 		<ul>
-			<li>Designing and developing experiences that make people's lives simple.</li>
+			<li>Designing and developing experiences that make people's lives simpler.</li>
 			<li>Working at <a href="https://tuspe.com/" target="_blank" rel="me noopener">Tuspe Design Oy</a> as a full stack developer and developing its business as a owner.</li>
 			<li>Subcontractor for <a href="https://molentum.fi/" target="_blank" rel="noopener">Molentum Oy</a>.</li>
 			<li>Developing a booking calendar <a href="https://www.ratsukko.com/" target="_blank" rel="me noopener">Ratsukko</a> for <a href="https://www.satumo.fi/en/" target="_blank" rel="noopener">SatuMo Oy</a>.</li>
