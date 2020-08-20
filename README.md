@@ -9,11 +9,12 @@ I love my job and always try to develop better and faster websites and follow th
 - Subcontractor for Molentum Oy.
 - Developing a booking calendar Ratsukko for SatuMo Oy.
 - Partner and CEO at Dataline Group Oy.
+- Hosting many servers and services on them.
 
 ## Languages
 
 - Finnish, English
-- PHP, JavaScript, JQuery
+- PHP, SQL, HTML, CSS, JavaScript, JQuery
 
 ## Find me around the web
 
