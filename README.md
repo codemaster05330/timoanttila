@@ -5,10 +5,9 @@ I'm a full stack web developer who is passionate about making websites better an
 I love my job and always try to develop better and faster websites and follow the latest coding trends.
 
 - Designing and developing experiences that make people's lives simple.
-- Working at [Tuspe Design Oy](https://tuspe.com) as a full stack developer and developing its business as a owner.
+- Working at [Tuspe Design Oy](https://tuspe.com) as a full stack developer and developing its business as an owner.
 - Subcontractor for Molentum Oy.
-- Developing a booking calendar Ratsukko for SatuMo Oy.
-- Partner and CEO at Dataline Group Oy.
+- Partner and chief technology officer at Ratsukko Solutions Oy and Dataline Group Oy.
 - Hosting many servers and services on them.
 
 ## Languages
