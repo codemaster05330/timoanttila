@@ -15,7 +15,7 @@
 <h1>{title}</h1>
 <p>{summary}</p>
 
-<ul id="posts" class="tc block">
+<ul id="posts" class="tc">
 {#each posts as {meta, path}}
 	<li>
 		<a class="article trf" href={$url(path)} title={meta.frontmatter.title}>

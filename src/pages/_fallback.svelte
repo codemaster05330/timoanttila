@@ -3,26 +3,22 @@
 </script>
 
 <style>
-    .c-404 {
-        text-align: center;
-        padding: 8rem 0;
-    }
-    h1 {
-        font-size: 12.8rem;
-        font-weight: 500;
-        color: #000;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        h1 {
-            color: #FFF;
-        }
-    }
-    
+  .huge {
+    font-size: 12rem;
+  }
+  .e404 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 </style>
 
-<div class="c-404">
-    <h1>404</h1>
-    <p>Page not found.</p>
-    <p><a href={$url('../')}>Go back</a></p>
+<div class="e404">
+  <div class="huge">404</div>
+  <div class="big">Page not found. 
+  <!-- link to the parent folder of _fallback.svelte -->
+  <a href={$url('../')}>Go back</a>
+  </div>
 </div>
