@@ -1,68 +1,60 @@
 ---
-title: Now Profile
-summary: Now page is a place to tell where my focus is right now in my professional and personal life.
+title: Miten elämä menee, Timo Anttila?
+summary: Tervetuloa tutustumaan elämääni. Täältä löytyy pääpointit ammatillisesta ja henkilökohtaisesta elämästani. Sivua päivitetään tarvittaessa.
 lang: en
 langLink: /about
-layout: page
+layout: profile
 ---
 
-## Location:
+## Asuinpaikka:
 
 [Nokia, Finland](https://goo.gl/maps/k437LzVrvYzhUvXV9 "Google Maps")
 
-## Professional title:
+## Ammattinimike:
 
 Full Stack Developer  
-Chief Executive Officer  
-Server Administrator
+Toimitus- ja teknologiajohtaja
 
-## Professional life:
+## Työelämä:
 
-I'm a full stack web developer who is passionate about making websites better, faster and easy to update. Technologies I enjoy working with include JavaScript, Svelte, PHP and SQL.
+Työkseni suunnittelen ja kehitän verkkosivustoja ja verkkokauppoja, alusta loppuun asiakkaiden tarpeiden mukaan kustomoituna. Haluan kehittää aina parempia, nopeampia ja helpommin päivitettäviä verkkopalveluita enkä voi sietää huonosti toimivia mobiilisivustoja. Teknologioita, joiden kanssa mieluiten työskentelen ovat PHP, JavaScript, Svelte ja SQL. Suurin osa uusista projekteista tehdään ProcessWirelle, mutta tunnen myös Wordpressin ja Drupalin salaisuudet.
 
-Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.
+Haluan aina ylittää itseni jokaisessa projektissa mitä teen. Onnistun kun asiakas tuntee saavansa enemmän kuin alunperin tilasi. Tyytyväiset asiakkaat tuovat hyvän mielen ja hymyn huulille.
 
-- Designing and developing experiences that make people's lives simpler. An easy life is a more productive life.
-- Working at <a href="https://tuspe.com/" rel="noreferrer noopener" target="_blank">Tuspe Design Oy</a> as a full stack developer and developing its business as a owner.
-- Subcontractor for <a href="https://molentum.fi/" rel="noreferrer noopener" target="_blank">Molentum Oy</a>.
-- Partner and Chief Technology Officer at <a href="https://www.ratsukko.com/" rel="noreferrer noopener" target="_blank" title="Booking calendar Ratsukko">Ratsukko Solutions Oy</a> and <a href="https://www.dataline.fi/" rel="noreferrer noopener" target="_blank">Dataline Group Oy</a>.
-- Hosting many servers and services on them.
-- Participating in the open source revolution on <a href="https://github.com/timoanttila?tab=repositories" rel="noreferrer noopener" target="_blank">Github</a>.
+- Suunnittelen ja kehitän kokemuksia, jotka tekevät ihmisten elämästä helpompaa.
+- Työskentelen koodarina yrityksessä <a href="https://tuspe.com/" rel="noopener me" target="_blank">Tuspe Design Oy</a> ja omistajana kehitän yritysten liiketoimintaa.
+- Alihankkijana yritykselle <a href="https://molentum.fi/" rel="noopener" target="_blank">Molentum Oy</a>.
+- Hallituksen puheenjohtaja ja teknologiajohtaja yrityksessä <a href="https://www.ratsukko.com/" rel="noopener me" target="_blank" title="Booking calendar Ratsukko">Ratsukko Solutions Oy</a>.
+- Ylläpidän monia palvelimia sekä vastaan asiakkaiden sivustojen turvallisuudesta ja varmuuskopioinnista.
+- Osallistun avoimen lähdekoodin vallankumoukseen <a href="https://github.com/timoanttila?tab=repositories" rel="noopener me" target="_blank" title="Tutustu avoimen lähdenkoodin projekteihin">Githubissa</a>.
 
-## Personal life:
+## Henkilökohtainen elämä:
 
-- Learning how to live a real life.
-- Interested in artificial intelligence, the wonders of technology, and human behavior.
-- Sea adventurer in the summer (Sailing Yatch Guyline 822).
-- Photographing all kinds of beautiful on <a href="https://ello.co/timoanttila" rel="noreferrer noopener" target="_blank" title="Follow me on Ello">Ello</a> and <a href="https://www.instagram.com/tewdin/" rel="noreferrer noopener" target="_blank" title="Follow me on Instagram">Instagram</a>. New photos almost weekly.
-- Proud father of two pets; border collie Deli and cat Sera.
-- Volunteer for <a href="https://www.tukiliitto.fi/toiminta/best-buddies-kaveritoiminta/" rel="noreferrer noopener" target="_blank" title="Tukiliiton järjestämä Best Buddies -kaveritoiminta">Best Buddies</a>.
-- Nature lover.
-- An avid visitor to all public events.
-- Investing in stocks and funds.
+- Yritän oppia elämään oikeaa todellista elämää.
+- Kiinnostunut tekoälystä, tekniikan ihmeistä ja ihmisten käyttäytymisestä.
+- Meriseikkailija kesällä (Sailing Yatch Guyline 822).
+- Kuvaan kaikenlaista kaunista ja mielenkiintoista <a href="https://www.instagram.com/_timoanttila/" rel="noopener me" target="_blank" title="Seuraa kuvattua elämääni Instagramissa">Instagramiin</a>.
+- Kahden lapsen ylpeä isä; bordercollie Deli ja kissa Sera.
+- Vapaaehtoisena rakentamassa <a href="https://ropecon.fi/" title="Suomalainen vuosittainen roolipelitapahtuma Ropecon" target="_blank">Ropecon 2021</a>.
+- Innokas kävijä sekä vapaaehtoinen duunari monissa tapahtumissa.
+- Luonto on lähellä sydäntä.
+- Sijoitan osakkeisiin ja rahastoihin.
 
-## Languages:
+## Kielet:
 
-- Finnish, English
+- Suomi, englanti
 - PHP, SQL, HTML, CSS, JavaScript, JQuery
 
-## Contact:
+## Yhteystiedot:
 
-<a href="tel:+358407746121" rel="nofollow">+358 40 774 6121</a>  
-<a href="mailto:info@tuspe.com" rel="nofollow">info@tuspe.com</a>
+- <a href="tel:+358407746121" rel="nofollow">+358 40 774 6121</a>
+- <a href="mailto:info@tuspe.com" rel="nofollow">info@tuspe.com</a>
 
-## Find me around the web
+## Seuraa somessa:
 
-- <a href="https://tuspe.com" rel="noreferrer noopener" target="_blank">https://tuspe.com</a>
-- <a href="https://www.linkedin.com/in/anttilatimo/" rel="noreferrer noopener" target="_blank">https://www.linkedin.com/in/anttilatimo/</a>
-- <a href="https://github.com/timoanttila" rel="noreferrer noopener" target="_blank">https://github.com/timoanttila</a>
-- <a href="https://twitter.com/_timoanttila" rel="noreferrer noopener" target="_blank" title="Follow Timo Anttila on Twitter">https://twitter.com/_timoanttila</a>
-- <a href="https://ello.co/timoanttila" rel="noreferrer noopener" target="_blank">https://ello.co/timoanttila</a>
-- <a href="https://www.instagram.com/_timoanttila/" rel="noreferrer noopener" target="_blank" title="Follow Timo Anttila on Instagram">https://www.instagram.com/_timoanttila/</a>
-- <a href="https://www.facebook.com/TuspeDesign/" rel="noreferrer noopener" target="_blank">https://www.facebook.com/TuspeDesign/</a>
-- <a href="https://www.facebook.com/profile.php?id=100010578491925" rel="noreferrer noopener" target="_blank">https://www.facebook.com/profile.php?id=100010578491925</a>
-
-## Now?
-
-Now page is a place to tell where my focus is right now in my professional and personal life. If activities or priorities change, I'll update this page accordingly.  
-Inspired by <a href="https://nownownow.com/" rel="noreferrer noopener" target="_blank">nownownow project</a>.
+- <a href="https://tuspe.com" rel="noopener me" target="_blank" title="Tuspe Design toteuttaa visuaalisesti upeat ja hakukoneoptimoidut kotisivut yritykselle.">https://tuspe.com</a>
+- <a href="https://www.linkedin.com/in/anttilatimo/" rel="noopener me" target="_blank" title="LinkedIn">https://www.linkedin.com/in/anttilatimo/</a>
+- <a href="https://github.com/timoanttila" rel="noopener me" target="_blank" title="Avoimen lähdekoodin projektit nähtävässä Githubissa">https://github.com/timoanttila</a>
+- <a href="https://twitter.com/_timoanttila" rel="noopener me" target="_blank" title="Seuraa Twitterissä">https://twitter.com/_timoanttila</a>
+- <a href="https://www.instagram.com/_timoanttila/" rel="noopener me" target="_blank" title="Seuraa Instagramissa">https://www.instagram.com/_timoanttila/</a>
+- <a href="https://www.facebook.com/TuspeDesign/" rel="noopener me" target="_blank" title="Tuspe Design Facebookissa">https://www.facebook.com/TuspeDesign/</a>

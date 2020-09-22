@@ -3,6 +3,6 @@
   import { routes } from "../.routify/routes";
 </script>
 <style global>
-  @import "../static/global.css";
+  @import "../static/global.scss";
 </style>
 <Router {routes} />

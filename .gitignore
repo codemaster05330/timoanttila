@@ -1,2 +1,11 @@
-
-src/.DS_Store
+/node_modules/
+/dist/
+.DS_Store
+**/.history
+/src/tmp/
+.routify
+/src/pages/magictricks
+/src/pages/fi/pulina
+/src/pages/fi/reseptit
+/src/pages/fi/jumaltentaisto
+/src/pages/battleofgods

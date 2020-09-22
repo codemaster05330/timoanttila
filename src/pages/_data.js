@@ -1,156 +1,115 @@
-export const sections = [
-	{
-		img: "timo",
-		en: {
-			title: "Timo Antttila",
-			body: "Full Stack Web Developer, photographer and sea adventurer from Nokia, Finland.",
-			url: "about",
-			img: "Web Developer Timo Anttila"
-		},
-		fi: {
-			title: "Timo Anttila",
-			body: "39-vuotias verkkosaittien rakentaja Nokialta. Valokuvaus ja bloggaus intohimona.",
-			url: "info",
-			img: "Verkkotohtori Timo Anttila"
-		}
-	}, {
-		img: "politics",
-		en: {
-			title: "Political opinions",
-			body: "Full Stack Web Developer, photographer and sea adventurer from Nokia, Finland.",
-			url: "politics",
-			img: "Web Developer Timo Anttila"
-		},
-		fi: {
-			title: "Politiikka",
-			body: "Omasta mielestäni lähes ehdottoman oikeat mielipiteet poliittisista asioista.",
-			url: "politiikka"
-		}
-	}, {
-		img: "projects",
-		en: {
-			title: "Projects",
-			body: "Active projects that I am working on. Some can be found as open source in Github.",
-			url: "projects",
-			img: "My active projects"
-		},
-		fi: {
-			title: "Projektit",
-			body: "Monessa projektissa mukana, osa julkisesti jakelussa olevaa lähdekoodia.",
-			url: "projektit",
-			img: "Projektit, joissa olen aktiivisesti mukana"
-		}
-	}
-]
-
 export const projects = [
 	{
-		img: "timoanttila",
+		url: "https://www.ratsukko.com/",
+		tech: "Svelte, PHP",
+		en: {
+			title: "Ratsukko Solutions",
+			body: "Designing and developing the front end of the booking calendar for SatuMo / Ratsukko. Mkes everyday life easier for stable entrepreneurs and their customers."
+		},
+		fi: {
+			title: "Ratsukko Solutions",
+			body: "Suunnittelen ja kehitän varauskalenterin asiakasnäkymää SatuMolle / Ratsukolle. Helpottaa talliyrittäjien ja heidän asiakkaidensa arkea."
+		}
+	}, {
+		url: "https://github.com/timoanttila/timoanttila",
+		tech: "Svelte, Routify, Markdown, Prerender",
 		en: {
 			title: "Timo Anttila",
-			body: "Active projects that I am working on. Some can be found as open source in Github.",
-			url: "projects"
+			body: "Website where you are visiting right now. The open source project includes a variety of content types and supports Markdown and many languages."
 		},
 		fi: {
 			title: "Timo Anttila",
-			body: "Monessa projektissa mukana, osa julkisesti jakelussa olevaa lähdekoodia.",
-			url: "projektit"
+			body: "Verkkosivusto missä vierailet juuri nyt. Avointa lähdekoodia, monenlaisia sisältötyyppejä sekä tukee Markdownia ja kieliversioita."
 		}
 	}, {
-		img: "ratsukko",
+		url: "https://github.com/TuspeDesign/tuspe",
+		tech: "Svelte, Routify, Prerender",
 		en: {
-			title: "Ratsukko Solutions",
-			body: "Active projects that I am working on. Some can be found as open source in Github.",
-			url: "projects"
+			title: "Tuspe Design",
+			body: "My company’s official website is open source. A simple example how to build a website in Svelte. Supports multiple languages."
 		},
 		fi: {
-			title: "Ratsukko Solutions",
-			body: "Monessa projektissa mukana, osa julkisesti jakelussa olevaa lähdekoodia.",
-			url: "projektit"
+			title: "Tuspe Design",
+			body: "Yritykseni virallinen verkkosivusto on avointa lähdekoodia. Simppeli esimerkki verkkosivustosta Sveltellä. Tukee monia kieliä."
 		}
 	}, {
-		img: "webshops",
+		url: "https://verkkokaupat.org/",
+		tech: "Svelte, Routify, PHP",
 		en: {
-			title: "Verkkokaupat",
-			body: "Active projects that I am working on. Some can be found as open source in Github.",
-			url: "projects"
+			title: "List of Finnish webshops",
+			body: "An ever-growing list of active reliable Finnish online stores. Support domestic companies and local production, buy from a Finn."
 		},
 		fi: {
-			title: "Ratsukko Solutions",
-			body: "Monessa projektissa mukana, osa julkisesti jakelussa olevaa lähdekoodia.",
-			url: "projektit"
+			title: "Suomalaiset verkkokaupat",
+			body: "Alati kasvava lista aktiivisista luotettavista suomalaisista verkkokaupoista. Tue kotimaisia yrityksiä ja lähituotantoa, osta suomalaiselta."
 		}
 	}, {
-		img: "klarna",
+		url: "https://github.com/timoanttila/KlarnaCheckout",
+		tech: "PHP",
 		en: {
 			title: "Klarna API Client",
-			body: "Active projects that I am working on. Some can be found as open source in Github.",
-			url: "projects"
+			body: "Integration between e-commerce and Klarna Checkout API. Can be used in any PHP project. Only one file needed."
 		},
 		fi: {
-			title: "Ratsukko Solutions",
-			body: "Monessa projektissa mukana, osa julkisesti jakelussa olevaa lähdekoodia.",
-			url: "projektit"
+			title: "Klarna API",
+			body: "Integraatio verkkokaupan ja Klarnan rajapinnan väliin. Vain yksi tiedosto."
 		}
 	}, {
-		img: "checkout",
+		url: "https://github.com/timoanttila/CheckoutAPIClient",
+		tech: "PHP",
 		en: {
-			title: "Checkout API Client",
-			body: "Active projects that I am working on. Some can be found as open source in Github.",
-			url: "projects"
+			title: "Checkout Finland",
+			body: "Integration between e-commerce and Checkout Finland's PSP API. Only one file needed."
 		},
 		fi: {
-			title: "Ratsukko Solutions",
-			body: "Monessa projektissa mukana, osa julkisesti jakelussa olevaa lähdekoodia.",
-			url: "projektit"
+			title: "Checkout Finland",
+			body: "Integraatio verkkokaupan ja Checkout Finland PSP API:n väliin. Vain yksi tiedosto."
 		}
 	}, {
-		img: "bankref",
+		url: "https://github.com/timoanttila/Finnish-Bank-Reference-Number",
+		tech: "PHP",
 		en: {
 			title: "Reference Number",
-			body: "Active projects that I am working on. Some can be found as open source in Github.",
-			url: "projects"
+			body: "Calculation formula and code required to create the reference number used by Finnish banks."
 		},
 		fi: {
-			title: "Ratsukko Solutions",
-			body: "Monessa projektissa mukana, osa julkisesti jakelussa olevaa lähdekoodia.",
-			url: "projektit"
+			title: "Suomalainen viitenumero",
+			body: "Suomalaisten pankkien käyttämän viitenumeron luontiin tarvittava kaava ja PHP-koodi."
 		}
 	}, {
-		img: "nettix",
+		url: "https://github.com/timoanttila/Nettix-API-Client",
+		tech: "PHP, ProcessWire",
 		en: {
-			title: "Nettix API Client",
-			body: "Drush is a command-line shell and scripting interface for Drupal. With this script you can update all your Drupal websites at once.",
-			url: "projects"
+			title: "Nettix REST API",
+			body: "Integration between a website and Nettix marketplaces. Retrieves all the ads."
 		},
 		fi: {
-			title: "Ratsukko Solutions",
-			body: "Monessa projektissa mukana, osa julkisesti jakelussa olevaa lähdekoodia.",
-			url: "projektit"
+			title: "Nettix REST API",
+			body: "Integraatio verkkosivuston ja Nettix-kauppapaikkojen välille. Hakee ilmoitukset verkkosivustolle."
 		}
 	}, {
-		img: "autosofta",
-		en: {
-			title: "Autosofta",
-			body: "A simple tool to generate a list of cars from an XML feed and dynamically show all information about the car.",
-			url: "projects"
-		},
-		fi: {
-			title: "Ratsukko Solutions",
-			body: "Monessa projektissa mukana, osa julkisesti jakelussa olevaa lähdekoodia.",
-			url: "projektit"
-		}
-	}, {
-		img: "drush",
+		url: "https://github.com/timoanttila/Drupal-Drush",
+		tech: "Bash, Drush, Drupal",
 		en: {
 			title: "Drupal Drush",
 			body: "Drush is a command-line shell and scripting interface for Drupal. With this script you can update all your Drupal websites at once.",
 			url: "projects"
 		},
 		fi: {
-			title: "Ratsukko Solutions",
-			body: "Monessa projektissa mukana, osa julkisesti jakelussa olevaa lähdekoodia.",
-			url: "projektit"
+			title: "Drupal Drush",
+			body: "Linux-palvelimen komentorivillä toimiva koodi mikä päivittää kaikki Drupal-sivustot Drush-ohjelmistolla."
+		}
+	}, {
+		url: "https://github.com/timoanttila/ProcessWire-SimpleRSS",
+		tech: "PHP, ProcessWire",
+		en: {
+			title: "ProcessWire RSS",
+			body: "A very simple XML RSS feed of the latest articles. Can be added to the theme with minor changes.",
+			url: "projects"
+		},
+		fi: {
+			title: "ProcessWire RSS",
+			body: "Hyvin yksinkertainen XML RSS-syöte uusimmista artikkeleista. Voi lisätä teemaan pienin muutoksin."
 		}
 	}
 ]
@@ -159,13 +118,13 @@ export const Nav = [
 	[
 		['/', 'Home','en'],
 		['/about', 'About'],
-		['/politics', 'Politics'],
 		['/blog/','Blog'],
+		['/projects','Projects'],
 		['/gallery','Gallery']
 	], [
 		['/fi/', 'Tietoa'],
-		['/fi/politiikka', 'Politiikka'],
 		['/fi/pulina','Pulina'],
+		['/fi/projektit','Projektit'],
 		['/fi/galleria','Galleria']
 	]
 ]
@@ -220,12 +179,6 @@ export const gallery = [
 		"place": "Naantali, Finland",
 		"category": "Animals",
 		"url": "https://www.instagram.com/p/BynHrLcAka6/"
-	}, {
-		"title": "Portrait of a happy border collie Deli lying on top of a mountain",
-		"name": "2019-deli-mountain",
-		"camera": "OnePlus 6",
-		"category": "Animals",
-		"url": "https://www.instagram.com/p/BkDG-j1BGO-/"
 	}, {
 		"title": "Portrait of a swimming duck",
 		"name": "2019-duck",

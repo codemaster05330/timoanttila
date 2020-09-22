@@ -12,17 +12,19 @@
 	$: metatags["twitter:description"] = summary
 </script>
 
-<h1>{title}</h1>
-<p>{summary}</p>
+<div id="head" class="tc mxa list">
+	<h1>{title}</h1>
+	<div class="summary mxa">{summary}</div>
+</div>
 
-<ul id="posts" class="tc">
+<ul id="posts" class="tc three grid block">
 {#each posts as {meta, path}}
 	<li>
-		<a class="article trf" href={$url(path)} title={meta.frontmatter.title}>
+		<a class="article trf grid" href={$url(path)} title={meta.frontmatter.title}>
 			<div class="content">
 				<h2>{meta.frontmatter.title}</h2>
-				<div class="summary">{meta.frontmatter.summary}</div>
-				<div class="published">{meta.frontmatter.pub}</div>
+				<p class="summary">{meta.frontmatter.summary}</p>
+				<p class="published">{meta.frontmatter.pub}</p>
 			</div>
 		</a>
 	</li>

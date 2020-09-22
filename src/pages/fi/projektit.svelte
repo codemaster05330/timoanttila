@@ -1,35 +1,34 @@
 <script>
-	import { projects } from "../_data"
+	import { metatags } from "@sveltech/routify";
+	import { projects } from "../_data.js"
 	let lang = "fi"
+	let title = "Projektit"
+	let summary = "Kirjoitan päivittäin koodia ja osa siitä päätyy avoimeksi. Tervetuloa tutustumaan kätteni jälkiin."
+	$: metatags.title = title
+	$: metatags.description = summary
+	$: metatags["twitter:title"] = title
+	$: metatags["twitter:description"] = summary
 </script>
 
-<style>
-	#projects {
-		display: grid;
-		grid-gap: 1.5rem;
-		grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr))
-	}
-	figcaption {
-		padding: 1.5rem;
-		background-color: #fff
-	}
-	#projects a { box-shadow: 5px 5px 10px 0 rgba(0 0 0 / 20%) }
-</style>
-
-<div id="projects">
-{#each projects as item}
-	<a href={item.url} target="_blank" rel="noopener">
-		<figure>
-			<picture>
-				<source srcset={"/images/projects/"+ item.img +".webp"} type="image/webp">
-				<source srcset={"/images/projects/"+ item.img +".jpg"} type="image/jpeg">
-				<img src={"/images/dekstop-"+ item.img +".jpg"} alt={item[lang].title}>
-			</picture>
-			<figcaption>
-				<h2 class="up">{item[lang].title}</h2>
-				<p>{item[lang].body}</p>
-			</figcaption>
-		</figure>
-	</a>
-{/each}
+<div id="head" class="tc mxa list">
+	<h1>{title}</h1>
+	<div class="summary mxa">{summary}</div>
 </div>
+
+<div id="projects" class="container mxa">
+	<ul id="posts" class="tc three grid block">
+	{#each projects as item}
+		<li>
+			<a class="article trf grid" href={item.url} target="_blank" rel="noopener">
+				<div class="content">
+					<h2>{item[lang].title}</h2>
+					<p class="summary">{item[lang].body}</p>
+					<p class="tech">{item.tech}</p>
+				</div>
+			</a>
+		</li>
+	{/each}
+	</ul>
+</div>
+
+<a id="lang" class="toggle grid abs tw up cell" href="/projects" hreflang="en">en</a>

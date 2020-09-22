@@ -25,15 +25,18 @@
 	max-width: 480px;
 	width: 80%
 }
-#itsMe img {
-	width: 180px;
-	height: 180px;
-	border-radius: 50%;
-	border: 5px solid rgba(255 255 255 / 80%);
-	margin-bottom: 1.5rem
+#itsMe picture,
+#itsMe imgg {
+	width: 200px;
+	height: 200px
 }
+#itsMe img {
+	border-radius: 50%;
+	border: 5px solid rgba(255 255 255 / 80%)
+}
+#itsMe picture { margin-bottom: 1.5rem }
 #itsMe h1 {
-	font-size: clamp(2.2rem,3rem,12vw);
+	font-size: clamp(2.2rem,2.6rem,10vw);
 	margin-bottom: 10px
 }
 #itsMe p { font-size: 1.2rem }
@@ -54,10 +57,10 @@
 <div id="hello" class="tc obj">
 	<div class="overlay"></div>
 	<div id="itsMe" class="mxa">
-		<picture id="pic">
-			<source srcset="/images/timoanttila-photographer.webp" type="image/webp">
-			<source srcset="/images/timoanttila-photographer.jpg" type="image/jpeg">
-			<img src="/images/timoanttila-photographer.jpg" alt="Timo Anttila">
+		<picture id="pic" class="mxa">
+			<source srcset="/images/timo.webp" type="image/webp">
+			<source srcset="/images/timo.jpg" type="image/jpeg">
+			<img src="/images/timo.jpg" alt="Timo Anttila">
 		</picture>
 		<h1>Timo Anttila</h1>
 		<p>Full Stack Web Developer, photographer and sea adventurer from Nokia, Finland. Making websites for a living and amuse people as a hobby.</p>

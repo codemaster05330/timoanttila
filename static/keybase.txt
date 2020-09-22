@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/timoanttila
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://timoanttila.com
+  * I am timoanttila (https://keybase.io/timoanttila) on keybase.
+  * I have a public key with fingerprint A288 EACC 267A 5865 7A24  E0C2 7977 16BF 4782 51A7
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101be66a3619c0e825e781edda12db055d83b49a627586fdc7920e7a96ba196ce3d0a",
+      "fingerprint": "a288eacc267a58657a24e0c2797716bf478251a7",
+      "host": "keybase.io",
+      "key_id": "797716bf478251a7",
+      "kid": "0101be66a3619c0e825e781edda12db055d83b49a627586fdc7920e7a96ba196ce3d0a",
+      "uid": "6effe766bca9cf4f42c63dd80608b519",
+      "username": "timoanttila"
+    },
+    "service": {
+      "hostname": "timoanttila.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1600240918,
+  "expire_in": 157680000,
+  "prev": "6fc56c4194a54000d156bcfe6909a44acd3e0a524d46591875913acab3126a98",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIjAnicrVJbSBVBGD5H7aKWJZjkebBYiKLEdvYyu3uywh4kgwgCTdE8zs7O6qbu
+Hnf3mJcSLOIQBNGD1EMpSFhRlNDNsIuKBqEkVEcxRSI1oxIiEIoympV6qsfmYYaZ
+//u+//t+ZmB1vC/JP9TSnDof7XjhH+q7FPGF0KP0Jka1tAYm2MRUkaWDVGvEcUNV
+hsYEGRawQCUQIh4CBbNE5kQiyYBoGgKcprKiqMm8KigIcpIoQ13DksKxREIKVBFQ
+ICa8xiImi9ENs4LYYdswXSqLOFkmCGMOSojSRAlxAmExJymSBKCqCxJtBJBEiZWW
+4zGoORU5JNuw6Bu9hJbs/QP/n31HluQg0XUiQahipGBd0AUOQ17TZBaysioCxQM6
+xDZRDaFo16ixkOm6RjVijmcxtFBnYOLN1gvzNygbWzVUIWxbroWtalqsdN2wE/TI
+bkPYQx8laui3Tkg1TI1OkzLqiO0YlskEAUViqkihALIsJ7AKkLMYUh82bBIyPIQo
+QZmly+tD6rxMOhYhFoAiIFGgBQ2INJ9OoMIqSBAQ1njCIpETNAGKVE6iG48wUnnA
+QaTIjJes1rSYoEBtogoq6RgVJnIjNmGO9/eWJvj8Sb7ly+K8X+ZLSlz75++tK1/x
+Y9XsptsBUDzwYde+9q9pgwfWdH4rTY6CvkMbJuNznNzHg/VG143ZsospcHJy++X0
+/Ni5syPBgqH8c+HCtMWOVrJ1JT8aNx6YiZXtGC2aiNuzvvvZzeS9lV1t6vueUGdC
+9EyuVfhkZM4/33hrOrk98vL0he8Pzs61Nl6vv8YvvM1I2VL85mPWotmWkJvZfO85
+e2f4y4nA3NTPtsN9T69sdqbKxwqio70DE80mPl2U9zkTD8YSu2/M8v6xxrHx+z57
+d07bwXcPpcCRQnln16ktr2futnzqkYZLdp4MbZxODWwLxzLshpr58/7C/pKFzNEf
+TbXV+zPU4qt5kWOvSlK7cM8vkZ1GQg==
+=xVpe
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/timoanttila
+
+==================================================================

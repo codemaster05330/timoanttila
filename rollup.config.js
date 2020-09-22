@@ -27,9 +27,10 @@ export const config = {
       mdsvex({
         remarkPlugins: [slug],
         layout: {
-          page: 'src/components/Page.svelte',
           article: 'src/components/Article.svelte',
-          tutorial: 'src/components/Article.svelte'
+          profile: 'src/components/Profile.svelte',
+          tutorial: 'src/components/Tutorial.svelte',
+          page: 'src/components/Page.svelte',
         },
         extension: 'md'
       })

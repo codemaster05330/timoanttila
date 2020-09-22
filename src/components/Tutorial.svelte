@@ -1,6 +1,6 @@
 <script>
 	import { metatags } from "@sveltech/routify";
-	export let title, summary, pub, published, lang, langLink
+	export let title, summary, pub, published
 	$: metatags.title = title
 	$: metatags.author = "Timo Anttila <moro@tuspe.com>"
 	$: metatags.description = summary
@@ -18,5 +18,3 @@
 		<slot/>
 	</div>
 </div>
-
-<a id="lang" class="toggle grid abs tw up cell" href={langLink}>{lang}</a>

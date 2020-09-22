@@ -1,8 +1,8 @@
 <script>
 	import { metatags } from '@sveltech/routify'
-	import { gallery } from "./_data.js"
-	let title = "Featured photos"
-	let desc = "Photographing all kinds of beautiful things. Always loved photography and trying to learn new ways to create great shots."
+	import { gallery } from "../_data.js"
+	let title = "Valokuvaus"
+	let desc = "Aina rakastanut kuvaamista ja kuvaan kaikenlaista kaunista, pääasiassa eläimiä, tapahtumia ja cosplaytä."
 	let img = "https://timoanttila.com/images/gallery/2019-deli-yawns.jpg"
 	metatags.title = title +" | Timo Anttila"
 	metatags.description = desc
@@ -17,7 +17,7 @@
 <div id="head" class="tc mxa list">
 	<h1>{title}</h1>
 	<p class="summary mxa">{desc}</p>
-	<p id="more"><a class="btn inl up" href="https://www.instagram.com/_timoanttila/" target="_blank" rel="noopener me"  hreflang="en">Instagram</a></p>
+	<p id="more"><a class="btn inl up" href="https://www.instagram.com/_timoanttila/" target="_blank" rel="noopener me" hreflang="en">Instagram</a></p>
 </div>
 
 <ul id="gallery" class="mxa grid block">
@@ -34,4 +34,4 @@
 {/each}
 </ul>
 
-<a id="lang" class="toggle grid abs tw up cell" href="/fi/galleria" hreflang="fi">fi</a>
+<a id="lang" class="toggle grid abs tw up cell" href="/gallery" hreflang="en">en</a>
