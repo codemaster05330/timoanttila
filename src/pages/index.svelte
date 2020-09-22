@@ -1,12 +1,14 @@
+<script>
+	import Social from "../components/Social.svelte"
+</script>
 <style>
 #hello {
-	position: fixed;
-	top: 0;
-	left: 0;
 	display: grid;
 	width: 100%;
 	height: 100vh;
-	place-content: center;
+	min-height: 620px;
+	align-content: center;
+	justify-content: center;
 	background-position: fixed;
 	background-size: cover
 }
@@ -26,7 +28,7 @@
 	width: 80%
 }
 #itsMe picture,
-#itsMe imgg {
+#itsMe img {
 	width: 200px;
 	height: 200px
 }
@@ -65,6 +67,7 @@
 		<h1>Timo Anttila</h1>
 		<p>Full Stack Web Developer, photographer and sea adventurer from Nokia, Finland. Making websites for a living and amuse people as a hobby.</p>
 	</div>
+	<footer id="front"><Social/></footer>
 </div>
 
 <a id="lang" class="toggle grid abs tw up cell" href="/fi/" hreflang="fi" title="Timo Anttila">fi</a>

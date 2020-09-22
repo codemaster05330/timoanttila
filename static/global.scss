@@ -40,7 +40,6 @@ body,
 }
 
 main {
-	margin-bottom: 3rem;
 	& a { color: #7effe1 }
 	& li + li { margin-top: 5px }
 }
@@ -82,7 +81,10 @@ img { object-fit: cover }
 
 .fix { position: fixed }
 
-.inl { display: inline-block }
+.inl {
+	display: inline-block;
+	vertical-align: top
+}
 
 .abs { position: absolute }
 
@@ -215,6 +217,8 @@ a.btn {
 	}
 }
 
+.mt { margin-top: 3rem }
+
 @media screen and (min-width:751px){
 	.toggle { top: 15px }
 	#menu {
@@ -226,7 +230,6 @@ a.btn {
 		justify-content: center;
 		& ul { width: 200px }
 	}
-	main { margin-top: 3rem }
 	.three {
 		grid-gap: 1rem;
 		grid-template-columns: repeat(auto-fit,minmax(22rem,1fr))
@@ -280,4 +283,46 @@ a.btn {
 
 @media screen and (max-width:300px){
 	#logo { display: none }
+}
+
+#socialmedia {
+	width: 80%;
+	& a {
+		width: 48px;
+		height: 48px;
+		fill: rgba(255 255 255/65%);
+		align-content: center;
+		justify-content: center;
+		&:hover {
+			background-color: #000;
+			fill: #fff
+		}
+	}
+}
+
+@media screen and (min-width:810px) and (min-height:600px){
+	#socialmedia {
+		height: 100vh;
+		width: 48px;
+		position: fixed;
+		top: 0;
+		left: 10px;
+		z-index: 666;
+		display: grid;
+		align-content: center;
+		justify-content: center
+	}
+}
+
+@media screen and (max-width:809px), (max-height:599px){
+	#socialmedia {
+		position: relative;
+		margin-top: 3rem;
+		margin-bottom: .5px;
+		& li { margin:0 }
+		& a {
+			border-radius: 50%;
+			margin: 3px;
+		}
+	}
 }

@@ -1,5 +1,6 @@
 <script>
 	import { metatags } from "@sveltech/routify";
+	import Social from "../components/Social.svelte"
 	export let title, summary, lang, langLink;
 	$: metatags.title = title;
 	$: metatags.description = summary;
@@ -17,7 +18,7 @@
 	}
 </style>
 
-<div id="profile" class="container mxa">
+<div id="profile" class="container mxa mt">
 	<div id="head" class="tc mxa page">
 		<picture class="mxa">
 			<source srcset="/images/timo.webp" type="images/webp">
@@ -33,3 +34,4 @@
 </div>
 
 <a id="lang" class="toggle grid abs tw up cell" href={langLink}>{lang}</a>
+<footer><Social/></footer>
