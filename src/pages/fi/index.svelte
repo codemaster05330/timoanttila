@@ -1,6 +1,18 @@
 <script>
-	import Social from "../components/Social.svelte"
+	import Social from "../../components/Social.svelte"
+	import { url, layout, metatags } from "@sveltech/routify";
+	import marked from "marked";
+	const posts = $layout.parent.children[2].children
+		.filter((c) => c.meta["frontmatter"])
+		.sort((a, b) => b.meta["frontmatter"].published.localeCompare(a.meta["frontmatter"].published));
+	let title = "Tutorials"
+	let summary = "A collection of tutorials about things I've learned or discovered. Most of the tutorials are easy to read and to learn."
+	$: metatags.title = title
+	$: metatags.description = summary
+	$: metatags["twitter:title"] = title
+	$: metatags["twitter:description"] = summary
 </script>
+
 <style>
 #hello {
 	display: grid;
@@ -13,7 +25,7 @@
 	background-size: cover
 }
 .overlay {
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100vw;
@@ -42,6 +54,9 @@
 	margin-bottom: 10px
 }
 #itsMe p { font-size: 1.2rem }
+#newest h2.title {
+	font-size: clamp(2.4rem, 3.2rem, 12vw)
+}
 @media screen and (max-width:450px){
 	#hello { background-image: url("/images/railway-360.jpg") }
 }
@@ -57,9 +72,6 @@
 @media screen and (min-width:1440px){
 	#hello { background-image: url("/images/railway-2048.jpg") }
 }
-@media screen and (max-width:420px){
-	footer#front { max-width: 260px }	
-}
 </style>
 
 <div id="hello" class="tc obj">
@@ -71,9 +83,29 @@
 			<img src="/images/timo.jpg" alt="Timo Anttila">
 		</picture>
 		<h1>Timo Anttila</h1>
-		<p>Full Stack Web Developer, photographer and sea adventurer from Nokia, Finland. Making websites for a living and amuse people as a hobby.</p>
+		<p>Verkkosivustoja ja verkkokauppoja työkseen loihtivat nörtti Nokialta. Valokuvaus ja tekniikka intohimona.</p>
 	</div>
-	<footer id="front" class="mxa"><Social/></footer>
 </div>
 
-<a id="lang" class="toggle grid abs tw up cell" href="/fi/" hreflang="fi" title="Timo Anttila">fi</a>
+<div id="newest" class="container mxa pt pb tc">
+
+	<h2 class="title">Uusimmat artikkelit</h2>
+	<ul id="posts" class="three grid block pt">
+	{#each posts as {meta, path}}
+		<li>
+			<a class="article trf grid" href={$url(path)} title={meta.frontmatter.title}>
+				<div class="content">
+					<h2>{meta.frontmatter.title}</h2>
+					<p class="summary">{meta.frontmatter.summary}</p>
+					<p class="published">{meta.frontmatter.pub}</p>
+				</div>
+			</a>
+		</li>
+	{/each}
+	</ul>
+
+</div>
+
+<a id="lang" class="toggle grid abs tw up cell" href="/" hreflang="en" title="Timo Anttila">en</a>
+
+<Social/>

@@ -8,7 +8,7 @@
 	$: metatags["twitter:description"] = summary
 </script>
 
-<div id="article" class="container mxa mt mb" itemscope itemtype="http://schema.org/NewsArticle">
+<div id="article" class="container mxa pt pb" itemscope itemtype="http://schema.org/NewsArticle">
 	<div id="head" class="tc mxa blog">
 		<h1 itemprop="headline">{title}</h1>
 		<p id="summary" class="mxa" itemprop="description">{summary}</p>

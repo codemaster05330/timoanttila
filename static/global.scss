@@ -37,10 +37,7 @@ body,
 
 .tc { text-align: center }
 
-.container {
-	max-width: 1440px;
-	width: calc(100vw - 4rem)
-}
+.container { max-width: 1440px }
 
 .mxa {
 	margin-left: auto;
@@ -254,10 +251,9 @@ a.btn {
 	}
 }
 
-.mt { margin-top: 3rem }
-.mb { margin-bottom: 3rem }
+.pb { padding-bottom: 3rem }
 
-@media screen and (min-width:751px){
+@media screen and (min-width:750.1px){
 	.toggle { top: 15px }
 	#menu {
 		top: 0;
@@ -279,6 +275,8 @@ a.btn {
 		writing-mode: vertical-lr;
 		text-orientation: mixed
 	}
+	.pt { padding-top: 3rem }
+	.container { width: calc(100vw - 150px) }
 }
 
 @media screen and (max-width:750px){
@@ -304,8 +302,9 @@ a.btn {
 		width: 100%;
 		text-align: left
 	}
-	main { margin-top: 6rem }
+	.pt { padding-top: 6rem }
 	.three li + li { margin-top: 1rem }
+	.container { width: calc(100vw - 4rem) }
 }
 
 @media screen and (min-width:400px){
@@ -344,7 +343,7 @@ a.btn {
 		width: 48px;
 		position: fixed;
 		top: 0;
-		left: 10px;
+		left: 2px;
 		z-index: 666;
 		display: grid;
 		align-content: center;

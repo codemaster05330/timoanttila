@@ -121,10 +121,10 @@ export const Nav = [
 		['/projects','Projects'],
 		['/gallery','Gallery']
 	], [
-		['/fi/', 'Tietoa'],
-		['/fi/pulina','Pulina'],
-		['/fi/projektit','Projektit'],
-		['/fi/galleria','Galleria']
+		['/fi/','Etusivu'],
+		['/fi/pulina/','Pulina'],
+		['/projects','Projektit'],
+		['/gallery','Galleria']
 	]
 ]
 
