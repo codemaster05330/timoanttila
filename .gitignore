@@ -1,11 +1,8 @@
 /node_modules
 /dist
 .DS_Store
-**/.history
 .routify
 /src/pages/magictricks
-/src/pages/fi/pulina
 /src/pages/fi/reseptit
 /src/pages/fi/jumaltentaisto
 /src/pages/battleofgods
-.DS_Store
