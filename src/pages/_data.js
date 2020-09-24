@@ -4,7 +4,7 @@ export const projects = [
 		tech: "Svelte, PHP",
 		en: {
 			title: "Ratsukko Solutions",
-			body: "Designing and developing the front end of the booking calendar for SatuMo / Ratsukko. Mkes everyday life easier for stable entrepreneurs and their customers."
+			body: "Designing and developing the booking calendar for SatuMo / Ratsukko. Makes everyday life easier for stable entrepreneurs and their customers."
 		},
 		fi: {
 			title: "Ratsukko Solutions",
@@ -22,7 +22,7 @@ export const projects = [
 			body: "Verkkosivusto missä vierailet juuri nyt. Avointa lähdekoodia, monenlaisia sisältötyyppejä sekä tukee Markdownia ja kieliversioita."
 		}
 	}, {
-		url: "https://github.com/TuspeDesign/tuspe",
+		url: "https://github.com/TuspeDesign/Svelte-Tuspe",
 		tech: "Svelte, Routify, Prerender",
 		en: {
 			title: "Tuspe Design",
@@ -118,7 +118,6 @@ export const Nav = [
 	[
 		['/', 'Home','en'],
 		['/about', 'About'],
-		['/blog/','Blog'],
 		['/projects','Projects'],
 		['/gallery','Gallery']
 	], [

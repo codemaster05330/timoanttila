@@ -8,7 +8,7 @@
 	$: metatags["twitter:description"] = summary
 </script>
 
-<div id="article" itemscope itemtype="http://schema.org/NewsArticle">
+<div id="article" class="mt mb" itemscope itemtype="http://schema.org/NewsArticle">
 	<div id="head" class="tc mxa blog">
 		<h1 itemprop="headline">{title}</h1>
 		<p id="summary" class="mxa" itemprop="description">{summary}</p>
@@ -19,4 +19,4 @@
 	</div>
 </div>
 
-<a id="lang" class="toggle grid abs tw up cell" href={langLink}>{lang}</a>
+{#if langLink}<a id="lang" class="toggle grid abs tw up cell" href={langLink}>{lang}</a>{/if}

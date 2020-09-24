@@ -11,7 +11,7 @@ body{
 	min-height: 100vh;
 	background-color: rgb(3 6 27);
 	overflow-x: hidden;
-	font: 400 17px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
+	font: 400 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
 }
 
 h1,
@@ -154,12 +154,42 @@ img { object-fit: cover }
 	}
 }
 
-#article #body { max-width: 750px }
+#article {
+	& #body { max-width: 750px }
+	& h2 {
+		font-size: clamp(1.6rem, 2.2rem, 8vw);
+		margin-bottom: 1.5rem
+	}
+	& h3 {
+		font-size: 1.4rem;
+		margin: 1.5rem 0 1rem
+	}
+	& blockquote {
+		font-size: 1rem;
+		background: var(--bg);
+		border: 1px solid var(--l20);
+		padding: 1rem;
+		margin: 1rem 0;
+		& p {
+			&:first-child { font-style: italic }
+		}
+		& footer {
+			font-size: .9rem;
+			color: var(--l60);
+			margin-top: 10px
+		}
+	}
+}
 
 #profile #body { max-width: 666px }
 
 #posts.three {
-	& a { padding: 1.5rem }
+	& a {
+		width: 100%;
+		max-width: 469px;
+		padding: 1.5rem;
+		box-shadow: 0 3px 5px rgba(0,0,0,.18)
+	}
 	& .content {
 		margin: 10px 0
 	}
@@ -225,6 +255,7 @@ a.btn {
 }
 
 .mt { margin-top: 3rem }
+.mb { margin-bottom: 3rem }
 
 @media screen and (min-width:751px){
 	.toggle { top: 15px }
@@ -239,7 +270,7 @@ a.btn {
 	}
 	.three {
 		grid-gap: 1rem;
-		grid-template-columns: repeat(auto-fit,minmax(22rem,1fr))
+		grid-template-columns: repeat(auto-fit,minmax(30ch,1fr))
 	}
 	#logo,
 	#lang { position: absolute }
@@ -280,7 +311,7 @@ a.btn {
 @media screen and (min-width:400px){
 	ul#gallery {
 		grid-gap: 1rem;
-		grid-template-columns: repeat(auto-fit,minmax(15rem,1fr))
+		grid-template-columns: repeat(auto-fit,minmax(30ch,1fr))
 	}
 }
 
