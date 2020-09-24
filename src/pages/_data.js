@@ -124,8 +124,7 @@ export const Nav = [
 	], [
 		['/fi/','Etusivu'],
 		['/fi/pulina/','Pulina'],
-		['/projects','Projektit (en)'],
-		['/gallery','Galleria (en)']
+		['/','In English']
 	]
 ]
 
