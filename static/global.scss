@@ -1,3 +1,10 @@
+:root {
+	--l87: rgba(255 255 255 / 87%);
+	--l60: rgba(255 255 255 / 60%);
+	--l20: rgba(255 255 255 / 20%);
+	--bg: #2e3858;
+	--green: #7effe1
+}
 *{margin:0;padding:0}
 *,:after,:before{box-sizing:border-box}
 body{
@@ -21,11 +28,12 @@ a.btn { text-decoration: none }
 body,
 .tw,
 .tw a,
-.three h2 { color: rgba(255 255 255 / 87%) }
+.three h2 { color: var(--l87) }
 
 .summary,
 .published,
-.tech { color: rgba(255 255 255 / 65%) }
+.tech,
+#posts.three .content div { color: var(--l60) }
 
 .tc { text-align: center }
 
@@ -40,7 +48,8 @@ body,
 }
 
 main {
-	& a { color: #7effe1 }
+	& a,
+	& #posts.three li:hover h2 { color: var(--green) }
 	& li + li { margin-top: 5px }
 }
 
@@ -94,9 +103,9 @@ img { object-fit: cover }
 
 #menu {
 	z-index: 500;
-	background-color: #2e3858;
+	background-color: var(--bg);
 	& a { padding: 10px 15px }
-	& li + li { border-top: 1px solid rgba(255 255 255 / 15%) }
+	& li + li { border-top: 1px solid var(--l20) }
 }
 
 #lang {
@@ -115,7 +124,7 @@ img { object-fit: cover }
 	width: 90%;
 	margin-bottom: 3rem;
 	padding-bottom: 3rem;
-	border-bottom: 1px ridge rgba(255 255 255 / 20%);
+	border-bottom: 1px ridge var(--l20);
 	&.page,
 	&.list {
 		& h1 {
@@ -135,7 +144,7 @@ img { object-fit: cover }
 	& img {
 		width: 100%;
 		height: 100%;
-		border: 3px solid rgba(255 255 255 / 60%);
+		border: 3px solid var(--l60);
 		border-radius: 50%
 	}
 	& picture {
@@ -152,8 +161,7 @@ img { object-fit: cover }
 #posts.three {
 	& a { padding: 1.5rem }
 	& .content {
-		margin: 10px 0;
-		& div { color: rgba(255 255 255 / 65%) }
+		margin: 10px 0
 	}
 	& .content {
 		transform: skewY(2deg);
@@ -166,8 +174,7 @@ img { object-fit: cover }
 	}
 	& li {
 		&:hover {
-			border-color: #7effe1;
-			& h2 { color: #7effe1 }
+			border-color: var(--green)
 		}
 	}
 }
@@ -180,7 +187,7 @@ ul.grid {
 	}
 	& a {
 		border: 1px solid #bb86fc;
-		background-color: #2e3858
+		background-color: var(--bg)
 	}
 	& img { object-fit: cover }
 }
@@ -203,17 +210,17 @@ pre {
 		z-index: 666;
 		border: 0;
 		background-color: transparent;
-		fill: rgba(255 255 255 / 87%)
+		fill: var(--l87)
 	}
 	&#lang { width: 48px }
 }
 
 a.btn {
 	padding: 6px 25px;
-	border: 1px solid rgba(255 255 255 / 60%);
+	border: 1px solid var(--l60);
 	&:hover {
 		color: #000;
-		background-color: #7effe1
+		background-color: var(--green)
 	}
 }
 
@@ -252,7 +259,7 @@ a.btn {
 	#logo,
 	.toggle { top: 0 }
 	#openMenu {
-		background-color: #2e3858;
+		background-color: var(--bg);
 		left: 0;
 		width: 100%;
 		box-shadow: 0 2px 5px 0 rgba(0 0 0 / 75%);
@@ -290,7 +297,7 @@ a.btn {
 	& a {
 		width: 48px;
 		height: 48px;
-		fill: rgba(255 255 255/65%);
+		fill: var(--l60);
 		align-content: center;
 		justify-content: center;
 		&:hover {
