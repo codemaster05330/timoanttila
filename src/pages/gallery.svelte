@@ -14,13 +14,13 @@
 	metatags["twitter:image"] = img
 </script>
 
-<div id="head" class="tc mxa list mt">
+<div id="head" class="tc mxa list pt">
 	<h1>{title}</h1>
 	<p class="summary mxa">{desc}</p>
 	<p id="more"><a class="btn inl up" href="https://www.instagram.com/_timoanttila/" target="_blank" rel="noopener me"  hreflang="en">Instagram</a></p>
 </div>
 
-<ul id="gallery" class="container mxa grid block mb">
+<ul id="gallery" class="container mxa grid block pb">
 {#each gallery as item}
 	<li>
 		<a class="pic trf" href={item.url} title={item.title +' - '+ item.camera} rel="me noopener" target="_blank" hreflang="en">

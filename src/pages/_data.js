@@ -118,13 +118,14 @@ export const Nav = [
 	[
 		['/', 'Home','en'],
 		['/about', 'About'],
+		['/fi/pulina/','Finnish Blog'],
 		['/projects','Projects'],
 		['/gallery','Gallery']
 	], [
 		['/fi/','Etusivu'],
 		['/fi/pulina/','Pulina'],
-		['/projects','Projektit'],
-		['/gallery','Galleria']
+		['/projects','Projektit (en)'],
+		['/gallery','Galleria (en)']
 	]
 ]
 

@@ -10,12 +10,12 @@
 	$: metatags["twitter:description"] = summary
 </script>
 
-<div id="head" class="tc mxa list mt">
+<div id="head" class="tc mxa list pt">
 	<h1>{title}</h1>
 	<div class="summary mxa">{summary}</div>
 </div>
 
-<div id="projects" class="container mxa mb">
+<div id="projects" class="container mxa pb">
 	<ul id="posts" class="tc three grid block">
 	{#each projects as item}
 		<li>
