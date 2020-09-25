@@ -75,5 +75,3 @@
 	</div>
 	<footer id="front" class="mxa"><Social/></footer>
 </div>
-
-<a id="lang" class="toggle grid abs tw up cell" href="/fi/" hreflang="fi" title="Timo Anttila">fi</a>
