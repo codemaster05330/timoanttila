@@ -1,111 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://timoanttila.com/</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://timoanttila.com/about</loc>
-  <priority>1.00</priority>
+  <changefreq>yearly</changefreq>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/fi/</loc>
-  <priority>0.90</priority>
+  <changefreq>yearly</changefreq>
+  <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://timoanttila.com/projects</loc>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://timoanttila.com/gallery</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://timoanttila.com/tutorials/</loc>
-  <priority>0.60</priority>
+  <loc>https://timoanttila.com/about</loc>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/fi/pulina/</loc>
-  <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://timoanttila.com/tutorials/how-to-setup-crontab-to-remove-the-php-session-files</loc>
-  <priority>0.51</priority>
+  <loc>https://timoanttila.com/projects</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://timoanttila.com/tutorials/bash-replace-line-in-file</loc>
-  <priority>0.51</priority>
+  <loc>https://timoanttila.com/fi/projektit</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://timoanttila.com/tutorials/contact-form</loc>
-  <priority>0.51</priority>
+  <loc>https://timoanttila.com/gallery</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://timoanttila.com/tutorials/flickr-photo-albums-on-processwire</loc>
-  <priority>0.51</priority>
+  <loc>https://timoanttila.com/fi/galleria</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://timoanttila.com/tutorials/offsetting-anchor-links-with-fixed-header</loc>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://timoanttila.com/tutorials/leverage-browser-caching</loc>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://timoanttila.com/tutorials/rsync</loc>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://timoanttila.com/tutorials/backup-your-data-automatically-on-linux</loc>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://timoanttila.com/tutorials/animated-smooth-scrolling-effect</loc>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://timoanttila.com/tutorials/add-or-remove-class-with-jquery-based-on-vertical-scroll</loc>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://timoanttila.com/tutorials/add-images-to-drupal-views-search-page</loc>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://timoanttila.com/tutorials/the-10-most-common-mistakes-that-php-developers-make</loc>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://timoanttila.com/tutorials/drush</loc>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://timoanttila.com/tutorials/simple-xml-flickr-feed-parser</loc>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://timoanttila.com/tutorials/mysql</loc>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://timoanttila.com/tutorials/how-to-parse-an-xml-document-with-php</loc>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://timoanttila.com/tutorials/teamspeak-3</loc>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://timoanttila.com/tutorials/generating-ssh-keys</loc>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://timoanttila.com/tutorials/simple-popup</loc>
-  <priority>0.51</priority>
+  <loc>https://timoanttila.com/tutorials/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.5</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/fi/pulina/pride</loc>
-  <priority>0.70</priority>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
 </url>
 </urlset>
