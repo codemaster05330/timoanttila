@@ -1,13 +1,13 @@
 ---
 title: Uskonto ja tasa-arvo - ole ylpeästi mitä haluat olla!
 pub: Syyskuu 24, 2020
-published: 2020-09-24T02:45:47.000Z
-modified: 2020-09-24T02:45:26.000Z
+published: 2020-09-24T02:45:26.000Z
+modified: 2020-09-25T10:38:47.000Z
 summary: Pohdintaa vuosittaisesta kansanedustajan tekemästä provosoinnista Pride-tapahtuman aikoihin. Voiko kristinusko ja homoseksuaalisuus löytää yhteisen sävelen? Voiko homot olla uskovaisia?
 layout: article
 ---
 
-Tasa-arvo, ihmisoikeudet ja sananvapaus ovat olleet minulle aina tärkeitä asioita. Haluaisin olla omalta osalta kehittämässä maailmaa, jossa jokainen voi olla sellainen kuin haluaa riippumatta suuntautumisesta, sukupuolesta, ihon väristä tai uskonnosta.
+Tasa-arvo, ihmisoikeudet ja sananvapaus ovat olleet minulle aina tärkeitä asioita. Haluaisin olla omalta osalta kehittämässä maailmaa, jossa jokainen voi olla sellainen kuin haluaa riippumatta suuntautumisesta, sukupuolesta, ihonväristä tai uskonnosta.
 
 Tulemme erilaisista tilanteista / paikoista ja meille on annettu erilaiset kortit elämään, mutta me kaikki olemme ihmisiä ja meidän tulisi tukea ja auttaa toisiamme eikä arvostella, erotella ja tapella. Ei voi ymmärtää, että vielä 2020 pitää vääntää samoista asioista kuin kymmeniä vuosia sitten. Miksi jonkun pitäisi elää muotissa, jonka muut ovat hänelle pakottaneet eikä sitä elämää missä hän saisi olla vapaa. Elämä on aivan liian lyhyt elettäväksi kuten muut haluaisivat sinun elävän. Jokaisen pitää saada olla oma itsensä, kunhan se ei ole vaaraksi muille tai vastoin paikallista lakia.
 
@@ -15,7 +15,7 @@ Aloin miettimään tätä aihetta, koska kaveri Twitterissä on tuonut asiaa pal
 
 ## Helsinki Pride
 
-<p><a href="https://pride.fi/" target="_blank" rel="noopener">Helsinki Pride</a> on kansalaisjärjestö ja asiantuntijaorganisaatio, jonka tavoitteena on poistaa kulttuuriin, kieleen sekä yhteiskunnan rakenteisiin, arvoihin ja normeihin sisältyvää eriarvoisuutta. Yhdistys on vuodesta 1991 lähtien tehneet töitä seksuaali- ja sukupuolivähemmistöihin kuuluvien ihmisten oikeuksien, osallisuuden ja hyvinvoinnin eteen.</p>
+<p><a href="https://pride.fi/" target="_blank" rel="noopener">Helsinki Pride</a> on kansalaisjärjestö ja asiantuntijaorganisaatio, jonka tavoitteena on poistaa kulttuuriin, kieleen sekä yhteiskunnan rakenteisiin, arvoihin ja normeihin sisältyvää eriarvoisuutta. Yhdistys tekee töitä seksuaali- ja sukupuolivähemmistöihin kuuluvien ihmisten oikeuksien, osallisuuden ja hyvinvoinnin eteen.</p>
 
 Nykyisin Helsinki Pride on Suomen näkyvin <a href="https://seta.fi/sateenkaaritieto/sateenkaarisanasto/" title="Seta: Sateenkaarisanasto" target="_blank" rel="noopener">lhbtiq</a>-kulttuuri- ja ihmisoikeustapahtuma ja yksi Helsingin suurimmista kesätapahtumista. Pride-kulkueessa mielenilmaukset ovat yhä tärkeässä roolissa iloisen juhlinnan rinnalla.
 
@@ -47,7 +47,7 @@ Tänä vuonna Räsänen kyseenalaisti tapahtuman taustalla olevat syyt <a href="
 >
 > Päivi Räsänen, 09.09.2020
 
-Molempina vuosina selkeää provosointia, mutta samalla erittäin tehokas tapa saada julkisuutta ja aiheuttaa keskustalua. Luin osan tämän vuoden <a href="https://twitter.com/PaiviRasanen/status/1303655702733508608" title="Twitter: Pride2020 ei ole ihmisoikeustapahtuma." target="_blank" rel="noopener">twiitin kommenteista</a> ja suurimmaksi osaksi keskustelu oli asiallista, mutta myös muutamia räikeitä henkilökohtaisia hyökkäyksiä.
+Molempina vuosina selkeää provosointia, mutta samalla erittäin tehokas tapa saada julkisuutta ja aiheuttaa keskustelua. Luin osan tämän vuoden <a href="https://twitter.com/PaiviRasanen/status/1303655702733508608" title="Twitter: Pride2020 ei ole ihmisoikeustapahtuma." target="_blank" rel="noopener">twiitin kommenteista</a> ja suurimmaksi osaksi keskustelu oli asiallista, mutta kommenteista ja ketjun ulkopuolelta löytyi myös muutamia henkilökohtaisia hyökkäyksiä.
 
 Mielestäni kaikesta tulisi voida keskustella avoimesti ja rakentavasti, jopa silloin kun aloittaja on provosoinut näin pahasti. Jokaisella on oikeus mielipiteeseen - oli se sitten oikea tai väärä eikä Räsänen tuossa kirjoituksessa varsinaisesti ollut vähemmistön ihmisoikeuksia vastaan vaan kyseenalaisti tapahtuman ideologian. Henkilökohtaiset hyökkäykset, solvaukset ja muut hyvin negatiiviset reaktiot antavat yleensä vain huonoa kuvaa sen kirjoittajasta.
 
@@ -75,7 +75,7 @@ Miettikää kristinuskon edustajat miten Jeesus kohteli ihmisiä. Luuletteko, et
 
 ## Omia kokemuksia
 
-Henkilökohtaisesti olen tietääkseni hetero, mutta elämän varrella on ollut hetkiä milloin olen kyseenlaistanut tätä totuutta ihailessani mahtavia cossaajia ja viettäessäni aikaa kauniiden miesten kanssa.
+Henkilökohtaisesti olen tietääkseni hetero, mutta elämän varrella on ollut hetkiä jolloin olen kyseenalaistanut tätä totuutta ihaillessani mahtavia cossaajia ja viettäessä aikaa kauniiden miesten kanssa.
 
 Ropeconissa tutustuin erääseen mieheen ketä luulin monta vuotta naiseksi, mutta asenteeni häntä kohtaan ei muuttunut sen jälkeen. Vietin hänen kanssaan paljon aikaa vuosien varrella ja hän sai minut jopa tanssimaan vanhoja tansseja. Mahtava tapaus.
 
@@ -83,9 +83,9 @@ Olen tutustunut myös moniin muihin seksuaalivähemmistöön kuuluviin eikä ole
 
 Ihmisiä ei pidä arvostella ulkonäön tai kategorian perusteella. He voivat olla todella mahtavia kun heihin oikeasti tutustuu. Yllä mainittu mies selkeästi kärsi siitä, että hänen vanhempansa eivät hyväksyneet häntä sellaisena kuin hän haluaisi olla. Mutta miksi ihmeessä pitäisi elää elämää mitä muut haluaa sinulle eikä elämää mitä haluaisit elää?
 
-Miksi ihmisiä pitää pistää laatikkoon? Mitä väliä sillä oikeasti on mitä me olemme ja kenen kanssa jos olemme ylpeitä siitä mitä olemme ja sinut itsemme kanssa? Sen pitäisi olla tärkeintä. Elämä on liian lyhyt tuhlattavaksi, joten nauttikaamme elämästä semmoisena kuin olemme ja antakaamme muiden tehdä samoin.
+Miksi ihmisiä pitää pistää laatikkoon? Mitä väliä sillä oikeasti on mitä me olemme ja kenen kanssa jos olemme ylpeitä siitä mitä olemme ja sinut itsemme kanssa? Sen pitäisi olla tärkeintä. Elämä on liian lyhyt tuhlattavaksi, joten nauttikaamme elämästä sellaisena kuin olemme ja antakaamme muiden tehdä samoin.
 
-Jokainen elämä on tärkeä. Tukekaa toisianne valitsemillanne teillä. Rakastakaa.
+Jokainen elämä on tärkeä. Tukekaa toisianne valitsemallanne tiellä. Rakastakaa.
 
 ## Lue lisää
 
