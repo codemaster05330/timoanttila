@@ -53,7 +53,7 @@
 		</div>
 		<div id="authorBody">
 			<h4 class="up">Timo Anttila</h4>
-			<p>Verkkosivustoja ja -kauppoja työkseen tekevä nokialainen duunari / yrittäjä. Ehdottoman oikeita mielipiteitä kommentoimassa siellä missä vähiten odotetaan. Työtä ihmisarvon ja -oikeuksien toteutumisen puolesta sekä yrittämisen edistamiseksi.</p>
+			<p>Ehdottoman oikeita mielipiteitä kirjoittava ja kommentoiva yrittäjä / duunari Nokialta. Tärkeitä asioita minulle ovat tasa-arvo, ihmisoikeudet, nuorten elämä sekä yrittämisen edistaminen. Haluan olla osa muutosta.</p>
 			<p><a class="btn inl up" href="/about">Tutustu profiiliin</a></p>
 		</div>
 	</div>
