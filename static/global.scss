@@ -83,12 +83,18 @@ main {
 		&:hover { color: lightgreen }
 	}
 	& .container.pb {
-		& h2 { font-size: 1.1rem }
+		& .article h2 { font-size: 1.1rem }
 		&:not(.grid){
 			& li + li { margin-top: 5px }
 		}
 		& li:hover h2 { color: var(--green) }
 	}
+}
+
+#projects h2,
+#article h2 {
+	font-size: clamp(1.6rem, 2.2rem, 8vw);
+	margin-bottom: 1.5rem
 }
 
 p,
@@ -151,10 +157,6 @@ picture {
 
 #article {
 	& #body { max-width: 750px }
-	& h2 {
-		font-size: clamp(1.6rem, 2.2rem, 8vw);
-		margin-bottom: 1.5rem
-	}
 	& h3 {
 		font-size: 1.4rem;
 		margin: 1.5rem 0 1rem
