@@ -262,20 +262,32 @@ a.btn {
 		margin-top: 10px;
 		position: relative;
 		& ul {
-			&.en { margin-left: 4px }
-			&.fi { margin-left: 25px }
+			&.en {
+				margin-left: 4px;
+				& li {
+					&:nth-child(2) {
+						margin-right: 40px
+					}
+					&:nth-child(3) {
+						margin-left: 40px
+					}
+				}
+			}
+			&.fi {
+				margin-left: 11px;
+				& li {
+					&:first-child {
+						margin-right: 40px
+					}
+					&:last-child {
+						margin-left: 40px
+					}
+				}
+			}
 		}
 		& li {
 			vertical-align: top;
 			display: inline-block
-		}
-		& li {
-			&:nth-child(2) {
-				margin-right: 40px
-			}
-			&:nth-child(3) {
-				margin-left: 40px
-			}
 		}
 	}
 	#logo {

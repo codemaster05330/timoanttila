@@ -2,7 +2,4 @@
 /dist
 .DS_Store
 .routify
-/src/pages/magictricks
-/src/pages/fi/reseptit
-/src/pages/fi/jumaltentaisto
-/src/pages/battleofgods
+magictricks

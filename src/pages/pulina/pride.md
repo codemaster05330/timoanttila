@@ -97,8 +97,8 @@ Jokainen elämä on tärkeä. Tukekaa toisianne valitsemallanne tiellä. Rakasta
 
 ## Lue lisää
 
-- <a href="https://www.verkkouutiset.fi/professori-pelkaa-lainkayttoa-alistetaan-politiikan-palvelukseen/#013d248f" target="_blank" rel="noopener">Professori varoittaa: Oikeuslaitoksen politisoituminen vie mielivaltaan</a>
+- <a href="https://www.helsinginuutiset.fi/paikalliset/1246685" target="_blank" rel="noopener">Tutkija: Miehillä homous pysyy</a>
 - <a href="https://www.patmos.fi/blogit/paivi-rasanen-piispa-laajasalo-ja-homosuhteet-ennen-ja-nyt/" target="_blank" rel="noopener">Päivi Räsänen, piispa Laajasalo ja homosuhteet ennen ja nyt</a>
 - <a href="https://fi.wikipedia.org/wiki/Raamattu_ja_homoseksuaalisuus" target="_blank" rel="noopener">Raamattu ja homoseksuaalisuus</a>
 - <a href="https://www.iltalehti.fi/viihdeuutiset/a/63c9432d-b4cc-469b-94a4-f8d24b700350" target="_blank" rel="noopener">Päivi Räsänen arvosteli Pride-tapahtumaa – Tuure Boelius laukoo suorat sanat: "Sinun ajatuksesi Jumalasta on oksettava"</a>
-- <a href="https://www.helsinginuutiset.fi/paikalliset/1246685" target="_blank" rel="noopener">Tutkija: Miehillä homous pysyy</a>
+- <a href="https://www.verkkouutiset.fi/professori-pelkaa-lainkayttoa-alistetaan-politiikan-palvelukseen/#013d248f" target="_blank" rel="noopener">Professori varoittaa: Oikeuslaitoksen politisoituminen vie mielivaltaan</a>

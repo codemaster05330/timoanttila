@@ -116,14 +116,12 @@ export const projects = [
 
 export const Nav = [
 	[
-		['/about', 'About','en'],
+		['/about', 'About', 'eb'],
 		['/tutorials','Tutorials'],
 		['/projects','Projects'],
 		['/gallery','Gallery']
 	], [
-		['/fi/info','Elämäni','fi'],
-		['/fi/pulina/','Pulina'],
-		['/fi/projektit','Projektit'],
+		['/pulina','Pulina','fi'],
 		['/','English']
 	]
 ]
