@@ -61,13 +61,11 @@ Tubettaja <a href="https://fi.wikipedia.org/wiki/Tuure_Boelius" title="Wikipedia
 >
 > Tuure Boelius
 
-Iltalehden <a href="https://www.iltalehti.fi/viihdeuutiset/a/63c9432d-b4cc-469b-94a4-f8d24b700350" title="Päivi Räsänen arvosteli Pride-tapahtumaa – Tuure Boelius laukoo suorat sanat" target="_blank" rel="noopener">haastattelussa</a> nostettiin esiin Räsäsen vuoden 2010 lausunto:
+Iltalehden <a href="https://www.iltalehti.fi/viihdeuutiset/a/63c9432d-b4cc-469b-94a4-f8d24b700350" title="Päivi Räsänen arvosteli Pride-tapahtumaa – Tuure Boelius laukoo suorat sanat" target="_blank" rel="noopener">haastattelussa</a> nostettiin esiin Räsäsen vuoden 2010 kirjoitus mikä ilmeisesti yhä kuvaa hänen arvonsa, koska yritti selittää asiaa tieteellä ja tutkimuksella, mutta kun se haastettiin, tuli tarinaa jumalasta ja henkilökohtaisesta jumalasuhteesta eli todellinen syy vastustamiselle on vain sokeahko usko sielujen pelastamiseen.
 
 > Homoseksuaalisuuden harjoittaminen myös pysyvässä parisuhteessa on vahingollista oman itsensä, kumppanin ja ehkä muiden ihmisten kannalta.
 >
 > Päivi Räsänen, 19.10.2010
-
-Räsänen yrittää selittää lausuntojaan tieteellä ja tutkimuksella, mutta todellinen syy kaikelle vastustamiselle 
 
 Kristinuskon riveissä on myös niitä, jotka uskovat homouden ja uskon voivan kulkea käsi kädessä. Pastori <a href="https://uusitie.com/identiteettini-ytimessa-ei-ole-homoseksuaalisuus-vaan-jumalan-lapseus/" title="Uusi tie: Identiteettini ytimessä ei ole homoseksuaalisuus, vaan Jumalan lapseus" target="_blank" rel="noopener">Erik Johansson</a> ja kansanedustaja <a href="https://fi.wikipedia.org/wiki/Sebastian_Tynkkynen" title="Wikipedia: Sebastian Tynkkynen" target="_blank" rel="noopener">Sebastian Tynkkynen</a> ovat hyviä esimerkkejä uskovaisista homoista. Heidän mielestään jumala rakastaa kaikkia. Valitettavasti Tynkkynen erotettiin Oulun Helluntaiseurakunnasta suuntautumisen ja avioliiton mielipiteiden vuoksi, mutta ehkä tulevaisuudessa on mahdollista löytää jumalan armo myös seurakunnista eikä aina ihmisten tuomiota. Jumala on rakkaus?
 
