@@ -7,6 +7,7 @@ pub:
 published: 2020-09-24T02:45:26.000Z
 summary: Pohdintaa vuosittaisesta kansanedustajan tekemästä provosoinnista Pride-tapahtuman aikoihin. Voiko kristinusko ja homoseksuaalisuus löytää yhteisen sävelen? Voiko homot olla uskovaisia?
 layout: article
+img: https://thumbs.dreamstime.com/b/helsinki-pride-july-2-2010-helsinki-finland-14995749.jpg
 ---
 
 Tasa-arvo, ihmisoikeudet ja sananvapaus ovat olleet minulle aina tärkeitä asioita. Haluaisin olla omalta osalta kehittämässä maailmaa, jossa jokainen voi olla sellainen kuin haluaa riippumatta suuntautumisesta, sukupuolesta, ihonväristä tai uskonnosta.
@@ -31,13 +32,13 @@ Nykyisin Helsinki Pride on Suomen näkyvin <a href="https://seta.fi/sateenkaarit
 
 Olin vuosia uskovainen, kristitty, joten tiedän miten tärkeää uskonto ja sen harjoittaminen voi monille olla. Uskonelämäni alkuaikoina olin myös itse liian tuomitsevainen. Vaikka haluan kannattaa tasa-arvoa, en kuitenkaan halua nähdä, että uskonnot pakotetaan muuttamaan perusarvojaan ilman hyväksyntää uskonnon / seurakuntien johtajilta, koska jos perusarvoja voi muokata mielivaltaisesti, ei kyse ole enää samasta uskonnosta. Uskovaisten tulisi saada seurata pyhiä kirjoituksiaan ja jumaliensa sanaa ylimpien johtajiensa viitoittamalla tiellä riippumatta valtion linjauksista tai maailman trendeistä, kuitenkin ihmisoikeuksia ja koskemattomuutta noudattaen. Omissa seurakunnissaan, kirkoissaan ja moskeijoissaan voi mielestäni harjoittaa sellaista uskonnollista elämää kuin kukin haluaa.
 
-Kristinusko ja sen eri suunnat ovat kuitenkin hyväksyneet osan kielletyistä, kuten esim. <a href="https://fi.wikipedia.org/wiki/Naispappeus_kristillisiss%C3%A4_kirkoissa" title="Wikipedia: Naispappeus kristillisissä kirkoissa" target="_blank" rel="noopener">naispappeus</a>, <a href="https://evl.fi/uutishuone/pinnalla-nyt/avioliittolaki" title="EVL: Avioliittolaki ja kirkko" target="_blank" rel="noopener">samaa sukupuolta olevien avioliitot</a> sekä vuonna 2019 kirkko ilmoitti olevansa <a href="https://evl.fi/uutishuone/tiedotearkisto/-/items/item/27714/Suomen+evankelis-luterilainen+kirkko+Helsinki+Priden+tukijaksi" title="EVL: Suomen evankelis-luterilainen kirkko Helsinki Priden tukijaksi" target="_blank" rel="noopener">Priden virallinen tukija</a>. Onko homous katoamassa kirkon synneistä vai väheneekö sen merkitys samalle tasolle kuin miehen ja naisen seksi vain avioliitossa? Muuttuvatko kristittyjen arvot vähitellen avoimempaan suuntaan ja jääkö vain muutamat vanholliset lopulta huutamaan vastaan? Voiko synnin määritelmiä ja arvoja muuttaa? Raamattu, varsinkin Vanha Testamentti, tuomitsee homouden, mutta tuliko Jeesus sittenkin pelastamaan meidät kaikki? Tutustu tarkemmin <a href="https://fi.wikipedia.org/wiki/Raamattu_ja_homoseksuaalisuus" title="Wikipedia: Raamattu ja homoseksuaalisuus" target="_blank" rel="noopener">homoseksuaalisuuteen Raamatussa</a>.
+Kristinusko ja sen eri suunnat ovat kuitenkin hyväksyneet osan kielletyistä, kuten esim. <a href="https://fi.wikipedia.org/wiki/Naispappeus_kristillisiss%C3%A4_kirkoissa" title="Wikipedia: Naispappeus kristillisissä kirkoissa" target="_blank" rel="noopener">naispappeus</a>, <a href="https://evl.fi/uutishuone/pinnalla-nyt/avioliittolaki" title="EVL: Avioliittolaki ja kirkko" target="_blank" rel="noopener">samaa sukupuolta olevien avioliitot</a> sekä vuonna 2019 kirkko ilmoitti olevansa <a href="https://evl.fi/uutishuone/tiedotearkisto/-/items/item/27714/Suomen+evankelis-luterilainen+kirkko+Helsinki+Priden+tukijaksi" title="EVL: Suomen evankelis-luterilainen kirkko Helsinki Priden tukijaksi" target="_blank" rel="noopener">Priden virallinen tukija</a>. Onko homous katoamassa kirkon synneistä vai väheneekö sen merkitys samalle tasolle kuin miehen ja naisen seksi vain avioliitossa? Muuttuvatko kristittyjen arvot vähitellen avoimempaan suuntaan ja jääkö vain muutamat vanhoilliset lopulta huutamaan vastaan? Voiko synnin määritelmiä ja arvoja muuttaa? Raamattu, varsinkin Vanha Testamentti, tuomitsee homouden, mutta tuliko Jeesus sittenkin pelastamaan meidät kaikki? Tutustu tarkemmin <a href="https://fi.wikipedia.org/wiki/Raamattu_ja_homoseksuaalisuus" title="Wikipedia: Raamattu ja homoseksuaalisuus" target="_blank" rel="noopener">homoseksuaalisuuteen Raamatussa</a>.
 
 Maailma on muuttunut paljon siitä kun pyhiä linjauksia on tehty ja nykyään monet ennen laittomat tai muuten kielletyt asiat ovat yleisesti sallittuja. Homoseksuaalisuus oli listattu psykiatriseksi sairaudeksi vuoteen 1981, mutta nykyään tuntuu heterouden olevan pahempi rikos - varsinkin Priden aikaan.
 
 ### Kansanedustaja provosoimassa
 
-Minusta on erittäin huolestuttavaa, että kansanedustaja loukkaa vuosittain seksuaalivähemmistöä tai ihmisoikeuksia edistavää tapahtumaa. Kansanedustajien tulisi edustaa meitä kaikki eikä käyttää vaikutusvaltaansa vähentämään muiden arvoa. Ymmärrän, että uskovaisen tulee seurata omaa kutsumustaan, mutta törkeää provointia vuosittain?
+Minusta on erittäin huolestuttavaa, että kansanedustaja loukkaa vuosittain seksuaalivähemmistöä tai ihmisoikeuksia edistävää tapahtumaa. Kansanedustajien tulisi edustaa meitä kaikki eikä käyttää vaikutusvaltaansa vähentämään muiden arvoa. Ymmärrän, että uskovaisen tulee seurata omaa kutsumustaan, mutta törkeää provosointia vuosittain?
 
 Viime vuonna kansanedustaja <a href="https://fi.wikipedia.org/wiki/P%C3%A4ivi_R%C3%A4s%C3%A4nen" title="Wikipedia: Päivi Räsänen" target="_blank" rel="noopener">Päivi Räsänen</a> kommentoi kirkon Priden tukemista <a href="https://twitter.com/PaiviRasanen/status/1140693636176384011" target="_blank" rel="noopener">twiitillä</a>:
 
@@ -61,11 +62,15 @@ Tubettaja <a href="https://fi.wikipedia.org/wiki/Tuure_Boelius" title="Wikipedia
 >
 > Tuure Boelius
 
-Iltalehden <a href="https://www.iltalehti.fi/viihdeuutiset/a/63c9432d-b4cc-469b-94a4-f8d24b700350" title="Päivi Räsänen arvosteli Pride-tapahtumaa – Tuure Boelius laukoo suorat sanat" target="_blank" rel="noopener">haastattelussa</a> nostettiin esiin Räsäsen vuoden 2010 kirjoitus mikä ilmeisesti yhä kuvaa hänen arvonsa, koska yritti selittää asiaa tieteellä ja tutkimuksella, mutta kun se haastettiin, tuli tarinaa jumalasta ja henkilökohtaisesta jumalasuhteesta eli todellinen syy vastustamiselle on vain sokeahko usko sielujen pelastamiseen.
+Iltalehden <a href="https://www.iltalehti.fi/viihdeuutiset/a/63c9432d-b4cc-469b-94a4-f8d24b700350" title="Päivi Räsänen arvosteli Pride-tapahtumaa – Tuure Boelius laukoo suorat sanat" target="_blank" rel="noopener">haastattelussa</a> nostettiin esiin Räsäsen vuoden 2010 kirjoitus mikä ilmeisesti yhä kuvaa hänen arvojansa, koska hän yritti ensin selittää asiaa tieteellisesti ja tutkimustulokseen vedoten, mutta kun se tarina haastettiin, päätyi hän puhumaan jumalasta ja henkilökohtaisesta jumalasuhteesta eli todellinen syy vastustamiselle on vain sokeahko usko sielujen pelastamiseen.
 
 > Homoseksuaalisuuden harjoittaminen myös pysyvässä parisuhteessa on vahingollista oman itsensä, kumppanin ja ehkä muiden ihmisten kannalta.
 >
 > Päivi Räsänen, 19.10.2010
+
+Vielä 2020 on mahdollisesti julkisesti tuomita seksuaalivähemmistöön kuuluvia uskontojen varjolla. Monet tutkimukset ovat tulleet tulokseen, että homous on pysyvä tila eikä se muutu rukoilemalla, kasvatusta parantamalla tai yrittämällä oppia nauttimaan muusta. Tietääkseni tutkimukset eivät tue sitä, että homoseksuaalisuuden harjoittaminen olisi vahingollisempaa kuin heteroseksi. Kaiken tärkeintä on yhteinen suostumus ja mahdollisten tautien ennaltaehkäisy.
+
+Tunteet voi tukahduttaa ja voi leikkiä kotia vastakkaisen sukupuolen kanssa, mutta voiko homo olla oikeasti onnellinen "normaalissa" suhteessa vastakkaisen sukupuolen kanssa vai onko se vain pakollista näyttelyä? Jokaisen pitäisi saada päättää itse mitä on ja kenen kanssa.
 
 Kristinuskon riveissä on myös niitä, jotka uskovat homouden ja uskon voivan kulkea käsi kädessä. Pastori <a href="https://uusitie.com/identiteettini-ytimessa-ei-ole-homoseksuaalisuus-vaan-jumalan-lapseus/" title="Uusi tie: Identiteettini ytimessä ei ole homoseksuaalisuus, vaan Jumalan lapseus" target="_blank" rel="noopener">Erik Johansson</a> ja kansanedustaja <a href="https://fi.wikipedia.org/wiki/Sebastian_Tynkkynen" title="Wikipedia: Sebastian Tynkkynen" target="_blank" rel="noopener">Sebastian Tynkkynen</a> ovat hyviä esimerkkejä uskovaisista homoista. Heidän mielestään jumala rakastaa kaikkia. Valitettavasti Tynkkynen erotettiin Oulun Helluntaiseurakunnasta suuntautumisen ja avioliiton mielipiteiden vuoksi, mutta ehkä tulevaisuudessa on mahdollista löytää jumalan armo myös seurakunnista eikä aina ihmisten tuomiota. Jumala on rakkaus?
 
@@ -83,7 +88,7 @@ Miettikää kristinuskon edustajat miten Jeesus kohteli ihmisiä. Luuletteko, et
 
 ## Omia kokemuksia
 
-Henkilökohtaisesti olen tietääkseni hetero, mutta elämän varrella on ollut hetkiä jolloin olen kyseenalaistanut tätä totuutta ihaillessani mahtavia cossaajia ja viettäessä aikaa kauniiden miesten kanssa.
+Henkilökohtaisesti olen tietääkseni hetero, mutta elämän varrella on ollut hetkiä jolloin olen kyseenalaistanut tätä totuutta ihaillessa mahtavia cossaajia ja viettäessä aikaa kauniiden miesten kanssa.
 
 Ropeconissa tutustuin erääseen mieheen ketä luulin monta vuotta naiseksi, mutta asenteeni häntä kohtaan ei muuttunut sen jälkeen. Vietin hänen kanssaan paljon aikaa vuosien varrella ja hän sai minut jopa tanssimaan vanhoja tansseja. Mahtava tapaus.
 
@@ -94,6 +99,8 @@ Ihmisiä ei pidä arvostella ulkonäön tai kategorian perusteella. He voivat ol
 Miksi ihmisiä pitää pistää laatikkoon? Mitä väliä sillä oikeasti on mitä me olemme ja kenen kanssa jos olemme ylpeitä siitä mitä olemme ja sinut itsemme kanssa? Sen pitäisi olla tärkeintä. Elämä on liian lyhyt tuhlattavaksi, joten nauttikaamme elämästä sellaisena kuin olemme ja antakaamme muiden tehdä samoin.
 
 Jokainen elämä on tärkeä. Tukekaa toisianne valitsemallanne tiellä. Rakastakaa.
+
+<div id="comments" class="tc"><a class="inl up" href="https://twitter.com/_timoanttila/status/" target="_blank">Osallistu keskusteluun</a></div>
 
 ## Lue lisää
 

@@ -25,7 +25,8 @@ li .pub { font-weight: 700 }
 #logo a,
 .block a,
 #lang,
-a.btn { text-decoration: none }
+a.btn,
+#comments a { text-decoration: none }
 
 body,
 .tw,
@@ -44,6 +45,11 @@ body,
 #posts li,
 picture,
 img { display: block }
+
+.inl {
+	display: inline-block;
+	vertical-align: top
+}
 
 img { object-fit: cover }
 
@@ -72,6 +78,10 @@ main {
 	& p a,
 	& li a,
 	& .container.pb li:hover h2 { color: var(--green) }
+	& p a,
+	& li a {
+		&:hover { color: lightgreen }
+	}
 	& .container.pb {
 		& h2 { font-size: 1.1rem }
 		&:not(.grid){
@@ -223,6 +233,15 @@ a.btn {
 }
 
 .pb { padding-bottom: 3rem }
+
+#comments a {
+	padding: 10px 30px;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	background-color: var(--green);
+	color: #000;
+	&:hover { background-color: #fff }
+}
 
 @media screen and (min-width:1000px){
 	.three {
@@ -386,9 +405,8 @@ a.btn {
 		margin-top: 3rem;
 		margin-bottom: .5px;
 		& li {
-			display: inline-block;
-			vertical-align: top;
-			margin:0 }
+			margin:0
+		}
 		& a {
 			border-radius: 50%;
 			margin: 3px;

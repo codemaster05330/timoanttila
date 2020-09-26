@@ -1,10 +1,12 @@
 <script>
 	import { isActive, url, page } from "@sveltech/routify"
+	import { metatags } from "@sveltech/routify";
 	import { Nav } from "../pages/_data.js"
 	$: u = $page.path.split('/')
 	$: i = u[1] == "pulina" ? 1 : 0;
 	$: item = Nav[i]
 	let active
+	$: metatags.canonical = "https://timoanttila.com"+ $page.path
 </script>
 
 {#if item[0]}
