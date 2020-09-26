@@ -1,6 +1,8 @@
 ---
 title: How to set up TeamSpeak 3 server
-pub: Sep 30, 2015
+pub:
+- 30
+- Sep
 published: 2015-09-30T00:20:02.000Z
 modified: 2019-11-12T18:51:53.000Z
 summary: Complete guide how to setup a TeamSpeak 3 Server as service on Linux server.

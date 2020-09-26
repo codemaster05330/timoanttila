@@ -1,6 +1,8 @@
 ---
 title: How to leverage browser caching for images, CSS and JavaScript
-pub: Oct 4, 2016
+pub:
+- 4
+- Oct
 published: 2016-10-04T06:35:53+03:00
 modified: 2016-10-04T06:35:53+03:00
 summary: Using anchor links with a fixed header is a problem, as the body text may be hidden underneath the header. No JavaScript needed.

@@ -1,6 +1,8 @@
 ---
 title: How to leverage browser caching for images, CSS and JavaScript
-pub: Sep 12, 2016
+pub:
+- 12
+- Sep
 published: 2016-09-12T05:20:02+03:00
 modified: 2016-09-12T05:20:02+03:00
 summary: Page load times can be significantly improved by asking visitors to save and reuse the files included in your website.

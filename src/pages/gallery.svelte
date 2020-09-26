@@ -14,7 +14,7 @@
 	metatags["twitter:image"] = img
 </script>
 
-<div id="head" class="tc mxa list pt">
+<div id="head" class="tc mxa list">
 	<h1>{title}</h1>
 	<p class="summary mxa">{desc}</p>
 	<p id="more"><a class="btn inl up" href="https://www.instagram.com/_timoanttila/" target="_blank" rel="noopener me"  hreflang="en">Instagram</a></p>

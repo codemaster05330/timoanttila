@@ -1,6 +1,8 @@
 ---
 title: How to automatic backup data in Linux
-pub: Apr 24, 2016
+pub:
+- 24
+- Apr
 published: 2016-04-24T15:37:21+03:00
 modified: 2016-04-24T15:37:21+03:00
 summary: Backups are one of the most important things when running a server  and these scripts help backup your important data automatically.

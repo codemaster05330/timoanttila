@@ -1,6 +1,8 @@
 ---
 title: A beginner's guide to Drush
-pub: Jan 1, 2016
+pub:
+- 1
+- Jan
 published: 2016-01-27T20:01:10+02:00
 modified: 2020-09-11T00:43:05+03:00
 summary: Drush is a command-line shell and scripting interface for Drupal. This tutorial help you understand how Drush works and how it makes your life easier.

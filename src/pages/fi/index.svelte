@@ -1,31 +1,37 @@
 <script>
 	import Social from "../../components/Social.svelte"
-	import { url, layout, metatags } from "@sveltech/routify";
-	import marked from "marked";
-	const posts = $layout.parent.children[2].children
-		.filter((c) => c.meta["frontmatter"])
-		.sort((a, b) => b.meta["frontmatter"].published.localeCompare(a.meta["frontmatter"].published));
-	let title = "Tutorials"
-	let summary = "A collection of tutorials about things I've learned or discovered. Most of the tutorials are easy to read and to learn."
-	$: metatags.title = title
-	$: metatags.description = summary
-	$: metatags["twitter:title"] = title
-	$: metatags["twitter:description"] = summary
+	import { metatags } from '@sveltech/routify'
+	import { gallery } from "../_data.js"
+	let title = "Timo Anttila"
+	let desc = "Webbidevaaja, amatöörivalokuvaaja ja bloggaaja Nokialta."
+	let img = "https://timoanttila.com/images/gallery/2019-deli-yawns.jpg"
+	metatags.title = title
+	metatags.description = desc
+	metatags.image = img
+	metatags.url = "https://timoanttila.com/gallery"
+	metatags.canonical = "https://timoanttila.com/gallery"
+	metatags["twitter:card"] = "summary_large_image"
+	metatags["twitter:description"] = desc
+	metatags["twitter:image"] = img
 </script>
-
 <style>
 #hello {
 	display: grid;
 	width: 100%;
 	height: 100vh;
-	min-height: 620px;
+	overflow: hidden;
+	min-height: 735px;
 	align-content: center;
 	justify-content: center;
 	background-position: fixed;
-	background-size: cover
+	background-size: cover;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 400
 }
 .overlay {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100vw;
@@ -54,9 +60,6 @@
 	margin-bottom: 10px
 }
 #itsMe p { font-size: 1.2rem }
-#newest h2.title {
-	font-size: clamp(2.4rem, 3.2rem, 12vw)
-}
 @media screen and (max-width:450px){
 	#hello { background-image: url("/images/railway-360.jpg") }
 }
@@ -72,6 +75,9 @@
 @media screen and (min-width:1440px){
 	#hello { background-image: url("/images/railway-2048.jpg") }
 }
+@media screen and (max-width:420px){
+	footer#front { max-width: 260px }	
+}
 </style>
 
 <div id="hello" class="tc obj">
@@ -80,32 +86,10 @@
 		<picture id="pic" class="mxa">
 			<source srcset="/images/timo.webp" type="image/webp">
 			<source srcset="/images/timo.jpg" type="image/jpeg">
-			<img src="/images/timo.jpg" alt="Timo Anttila">
+			<img src="/images/timo.jpg" alt={title}>
 		</picture>
-		<h1>Timo Anttila</h1>
-		<p>Verkkosivustoja ja verkkokauppoja työkseen loihtivat nörtti Nokialta. Valokuvaus ja tekniikka intohimona.</p>
+		<h1>{title}</h1>
+		<p>Verkkosivustoja ja verkkokauppoja työkseen loihtivat nörtti Nokialta. Intohimona valokuvaus ja tekniikka.</p>
 	</div>
+	<footer id="front" class="mxa"><Social/></footer>
 </div>
-
-<div id="newest" class="container mxa pt pb tc">
-
-	<h2 class="title">Uusimmat artikkelit</h2>
-	<ul id="posts" class="three grid block pt">
-	{#each posts as {meta, path}}
-		<li>
-			<a class="article trf grid" href={$url(path)} title={meta.frontmatter.title}>
-				<div class="content">
-					<h2>{meta.frontmatter.title}</h2>
-					<p class="summary">{meta.frontmatter.summary}</p>
-					<p class="published">{meta.frontmatter.pub}</p>
-				</div>
-			</a>
-		</li>
-	{/each}
-	</ul>
-
-</div>
-
-<a id="lang" class="toggle grid abs tw up cell" href="/" hreflang="en" title="Timo Anttila">en</a>
-
-<Social/>

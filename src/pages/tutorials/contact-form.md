@@ -1,6 +1,8 @@
 ---
 title: How to create a simple contact form in HTML and PHP
-pub: Jan 1, 2017
+pub:
+- 1
+- Jan
 published: 2017-01-01T11:43:34+02:00
 modified: 2017-01-01T11:43:34+02:00
 summary: HTML Forms are one of the main points of interaction between a user and a web site. This tutorial teaches you how to make one.

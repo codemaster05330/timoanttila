@@ -1,6 +1,8 @@
 ---
 title: Generate SSH keys and login to servers without passwords
-pub: Sep 17, 2015
+pub:
+- 17
+- Sep
 published: 2015-09-19T01:23:32.000Z
 modified: 2018-08-15T08:54:45.000Z
 summary: SSH keys serve as a means of identifying yourself to an SSH server using public-key cryptography and challenge-response authentication.

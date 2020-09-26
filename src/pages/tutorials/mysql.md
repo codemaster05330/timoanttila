@@ -1,6 +1,8 @@
 ---
 title: A beginner's guide to MySQL / MariaDB
-pub: Oct 20, 2015
+pub:
+- 20
+- Oct
 published: 2015-10-20T03:24:42+03:00
 modified: 2019-08-25T02:50:05+03:00
 summary: A basic tutorial how to take control of MySQL / MariaDB server, how to make a database and a user, and how to store information in the MySQL database.

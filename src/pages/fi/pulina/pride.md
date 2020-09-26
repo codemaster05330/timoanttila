@@ -1,8 +1,10 @@
 ---
 title: Uskonto ja tasa-arvo - ole ylpeästi mitä haluat olla!
-pub: Syyskuu 24, 2020
+pub:
+- 24
+- Syys
+- 2020
 published: 2020-09-24T02:45:26.000Z
-modified: 2020-09-25T10:38:47.000Z
 summary: Pohdintaa vuosittaisesta kansanedustajan tekemästä provosoinnista Pride-tapahtuman aikoihin. Voiko kristinusko ja homoseksuaalisuus löytää yhteisen sävelen? Voiko homot olla uskovaisia?
 layout: article
 ---
@@ -27,7 +29,7 @@ Nykyisin Helsinki Pride on Suomen näkyvin <a href="https://seta.fi/sateenkaarit
 >
 > Uskonnon ja omantunnon vapaus
 
-Olin vuosia uskovainen, kristitty, joten tiedän miten tärkeää uskonto ja sen harjoittaminen voi monille olla. Uskonelämäni alkuaikoina olin myös itse liian tuomitsevainen. Vaikka haluan kannattaa tasa-arvoa, en kuitenkaan halua nähdä, että uskonnot pakotetaan muuttamaan perusarvojaan ilman hyväksyntää, koska jos perusarvoja voi muokata mielivaltaisesti, ei ole kyse enää samasta uskonnosta. Uskovaisten tulisi saada seurata pyhiä kirjoituksiaan ja jumaliensa sanaa paikallisen lain puitteissa riippumatta mitkä valtion linjaukset tai maailman trendit on tällä hetkellä. Omissa seurakunnissaan, kirkoissaan ja moskeijoissaan voi mielestäni harjoittaa sellaista uskonnollista elämää kuin kukin haluaa.
+Olin vuosia uskovainen, kristitty, joten tiedän miten tärkeää uskonto ja sen harjoittaminen voi monille olla. Uskonelämäni alkuaikoina olin myös itse liian tuomitsevainen. Vaikka haluan kannattaa tasa-arvoa, en kuitenkaan halua nähdä, että uskonnot pakotetaan muuttamaan perusarvojaan ilman hyväksyntää, koska jos perusarvoja voi muokata mielivaltaisesti, ei kyse ole enää samasta uskonnosta. Uskovaisten tulisi saada seurata pyhiä kirjoituksiaan ja jumaliensa sanaa ylimpien johtajiensa viitoittamalla tiellä paikallisen lain puitteissa riippumatta valtion linjauksista tai maailman trendeistä. Omissa seurakunnissaan, kirkoissaan ja moskeijoissaan voi mielestäni harjoittaa sellaista uskonnollista elämää kuin kukin haluaa.
 
 Kristinusko ja sen eri suunnat ovat kuitenkin hyväksyneet osan kielletyistä, kuten esim. <a href="https://fi.wikipedia.org/wiki/Naispappeus_kristillisiss%C3%A4_kirkoissa" title="Wikipedia: Naispappeus kristillisissä kirkoissa" target="_blank" rel="noopener">naispappeus</a>, <a href="https://evl.fi/uutishuone/pinnalla-nyt/avioliittolaki" title="EVL: Avioliittolaki ja kirkko" target="_blank" rel="noopener">samaa sukupuolta olevien avioliitot</a> sekä vuonna 2019 kirkko ilmoitti olevansa <a href="https://evl.fi/uutishuone/tiedotearkisto/-/items/item/27714/Suomen+evankelis-luterilainen+kirkko+Helsinki+Priden+tukijaksi" title="EVL: Suomen evankelis-luterilainen kirkko Helsinki Priden tukijaksi" target="_blank" rel="noopener">Priden virallinen tukija</a>. Onko homous katoamassa kirkon synneistä vai väheneekö sen merkitys samalle tasolle kuin miehen ja naisen seksi vain avioliitossa? Muuttuvatko kristittyjen arvot vähitellen avoimempaan suuntaan ja jääkö vain muutamat vanholliset lopulta huutamaan vastaan? Voiko synnin määritelmiä ja arvoja muuttaa? Raamattu, varsinkin Vanha Testamentti, tuomitsee homouden, mutta tuliko Jeesus sittenkin pelastamaan meidät kaikki? Tutustu tarkemmin <a href="https://fi.wikipedia.org/wiki/Raamattu_ja_homoseksuaalisuus" title="Wikipedia: Raamattu ja homoseksuaalisuus" target="_blank" rel="noopener">homoseksuaalisuuteen Raamatussa</a>.
 

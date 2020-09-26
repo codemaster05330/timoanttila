@@ -20,7 +20,7 @@
 	}
 </style>
 
-<div id="profile" class="container mxa pt pb">
+<div id="profile" class="container mxa pb">
 	<div id="head" class="tc mxa page">
 		<picture class="mxa">
 			<source srcset="/images/timo.webp" type="images/webp">

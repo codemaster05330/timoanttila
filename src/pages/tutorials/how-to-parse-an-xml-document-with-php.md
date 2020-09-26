@@ -1,6 +1,8 @@
 ---
 title: Parse an XML document with PHP
-pub: Oct 1, 2015
+pub:
+- 1
+- Oct
 published: 2015-10-01T20:57:18.000Z
 modified: 2015-10-01T20:57:18.000Z
 summary: A simple PHP script which can store an XML document as a file to the server and use it for the website. Replaces file older than 24 hours.

@@ -1,6 +1,8 @@
 ---
 title: Replace a line in a text file automatically every week with Linux bash shell script
-pub: Feb 12, 2017
+pub:
+- 12
+- Feb
 published: 2017-02-12T11:45:54+02:00
 modified: 2020-08-16T03:30:39+03:00
 summary: My goal was to read the number in the file, and if the number is smaller than three add one to it, and if bigger reset the number to one. Write new to the file.

@@ -40,7 +40,7 @@ Always want to surpass myself and my customers. When the customer feels they hav
 - Organizing <a href="https://ropecon.fi/" title="Finnish annual role-playing event Ropecon" target="_blank" hreflang="fi">Ropecon 2021</a>.
 - An avid visitor as well as a volunteer at many events.
 - Volunteer for <a href="https://www.tukiliitto.fi/toiminta/best-buddies-kaveritoiminta/" rel="noopener" target="_blank" hreflang="fi">Best Buddies</a>.
-- I sometimes write [blogs](/blog) and [tutorials](/tutorials).
+- I sometimes write [blogs](/fi/pulina) in Finnish and [tutorials](/tutorials) in English.
 - Investing in stocks and funds.
 
 ## Languages:

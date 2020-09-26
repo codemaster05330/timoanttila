@@ -1,6 +1,8 @@
 ---
 title: How to create a simple popup
-pub: Sep 17, 2015
+pub:
+- 17
+- Sep
 published: 2015-09-16T22:03:47.000Z
 modified: 2018-08-15T05:56:26.000Z
 summary: Simple PHP / JavaScript popup created for Drupal but can be used with any platform. Popup works only once and again after the cookie is cleared.

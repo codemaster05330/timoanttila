@@ -1,6 +1,8 @@
 ---
 title: The 10 most common mistakes with PHP
-pub: Feb 21, 2016
+pub:
+- 21
+- Feb
 published: 2016-02-21T12:13:31+02:00
 modified: 2019-11-24T14:00:16+02:00
 author: Ilya Sanosian

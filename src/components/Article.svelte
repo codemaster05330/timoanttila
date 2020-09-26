@@ -1,6 +1,6 @@
 <script>
 	import { metatags } from "@sveltech/routify";
-	export let title, summary, pub, published, lang, langLink
+	export let title, summary, pub, published, langLink
 	$: metatags.title = title
 	$: metatags.author = "Timo Anttila <moro@tuspe.com>"
 	$: metatags.description = summary
@@ -8,15 +8,15 @@
 	$: metatags["twitter:description"] = summary
 </script>
 
-<div id="article" class="container mxa pt pb" itemscope itemtype="http://schema.org/NewsArticle">
+<div id="article" class="container mxa pb" itemscope itemtype="http://schema.org/NewsArticle">
 	<div id="head" class="tc mxa blog">
 		<h1 itemprop="headline">{title}</h1>
 		<p id="summary" class="mxa" itemprop="description">{summary}</p>
-		<p id="published" itemprop="datePublished" content={published}>{pub}</p>
+		<p id="published" itemprop="datePublished" content={published}>{pub[1]} {pub[0]}, {pub[2]}</p>
 	</div>
 	<div id="body" class="mxa" itemprop="articleBody">
 		<slot/>
 	</div>
 </div>
 
-{#if langLink}<a id="lang" class="toggle grid abs tw up cell" href={langLink}>{lang}</a>{/if}
+{#if langLink}<a id="lang" class="toggle grid abs tw up cell" href={langLink[1]}>{langLink[0]}</a>{/if}

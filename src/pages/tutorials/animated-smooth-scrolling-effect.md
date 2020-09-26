@@ -1,6 +1,8 @@
 ---
 title: Animated smooth scrolling effect for one-page website
-pub: Apr 21, 2016
+pub:
+- 21
+- Apr
 published: 2016-04-21T23:16:16+03:00
 modified: 2016-04-21T23:16:16+03:00
 summary: Every one-page website needs an animated smooth scrolling effect, and this script will rock your site.

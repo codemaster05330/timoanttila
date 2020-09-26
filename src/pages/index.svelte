@@ -6,11 +6,16 @@
 	display: grid;
 	width: 100%;
 	height: 100vh;
-	min-height: 620px;
+	overflow: hidden;
+	min-height: 735px;
 	align-content: center;
 	justify-content: center;
 	background-position: fixed;
-	background-size: cover
+	background-size: cover;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 400
 }
 .overlay {
 	position: fixed;

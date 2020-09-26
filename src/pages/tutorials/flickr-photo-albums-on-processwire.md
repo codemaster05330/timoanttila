@@ -1,6 +1,8 @@
 ---
 title: How to embed Flickr photo albums on ProcessWire
-pub: Nov 11, 2016
+pub:
+- 11
+- Nov
 published: 2016-11-10T05:35:53+02:00
 modified: 2016-11-10T05:35:53+02:00
 summary: A tutorial on how to set up Flickr photo galleries on ProcessWire. I modified Sergio's photo downloading script and made a Photobox effect for galleries.

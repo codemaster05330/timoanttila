@@ -1,6 +1,8 @@
 ---
 title: Remove unnecessary PHP sessions files on Debian
-pub: Apr 10, 2020
+pub:
+- 10
+- Apr
 published: 2020-04-10T01:06:14+03:00
 modified: 2020-04-10T01:16:53+03:00
 summary: How to find hidden system files that keep filling hard drives and how to remove old and unnecessary PHP session files.

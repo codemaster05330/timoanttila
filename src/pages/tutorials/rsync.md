@@ -1,6 +1,8 @@
 ---
 title: How to automatic backup data in Linux
-pub: May 14, 2016
+pub:
+- 14
+- May
 published: 2016-05-14T19:50:05+03:00
 modified: 2016-05-14T19:50:05+03:00
 summary: Rsync is a powerful tool that facilitates the transfer and synchronization of data between both local and remote systems.

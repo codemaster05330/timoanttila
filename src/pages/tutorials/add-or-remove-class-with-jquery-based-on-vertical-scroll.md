@@ -1,6 +1,8 @@
 ---
 title: Add or remove class with JQuery based on vertical scroll
-pub: Mar 2, 2016
+pub:
+- 2
+- Mar
 published: 2016-03-02T04:20:02+02:00
 modified: 2016-03-02T04:20:02+02:00
 summary: A tutorial to show how to use JavaScript and CSS to change the appearance of  when scrolling down on the website.
