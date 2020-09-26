@@ -135,6 +135,13 @@ export const gallery = [
 		"category": "Animals",
 		"url": "https://www.instagram.com/p/Bj5ef1khMyU/"
 	}, {
+		"title": "Portrait of a border collie Deli and her owner Timo Anttila in the woods",
+		"name": "20200922-deli-timo-nokia",
+		"camera": "OnePlus Nord",
+		"place": "Nokia, Finland",
+		"category": "Animals",
+		"url": "https://www.instagram.com/p/CFh3K3EDILH/"
+	}, {
 		"title": "Portrait of Hoppu standing on a boat",
 		"name": "2020-hoppu-kylmapihlaja",
 		"camera": "OnePlus 6",
