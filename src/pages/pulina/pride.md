@@ -100,7 +100,7 @@ Miksi ihmisiä pitää pistää laatikkoon? Mitä väliä sillä oikeasti on mit
 
 Jokainen elämä on tärkeä. Tukekaa toisianne valitsemallanne tiellä. Rakastakaa.
 
-<div id="comments" class="tc"><a class="inl up" href="https://twitter.com/_timoanttila/status/" target="_blank">Osallistu keskusteluun</a></div>
+<div id="comments" class="tc"><a class="inl up" href="https://twitter.com/_timoanttila/status/1309858036975046657" target="_blank" title="Pohdintoja tasa-arvosta ja uskonnoista." rel="noopener">Osallistu keskusteluun</a></div>
 
 ## Lue lisää
 
