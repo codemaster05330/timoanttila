@@ -29,7 +29,7 @@
 #itsMe {
 	position: relative;
 	z-index: 100;
-	max-width: 480px;
+	max-width: 540px;
 	width: 80%
 }
 #itsMe picture,
