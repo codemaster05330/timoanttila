@@ -37,9 +37,8 @@ Always want to surpass myself and my customers. When the customer feels they hav
 - Photographing all kinds of beautiful on <a href="https://www.instagram.com/_timoanttila/" rel="noopener me" target="_blank" title="Follow me on Instagram">Instagram</a>.
 - Proud father of two pets; border collie Deli and cat Sera.
 - Nature lover.
-- Organizing <a href="https://ropecon.fi/" title="Finnish annual role-playing event Ropecon" target="_blank" hreflang="fi">Ropecon 2021</a>.
+- Organizing <a href="https://ropecon.fi/" title="Finnish annual role-playing event Ropecon" target="_blank" hreflang="fi">Ropecon</a>.
 - An avid visitor as well as a volunteer at many events.
-- Volunteer for <a href="https://www.tukiliitto.fi/toiminta/best-buddies-kaveritoiminta/" rel="noopener" target="_blank" hreflang="fi">Best Buddies</a>.
 - I sometimes write [blogs](/fi/pulina) in Finnish and [tutorials](/tutorials) in English.
 - Investing in stocks and funds.
 
