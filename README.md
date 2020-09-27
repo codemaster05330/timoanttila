@@ -1,6 +1,6 @@
 # Hi, I'm Timo Anttila
 
-I'm a full stack web developer who is passionate about making websites better and faster. Some technologies I enjoy working with include Svelte, PHP and SQL. Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.
+Full Stack Web Developer specializing in PHP, JavaScript, ProcessWire, Svelte, and SQL engines. Passionately improving websites usage experience and loading time. Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.
 
 - Designing and developing experiences that make people's lives simple.
 - Working at [Tuspe Design Oy](https://tuspe.com/) as a full stack developer and developing its business as an owner.
@@ -21,4 +21,3 @@ I'm a full stack web developer who is passionate about making websites better an
 - https://www.linkedin.com/in/anttilatimo/
 - https://twitter.com/_timoanttila
 - https://www.instagram.com/_timoanttila/
-- https://ello.co/timoanttila
