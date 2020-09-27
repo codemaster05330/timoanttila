@@ -29,7 +29,7 @@ OUTPUT="/backup/db"
 databases=`mysql --user=$USER --password=$PASSWORD -e "SHOW DATABASES;" | tr -d "| " | grep -v Database`
 for db in $databases; do
   if [[ "$db" != "information_schema" ]] &amp;&amp; [[ "$db" != _* ]] ; then
-  mysqldump --force --opt --user=$USER --password=$PASSWORD --databases $db &gt; $OUTPUT/$db-`date +%Y%m%d`.sql
+  mysqldump --force --opt --user=$USER --password=$PASSWORD --databases $db > $OUTPUT/$db-`date +%Y%m%d`.sql
   gzip $OUTPUT/$db-`date +%Y%m%d`.sql
   fi
 done
@@ -59,8 +59,8 @@ To command line:
 Edit crontab:
 
 ```Bash
-0 0 * * * /root/backup-db &gt; /dev/null 2&gt;&amp;1
-55 11 * * Fri /root/backup-files &gt; /dev/null 2&gt;&amp;1
+0 0 * * * /root/backup-db > /dev/null 2>&amp;1
+55 11 * * Fri /root/backup-files > /dev/null 2>&amp;1
 ```
 
 What is running:

@@ -9,18 +9,18 @@ summary: A tutorial to show how to use JavaScript and CSS to change the appearan
 layout: tutorial
 ---
 
-I often use **JQuery** to change appearance of `&lt;header&gt;` when scrolling down on the website. I like to make it smaller after a certain pixel amount. The best way to do that is change a class name for `&lt;header&gt;` element with JavaScript / JQuery. You need to load JQuery library before this script to make it work.
+I often use **JQuery** to change appearance of `<header>` when scrolling down on the website. I like to make it smaller after a certain pixel amount. The best way to do that is change a class name for `<header>` element with JavaScript / JQuery. You need to load JQuery library before this script to make it work.
 
 ```JQuery
-&lt;script&gt;
+<script>
 $(window).scroll(function() {
-   if ($(this).scrollTop() &gt; 150){
+   if ($(this).scrollTop() > 150){
       $('header').addClass("small");
    } else {
       $('header').removeClass("small");
    }
 });
-&lt;/script&gt;
+</script>
 ```
 
 This code calls the `.scroll() JavaScript event` and then use `.scrollTop()` to check if there are more than 150 pixels from the top of the browser. If there is more, add a new class name small to the header element. If there are less pixels than 150, remove the class name from the element.

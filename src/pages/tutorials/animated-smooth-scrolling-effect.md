@@ -12,7 +12,7 @@ layout: tutorial
 Every one-page website needs an animated smooth scrolling effect, and this script will rock your site. The script hijacks all # links and makes them scroll nicely to target id.
 
 ```JQuery
-&lt;script&gt;
+<script>
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') &amp;&amp; location.hostname == this.hostname) {
@@ -27,7 +27,7 @@ $(function() {
     }
   });
 });
-&lt;/script&gt;
+</script>
 ```
 
 I didn't make this script, but I hope to keep it safe for me and all you.

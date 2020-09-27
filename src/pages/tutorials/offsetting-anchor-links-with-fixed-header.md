@@ -22,10 +22,10 @@ Just in case, because of cross-browser compliance I prefer a solution that does 
 ### HTML
 
 ```HTML
-&lt;div class="jump" id="info"&gt;
-&lt;h2&gt;Info&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ex sed tellus viverra rutrum.&lt;/p&gt;
-&lt;/div&gt;
+<div class="jump" id="info">
+<h2>Info</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ex sed tellus viverra rutrum.</p>
+</div>
 ```
 
 ### CSS

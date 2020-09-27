@@ -16,26 +16,26 @@ I mostly use modules for <a href="https://www.drupal.org/" rel="noopener" target
 First, we need to create a form with basic text input fields and some radio box fields.
 
 ```HTML
-&lt;form method="post" action="&lt;?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?&gt;"&gt;
-&lt;input placeholder="name" type="text" name="name" maxlength="30" autofocus required&gt;
-&lt;input placeholder="email" type="text" name="email" maxlength=60 autocomplete=on required&gt;
-&lt;textarea name=comment rows=5 cols=40 value=message required&gt;&lt;/textarea&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input name="list2" type="radio" value="Value 1" /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input name="list2" type="radio" value="Value 2" /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;input type="submit" value="Send" name="submit"&gt;
-&lt;/form&gt;
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+<input placeholder="name" type="text" name="name" maxlength="30" autofocus required>
+<input placeholder="email" type="text" name="email" maxlength=60 autocomplete=on required>
+<textarea name=comment rows=5 cols=40 value=message required></textarea>
+<ul>
+<li><input name="list2" type="radio" value="Value 1" /></li>
+<li><input name="list2" type="radio" value="Value 2" /></li>
+</ul>
+<input type="submit" value="Send" name="submit">
+</form>
 ```
 
-Notice that I used `&lt;?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?&gt;` instead of `#`. That's because the `htmlspecialchars()` function converts special characters to HTML entities. This prevents attackers from exploiting the code by injecting HTML or Javascript code (Cross-site Scripting attacks) in forms.
+Notice that I used `<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>` instead of `#`. That's because the `htmlspecialchars()` function converts special characters to HTML entities. This prevents attackers from exploiting the code by injecting HTML or Javascript code (Cross-site Scripting attacks) in forms.
 
 The name attribute is used to reference elements in PHP, or to reference form data after a form is submitted. The value attribute specifies the value that is sent to submit. The radio fields use the same name and those do not need foreach because only one selection can be active at a time.
 
 Now that we have a form ready to use, we need to make PHP code which fetches submitted data from the field, process it and send an HTML email to whoever is the recipient of the message.
 
 ```PHP
-&lt;?php
+<?php
 // Things to happen after pressing Submit.
 if($_POST["submit"]) {
 
@@ -55,14 +55,14 @@ $subject = "Message header";
 $headers = "From: " . $email . "\r\n";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
-$message = "&lt;html&gt;&lt;body&gt;";
-$message .= "&lt;p&gt;$comment&lt;/p&gt;";
+$message = "<html><body>";
+$message .= "<p>$comment</p>";
 $message .= $list;
-$message .= "&lt;/body&gt;&lt;/html&gt;";
+$message .= "</body></html>";
 
-// Send mail mail($to, $subject, $message, $headers); ?&gt;
-&lt;script type="text/javascript"&gt;window.location = "https://timoanttila.com/";&lt;/script&gt;
-&lt;?php } ?&gt;
+// Send mail mail($to, $subject, $message, $headers); ?>
+<script type="text/javascript">window.location = "https://timoanttila.com/";</script>
+<?php } ?>
 ```
 
 ## How to save all data from webform submissions to SQL database
@@ -72,7 +72,7 @@ You need to make a table with all rows you need to.
 Put similar code after mail(). If you want a more secure method then make sql.php and put it somewhere where it's not accessible from the Internet and call it `include('/somewhere/sql.php');`.
 
 ```PHP
-&lt;?php
+<?php
 $servername = "Server IP";
 $username = "Username";
 $password = "Password";
@@ -82,9 +82,9 @@ $table = "Table";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
-if ($conn-&gt;connect_error) die("Connection failed: " . $conn-&gt;connect_error);
+if ($conn->connect_error) die("Connection failed: " . $conn->connect_error);
 $time = date("Y-m-d H:i");
-$conn-&gt;query("INSERT INTO Form (Name, Email, Message, Up) VALUES ('$name', '$email', '$comment', '$time')");
-$conn-&gt;close();
-?&gt;
+$conn->query("INSERT INTO Form (Name, Email, Message, Up) VALUES ('$name', '$email', '$comment', '$time')");
+$conn->close();
+?>
 ```

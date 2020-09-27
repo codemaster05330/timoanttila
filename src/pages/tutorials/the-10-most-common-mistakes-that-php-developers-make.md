@@ -159,12 +159,12 @@ Consider this code snippet:
 class Config {
     private $values = [];
     public function getValues() {
-    return $this-&gt;values;
+    return $this->values;
     }
 }
 $config = new Config();
-$config-&gt;getValues()['test'] = 'test';
-echo $config-&gt;getValues()['test'];
+$config->getValues()['test'] = 'test';
+echo $config->getValues()['test'];
 ```
 
 If you run the above code, you'll get the following:
@@ -182,17 +182,17 @@ So the above call to `getValues()` returns a copy of the $values array rather th
 ```PHP
 // getValues() returns a COPY of the $values array, so this adds a 'test' element
 // to a COPY of the $values array, but not to the $values array itself.
-$config-&gt;getValues()['test'] = 'test';
+$config->getValues()['test'] = 'test';
 
 // getValues() again returns ANOTHER COPY of the $values array, and THIS copy doesn't
 // contain a 'test' element (which is why we get the "undefined index" message).
-echo $config-&gt;getValues()['test'];
+echo $config->getValues()['test'];
 ```
 
 One possible fix would be to save the first copy of the $values array returned by `getValues()` and then operate on that copy subsequently; e.g.:
 
 ```PHP
-$vals = $config-&gt;getValues();
+$vals = $config->getValues();
 $vals['test'] = 'test';
 echo $vals['test'];
 ```
@@ -204,13 +204,13 @@ class Config{
     private $values = [];
     // return a REFERENCE to the actual $values array
     public function &amp;getValues() {
-        return $this-&gt;values;
+        return $this->values;
     }
 }
 
 $config = new Config();
-$config-&gt;getValues()['test'] = 'test';
-echo $config-&gt;getValues()['test'];
+$config->getValues()['test'] = 'test';
+echo $config->getValues()['test'];
 ```
 
 The output of this will be test, as expected.
@@ -222,16 +222,16 @@ class Config{
     private $values;
     // using ArrayObject rather than array
     public function __construct() {
-        $this-&gt;values = new ArrayObject();
+        $this->values = new ArrayObject();
     }
     public function getValues() {
-        return $this-&gt;values;
+        return $this->values;
     }
 }
 
 $config = new Config();
-$config-&gt;getValues()['test'] = 'test';
-echo $config-&gt;getValues()['test'];
+$config->getValues()['test'] = 'test';
+echo $config->getValues()['test'];
 ```
 
 If you guessed that this would result in the same "undefined index" error as our earlier array example, you were wrong. In fact, this code will work just fine. The reason is that, unlike arrays, PHP always passes objects by reference. (ArrayObject is an SPL object, which fully mimics arrays usage, but works as an object.)
@@ -244,16 +244,16 @@ All that said, it is important to note that the practice of returning a referenc
 class Config{
     private $values = [];
     public function setValue($key, $value) {
-        $this-&gt;values[$key] = $value;
+        $this->values[$key] = $value;
     }
     public function getValue($key) {
-        return $this-&gt;values[$key];
+        return $this->values[$key];
     }
 }
 
 $config = new Config();
-$config-&gt;setValue('testKey', 'testValue');
-echo $config-&gt;getValue('testKey'); // echos 'testValue'
+$config->setValue('testKey', 'testValue');
+echo $config->getValue('testKey'); // echos 'testValue'
 ```
 
 This approach gives the caller the ability to set or get any value in the array without providing public access to the otherwise-private `$values` array itself.
@@ -265,14 +265,14 @@ It's not uncommon to come across something like this if your PHP is not working:
 ```PHP
 $models = [];
 foreach ($inputValues as $inputValue) {
-    $models[] = $valueRepository-&gt;findByValue($inputValue);
+    $models[] = $valueRepository->findByValue($inputValue);
 }
 ```
 
-While there may be absolutely nothing wrong here, but if you follow the logic in the code, you may find that the innocent looking call above to $valueRepository-&gt;findByValue() ultimately results in a query of some sort, such as:
+While there may be absolutely nothing wrong here, but if you follow the logic in the code, you may find that the innocent looking call above to $valueRepository->findByValue() ultimately results in a query of some sort, such as:
 
 ```PHP
-$result = $connection-&gt;query("SELECT `x`,`y` FROM `values` WHERE `value`=" . $inputValue);
+$result = $connection->query("SELECT `x`,`y` FROM `values` WHERE `value`=" . $inputValue);
 ```
 
 As a result, each iteration of the above loop would result in a separate query to the database. So if, for example, you supplied an array of 1,000 values to the loop, it would generate 1,000 separate queries to the resource! If such a script is called in multiple threads, it could potentially bring the system to a grinding halt.
@@ -284,8 +284,8 @@ One example of a fairly common place to encounter querying being done inefficien
 ```PHP
 $data = [];
 foreach ($ids as $id) {
-    $result = $connection-&gt;query("SELECT `x`, `y` FROM `values` WHERE `id` = " . $id);
-    $data[] = $result-&gt;fetch_row();
+    $result = $connection->query("SELECT `x`, `y` FROM `values` WHERE `id` = " . $id);
+    $data[] = $result->fetch_row();
 }
 ```
 
@@ -294,8 +294,8 @@ But the same thing can be accomplished much more efficiently in a single SQL que
 ```PHP
 $data = [];
 if (count($ids)) {
-    $result = $connection-&gt;query("SELECT `x`, `y` FROM `values` WHERE `id` IN (" . implode(',', $ids));
-    while ($row = $result-&gt;fetch_row()) {
+    $result = $connection->query("SELECT `x`, `y` FROM `values` WHERE `id` IN (" . implode(',', $ids));
+    while ($row = $result->fetch_row()) {
         $data[] = $row;
     }
 }
@@ -316,20 +316,20 @@ We'll bootstrap a database table like this:
 $connection = new mysqli('localhost', 'username', 'password', 'database');
 // create table of 400 columns
 $query = 'CREATE TABLE `test`(`id` INT NOT NULL PRIMARY KEY AUTO_INCREMENT';
-for ($col = 0; $col &lt; 400; $col++) {
+for ($col = 0; $col < 400; $col++) {
     $query .= ", `col$col` CHAR(10) NOT NULL";
 }
 $query .= ');';
-$connection-&gt;query($query);
+$connection->query($query);
 
 // write 2 million rows
-for ($row = 0; $row &lt; 2000000; $row++) {
+for ($row = 0; $row < 2000000; $row++) {
 $query = "INSERT INTO `test` VALUES ($row";
-    for ($col = 0; $col &lt; 400; $col++) {
+    for ($col = 0; $col < 400; $col++) {
         $query .= ', ' . mt_rand(1000000000, 9999999999);
     }
     $query .= ')';
-    $connection-&gt;query($query);
+    $connection->query($query);
 }
 ```
 
@@ -340,10 +340,10 @@ OK, now let's check resources usage:
 $connection = new mysqli('localhost', 'username', 'password', 'database');
 echo "Before: " . memory_get_peak_usage() . "\n";
 
-$res = $connection-&gt;query('SELECT `x`,`y` FROM `test` LIMIT 1');
+$res = $connection->query('SELECT `x`,`y` FROM `test` LIMIT 1');
 echo "Limit 1: " . memory_get_peak_usage() . "\n";
 
-$res = $connection-&gt;query('SELECT `x`,`y` FROM `test` LIMIT 10000');
+$res = $connection->query('SELECT `x`,`y` FROM `test` LIMIT 10000');
 echo "Limit 10000: " . memory_get_peak_usage() . "\n";
 ```
 
@@ -385,9 +385,9 @@ To avoid such problems, consider limiting the size of your queries and using a l
 ```PHP
 $totalNumberToFetch = 10000;
 $portionSize = 100;
-for ($i = 0; $i &lt;= ceil($totalNumberToFetch / $portionSize); $i++) {
+for ($i = 0; $i <= ceil($totalNumberToFetch / $portionSize); $i++) {
     $limitFrom = $portionSize * $i;
-    $res = $connection-&gt;query(
+    $res = $connection->query(
         "SELECT `x`,`y` FROM `test` LIMIT $limitFrom, $portionSize"
     );
 }
@@ -454,7 +454,7 @@ $_POST = json_decode(file_get_contents('php://input'), true);
 Then when we dump the $_POST array, we see that it correctly includes the POST payload; e.g.:
 
 ```PHP
-array(2) { ["a"]=&gt; string(1) "a" ["b"]=&gt; string(1) "b" }
+array(2) { ["a"]=> string(1) "a" ["b"]=> string(1) "b" }
 ```
 
 ## Common Mistake #8: Thinking that PHP supports a character data type
@@ -462,7 +462,7 @@ array(2) { ["a"]=&gt; string(1) "a" ["b"]=&gt; string(1) "b" }
 Look at this sample piece of code and try guessing what it will print:
 
 ```PHP
-for ($c = 'a'; $c &lt;= 'z'; $c++) { echo $c . "\n"; }
+for ($c = 'a'; $c <= 'z'; $c++) { echo $c . "\n"; }
 ```
 
 If you answered ‘a' through ‘z', you may be surprised to know that you were wrong.
@@ -472,32 +472,32 @@ Yes, it will print ‘a' through ‘z', but then it will also print ‘aa' throu
 In PHP there's no char datatype; only string is available. With that in mind, incrementing the string z in PHP yields aa:
 
 ```PHP
- php&gt; $c = 'z'; echo ++$c . "\n"; aa
+ php> $c = 'z'; echo ++$c . "\n"; aa
  ```
 
 Yet to further confuse matters, aa is lexicographically less than z:
 
 ```PHP
- php&gt; var_export((boolean)('aa' &lt; 'z')) . "\n"; true
+ php> var_export((boolean)('aa' < 'z')) . "\n"; true
  ```
 
 That's why the sample code presented above prints the letters a through z, but then also prints aathrough yz. It stops when it reachs za, which is the first value it encounters that it "greater than" z:
 
 ```PHP
- php&gt; var_export((boolean)('za' &lt; 'z')) . "\n"; false
+ php> var_export((boolean)('za' < 'z')) . "\n"; false
  ```
 
 That being the case, here's one way to properly loop through the values ‘a' through ‘z' in PHP:
 
 ```PHP
- for ($i = ord('a'); $i &lt;= ord('z'); $i++) { echo chr($i) . "\n"; }
+ for ($i = ord('a'); $i <= ord('z'); $i++) { echo chr($i) . "\n"; }
  ```
 
 Or alternatively:
 
 ```PHP
  $letters = range('a', 'z');
-for ($i = 0; $i &lt; count($letters); $i++) {
+for ($i = 0; $i < count($letters); $i++) {
     echo $letters[$i] . "\n";
 }
 ```
@@ -571,10 +571,10 @@ Then let's define a Magic class that uses the magic __get() operator to access i
 
 ```PHP
  class Magic {
-    private $values = ['test' =&gt; 'value'];
+    private $values = ['test' => 'value'];
     public function __get($key) {
-    if (isset($this-&gt;values[$key])) {
-        return $this-&gt;values[$key];
+    if (isset($this->values[$key])) {
+        return $this->values[$key];
     }
 }}
 ```
@@ -583,9 +583,9 @@ OK, now let's see what happens when we attempt to access the test property of ea
 
 ```PHP
  $regular = new Regular();
-var_dump($regular-&gt;test); // outputs string(4) "value"
+var_dump($regular->test); // outputs string(4) "value"
 $magic = new Magic();
-var_dump($magic-&gt;test); // outputs string(4) "value"
+var_dump($magic->test); // outputs string(4) "value"
 ```
 
 Fine so far.
@@ -593,8 +593,8 @@ Fine so far.
 But now let's see what happens when we call empty() on each of these:
 
 ```PHP
-var_dump(empty($regular-&gt;test)); // outputs bool(false)
-var_dump(empty($magic-&gt;test)); // outputs bool(true)
+var_dump(empty($regular->test)); // outputs bool(false)
+var_dump(empty($magic->test)); // outputs bool(true)
 ```
 
 Ugh. So if we rely on empty(), we can be misled into believing that the test property of $magic is empty, whereas in reality it is set to 'value'.

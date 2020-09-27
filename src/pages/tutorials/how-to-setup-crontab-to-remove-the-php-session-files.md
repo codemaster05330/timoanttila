@@ -23,7 +23,7 @@ The server has been running for over three years and I have never cleaned old PH
 
 ```Bash
 cd /var/lib/php/sessions
-perl -e 'for(&lt;*&gt;){((stat)[9]&lt;(unlink))}'
+perl -e 'for(<*>){((stat)[9]<(unlink))}'
 ```
 
 Ubuntu/Debian have a script (*/etc/cron.d/php*) to do the cleanup automatically, but I guess it's broken. Because I like simple answers to problems, I added the following line to root *crontab*:

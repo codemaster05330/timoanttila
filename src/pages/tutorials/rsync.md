@@ -40,7 +40,7 @@ crontab -e
 Edit crontab:
 
 ```Shell
-15 1 * * Sat rsync -avh /wwwroot/ timo@Server_2:/wwwroot/ &gt; /dev/null 2&gt;&amp;1
+15 1 * * Sat rsync -avh /wwwroot/ timo@Server_2:/wwwroot/ > /dev/null 2>&amp;1
 ```
 
 This command runs every Saturday at 01:15.<br />

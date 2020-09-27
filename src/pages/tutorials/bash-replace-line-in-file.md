@@ -39,8 +39,8 @@ line=$(head -n 1 "$file")
 Now I have a number. If the number is not bigger than three, add one to that number. If the number is bigger than three it should be reset to one.
 
 ```Bash
-(( line &gt; 3 )) &amp;&amp; (( line++ )) || line=1
-echo "$line" &gt; "$file"
+(( line > 3 )) &amp;&amp; (( line++ )) || line=1
+echo "$line" > "$file"
 ```
 
 Now we have a new number which tells us which list we want to use next week and the script wrote it to the file. Here's the same script as a whole and shortcutted by <a href="https://www.reddit.com/user/galaktos" rel="noopener" target="_blank">galaktos</a> from <a href="https://www.reddit.com/r/bash/comments/5tlap6/how_to_replace_a_line_in_a_text_file/" rel="noopener" target="_blank">reddit</a>. Thanks for help.
@@ -49,7 +49,7 @@ Now we have a new number which tells us which list we want to use next week and 
 #!/bin/bash
 file="/path/to/file.txt"
 line=$(head -n1 -- "$file")
-printf '%d\n' "$((++line&gt;3?1:line))" &gt;| "$file"
+printf '%d\n' "$((++line>3?1:line))" >| "$file"
 ```
 
 ## How to run a script automatically in Linux

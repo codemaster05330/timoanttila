@@ -14,7 +14,7 @@ I love taking pictures and I want to show my newest pictures on my website. Howe
 Nowadays, it's all about loading time and speed so I wanted to use small thumbnails. All images used _b.jpg and smaller size images had their own ending so getting the right size was very easy; search _b and replace it with whatever you want. You can use the Fancybox effect to make it look nicer.
 
 ```PHP
-&lt;?php
+<?php
 /* Author: Samuel Haddad (2010), edited by Timo Anttila (2015)
  * SimpleXML Flickr Feed Parser
  */
@@ -24,17 +24,17 @@ $url ="https://api.flickr.com/services/feeds/photos_public.gne?id=136453500@N06&
 
 //Use simple XML to parse the feed
 $xml = simplexml_load_file($url);
-$items = $xml-&gt;xpath('/rss/channel/item');
-echo "&lt;div class='gallery'&gt;"; // Wrapper
+$items = $xml->xpath('/rss/channel/item');
+echo "<div class='gallery'>"; // Wrapper
 
 foreach($items as $item){
-    $nsmedia = $item-&gt;children('http://search.yahoo.com/mrss/');
-    $img = $nsmedia-&gt;content-&gt;attributes(); // Image URL (b)
-    $thumb = strtr($img, array ('_b.jpg' =&gt; '_t.jpg')); // Thumb
-    echo "&lt;a href='$img'&gt;&lt;img src='$thumb' alt=''&gt;&lt;/a&gt;"; // Combine them all
+    $nsmedia = $item->children('http://search.yahoo.com/mrss/');
+    $img = $nsmedia->content->attributes(); // Image URL (b)
+    $thumb = strtr($img, array ('_b.jpg' => '_t.jpg')); // Thumb
+    echo "<a href='$img'><img src='$thumb' alt=''></a>"; // Combine them all
 }
-echo "&lt;/div&gt;";
-?&gt;
+echo "</div>";
+?>
 ```
 
 ## Flickr Thumb Sizes

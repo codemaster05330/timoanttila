@@ -44,9 +44,12 @@ body,
 .block a,
 #posts li,
 picture,
-img { display: block }
+img,
+pre,
+main { display: block }
 
-.inl {
+.inl,
+code {
 	display: inline-block;
 	vertical-align: top
 }
@@ -94,11 +97,13 @@ main {
 #projects h2,
 #article h2 {
 	font-size: clamp(1.6rem, 2.2rem, 8vw);
-	margin-bottom: 1.5rem
+	margin-bottom: 1.5rem;
+	margin-top: 2.2rem
 }
 
 p,
-li { line-height: 1.5 }
+li,
+code { line-height: 1.5 }
 
 p + p,
 p + ul,
@@ -211,10 +216,7 @@ ul.grid {
 }
 
 pre,
-code {
-	overflow-x: auto;
-	overflow-y: hidden;
-}
+p code { background-color: #27242c }
 
 pre {
 	padding: 1rem;
@@ -222,7 +224,14 @@ pre {
 	border-left: 6px solid #bb86fc;
 	margin-left: -6px;
 	width: calc(100% + 6px);
-	background-color: #27242c
+	overflow: hidden
+}
+
+p code { padding: 0 5px }
+
+code {
+	overflow-x: auto;
+	overflow-y: hidden
 }
 
 a.btn {
@@ -284,7 +293,7 @@ a.btn {
 		position: relative;
 		& ul {
 			&.en {
-				margin-left: 4px;
+				margin-left: 62px;
 				& li {
 					&:nth-child(2) {
 						margin-right: 40px

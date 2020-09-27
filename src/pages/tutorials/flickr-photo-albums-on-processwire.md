@@ -22,15 +22,16 @@ If you want to use a Photobox effect for galleries instead of Lightbox, use the 
 Add following PHP code to the new template file.
 
 ```PHP
-&lt;?php
+<?php
 include "../lib/curl.class.php";
 include "../lib/flickr_album_utils.php";
-$album = fa_get_album($page-&gt;flickrid);
+$album = fa_get_album($page->flickrid);
 $images = array();
 foreach($album["all_images"] as $f) {    
-$photo = 'https://farm'.$f["farm"].'.staticflickr.com/'.$f["server"].'/'.$f["id"].'_'.$f["secret"].'_b.jpg';
-$thumb = 'https://farm'.$f["farm"].'.staticflickr.com/'.$f["server"].'/'.$f["id"].'_'.$f["secret"].'_q.jpg';
-echo "&lt;a href='$photo'&gt;&lt;?img src='$thumb' alt=''/&gt;
+	$photo = 'https://farm'.$f["farm"].'.staticflickr.com/'.$f["server"].'/'.$f["id"].'_'.$f["secret"].'_b.jpg';
+	$thumb = 'https://farm'.$f["farm"].'.staticflickr.com/'.$f["server"].'/'.$f["id"].'_'.$f["secret"].'_q.jpg';
+	echo "<a href='$photo'><?img src='$thumb' alt=''/>
+}
 ```
 
 Remember to change paths for lib files. Next edit flickr_album_utils.php and put your Flickr's secret key to its place.

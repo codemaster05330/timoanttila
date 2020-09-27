@@ -16,7 +16,7 @@ Browser caching stores some of the loaded files locally in the user's browser. F
 Easiest way to enable browser caching on a website running on Apache2 is to modify a file called .htaccess. The "code" below tells browsers how long it should "remember" files loaded from the web site.
 
 ```htaccess
-&lt;IfModule mod_expires.c&gt;
+<IfModule mod_expires.c>
 ExpiresActive On
 ExpiresByType image/jpg "access 1 month"
 ExpiresByType image/jpeg "access 1 month"
@@ -28,7 +28,7 @@ ExpiresByType application/javascript "access 1 year"
 ExpiresByType application/x-javascript "access 1 year"
 ExpiresByType image/x-icon "access 1 year"
 ExpiresDefault "access 2 days"
-&lt;/IfModule&gt;
+</IfModule>
 ```
 
 ## Read more

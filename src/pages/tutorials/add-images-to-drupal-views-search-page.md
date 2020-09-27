@@ -14,24 +14,24 @@ I had a problem how to print big hero images to custom made search page (<a href
 I use Drupal's term reference fields as features for Products (Drupal Commerce) and Brand is one of them. First, I wanted to know if the search page result is "brand only". Those images should be visible only when there is only one brand name selected and nothing else.
 
 ```PHP
-&lt;?php
+<?php
 if(isset($_GET['field_brand_tid'])) {
     if(count($_GET) == 2 AND count($_GET['field_brand_tid']) == 1){
         $i = $_GET['field_brand_tid'][0];
         $term = taxonomy_term_load($i);
-        $term = $term-&gt;name;
+        $term = $term->name;
         $term = strtolower($term);
         $term = preg_replace('/\s+/', '', $term);
-        echo "&lt;img src='/sites/all/themes/themename/brand/$term.jpg' alt=''/&gt;";
+        echo "<img src='/sites/all/themes/themename/brand/$term.jpg' alt=''/>";
     }
 }
-?&gt;
+?>
 ```
 
 `var_dump($_GET)` gives something like this:
 
 ```PHP
-array(2) { ["field_brand_tid"]=&gt; array(1) { [0]=&gt; string(1) "1" } ["q"]=&gt; string(4) "search" }
+array(2) { ["field_brand_tid"]=> array(1) { [0]=> string(1) "1" } ["q"]=> string(4) "search" }
 ```
 
 First, there has to be at least one brand selected, if none found then this code is not executed. Then I want to know how many $_GET results there are because there can be only two; one for search (q) and one for the brand. After that we can check out the ID and the name of the brand and fix the name for the file name. strtolower makes the name lowercase and preg_replace removes all spaces. Now everything is ready for printing.

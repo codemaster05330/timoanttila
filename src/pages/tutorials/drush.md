@@ -21,21 +21,21 @@ Download latest stable release using the code below:
 wget -O drush.phar https://github.com/drush-ops/drush-launcher/releases/download/0.6.0/drush.phar
 ```
 
-No one likes to use long commands like `php drush.phar &lt;drush_command&gt;` so let's make it work as normal commands. If you have `sudo` or `root` access to your server then copy `drush.phar` to `/usr/local/bin/`.
+No one likes to use long commands like `php drush.phar <drush_command>` so let's make it work as normal commands. If you have `sudo` or `root` access to your server then copy `drush.phar` to `/usr/local/bin/`.
 
 ```Shell
 chmod +x drush.phar
 sudo mv drush.phar /usr/local/bin/drush
 ```
 
-If you don't have special rights to a server, you can add `export PATH=$PATH:&lt;/path/to/file&gt;` to your `~/.bashrc` file (if your system use bash).
+If you don't have special rights to a server, you can add `export PATH=$PATH:</path/to/file>` to your `~/.bashrc` file (if your system use bash).
 
 ## Download, enable and uninstall modules
 
 Go to your Drupal installation folder.
 
 ```Shell
-cd /&lt;your_drupal_folder&gt;/sites
+cd /<your_drupal_folder>/sites
 ```
 
 You can download and enable any module from <a href="https://www.drupal.org/project/project_module" rel="noopener" target="_blank" title="Official Drupal Modules">Drupal.org</a> and you can enable multiple modules at once.
@@ -48,7 +48,7 @@ drush en pathauto ckeditor views jquery_update module_filter transliteration l10
 
 Command `drush en` enable module. You can also only download modules without activating them by using `drush dl` (pm-download).
 
-`drush dis` (pm-disable) is a command to uninstall. Drush can't delete modules so you have to do that manually (`rm -rf /&lt;your_drupal_folder&gt;/sites/all/modules/&lt;module&gt;`).
+`drush dis` (pm-disable) is a command to uninstall. Drush can't delete modules so you have to do that manually (`rm -rf /<your_drupal_folder>/sites/all/modules/<module>`).
 
 ## Update Drupal with Drush
 
@@ -100,7 +100,7 @@ drush pm-list --type=Module --no-core --status=enabled | grep module
 Information about certain module:
 
 ```Shell
-drush pm-info &lt;module_name&gt;
+drush pm-info <module_name>
 ```
 
 ## Disable and uninstall modules
@@ -148,7 +148,7 @@ drush ard default --destination=/backups/mysite.tar
 You can also backup only your database:
 
 ```Shell
-drush sql-dump &gt; /path/to/backup_dir/database-backup.sql
+drush sql-dump > /path/to/backup_dir/database-backup.sql
 ```
 
 ## Recovering the administrator password
