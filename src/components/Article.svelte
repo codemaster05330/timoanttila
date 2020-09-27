@@ -1,6 +1,6 @@
 <script>
 	import { metatags } from "@sveltech/routify";
-	export let title, summary, img, pub, published, langLink
+	export let title, summary, img, pub, published, tweet, langLink
 	$: metatags.title = title
 	$: metatags.author = "Timo Anttila <moro@tuspe.com>"
 	$: metatags.description = summary
@@ -43,20 +43,23 @@
 	</div>
 	<div id="body" class="mxa" itemprop="articleBody">
 		<slot/>
-	<div id="author" class="grid mxa" itemprop="articleAuthor">
-		<div id="authorImg">
-			<picture class="cell">
-				<source srcset="/images/timo.webp" type="image/webp">
-				<source srcset="/images/timo.jpg" type="image/jpeg">
-				<img src="/images/timo.jpg" alt="Timo Anttila">
-			</picture>
+		<div id="comments" class="tc block"><a class="up" href={"https://twitter.com/_timoanttila/status/"+ tweet} target="_blank" rel="noopener">Osallistu keskusteluun</a></div>
+		<div id="author" class="grid mxa" itemprop="articleAuthor">
+			<div id="authorImg">
+				<picture class="cell">
+					<source srcset="/images/timo.webp" type="image/webp">
+					<source srcset="/images/timo.jpg" type="image/jpeg">
+					<img src="/images/timo.jpg" alt="Timo Anttila">
+				</picture>
+			</div>
+			<div id="authorBody">
+				<div class="cell">
+					<h4 class="up">Timo Anttila</h4>
+					<p>Yrittäjä ja duunari Nokialta. Tärkeitä asioita minulle ovat tasa-arvo, ihmisoikeudet, nuorten elämä sekä yrittämisen edistaminen. Haluan olla osa muutosta.</p>
+					<p><a class="btn inl up" href="/about">Tutustu profiiliin</a></p>
+				</div>
+			</div>
 		</div>
-		<div id="authorBody">
-			<h4 class="up">Timo Anttila</h4>
-			<p>Ehdottoman oikeita mielipiteitä kirjoittava ja kommentoiva yrittäjä / duunari Nokialta. Tärkeitä asioita minulle ovat tasa-arvo, ihmisoikeudet, nuorten elämä sekä yrittämisen edistaminen. Haluan olla osa muutosta.</p>
-			<p><a class="btn inl up" href="/about">Tutustu profiiliin</a></p>
-		</div>
-	</div>
 	</div>
 </div>
 
