@@ -4,10 +4,9 @@ Full Stack Web Developer specializing in PHP, JavaScript, ProcessWire, Svelte, a
 
 - Designing and developing experiences that make people's lives simple.
 - Working at [Tuspe Design Oy](https://tuspe.com/) as a full stack developer and developing its business as an owner.
-- Subcontractor for [Molentum Oy](https://molentum.fi/).
 - Partner and chief technology officer at [Ratsukko Solutions Oy](https://www.ratsukko.com/).
 - Developing a booking calendar Ratsukko for [SatuMo Oy](https://www.satumo.fi/).
-- Hosting many servers and services on them.
+- Maintaining many servers and being responsible for the security and backup of clients’ websites.
 
 ## Languages
 
