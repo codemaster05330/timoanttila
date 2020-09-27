@@ -81,7 +81,7 @@ Kristinuskon riveissä on myös niitä, jotka uskovat homouden ja uskon voivan k
 
 > Identiteettini ytimessä ei ole homoseksuaalisuus, vaan Jumalan lapseus
 >
-> Erik Johansson
+> Erik Johansson, pastori
 
 ### Mitä Jeesus tekisi?
 
