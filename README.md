@@ -1,6 +1,6 @@
 # Hi, I'm Timo Anttila
 
-Full Stack Web Developer specializing in PHP, JavaScript, ProcessWire, and SQL engines. Passionately improving websites usage experience and loading time. Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.
+Full Stack Web Developer specializing in PHP, JavaScript, ProcessWire, Svelte, and SQL engines. Passionately improving websites usage experience and loading time. Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.
 
 - Designing and developing experiences that make people's lives simple.
 - Working at Tuspe Design Oy as a full stack developer and developing its business as an owner.
