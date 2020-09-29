@@ -45,9 +45,6 @@
 @media screen and (min-width:450px) and (max-width:768px){
 	#hello { background-image: url("/images/railway-768.jpg") }
 }
-@media screen and (max-width:750px){
-	#itsMe { padding-top: 3rem }
-}
 @media screen and (min-width:768px) and (max-width:1440px){
 	#hello { background-image: url("/images/railway-1440.jpg") }
 }
