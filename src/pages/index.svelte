@@ -4,13 +4,9 @@
 </script>
 <style>
 #hello {
-	display: grid;
 	width: 100%;
 	height: 100vh;
 	overflow: hidden;
-	align-content: center;
-	justify-content: center;
-	background-position: fixed;
 	background-size: cover
 }
 .overlay {
@@ -70,7 +66,7 @@
 }
 </style>
 
-<div id="hello" class="tc obj">
+<div id="hello" class="tc obj cell">
 	<div class="overlay"></div>
 	<div id="itsMe" class="mxa">
 		<picture id="pic" class="mxa">
