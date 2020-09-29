@@ -1,13 +1,33 @@
 export const Nav = [
-	[
-		['/', 'Home', 'en'],
-		['/about', 'About', 'en'],
-		['/tutorials','Tutorials', 'en'],
-		['/gallery','Gallery','en'],
-	], [
-		['/pulina','Pulina','fi'],
-		['/','English','en']
-	]
+	['/', 'Home', 'en'],
+	['/about', 'About me', 'en'],
+	['/pulina','Finnish Blog', 'fi'],
+	['/tutorials','Tutorials', 'en'],
+	['/gallery','Gallery','en'],
+]
+
+export const Skills = [
+	{
+		"title": "Front-End",
+		"body": "Most of my work is front-end development and styling. Using my own frameworks or writing things from scratch.",
+		"tools": [
+			"HTML",
+			"CSS",
+			"JavaScript",
+			"Svelte",
+			"JQuery"
+		]
+	}, {
+		"title": "Back-End",
+		"body": "I usually use CMS and a bit of PHP code for back-end, but nowadays I'm also studying other technologies and tools.",
+		"tools": [
+			"PHP",
+			"SQL",
+			"CMS",
+			"NodeJS",
+			"Express"
+		]
+	}
 ]
 
 export const gallery = [

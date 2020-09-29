@@ -31,22 +31,30 @@ a.btn,
 body,
 .tw,
 .tw a,
-.three h2 { color: var(--l87) }
+.three h2,
+#more a.btn:not(:hover) { color: var(--l87) }
 
 .summary,
 .published,
-.tech,
 #posts.three .content div { color: var(--l60) }
+
+.green { color: rgb(49, 151, 149) }
+
+.bgw {
+	color: rgba(23, 25, 35, 0.87);
+	background-color: var(--l87)
+}
 
 .tc { text-align: center }
 
+main,
+article,
+img,
+picture,
+pre,
 .block li,
 .block a,
-#posts li,
-picture,
-img,
-pre,
-main { display: block }
+#posts li { display: block }
 
 .inl,
 code {
@@ -59,28 +67,73 @@ img { object-fit: cover }
 .grid,
 .cell { display: grid }
 
+.hidden { display: none }
+
 .abs { position: absolute }
 
 .up { text-transform: uppercase }
 
-.cell {
-	width: 100%;
-	height: 100%;
+.cell,
+#menu.grid {
 	align-content: center;
 	justify-content: center
 }
-
-.container { max-width: 1440px }
 
 .mxa {
 	margin-left: auto;
 	margin-right: auto
 }
 
+.py {
+	padding-top: 3rem;
+	padding-bottom: 3rem
+}
+
+#logo,
+#openMenu {
+	z-index: 666;
+	top: 1.5rem
+}
+
+#logo {
+	border: 2px solid var(--l87);
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	left: 1.5rem;
+	font-size: 1.4rem
+}
+
+#openMenu {
+	right: 1.5rem;
+	width: 48px;
+	height: 48px;
+	background-color: transparent;
+	border: 0;
+	fill: var(--l87)
+}
+
+#menu {
+	background-color: var(--bg);
+	width: 250px;
+	height: 100vh;
+	padding: 1.5rem;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 500;
+	& a {
+		padding: 15px;
+		border-top: 1px solid var(--l20);
+		&:last-child { border-bottom: 1px solid var(--l20) }
+	}
+}
+
+#menu a:hover,
+article a,
+.container.pb li:hover h2 { color: var(--green) }
+
 main {
-	& p a,
-	& li a,
-	& .container.pb li:hover h2 { color: var(--green) }
 	& p a,
 	& li a {
 		&:hover { color: lightgreen }
@@ -120,9 +173,30 @@ h2 + a { margin-top: 1.5rem }
 
 ul.grid li a,
 img,
-picture {
+picture,
+.cell,
+#head img {
 	width: 100%;
 	height: 100%;
+}
+
+#about.container {
+	max-width: 680px;
+	fill: var(--bg);
+	& a:hover { fill: rgb(49, 151, 149) }
+}
+
+#skills {
+	& .skill {
+		padding: 1.5rem
+	}
+	& h2 { font-size: clamp(1.6rem, 2.4rem, 10vw) }
+	& .what {
+		margin-bottom: 1.5rem;
+		padding-bottom: 1.5rem;
+		border-bottom: 1px solid #bbb;
+		& p { font-size: 16px }
+	}
 }
 
 #head {
@@ -148,7 +222,6 @@ picture {
 		max-width: 500px
 	}
 	& img {
-		width: 100%;
 		height: 100%;
 		border: 3px solid var(--l60);
 		border-radius: 50%
@@ -192,7 +265,7 @@ picture {
 		fill: var(--l87)
 	}
 	& aside {
-		grid-template-rows: 70px 38px 38px;
+		grid-template-rows: 70px 48px;
 		grid-gap: .5rem
 	}
 	& .pub {
@@ -207,11 +280,6 @@ picture {
 
 ul.grid {
 	& li { margin: 0 }
-	& a,
-	& img {
-		width: 100%;
-		height: 100%
-	}
 	& img { object-fit: cover }
 }
 
@@ -243,8 +311,6 @@ a.btn {
 	}
 }
 
-.pb { padding-bottom: 3rem }
-
 #comments a {
 	padding: 10px 30px;
 	margin-top: 3rem;
@@ -252,6 +318,42 @@ a.btn {
 	background-color: var(--green);
 	color: #000;
 	&:hover { background-color: #fff }
+}
+
+footer {
+	background-color: rgba(0 0 0 / 60%);
+	padding: 1.5rem 0;
+	fill: var(--l60);
+	& h4 {
+		font-size: 1.2rem;
+		max-width: 260px;
+		margin-bottom: .5rem
+	}
+	& a:hover { fill: var(--green) }
+}
+
+.socialmedia {
+	& a {
+		width: 48px;
+		height: 48px;
+		align-content: center;
+		justify-content: center
+	}
+}
+
+@media screen and (min-width:400px){
+	ul#gallery {
+		grid-gap: 1rem;
+		grid-template-columns: repeat(auto-fit,minmax(30ch,1fr))
+	}
+}
+
+@media screen and (min-width:680px){
+	#skills {
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 2rem;
+		max-width: 800px
+	}
 }
 
 @media screen and (min-width:1000px){
@@ -270,107 +372,12 @@ a.btn {
 	.container { width: calc(100vw - 4rem) }
 }
 
-#logo {
-	border: 2px solid var(--l87);
-	width: 60px;
-	height: 60px;
-	border-radius: 50%;
-	z-index: 666
+@media screen and (max-width:680px){
+	.skill + .skill { margin-top: 1.5rem }
 }
 
-#menu {
-	width: 100%;
-	top: 0;
-	left: 0;
-	z-index: 500;
-	& a { padding: 15px }
-}
-
-@media screen and (min-width:620px){
-	#openMenu { display: none }
-	#menu {
-		margin-top: 10px;
-		position: relative;
-		& ul {
-			&.en {
-				margin-left: 62px;
-				& li {
-					&:nth-child(2) {
-						margin-right: 40px
-					}
-					&:nth-child(3) {
-						margin-left: 40px
-					}
-				}
-			}
-			&.fi {
-				margin-left: 11px;
-				& li {
-					&:first-child {
-						margin-right: 40px
-					}
-					&:last-child {
-						margin-left: 40px
-					}
-				}
-			}
-		}
-		& li {
-			vertical-align: top;
-			display: inline-block
-		}
-	}
-	#logo {
-		position: absolute;
-		left: 50%;
-		transform: translate(-50%, 0);
-		top: 8px;
-		z-index: 666;
-		& a { font-size: 1.8rem }
-	}
-	#head { margin-top: 4rem }
-}
-
-@media screen and (max-width:620px){
-	#openMenu,
-	#menu,
-	#logo { position: fixed }
-	#openMenu {
-		background-color: var(--bg);
-		top: 0;
-		left: 0;
-		z-index: 500;
-		width: 100%;
-		height: 60px;
-		box-shadow: 0 2px 5px 0 rgba(0 0 0 / 75%);
-		text-align: right;
-		padding: 0 15px;
-		border: 0;
-		fill: var(--l87)
-	}
-	#menu {
-		&:not(.block){ display: none }
-		top: 60px;
-		background-color: var(--bg);
-		& ul { width: 100% }
-		& li { display: block }
-		& a { border-top: 1px solid rgba(255 255 255 / 20%) }
-	}
-	#logo {
-		font-size: 1.2rem;
-		width: 48px;
-		height: 48px;
-		left: 15px;
-		top: 5px
-	}
-	#head { margin-top: 6rem }
-}
-
-@media screen and (min-width:400px){
-	ul#gallery {
-		grid-gap: 1rem;
-		grid-template-columns: repeat(auto-fit,minmax(30ch,1fr))
-	}
+@media screen and (max-width:440px){
+	.socialmedia { max-width: 190px }
 }
 
 @media screen and (max-width:399px){
@@ -379,48 +386,4 @@ a.btn {
 
 @media screen and (max-width:300px){
 	#logo { display: none }
-}
-
-#socialmedia {
-	width: 80%;
-	& a {
-		width: 48px;
-		height: 48px;
-		fill: var(--l60);
-		align-content: center;
-		justify-content: center;
-		&:hover {
-			background-color: #000;
-			fill: #fff
-		}
-	}
-}
-
-@media screen and (min-width:810px) and (min-height:600px){
-	#socialmedia {
-		height: 100vh;
-		width: 48px;
-		position: fixed;
-		top: 0;
-		left: 2px;
-		z-index: 666;
-		display: grid;
-		align-content: center;
-		justify-content: center
-	}
-}
-
-@media screen and (max-width:809px), (max-height:599px){
-	#socialmedia {
-		position: relative;
-		margin-top: 3rem;
-		margin-bottom: .5px;
-		& li {
-			margin:0
-		}
-		& a {
-			border-radius: 50%;
-			margin: 3px;
-		}
-	}
 }

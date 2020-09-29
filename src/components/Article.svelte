@@ -35,7 +35,7 @@
 	}
 </style>
 
-<div id="article" class="container mxa pb" itemscope itemtype="http://schema.org/NewsArticle">
+<article id="article" class="container mxa py" itemscope itemtype="http://schema.org/NewsArticle">
 	<div id="head" class="tc mxa blog">
 		<h1 itemprop="headline">{title}</h1>
 		<p id="summary" class="mxa" itemprop="description">{summary}</p>
@@ -61,6 +61,6 @@
 			</div>
 		</div>
 	</div>
-</div>
+</article>
 
 {#if langLink}<a id="lang" class="toggle grid abs tw up cell" href={langLink[1]}>{langLink[0]}</a>{/if}

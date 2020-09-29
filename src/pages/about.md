@@ -1,8 +1,6 @@
 ---
 title: "Timo Anttila | What is going on in my life right now?"
 summary: Now page is a place to tell where my focus is right now in my professional and personal life.
-lang: fi
-langLink: /fi/
 layout: profile
 ---
 
@@ -42,10 +40,16 @@ Always want to surpass myself and my customers. When the customer feels they hav
 - I sometimes write <a href="/pulina" title="Ehdottoman oikeat mielipiteet polttaviin kysymyksiin" hreflang="fi">blogs</a> in Finnish and [tutorials](/tutorials) in English.
 - Investing in stocks and funds.
 
+## Technologies:
+
+- HTML, CSS, JavaScript, Svelte, JQuery
+- PHP, SQL, NodeJS, Express
+- ProcessWire, Drupal, Wordpress
+- MySQL, MariaDB, SQLite
+
 ## Languages:
 
 - Finnish, English
-- PHP, SQL, HTML, CSS, JavaScript, JQuery
 
 ## Contact:
 

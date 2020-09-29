@@ -14,24 +14,26 @@
 	metatags["twitter:image"] = img
 </script>
 
-<div id="head" class="tc mxa list">
-	<h1>{title}</h1>
-	<p class="summary mxa">{desc}</p>
-	<p id="more"><a class="btn inl up" href="https://www.instagram.com/_timoanttila/" target="_blank" rel="noopener me"  hreflang="en">Instagram</a></p>
+<div class="py">
+
+	<div id="head" class="tc mxa list">
+		<h1>{title}</h1>
+		<p class="summary mxa">{desc}</p>
+		<p id="more"><a class="btn inl up" href="https://www.instagram.com/_timoanttila/" target="_blank" rel="noopener me"  hreflang="en">Instagram</a></p>
+	</div>
+
+	<ul id="gallery" class="container mxa grid block">
+	{#each gallery as item}
+		<li>
+			<a class="pic trf" href={item.url} title={item.title +' - '+ item.camera} rel="me noopener" target="_blank" hreflang="en">
+				<picture>
+					<source srcset={"/images/gallery/"+ item.name +".webp"} type="image/webp">
+					<source srcset={"/images/gallery/"+ item.name +".jpg"} type="image/jpeg">
+					<img src={"/images/gallery/"+ item.name +".jpg"} alt={item.title} width="400" height="400">
+				</picture>
+			</a>
+		</li>
+	{/each}
+	</ul>
+
 </div>
-
-<ul id="gallery" class="container mxa grid block pb">
-{#each gallery as item}
-	<li>
-		<a class="pic trf" href={item.url} title={item.title +' - '+ item.camera} rel="me noopener" target="_blank" hreflang="en">
-			<picture>
-				<source srcset={"/images/gallery/"+ item.name +".webp"} type="image/webp">
-				<source srcset={"/images/gallery/"+ item.name +".jpg"} type="image/jpeg">
-				<img src={"/images/gallery/"+ item.name +".jpg"} alt={item.title} width="400" height="400">
-			</picture>
-		</a>
-	</li>
-{/each}
-</ul>
-
-<a id="lang" class="toggle grid abs tw up cell" href="/fi/galleria" hreflang="fi">fi</a>

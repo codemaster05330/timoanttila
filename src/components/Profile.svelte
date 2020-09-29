@@ -8,19 +8,7 @@
 	$: metatags["twitter:description"] = summary
 </script>
 
-<style>
-	#head picture {
-		width: 200px;
-		height: 200px;
-	}
-	#head img {
-		border-radius: 50%;
-		border: 3px solid rgba(255, 255, 255, .8);
-		margin-bottom: 1.5rem
-	}
-</style>
-
-<div id="profile" class="container mxa pb">
+<article id="profile" class="container mxa py">
 	<div id="head" class="tc mxa page">
 		<picture class="mxa">
 			<source srcset="/images/timo.webp" type="images/webp">
@@ -33,6 +21,6 @@
 	<div id="body" class="mxa">
 		<slot/>
 	</div>
-</div>
+</article>
 
 <footer><Social/></footer>
