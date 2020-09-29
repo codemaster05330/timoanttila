@@ -83,10 +83,7 @@ img { object-fit: cover }
 	margin-right: auto
 }
 
-.py {
-	padding-top: 3rem;
-	padding-bottom: 3rem
-}
+.py { padding-bottom: 3rem }
 
 #logo,
 #openMenu {
@@ -396,6 +393,10 @@ footer {
 	}
 }
 
+@media screen and (min-width:750px){
+	.py { padding-top: 3rem }
+}
+
 @media screen and (min-width:1000px){
 	.three {
 		grid-gap: 2rem;
@@ -410,6 +411,10 @@ footer {
 @media screen and (max-width:1000px){
 	.three li + li { margin-top: 1.5rem }
 	.container { width: calc(100vw - 4rem) }
+}
+
+@media screen and (max-width:750px){
+	.py { padding-top: 6rem }
 }
 
 @media screen and (max-width:680px){
