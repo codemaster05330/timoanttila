@@ -1,6 +1,5 @@
 <script>
 	import { metatags } from "@sveltech/routify";
-	import Social from "../components/Social.svelte"
 	export let title, summary
 	$: metatags.title = title
 	$: metatags.description = summary
@@ -22,5 +21,3 @@
 		<slot/>
 	</div>
 </article>
-
-<footer><Social/></footer>
