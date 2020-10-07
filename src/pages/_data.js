@@ -1,7 +1,6 @@
 export const Nav = [
 	['/', 'Home', 'en'],
 	['/about', 'About me', 'en'],
-	['/pulina','Finnish Blog', 'fi'],
 	['/tutorials','Tutorials', 'en'],
 	['/gallery','Gallery','en'],
 ]

@@ -36,7 +36,6 @@ Always want to surpass myself and my customers. When the customer feels they hav
 - Proud father of two pets; border collie Deli and cat Sera.
 - Nature lover.
 - An avid visitor as well as a volunteer at many events.
-- Sometimes writing <a href="/pulina" title="Ehdottoman oikeat mielipiteet polttaviin kysymyksiin" hreflang="fi">articles</a> in Finnish.
 - Investing in stocks and funds.
 
 ## Technologies:
