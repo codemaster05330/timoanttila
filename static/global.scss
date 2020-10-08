@@ -100,13 +100,15 @@ img { object-fit: cover }
 	font-size: 1.4rem
 }
 
+#openMenu svg,
+#posts.three .content { fill: var(--l87) }
+
 #openMenu {
 	right: 1.5rem;
 	width: 48px;
 	height: 48px;
 	background-color: transparent;
-	border: 0;
-	fill: var(--l87)
+	border: 0
 }
 
 #menu {
@@ -293,8 +295,7 @@ picture,
 #posts.three {
 	& .content {
 		grid-template-columns: 70px 1fr;
-		grid-gap: 1rem;
-		fill: var(--l87)
+		grid-gap: 1rem
 	}
 	& aside {
 		grid-template-rows: 70px 48px;
@@ -355,7 +356,7 @@ a.btn {
 footer {
 	background-color: rgba(0 0 0 / 60%);
 	padding: 1.5rem 0;
-	fill: var(--l60);
+	& svg { fill: var(--l60) }
 	& h4 {
 		font-size: 1.2rem;
 		max-width: 260px;

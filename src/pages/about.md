@@ -20,7 +20,7 @@ I'm a full stack web developer who is passionate about making websites better, f
 
 Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.
 
-- Designing and developing experiences that make people's lives simpler.
+- Designing and developing experiences that make people's lives simpler. A focus on simplicity, speed, usability, easy update and delight.
 - Working at <a href="https://tuspe.com/" rel="noopener me" target="_blank">Tuspe Design Oy</a> as a full stack developer and developing its business as a owner.
 - Subcontractor for <a href="https://molentum.fi/" rel="noopener" target="_blank">Molentum Oy</a>.
 - Chief technology officer and chairman of the board at <a href="https://www.ratsukko.com/" rel="noopener me" target="_blank" title="Booking calendar Ratsukko">Ratsukko Solutions Oy</a>.
