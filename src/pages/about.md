@@ -11,7 +11,7 @@ layout: profile
 ## Professional title:
 
 Full Stack Developer  
-Chief Executive Officer  
+Chief technology officer
 Server Administrator
 
 ## Professional life:
@@ -57,13 +57,12 @@ Always want to surpass myself and my customers. When the customer feels they hav
 ## Find me around the web
 
 - <a href="https://tuspe.com" title="My company's official website" rel="noopener me" target="_blank">https://tuspe.com</a>
-- <a href="https://www.linkedin.com/in/anttilatimo/" title="My professional profile on LinkedIn" rel="noopener me" target="_blank">https://www.linkedin.com/in/anttilatimo/</a>
 - <a href="https://github.com/timoanttila" title="All open source projects I have done" rel="noopener me" target="_blank">https://github.com/timoanttila</a>
-- <a href="https://github.com/TuspeDesign" title="All open source projects I have made for the company Tuspe Design" rel="noopener me" target="_blank">https://github.com/TuspeDesign</a>
 - <a href="https://twitter.com/_timoanttila" title="Follow me on Twitter" rel="noopener me" target="_blank">https://twitter.com/_timoanttila</a>
 - <a href="https://www.instagram.com/_timoanttila/" title="Follow me on Instagram" rel="noopener me" target="_blank">https://www.instagram.com/_timoanttila/</a>
 - <a href="https://trakt.tv/users/timoanttila" title="Follow what movies and series I watch" rel="noopener me" target="_blank">https://trakt.tv/users/timoanttila</a>
-- <a href="https://www.facebook.com/TuspeDesign/" title="Tuspe Design Oy on Facebook" rel="noopener me" target="_blank">https://www.facebook.com/TuspeDesign/</a>
+- <a href="https://www.linkedin.com/in/anttilatimo/" title="My professional profile on LinkedIn" rel="noopener me" target="_blank">https://www.linkedin.com/in/anttilatimo/</a>
+- <a href="https://github.com/TuspeDesign" title="All open source projects I have made for the company Tuspe Design" rel="noopener me" target="_blank">https://github.com/TuspeDesign</a>
 
 ## Now?
 
