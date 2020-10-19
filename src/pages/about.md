@@ -11,12 +11,12 @@ layout: profile
 ## Professional title:
 
 Full Stack Developer  
-Chief technology officer
+Chief technology officer  
 Server Administrator
 
 ## Professional life:
 
-I'm a full stack web developer who is passionate about making websites better, faster and easy to update. Technologies I enjoy working with include JavaScript, Svelte, PHP and SQL. Mostly using ProcessWire CMS for all the new projects, but I know my way with Wordpress and Drupal too.
+I'm a full stack web developer who is passionate about making websites better, faster and easy to update. Technologies I enjoy working with include JavaScript, Svelte, PHP and SQL. Mostly using ProcessWire CMS for all the new projects, but I know my way with Wordpress and Drupal too. I love my job, but I would like to focus on the front end and develop my React and / or Vue skills in the future.
 
 Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.
 
@@ -31,7 +31,6 @@ Always want to surpass myself and my customers. When the customer feels they hav
 
 - Learning how to live a real life.
 - Interested in artificial intelligence, the wonders of technology, and human behavior.
-- Sea adventurer in the summer (Sailing Yatch Guyline 822).
 - Photographing all kinds of beautiful on <a href="https://www.instagram.com/_timoanttila/" rel="noopener me" target="_blank" title="Follow me on Instagram">Instagram</a>.
 - Proud father of two pets; border collie Deli and cat Sera.
 - Nature lover.
