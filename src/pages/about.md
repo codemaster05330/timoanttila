@@ -16,7 +16,7 @@ Server Administrator
 
 ## Professional life:
 
-I'm a full stack web developer who is passionate about making websites better, faster and easy to update. Technologies I enjoy working with include JavaScript, Svelte, PHP and SQL. Mostly using ProcessWire CMS for all the new projects, but I know my way with Wordpress and Drupal too. I love my job, but I would like to focus on the front end and develop my React and / or Vue skills in the future.
+I'm a full stack web developer who is passionate about making websites better, faster and easy to update. Technologies I enjoy working with include JavaScript, Svelte, PHP and SQL. Mostly using ProcessWire CMS for all the new projects, but I know my way with Wordpress and Drupal too. I love my job, but I would like to focus on the front end and develop my Next, React or Vue skills in the future.
 
 Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.
 
