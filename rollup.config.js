@@ -44,16 +44,3 @@ export const config = {
 const configs = createRollupConfigs(config)
 
 export default configs
-
-
-/** wrapper example 1 */
-// svelteWrapper: (cfg, ctx) => ({
-//   ...cfg,
-//   preprocess: mdsvex({ extension: '.md' }),
-// })
-
-/** wrapper example 2 */
-// rollupWrapper: cfg => {
-//   cfg.plugins = [...cfg.plugins, myPlugin()]
-//   return cfg
-// }
