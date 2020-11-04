@@ -5,4 +5,4 @@
 <style global>
   @import "../static/global.scss";
 </style>
-<Router {routes} />
+<Router {routes}/>
