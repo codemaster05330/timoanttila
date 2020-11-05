@@ -61,6 +61,7 @@
     "@sveltech/routify": "^1.9.9",
     "marked": "^1.2.3",
     "mdsvex": "^0.8.8",
+    "postcss": "^8.1.6",
     "postcss-import": "^13.0.0",
     "postcss-preset-env": "^6.7.0",
     "remark-slug": "^6.0.0",
