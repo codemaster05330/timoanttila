@@ -1,5 +1,4 @@
 <script>
-	import Social from "../components/Social.svelte"
 	import { Skills } from "../pages/_data.js"
 </script>
 
@@ -22,7 +21,6 @@
 		<p>My name is Timo Anttila. I'm a full stack web developer, entrepreneur, and budding blogger from Nokia, Finland. Working at digital agency Tuspe Design Oy building highly customized websites and services.</p>
 		<p>Since beginning my journey as an entrepreneur almost five years ago, I've done remote work for businesses, developed hundreds of customer projects, and created a booking calendar and own e-commerce platform. Currently working as a subcontractor for several companies, and learning more about Svelte.</p>
 		<p>My goal, in professional life, is creating easy to use and fast loading websites with beautiful themes, and giving customers feeling that they got a lot more than what they originally ordered.</p>
-		<div id="follow" class="tc"><Social/></div>
 	</div>
 </section>
 
