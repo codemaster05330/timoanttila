@@ -21,7 +21,7 @@ export const Skills = [
 		"body": "I usually use CMS and a bit of PHP code for back-end, but nowadays I'm also studying other technologies and tools.",
 		"tools": [
 			"PHP",
-			"SQL",
+			"SQL / SQLite",
 			"CMS",
 			"NodeJS",
 			"Express"
