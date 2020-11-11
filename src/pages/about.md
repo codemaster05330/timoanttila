@@ -37,6 +37,7 @@ Always want to surpass myself and my customers. When the customer feels they hav
 - Volunteer at <a href="https://plan.fi/en" rel="noopener" target="_blank" title="Plan International is an independent development and humanitarian organisation that advances children’s rights and equality for girls.">Plan International Finland</a>.
 - An avid visitor as well as a volunteer at many events.
 - Investing in stocks and funds.
+- Thinking of participating in municipal elections
 
 ## Technologies:
 
