@@ -1,7 +1,7 @@
 <script>
 	import { isActive, url, page } from "@sveltech/routify"
 	import { metatags } from "@sveltech/routify";
-import { not_equal } from "svelte/internal";
+	import { not_equal } from "svelte/internal";
 	import { lang } from "../components/lang"
 	import Social from "../components/Social.svelte"
 	import { Nav } from "./_data.js"
@@ -72,7 +72,7 @@ import { not_equal } from "svelte/internal";
 			line-height: 1.5
 		}
 		h1,
-		h2:not(.bold){
+		section.about h2 {
 			font-weight: 100;
 			line-height: 1.1
 		}

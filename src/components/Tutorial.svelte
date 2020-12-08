@@ -45,6 +45,9 @@
 		h2 + p { margin-top: 15px }
 		p + h2 { margin-top: 20px }
 		h1 { font-size: clamp(2em, 2.6em, 10vw) }
-		h2 { font-size: 1.8em }
+		h2 {
+			font-size: clamp(1.4em, 1.8em, 10vw);
+			font-weight: 700
+		}
 	</style>
 </svelte:head>
