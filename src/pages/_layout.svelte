@@ -4,8 +4,17 @@
 	import { lang } from "../components/lang"
 	import Social from "../components/Social.svelte"
 	import { Nav } from "./_data.js"
-	let active
+	let active, help, effect, styleNeg, styleHigh
+	let font = 18
+	styleHigh = "dark high"
 	$: metatags.canonical = "https://timoanttila.com"+ $page.__file.shortPath
+	function effects(i){
+		if(i == "reset"){
+			effect = ""
+			font = 18
+		} else if(effect && effect.includes(i)) effect = "";
+		else effect = "effect " + i
+	}
 </script>
 
 <div id="logo" class="abs bgw noUnd"><a class="cell grid" href="/" hreflang="en">TA</a></div>
@@ -16,10 +25,29 @@
 <nav id="menu" class="bgb cell" class:hidden={!active} class:grid={active}><ul class="block tc noUnd">{#each Nav[$lang] as [path, name, lang]}<li><a href={$url(path)} class:active={$isActive(path)} on:click={ () => active = !active} hreflang={lang}>{name}</a></li>{/each}</ul></nav>
 {/if}
 
-<main id="hello"><slot/></main>
-<footer><div class="container mxa tc"><Social/></div></footer>
+<main id="hello" class={effect}><slot/></main>
+<footer class={effect}><div class="container mxa tc"><Social/></div></footer>
+
+<div id="helpMe" class:active={help}>
+
+	<button id="helper" class="abs bgw" on:click={ () => help = !help}><svg width="38" height="38" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><title>Accessibility Tools</title><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12m0 2c5.52 0 10 4.481 10 10 0 5.52-4.48 10-10 10-5.519 0-10-4.48-10-10 0-5.519 4.481-10 10-10m0 1c4.967 0 9 4.033 9 9s-4.033 9-9 9-9-4.033-9-9 4.033-9 9-9m-.011 11.5c-.474.006-.765.448-.989.804-.483.767-1.005 1.58-1.455 2.264-.155.238-.325.43-.609.432-.285.002-.526-.343-.389-.632.366-.769 1.953-3.539 1.953-5.868 0-.806-.429-1-1-1h-2c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h9c.276 0 .5.224.5.5s-.224.5-.5.5h-2c-.57 0-1 .194-1 1 0 2.329 1.587 5.099 1.953 5.868.137.289-.103.634-.389.632-.284-.002-.454-.194-.609-.432-.45-.684-.973-1.497-1.455-2.264-.226-.359-.52-.806-1-.804h-.011zm.011-8.5c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5"/></svg></button>
+
+	{#if help}
+		<div id="helpers" class="abs bgw">
+			<h3>Accessibility</h3>
+			<button on:click={ () => font += 1} data-message="Increase font size">Increase Text</button>
+			<button on:click={ () => font -= 1} data-message="Decrease font size">Decrease Text</button>
+			<button on:click={e => effects("high bgd")} data-message="Change colors to high contrast - black, white and blue">High Contrast</button>
+			<button on:click={e => effects("neg bgd")} data-message="Change colors to negative contrast - black, white and yellow">Negative Contrast</button>
+			<button on:click={e => effects("bgw")} data-message="Change background to white and text to black">Light Background</button>
+			<button on:click={e => effects("reset")} data-message="Reset all accessibility choices">Reset</button>
+		</div>
+	{/if}
+
+</div>
 
 <svelte:head>
+	{@html '<style>body{font-size:'+ font +'px}</style>'}
 	<style>
 		:root {
 			--wt: rgba(255,255,255,.87);
@@ -32,18 +60,16 @@
 			--black: #000;
 			--blue: #03061b;
 			--dark: rgba(23,25,35,0.87);
-			--green: rgb(49,151,149);
 			--light: rgba(255,255,255,.4);
 			--link: rgb(126,255,225)
 		}
 		* { margin: 0; padding: 0 }
 		body {
 			box-sizing: border-box;
-			font: 400 18px Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+			font-weight: 400;
+			font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 			line-height: 1.5
 		}
-		#skills p:not(.green),
-		#skills li { color: var(--dark) }
 		.grid { display: grid }
 		main,
 		img,
@@ -52,20 +78,28 @@
 		.abs { position: absolute }
 		.hidden { display: none }
 		.noUnd a { text-decoration: none }
-		.bgw { background-color: var(--wb) }
+		.bgw,
+		.effect.bgw .bgb { background-color: var(--wb) }
 		.bgb,
 		body { background-color: var(--blue) }
+		.bgd,
+		.effect.bgd .bgw,
+		.effect.bgd .bgb { background-color: var(--black) }
 		.bgb,
 		#menu a,
-		.dark a:hover,
-		footer h4 { color: var(--wt) }
+		footer h4,
+		.effect.bgd .bgw,
+		.effect.bgd section { color: var(--wt) }
+		.effect.bgw .bgb,
+		footer.bgw h4 { color: var(--black) }
+		footer.bgw svg { fill: var(--black) }
+		.effect.bgw a { color: var(--high) }
+		#logo a { color: var(--blue) }
 		.cell {
 			width: 100%;
 			height: 100%;
 			place-content: center
 		}
-		#logo a { color: var(--blue) }
-		.green { color: var(--green) }
 		.tc { text-align: center }
 		#logo,
 		#openMenu {
@@ -117,11 +151,10 @@
 			width: 100%;
 			display: block
 		}
-		#hello:not(.dark) a.btn:hover {
+		#hello:not(.effect) a.btn:hover {
 			color: #fff;
 			background-color: var(--red)
 		}
-		.dark { background-color: #000 }
 		.high h1,
 		.high h2,
 		.high a { color: var(--high) }
@@ -162,6 +195,47 @@
 			max-width: 260px;
 			margin-bottom: 0.5rem;
 			color: var(--wt6)
+		}
+		#helpMe {
+			position: fixed;
+			right: 0;
+			bottom: 0;
+			z-index: 500
+		}
+		#helpMe:not(.active){ width: 48px }
+		#helpMe.active { width: 248px }
+		#helper {
+			bottom: 0;
+			left: 0;
+			width: 48px;
+			height: 48px;
+			border-top-left-radius: 18px
+		}
+		#helpers {
+			right: 0;
+			bottom: 0;
+			width: 200px;
+			padding-bottom: 5px;
+			line-height: 20px
+		}
+		#helpers button {
+			width: 100%;
+			height: 32px;
+			font-size: 18px;
+			background: none;
+			padding: 5px 15px;
+			text-align: left
+		}
+		#helper,
+		#helpers { box-shadow: -1px 0px 5px 0 rgba(0,0,0,.3) }
+		#helper,
+		#helpers button { border: 0 }
+		#helper svg { margin-top: 3px }
+		#helpMe h3 {
+			font-size: 20px;
+			padding: 10px 15px;
+			border-bottom: 1px solid #ccc;
+			margin-bottom: 5px
 		}
 		@media screen and (min-width:1000px){
 			section .container.grid {
