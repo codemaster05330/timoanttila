@@ -48,5 +48,334 @@
 </div>
 
 <svelte:head>
-	<style>:root{--wt:rgba(255,255,255,.87);--wt6:rgba(255,255,255,.6);--wt4:rgba(255,255,255,.4);--wb:#fff;--red:rgb(64,0,0);--high:rgb(0,128,255);--neg:rgb(255,255,0);--black:#000;--blue:#03061b;--dark:rgba(23,25,35,0.87);--light:rgba(255,255,255,.4);--link:rgb(126,255,225);--violet:rgb(46,56,88)}*{margin:0;padding:0}body{box-sizing:border-box;font-weight:400;font-family:Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.5}h1,section.about h2{font-weight:100;line-height:1.1}h1,section.about h2{margin-bottom:20px}h1:not(#title),section.about h2{max-width:500px;font-size:clamp(2em,3em,10vw)}h1{display:inline-block}#content li,#content p{font-size:1em}#about .summary{font-size:1.2em;line-height:1.3}.grid{display:grid}.block a,.block li,img,main{display:block}.abs{position:absolute}.hidden{display:none}.noUnd a{text-decoration:none}.bgw,.effect.bgw .bgb{background-color:var(--wb)}.bgb,body{background-color:var(--blue)}.bgd,.effect.bgd .bgb,.effect.bgd .bgw{background-color:var(--black)}#menu a,.bgb,.effect.bgd .bgw,.effect.bgd section,footer h4{color:var(--wt)}.effect.bgw .bgb,footer.bgw h4{color:var(--black)}footer.bgw svg{fill:var(--black)}.effect.bgw a{color:var(--high)}#logo a{color:var(--blue)}.cell{width:100%;height:100%;place-content:center}.tc{text-align:center}#logo,#openMenu{position:fixed;z-index:666;width:48px;height:48px;border-radius:50%}#logo{border:2px solid var(--blue);font-weight:900;font-size:1.3rem}#openMenu{border:none}#openMenu svg{margin-top:3px;fill:var(--blue)}#menu{position:fixed;top:0;left:0;z-index:600}#menu a{padding:1.5rem 3rem;text-transform:uppercase;font-size:1.4rem;border-top:1px solid var(--light)}#menu li:last-child a{border-bottom:1px solid var(--light)}#menu a:hover,article #content a{color:var(--link)}.container{width:calc(100vw - 4rem)}.content .grid{place-content:center;width:100%;height:100%}a.btn{display:inline-block;padding:8px 25px;background-color:rgba(16,54,112,0);border:1px solid;border-radius:4px}a,button{cursor:pointer}#hello:not(.effect) section{padding:3rem 0}section img{width:100%;display:block}#hello:not(.effect) a.btn:hover{color:#fff;background-color:var(--red)}.high a,.high h1,.high h2{color:var(--high)}.high a{border-color:var(--high)}.high a:hover{background-color:var(--high)}.neg a,.neg h1,.neg h2{color:var(--neg)}.neg a{border-color:var(--neg)}.neg a:hover{background-color:var(--red)}p+p,p+ul{margin-top:15px}img{border-radius:5%}.mxa{margin-left:auto;margin-right:auto}.inl,code{display:inline-block;vertical-align:top}.socialmedia a{width:48px;height:48px;align-content:center;justify-content:center}footer{padding:1.5rem 0;background-color:var(--violet);border-top:1px ridge var(--wt4)}footer svg{fill:var(--wt6)}footer a:hover svg{fill:var(--wb)}footer h4{font-size:1.2rem;max-width:260px;margin-bottom:.5rem;color:var(--wt6)}#helpMe{position:fixed;right:0;bottom:0;z-index:500}#helpMe:not(.active){width:48px}#helpMe.active{width:248px}#helper{bottom:0;left:0;width:48px;height:48px;border-top-left-radius:18px}#helpers{right:0;bottom:0;width:200px;padding-bottom:5px;line-height:20px}#helpers button{width:100%;height:32px;font-size:18px;background:0 0;padding:5px 15px;text-align:left}#helper,#helpers{box-shadow:-1px 0 5px 0 rgba(0,0,0,.3)}#helper,#helpers button{border:0}#helper svg{margin-top:3px}#helpMe h3{font-size:20px;padding:10px 15px;border-bottom:1px solid #ccc;margin-bottom:5px}@media screen and (min-width:1000px){section .container.grid{grid-template-columns:370px 1fr;grid-gap:3rem;height:100%}}@media screen and (max-width:1000px){section .img{width:100%;max-width:300px;margin:0 auto 2rem}}@media screen and (min-width:580px){#logo,#openMenu{top:1.5rem}#logo{left:1.5rem}#openMenu{right:1.5rem}}@media screen and (max-width:580px){#about .container{margin-top:48px}#logo{left:.5rem}#openMenu{right:.5rem}#logo,#openMenu{top:.5rem}}</style>
+	<style>
+:root {
+    --wt: rgba(255, 255, 255, 0.87);
+    --wt6: rgba(255, 255, 255, 0.6);
+    --wt4: rgba(255, 255, 255, 0.4);
+    --wb: #fff;
+    --red: rgb(64, 0, 0);
+    --high: rgb(0, 128, 255);
+    --neg: rgb(255, 255, 0);
+    --black: #000;
+    --blue: #03061b;
+    --dark: rgba(23, 25, 35, 0.87);
+    --light: rgba(255, 255, 255, 0.4);
+    --link: rgb(126, 255, 225);
+    --violet: rgb(46, 56, 88);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+h1,
+.featured h2 {
+    font-weight: 100;
+    line-height: 1.1;
+}
+h1,
+.featured h2 {
+    margin-bottom: 20px;
+}
+h1:not(#title),
+.featured h2 {
+    max-width: 500px;
+    font-size: clamp(2em, 3em, 10vw);
+}
+h1 {
+    display: inline-block;
+}
+#content li,
+#content p {
+    font-size: 1em;
+}
+#about .summary {
+    font-size: 1.2em;
+    line-height: 1.3;
+}
+.grid {
+    display: grid;
+}
+.block a,
+.block li,
+img,
+main {
+    display: block;
+}
+.abs {
+    position: absolute;
+}
+.hidden {
+    display: none;
+}
+.noUnd a {
+    text-decoration: none;
+}
+.bgw,
+.effect.bgw .bgb {
+    background-color: var(--wb);
+}
+.bgb,
+body {
+    background-color: var(--blue);
+}
+.bgd,
+.effect.bgd .bgb,
+.effect.bgd .bgw {
+    background-color: var(--black);
+}
+#menu a,
+.bgb,
+.effect.bgd .bgw,
+.effect.bgd .featured,
+footer h4 {
+    color: var(--wt);
+}
+.effect.bgw .bgb,
+footer.bgw h4 {
+    color: var(--black);
+}
+footer.bgw svg {
+    fill: var(--black);
+}
+.effect.bgw a {
+    color: var(--high);
+}
+#logo a {
+    color: var(--blue);
+}
+.cell {
+    width: 100%;
+    height: 100%;
+    place-content: center;
+}
+.tc {
+    text-align: center;
+}
+#logo,
+#openMenu {
+    position: fixed;
+    z-index: 666;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+#logo {
+    border: 2px solid var(--blue);
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+#openMenu {
+    border: none;
+}
+#openMenu svg {
+    margin-top: 3px;
+    fill: var(--blue);
+}
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 600;
+}
+#menu a {
+    padding: 1.5rem 3rem;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    border-top: 1px solid var(--light);
+}
+#menu li:last-child a {
+    border-bottom: 1px solid var(--light);
+}
+#menu a:hover,
+article #content a { color: var(--link) }
+.container {
+    width: calc(100vw - 4rem);
+}
+.content .grid {
+    place-content: center;
+    width: 100%;
+    height: 100%;
+}
+a.btn {
+    display: inline-block;
+    padding: 8px 25px;
+    background-color: rgba(16, 54, 112, 0);
+    border: 1px solid;
+    border-radius: 4px;
+}
+a,
+button {
+    cursor: pointer;
+}
+#hello:not(.effect) .pad { padding: 3rem 0 }
+#hello.effect .pad { padding: 1rem 0 }
+.featured img {
+    width: 100%;
+    display: block;
+}
+#hello:not(.effect) a.btn:hover {
+    color: #fff;
+    background-color: var(--red);
+}
+.high a,
+.high h1,
+.high h2 {
+    color: var(--high);
+}
+.high a {
+    border-color: var(--high);
+}
+.high a:hover {
+    background-color: var(--high);
+}
+.neg a,
+.neg h1,
+.neg h2 {
+    color: var(--neg);
+}
+.neg a {
+    border-color: var(--neg);
+}
+.neg a:hover {
+    background-color: var(--red);
+}
+p + p,
+p + ul {
+    margin-top: 15px;
+}
+img {
+    border-radius: 5%;
+}
+.mxa {
+    margin-left: auto;
+    margin-right: auto;
+}
+.inl,
+code {
+    display: inline-block;
+    vertical-align: top;
+}
+.socialmedia a {
+    width: 48px;
+    height: 48px;
+    align-content: center;
+    justify-content: center;
+}
+footer {
+    padding: 1.5rem 0;
+    background-color: var(--violet);
+    border-top: 1px ridge var(--wt4);
+}
+footer svg {
+    fill: var(--wt6);
+}
+footer a:hover svg {
+    fill: var(--wb);
+}
+footer h4 {
+    font-size: 1.2rem;
+    max-width: 260px;
+    margin-bottom: 0.5rem;
+    color: var(--wt6);
+}
+#helpMe {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 500;
+}
+#helpMe:not(.active) {
+    width: 48px;
+}
+#helpMe.active {
+    width: 248px;
+}
+#helper {
+    bottom: 0;
+    left: 0;
+    width: 48px;
+    height: 48px;
+    border-top-left-radius: 18px;
+}
+#helpers {
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    padding-bottom: 5px;
+    line-height: 20px;
+}
+#helpers button {
+    width: 100%;
+    height: 32px;
+    font-size: 18px;
+    background: 0 0;
+    padding: 5px 15px;
+    text-align: left;
+}
+#helper,
+#helpers {
+    box-shadow: -1px 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+#helper,
+#helpers button {
+    border: 0;
+}
+#helper svg {
+    margin-top: 3px;
+}
+#helpMe h3 {
+    font-size: 20px;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+@media screen and (min-width: 1000px) {
+    .featured .container.grid {
+        grid-template-columns: 370px 1fr;
+        grid-gap: 3rem;
+        height: 100%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .featured .img {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto 2rem;
+    }
+}
+@media screen and (min-width: 580px) {
+    #logo,
+    #openMenu {
+        top: 1.5rem;
+    }
+    #logo {
+        left: 1.5rem;
+    }
+    #openMenu {
+        right: 1.5rem;
+    }
+}
+@media screen and (max-width: 580px) {
+    #about .container {
+        margin-top: 48px;
+    }
+    #logo {
+        left: 0.5rem;
+    }
+    #openMenu {
+        right: 0.5rem;
+    }
+    #logo,
+    #openMenu {
+        top: 0.5rem;
+    }
+}
+	</style>
 </svelte:head>

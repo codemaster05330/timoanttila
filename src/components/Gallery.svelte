@@ -4,15 +4,15 @@
 	export let desc
 </script>
 
-<section id="about" class="bgw noUnd">
+<div id="about" class="bgw pad noUnd">
 	<div class="container content mxa tc">
 		<h1>{title}</h1>
 		<p class="summary mxa">{desc}</p>
 		<p id="more"><a class="btn inl up" href="https://www.instagram.com/_timoanttila/" target="_blank" rel="noopener me"  hreflang="en">Instagram</a></p>
 	</div>
-</section>
+</div>
 
-<div id="content" class="bgb">
+<div id="content" class="bgb pad">
 	<ul id="gallery" class="container mxa grid block">
 	{#each gallery as item}
 		<li>

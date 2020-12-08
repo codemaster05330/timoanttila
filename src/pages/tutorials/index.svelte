@@ -11,14 +11,14 @@
 	$: metatags["twitter:description"] = summary
 </script>
 
-<section id="about" class="bgw noUnd">
+<section id="about" class="bgw pad noUnd">
 	<div class="container content mxa tc">
 		<h1>{title}</h1>
 		<p class="summary mxa">{summary}</p>
 	</div>
 </section>
 
-<div id="content" class="bgb">
+<div id="content" class="bgb pad">
 	<ul id="posts" class="container mxa grid block noUnd">
 		{#each posts as {meta, path}}
 			<li class="mxa">
@@ -59,7 +59,6 @@
 		}
 		#post .month { font-size: 16px }
 		#posts.container {
-			padding: 3rem 0;
 			max-width: 1250px
 		}
 		#posts li { display: block }

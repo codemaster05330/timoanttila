@@ -10,7 +10,8 @@
 </script>
 
 <article itemscope itemtype="http://schema.org/NewsArticle">
-	<section id="about" class="bgw">
+
+	<div id="about" class="bgw pad featured">
 		<div class="container grid mxa">
 			<picture class="img">
 				<source srcset={"/images/"+ img +".webp"} type="media/webp">
@@ -24,9 +25,9 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
 
-	<section id="content" class="bgb" itemprop="articleBody"><div class="container mxa"><slot/></div></section>
+	<div id="content" class="bgb pad" itemprop="articleBody"><div class="container mxa"><slot/></div></div>
 
 </article>
 
@@ -41,7 +42,7 @@
 		h2 + p,
 		h2 + ul { margin-top: 15px }
 		.container { max-width: 900px }
-		section ul { margin-left: 18px }
+		#content ul { margin-left: 18px }
 		@media screen and (max-width:1000px){
 			#about .content {
 				max-width: 500px;

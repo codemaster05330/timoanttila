@@ -10,15 +10,15 @@
 
 <article itemscope itemtype="http://schema.org/NewsArticle">
 
-	<section id="about" class="bgw">
+	<div id="about" class="bgw pad">
 		<div class="container content mxa tc noUnd">
 			<h1 id="title" itemprop="headline">{title}</h1>
 			<p class="summary mxa" itemprop="description">{summary}</p>
 			<p id="more"><a class="btn inl up" href="/tutorials" hreflang="en">Tutorials</a></p>
 		</div>
-	</section>
+	</div>
 			
-	<section id="content" class="bgb" itemprop="articleBody"><div class="container mxa"><slot/></div></section>
+	<div id="content" class="bgb pad" itemprop="articleBody"><div class="container mxa"><slot/></div></div>
 
 </article>
 
