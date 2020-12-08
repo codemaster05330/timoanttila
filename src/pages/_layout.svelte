@@ -1,6 +1,7 @@
 <script>
 	import { isActive, url, page } from "@sveltech/routify"
 	import { metatags } from "@sveltech/routify";
+import { not_equal } from "svelte/internal";
 	import { lang } from "../components/lang"
 	import Social from "../components/Social.svelte"
 	import { Nav } from "./_data.js"
@@ -25,7 +26,7 @@
 <nav id="menu" class="bgb cell" class:hidden={!active} class:grid={active}><ul class="block tc noUnd">{#each Nav[$lang] as [path, name, lang]}<li><a href={$url(path)} class:active={$isActive(path)} on:click={ () => active = !active} hreflang={lang}>{name}</a></li>{/each}</ul></nav>
 {/if}
 
-<main id="hello" class={effect}><slot/></main>
+<main id="hello" class={effect} style={"font-size:"+ font +"px"}><slot/></main>
 <footer class={effect}><div class="container mxa tc"><Social/></div></footer>
 
 <div id="helpMe" class:active={help}>
@@ -47,7 +48,6 @@
 </div>
 
 <svelte:head>
-	{@html '<style>body{font-size:'+ font +'px}</style>'}
 	<style>
 		:root {
 			--wt: rgba(255,255,255,.87);
@@ -72,12 +72,23 @@
 			line-height: 1.5
 		}
 		h1,
-		h2 {
+		h2:not(.bold){
 			font-weight: 100;
-			line-height: 1.1;
+			line-height: 1.1
+		}
+		h1,
+		section.about h2 { margin-bottom: 20px }
+		h1:not(#title),
+		section.about h2 {
 			max-width: 500px;
-			font-size: clamp(2em, 3em, 10vw);
-			margin-bottom: 20px
+			font-size: clamp(2em, 3em, 10vw)
+		}
+		h1 { display: inline-block }
+		#content p,
+		#content li { font-size: 1em }
+		#about .summary {
+			font-size: 1.2em;
+			line-height: 1.3
 		}
 		.grid { display: grid }
 		main,
@@ -141,7 +152,8 @@
 			border-top: 1px solid var(--light)
 		}
 		#menu li:last-child a { border-bottom: 1px solid var(--light) }
-		#menu a:hover { color: var(--link) }
+		#menu a:hover,
+		article #content a { color: var(--link) }
 		.container { width: calc(100vw - 4rem) }
 		.content .grid {
 			place-content: center;

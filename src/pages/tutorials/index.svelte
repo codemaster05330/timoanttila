@@ -33,7 +33,7 @@
 					</aside>
 					<a class="article grid" href={$url(path)} title={meta.frontmatter.title}>
 						<div class="content">
-							<h2 class="up">{meta.frontmatter.title}</h2>
+							<h2 class="bold">{meta.frontmatter.title}</h2>
 							<p class="summary">{meta.frontmatter.summary}</p>
 						</div>
 					</a>
@@ -45,23 +45,24 @@
 
 <svelte:head>
 	<style>
-		h2 {
-			font-size: 1.1rem;
+		h2.bold {
+			font-size: 1.2em;
+			line-height: 1.4;
+			font-weight: 700;
 			margin-bottom: 15px;
 			color: var(--wt)
 		}
 		#about .container { max-width: 650px }
-		#about .summary,
 		#posts .day {
-			font-size: 1.4rem;
+			font-size: 20px;
 			line-height: 1.3
 		}
+		#post .month { font-size: 16px }
 		#posts.container {
 			padding: 3rem 0;
 			max-width: 1250px
 		}
 		#posts li { display: block }
-		.up { text-transform: uppercase }
 		#posts .pub {
 			width: 70px;
 			font-weight: 700;

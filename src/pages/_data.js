@@ -46,7 +46,7 @@ export const Front = [
 			"jpg"
 		],
 		"en": {
-			"title": "Municipal candidate 2021",
+			"title": "Municipal candidate",
 			"body": "I'm a little worried about political direction and I want to be involved to ensure that MPs and City Council members make decisions in our best interests. Resources and money are limited, so those must be used wisely for the benefit of local residents, for the benefit of us all, and for securing and developing the operating environment for companies. Security, equality and comfort. Let's create a better future together.",
 			"link": {
 				"title": "My political views and candidacy in municipal elections.",

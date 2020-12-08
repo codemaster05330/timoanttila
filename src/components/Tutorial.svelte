@@ -12,7 +12,7 @@
 
 	<section id="about" class="bgw">
 		<div class="container content mxa tc noUnd">
-			<h1 itemprop="headline">{title}</h1>
+			<h1 id="title" itemprop="headline">{title}</h1>
 			<p class="summary mxa" itemprop="description">{summary}</p>
 			<p id="more"><a class="btn inl up" href="/tutorials" hreflang="en">Tutorials</a></p>
 		</div>
@@ -24,10 +24,6 @@
 
 <svelte:head>
 	<style>
-		#about .summary {
-			font-size: 1.4em;
-			line-height: 1.3
-		}
 		#about .container {	max-width: 650px }
 		#content .container { max-width: 800px }
 		pre {
@@ -46,5 +42,9 @@
 		pre,
 		p code { background-color: var(--violet) }
 		.up { text-transform: uppercase }
+		h2 + p { margin-top: 15px }
+		p + h2 { margin-top: 20px }
+		h1 { font-size: clamp(2em, 2.6em, 10vw) }
+		h2 { font-size: 1.8em }
 	</style>
 </svelte:head>

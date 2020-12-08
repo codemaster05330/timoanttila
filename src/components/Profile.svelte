@@ -33,18 +33,11 @@
 <svelte:head>
 	<style>
 		h2 { font-size: clamp(1.4em, 1.6em, 10vw) }
-		.summary {
-			font-size: 1.2em;
-			line-height: 1.4
-		}
 		p + h2,
 		ul + h2 { margin-top: 25px }
 		h2 + p,
 		h2 + ul { margin-top: 15px }
 		.container { max-width: 900px }
-		section a {
-			color: var(--link)
-		}
 		section ul { margin-left: 18px }
 		@media screen and (max-width:1000px){
 			#about .content {

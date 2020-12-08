@@ -17,8 +17,7 @@ export const config = {
         remarkPlugins: [slug],
         layout: {
           profile: 'src/components/Profile.svelte',
-          tutorial: 'src/components/Tutorial.svelte',
-          page: 'src/components/Page.svelte',
+          tutorial: 'src/components/Tutorial.svelte'
         },
         extension: 'md'
       })

@@ -30,18 +30,12 @@
 
 <svelte:head>
 	<style>
-		.summary {
-			font-size: 1.2em;
-			line-height: 1.4
-		}
 		img {
 			width: 100%;
 			height: 100%;
 			object-fit: cover
 		}
-		#about .container {
-			max-width: 650px
-		}
+		#about .container { max-width: 650px }
 		#gallery.container {
 			padding: 3rem 0;
 			max-width: 1250px
