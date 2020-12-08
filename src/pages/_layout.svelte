@@ -70,23 +70,17 @@
 		#logo,
 		#openMenu {
 			position: fixed;
-			top: 1.5rem;
 			z-index: 666;
 			width: 48px;
 			height: 48px;
 			border-radius: 50%
 		}
 		#logo {
-			left: 1.5rem;
-			z-index: 666;
 			border: 2px solid var(--blue);
 			font-weight: 900;
 			font-size: 1.3rem
 		}
-		#openMenu {
-			right: 1.5rem;
-			border: none
-		}
+		#openMenu { border: none }
 		#openMenu svg {
 			margin-top: 3px;
 			fill: var(--blue)
@@ -104,6 +98,7 @@
 			border-top: 1px solid var(--light)
 		}
 		#menu li:last-child a { border-bottom: 1px solid var(--light) }
+		#menu a:hover { color: var(--link) }
 		.container { width: calc(100vw - 4rem) }
 		.content .grid {
 			place-content: center;
@@ -182,8 +177,18 @@
 				margin: 0 auto 2rem
 			}
 		}
+		@media screen and (min-width:580px){
+			#logo,
+			#openMenu { top: 1.5rem }
+			#logo { left: 1.5rem }
+			#openMenu { right: 1.5rem }
+		}
 		@media screen and (max-width:580px){
-			main { padding-top: calc(48px + 1.5rem) }
+			#about .container { margin-top: 48px }
+			#logo { left: .5rem }
+			#openMenu { right: .5rem }
+			#logo,
+			#openMenu { top: .5rem }
 		}
 	</style>
 </svelte:head>
