@@ -4,6 +4,7 @@ export const Nav = {
 		['/about', 'About me', 'en'],
 		['/politics','Political Views', 'en'],
 		['/gallery','Featured photos','en'],
+		['/tutorials','Tutorials','en'],
 		['/fi','Suomeksi','fi']
 	],
 	"fi": [
