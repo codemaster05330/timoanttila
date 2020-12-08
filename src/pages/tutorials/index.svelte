@@ -45,12 +45,6 @@
 
 <svelte:head>
 	<style>
-		h1 {
-			font-size: clamp(2rem, 3.4rem, 10vw);
-			margin-bottom: 20px;
-			line-height: 1.1;
-			font-weight: 400
-		}
 		h2 {
 			font-size: 1.1rem;
 			margin-bottom: 15px;

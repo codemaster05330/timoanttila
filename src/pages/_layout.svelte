@@ -71,6 +71,14 @@
 			font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 			line-height: 1.5
 		}
+		h1,
+		h2 {
+			font-weight: 100;
+			line-height: 1.1;
+			max-width: 500px;
+			font-size: clamp(2em, 3em, 10vw);
+			margin-bottom: 20px
+		}
 		.grid { display: grid }
 		main,
 		img,
@@ -147,7 +155,9 @@
 			border: 1px solid;
 			border-radius: 4px
 		}
-		section { padding: 3rem 0 }
+		a,
+		button { cursor: pointer }
+		#hello:not(.effect) section { padding: 3rem 0 }
 		section img {
 			width: 100%;
 			display: block

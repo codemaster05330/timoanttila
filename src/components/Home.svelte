@@ -46,13 +46,6 @@
 
 <svelte:head>
 	<style>
-		h1,
-		.about h2 {
-			font-size: clamp(2em, 2.8em, 10vw);
-			margin-bottom: 20px;
-			line-height: 1.1;
-			font-weight: 400
-		}
 		#hello:not(.effect) section:nth-child(even),
 		#hello:not(.effect) section:nth-child(even) a { color:var(--wt) }
 		#hello:not(.effect) section:nth-child(even){ background-color: var(--blue) }

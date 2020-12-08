@@ -60,7 +60,7 @@ Always want to surpass myself and my customers. When the customer feels they hav
 - <a href="tel:+358407746121" rel="nofollow">+358 40 774 6121</a>
 - <a href="mailto:info@tuspe.com" rel="nofollow">info@tuspe.com</a>
 
-## Find me around the web
+## Find me around the web:
 
 - https://tuspe.com
 - https://github.com/timoanttila

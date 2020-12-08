@@ -24,12 +24,6 @@
 
 <svelte:head>
 	<style>
-		h1 {
-			font-size: clamp(2em, 2.8em, 10vw);
-			margin-bottom: 20px;
-			line-height: 1.1;
-			font-weight: 400
-		}
 		#about .summary {
 			font-size: 1.4em;
 			line-height: 1.3

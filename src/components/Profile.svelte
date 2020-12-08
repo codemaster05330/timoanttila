@@ -32,13 +32,7 @@
 
 <svelte:head>
 	<style>
-		h1 {
-			font-size: clamp(2em, 3em, 10vw);
-			margin-bottom: 20px;
-			line-height: 1.1;
-			font-weight: 400
-		}
-		h2 { font-size: 1.6rem }
+		h2 { font-size: clamp(1.4em, 1.6em, 10vw) }
 		.summary {
 			font-size: 1.2em;
 			line-height: 1.4
