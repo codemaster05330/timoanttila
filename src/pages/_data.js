@@ -1,14 +1,95 @@
-export const Nav = [
-	['/', 'Home', 'en'],
-	['/about', 'About me', 'en'],
-	['/tutorials','Tutorials', 'en'],
-	['/gallery','Gallery','en'],
+export const Nav = {
+	"en": [
+		['/', 'Home', 'en'],
+		['/about', 'About me', 'en'],
+		['/politics','Political Views', 'en'],
+		['/gallery','Featured photos','en'],
+		['/fi','Suomeksi','fi']
+	],
+	"fi": [
+		['/fi', 'Etusivu', 'fi'],
+		['/fi/info', 'Tietoa minusta', 'fi'],
+		['/fi/politiikka','Politiikka', 'fi'],
+		['/fi/galleria','Galleria','fi'],
+		['/','In English','en']
+	]
+}
+
+export const Front = [
+	{
+		"id": "about",
+		"img": [
+			"timo",
+			"jpg"
+		],
+		"en": {
+			"title": "Hi, I'm Timo Anttila",
+			"body": "I'm a full stack web developer and entrepreneur from Nokia, Finland. Working at digital agency Tuspe Design Oy building highly customized websites and services. Since beginning my journey as an entrepreneur almost five years ago, I've done remote work for businesses, developed hundreds of customer projects, and created a booking calendar and own e-commerce platform. Currently working as a subcontractor for several companies.",
+			"link": {
+				"title": "Where my focus is right now in my professional and personal life.",
+				"url": "/about"
+			}
+		},
+		"fi": {
+			"title": "Hei, olen Timo Anttila",
+			"body": "Olen 39-vuotias verkkosivustoja ja -palveluita kehittävä yrittäjä Nokialta. Työskentelen omassa digitoimistossa Tuspe Design Oy. Yrittäjänä olen toiminut noin viisi vuotta, jonka aikana olen tehnyt etätyötä ja konsultointia yrityksille, kehittänyt satoja asiakasprojekteja, luonut varauskalenterin ja oman verkkokauppa-alustan. Yritykseni toimii alihankkijana useille yrityksille.",
+			"link": {
+				"title": "Where my focus is right now in my professional and personal life.",
+				"url": "/fi/info"
+			}
+		}
+	}, {
+		"id": "politics",
+		"img": [
+			"nokia-city",
+			"jpg"
+		],
+		"en": {
+			"title": "Municipal candidate 2021",
+			"body": "I'm a little worried about political direction and I want to be involved to ensure that MPs and City Council members make decisions in our best interests. Resources and money are limited, so those must be used wisely for the benefit of local residents, for the benefit of us all, and for securing and developing the operating environment for companies. Security, equality and comfort. Let's create a better future together.",
+			"link": {
+				"title": "My political views and candidacy in municipal elections.",
+				"url": "/politics"
+			}
+		},
+		"fi": {
+			"title": "Poliittiset näkemykset",
+			"body": "Olen hiukan huolissani Suomen poliittisesta suunnasta, joten haluan olla varmistamassa, että Nokialla kuunnellaan kuntalaisten mielipiteitä ja tehdään asioita kuntalaisten eduksi. Resursseja ja rahaa on rajallisesti, joten ne pitää käyttää viisaasti kuntalaisten hyödyksi, meidän parhaaksi, sekä yrityksien toimintaympäristön kehittämiseen. Turvallisuus, tasa-arvo ja viihtyvyys. Varmistetaan yhdessä parempi tulevaisuus!",
+			"link": {
+				"title": "Minun poliittiset näkemykset ja ehdokkuus kunnallisvaaleissa.",
+				"url": "/fi/politiikka"
+			}
+		}
+	}, {
+		"id": "tuspe",
+		"img": [
+			"responsive",
+			"png"
+		],
+		"en": {
+			"title": "Tuspe Design Oy",
+			"body": "The goal is to provide an easy-to-use digital search engine optimized sales channel, website and e-commerce solution, and a reliable website maintenance service. These give the customer a clear sales advantage, their website can be easily found and it stands out from the competition.",
+			"link": {
+				"title": "Check out what Tuspen has to offer",
+				"url": "https://tuspe.com/"
+			}
+		},
+		"fi": { 
+			"title": "Tuspe Design Oy",
+			"body": "Tavoitteena tarjota asiakkaille helppokäyttöinen ja selkeästi ymmärrettävä ja päivitettävä digitaalinen hakukoneoptimoitu myyntikanava, kotisivu- ja verkkokaupparatkaisu, sekä niiden ylläpito. Näiden avulla asiakas saa selkeää myynnillistä hyötyä ja se löytyy ja erottuu kilpailijoista.",
+			"link": {
+				"title": "Verkkokaupat ja kotisivut Tuspelta",
+				"url": "https://tuspe.com/"
+			}
+		}
+	}
 ]
 
 export const Skills = [
 	{
 		"title": "Front-End",
-		"body": "Most of my work is front-end development and styling. Using my own frameworks or writing things from scratch.",
+		"en": "Most of my work is front-end development and styling. Using my own frameworks or writing things from scratch.",
+		"fi": "Suurin osa työstäni on frontin kehitystä ja tyylejä. Käytän kehittämääni runkoa nopeuttamaan tyylejä ja PHP-koodia.",
 		"tools": [
 			"HTML",
 			"CSS",
@@ -18,7 +99,8 @@ export const Skills = [
 		]
 	}, {
 		"title": "Back-End",
-		"body": "I usually use CMS and a bit of PHP code for back-end, but nowadays I'm also studying other technologies and tools.",
+		"en": "I usually use CMS and a bit of PHP code for back-end, but nowadays I'm also studying other technologies and tools.",
+		"fi": "Käytän yleensä CMS-ratkaisuja ja hieman omaa koodia, mutta tutustun aktiivisesti uusiin teknologioihin ja työkaluihin.",
 		"tools": [
 			"PHP",
 			"SQL / SQLite",

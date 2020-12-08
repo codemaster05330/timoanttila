@@ -16,7 +16,6 @@ export const config = {
       mdsvex({
         remarkPlugins: [slug],
         layout: {
-          article: 'src/components/Article.svelte',
           profile: 'src/components/Profile.svelte',
           tutorial: 'src/components/Tutorial.svelte',
           page: 'src/components/Page.svelte',

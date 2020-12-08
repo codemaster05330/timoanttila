@@ -1,7 +1,10 @@
 ---
-title: "Timo Anttila | What is going on in my life right now?"
+title: "What is going on in my life right now?"
 summary: Now page is a place to tell where my focus is right now in my professional and personal life.
+desc: Welcome to get to know me more. On this page you will comprehensively find everything that is important to me at the moment in my professional and personal life.
 layout: profile
+img: timo
+language: en
 ---
 
 ## Location:
@@ -16,28 +19,30 @@ Server Administrator
 
 ## Professional life:
 
-I'm a full stack web developer who is passionate about making websites better, faster and easy to update. Technologies I enjoy working with include JavaScript, Svelte, PHP and SQL. Mostly using ProcessWire CMS for all the new projects, but I know my way with Wordpress and Drupal too. I love my job, but I would like to focus on the front end and develop my Next, React or Vue skills in the future.
+The active CEO of [Tuspe Design Oy](https://tuspe.com/), a digital agency that provides solutions for websites, stores and applications, and the chairman of [Ratsukko Solutions Oy](https://www.ratsukko.com/), a company that promotes the riding hobby and offers modern solutions for booking courses and sales of digital teaching materials.
+
+Full stack web developer who is passionate about making websites and webstores better, faster and easier to update. Technologies I enjoy working with include JavaScript, Svelte, PHP, NodeJS and MariaDB. Mostly using ProcessWire CMS for all the new projects, but I know my way with Wordpress and Drupal too. I love my job, but I would like to focus on the front end and develop my Vue skills in the future.
 
 Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.
 
 - Designing and developing experiences that make people's lives simpler. A focus on simplicity, speed, usability, easy update and delight.
-- Working at <a href="https://tuspe.com/" rel="noopener me" target="_blank">Tuspe Design Oy</a> as a full stack developer and developing its business as a owner.
-- Subcontractor for <a href="https://molentum.fi/" rel="noopener" target="_blank">Molentum Oy</a>.
-- Chief technology officer and chairman of the board at <a href="https://www.ratsukko.com/" rel="noopener me" target="_blank" title="Booking calendar Ratsukko">Ratsukko Solutions Oy</a>.
+- Working at Tuspe Design Oy as a full stack developer and developing its business as a owner.
+- Subcontractor for [Molentum Oy](https://molentum.fi/).
+- Chief technology officer and chairman of the board at Ratsukko Solutions Oy.
 - Maintaining many servers and being responsible for the security and backup of clients' websites.
-- Participating in the open source revolution on <a href="https://github.com/timoanttila?tab=repositories" rel="noopener me" target="_blank">Github</a>.
+- [Finns Party](https://www.perussuomalaiset.fi/kielisivu/in-english/) municipal election candidate in [Nokia](https://www.nokiankaupunki.fi/).
+- Participating in the open source revolution on [Github](https://github.com/timoanttila?tab=repositories).
 
 ## Personal life:
 
 - Learning how to live a real life.
 - Interested in artificial intelligence, the wonders of technology, and human behavior.
-- Photographing all kinds of beautiful on <a href="https://www.instagram.com/_timoanttila/" rel="noopener me" target="_blank" title="Follow me on Instagram">Instagram</a>.
+- Photographing all kinds of beautiful on [Instagram](https://www.instagram.com/_timoanttila/).
 - Proud father of two pets; border collie Deli and cat Sera.
 - Nature lover.
-- Volunteer at <a href="https://plan.fi/en" rel="noopener" target="_blank" title="Plan International is an independent development and humanitarian organisation that advances children’s rights and equality for girls.">Plan International Finland</a>.
+- Volunteer at [Plan International Finland](https://plan.fi/en).
 - An avid visitor as well as a volunteer at many events.
 - Investing in stocks and funds.
-- Thinking of participating in municipal elections
 
 ## Technologies:
 
@@ -57,15 +62,15 @@ Always want to surpass myself and my customers. When the customer feels they hav
 
 ## Find me around the web
 
-- <a href="https://tuspe.com" title="My company's official website" rel="noopener me" target="_blank">https://tuspe.com</a>
-- <a href="https://github.com/timoanttila" title="All open source projects I have done" rel="noopener me" target="_blank">https://github.com/timoanttila</a>
-- <a href="https://twitter.com/_timoanttila" title="Follow me on Twitter" rel="noopener me" target="_blank">https://twitter.com/_timoanttila</a>
-- <a href="https://www.instagram.com/_timoanttila/" title="Follow me on Instagram" rel="noopener me" target="_blank">https://www.instagram.com/_timoanttila/</a>
-- <a href="https://trakt.tv/users/timoanttila" title="Follow what movies and series I watch" rel="noopener me" target="_blank">https://trakt.tv/users/timoanttila</a>
-- <a href="https://www.linkedin.com/in/anttilatimo/" title="My professional profile on LinkedIn" rel="noopener me" target="_blank">https://www.linkedin.com/in/anttilatimo/</a>
-- <a href="https://github.com/TuspeDesign" title="All open source projects I have made for the company Tuspe Design" rel="noopener me" target="_blank">https://github.com/TuspeDesign</a>
+- https://tuspe.com
+- https://github.com/timoanttila
+- [https://twitter.com/_timoanttila](https://twitter.com/_timoanttila/with_replies)
+- https://www.instagram.com/_timoanttila/
+- https://trakt.tv/users/timoanttila
+- https://www.linkedin.com/in/anttilatimo/
+- https://github.com/TuspeDesign
 
 ## Now?
 
 Now page is a place to tell where my focus is right now in my professional and personal life. If activities or priorities change, I'll update this page accordingly.  
-Inspired by <a href="https://nownownow.com/" rel="noopener" target="_blank">nownownow project</a>.
+Inspired by [nownownow project](https://nownownow.com/).

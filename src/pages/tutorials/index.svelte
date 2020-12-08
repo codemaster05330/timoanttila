@@ -1,6 +1,5 @@
 <script>
 	import { url, layout, metatags } from "@sveltech/routify";
-	import marked from "marked";
 	const posts = $layout.parent.children
 		.filter((c) => c.meta["frontmatter"])
 		.sort((a, b) => b.meta["frontmatter"].published.localeCompare(a.meta["frontmatter"].published));
@@ -12,34 +11,101 @@
 	$: metatags["twitter:description"] = summary
 </script>
 
-<div class="py">
-
-	<div id="head" class="tc mxa list">
+<section id="about" class="bgw noUnd">
+	<div class="container content mxa tc">
 		<h1>{title}</h1>
-		<div class="summary mxa">{summary}</div>
+		<p class="summary mxa">{summary}</p>
 	</div>
+</section>
 
-	<ul id="posts" class="container mxa three grid block pb">
-	{#each posts as {meta, path}}
-		<li>
-			<div class="content grid">
-				<aside class="grid tc">
-					<div class="pub bor">
-						<div class="cell">
-							<div class="day">{meta.frontmatter.pub[0]}</div>
-							<div class="month">{meta.frontmatter.pub[1]}</div>
+<div id="content" class="bgb">
+	<ul id="posts" class="container mxa grid block noUnd">
+		{#each posts as {meta, path}}
+			<li class="mxa">
+				<div class="content grid">
+					<aside class="grid tc">
+						<div class="pub bor">
+							<div class="grid cell">
+								<div class="day">{meta.frontmatter.pub[0]}</div>
+								<div class="month">{meta.frontmatter.pub[1]}</div>
+							</div>
 						</div>
-					</div>
-				</aside>
-				<a class="article grid" href={$url(path)} title={meta.frontmatter.title}>
-					<div class="content">
-						<h2 class="up">{meta.frontmatter.title}</h2>
-						<p class="summary">{meta.frontmatter.summary}</p>
-					</div>
-				</a>
-			</div>
-		</li>
-	{/each}
+					</aside>
+					<a class="article grid" href={$url(path)} title={meta.frontmatter.title}>
+						<div class="content">
+							<h2 class="up">{meta.frontmatter.title}</h2>
+							<p class="summary">{meta.frontmatter.summary}</p>
+						</div>
+					</a>
+				</div>
+			</li>
+		{/each}
 	</ul>
-
 </div>
+
+<svelte:head>
+	<style>
+		h1 {
+			font-size: clamp(2rem, 3.4rem, 10vw);
+			margin-bottom: 20px;
+			line-height: 1.1;
+			font-weight: 400
+		}
+		h2 {
+			font-size: 1.1rem;
+			margin-bottom: 15px;
+			color: var(--wt)
+		}
+		#about .container { max-width: 650px }
+		#about .summary,
+		#posts .day {
+			font-size: 1.4rem;
+			line-height: 1.3
+		}
+		#posts.container {
+			padding: 3rem 0;
+			max-width: 1250px
+		}
+		#posts li { display: block }
+		.up { text-transform: uppercase }
+		#posts .pub {
+			width: 70px;
+			font-weight: 700;
+			background-color:rgb(46, 56, 88);
+			border: 1px ridge var(--wt4)
+		}
+		#posts .pub,
+		#posts .summary { color: var(--wt6) }
+		#posts li:hover .pub {
+			color: var(--blue);
+			background-color: var(--wb)
+		}
+		#posts li:hover h2 { color: var(--link) }
+		@media screen and (min-width:600px){
+			#posts {
+				grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+				grid-gap: 1.5rem
+			}
+		}
+		@media screen and (max-width:600px){
+			#posts li + li { margin-top: 1.5rem }
+		}
+		@media screen and (min-width:400px){
+			#posts .content {
+				grid-template-columns: 70px 1fr;
+				grid-gap: 1rem;
+			}
+			#posts aside {
+				grid-template-rows: 70px 48px 1fr;
+				grid-gap: 0.5rem;
+			}
+		}
+		@media screen and (max-width:400px){
+			#posts { text-align: center }
+			#posts .pub {
+				padding: 5px 0;
+				margin-bottom: 15px
+			}
+		}
+	</style>
+</svelte:head>

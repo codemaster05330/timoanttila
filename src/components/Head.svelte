@@ -3,7 +3,6 @@
 	import { metatags } from "@sveltech/routify";
 	import { Nav } from "../pages/_data.js"
 	$: u = $page.path.split('/')
-	$: i = u[1] == "pulina" ? 1 : 0;
 	let active
 	$: metatags.canonical = "https://timoanttila.com"+ $page.path
 </script>
