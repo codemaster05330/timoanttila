@@ -20,7 +20,7 @@
 			<div class="content">
 				<div class="grid">
 					<h1 itemprop="headline">{title}</h1>
-					<p itemprop="description">{desc}</p>
+					<p class="summary" itemprop="description">{desc}</p>
 				</div>
 			</div>
 		</div>
@@ -33,12 +33,16 @@
 <svelte:head>
 	<style>
 		h1 {
-			font-size: clamp(2rem, 3.4rem, 10vw);
+			font-size: clamp(2em, 3em, 10vw);
 			margin-bottom: 20px;
 			line-height: 1.1;
 			font-weight: 400
 		}
 		h2 { font-size: 1.6rem }
+		.summary {
+			font-size: 1.2em;
+			line-height: 1.4
+		}
 		p + h2,
 		ul + h2 { margin-top: 25px }
 		h2 + p,

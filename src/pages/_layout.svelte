@@ -61,7 +61,8 @@
 			--blue: #03061b;
 			--dark: rgba(23,25,35,0.87);
 			--light: rgba(255,255,255,.4);
-			--link: rgb(126,255,225)
+			--link: rgb(126,255,225);
+			--violet: rgb(46,56,88)
 		}
 		* { margin: 0; padding: 0 }
 		body {
@@ -185,7 +186,7 @@
 		}
 		footer {
 			padding: 1.5rem 0;
-			background-color:rgb(46, 56, 88);
+			background-color: var(--violet);
 			border-top: 1px ridge var(--wt4)
 		}
 		footer svg { fill: var(--wt6) }

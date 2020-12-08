@@ -31,10 +31,14 @@
 <svelte:head>
 	<style>
 		h1 {
-			font-size: clamp(2rem, 3.4rem, 10vw);
+			font-size: clamp(2em, 3em, 10vw);
 			margin-bottom: 20px;
 			line-height: 1.1;
 			font-weight: 400
+		}
+		.summary {
+			font-size: 1.2em;
+			line-height: 1.4
 		}
 		img {
 			width: 100%;

@@ -25,13 +25,13 @@
 <svelte:head>
 	<style>
 		h1 {
-			font-size: clamp(2rem, 2.8rem, 10vw);
+			font-size: clamp(2em, 2.8em, 10vw);
 			margin-bottom: 20px;
 			line-height: 1.1;
 			font-weight: 400
 		}
 		#about .summary {
-			font-size: 1.4rem;
+			font-size: 1.4em;
 			line-height: 1.3
 		}
 		#about .container {	max-width: 650px }
@@ -42,10 +42,15 @@
 			border-left: 6px solid #bb86fc;
 			margin-left: -6px;
 			width: calc(100% + 6px);
-			overflow: hidden
+			overflow: hidden;
+			border-radius: 10px
+		}
+		p code {
+			padding: 0 5px;
+			border-radius: 5px
 		}
 		pre,
-		p code { background-color: #27242c }
+		p code { background-color: var(--violet) }
 		.up { text-transform: uppercase }
 	</style>
 </svelte:head>

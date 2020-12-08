@@ -71,7 +71,7 @@
 		#posts .pub {
 			width: 70px;
 			font-weight: 700;
-			background-color:rgb(46, 56, 88);
+			background-color: var(--violet);
 			border: 1px ridge var(--wt4)
 		}
 		#posts .pub,
