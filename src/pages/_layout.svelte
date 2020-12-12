@@ -86,7 +86,7 @@ h1,
 h1:not(#title),
 .featured h2 {
     max-width: 500px;
-    font-size: clamp(2em, 3em, 10vw);
+    font-size: clamp(2em, 2.8em, 10vw);
 }
 h1 {
     display: inline-block;
