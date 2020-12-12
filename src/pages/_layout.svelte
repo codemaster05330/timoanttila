@@ -130,12 +130,11 @@ body {
 .effect.bgd .bgw {
     background-color: var(--black);
 }
+body,
 #menu a,
 .bgb,
 .effect.bgd .bgw,
-.effect.bgd .featured,
-
-		{
+.effect.bgd .featured {
     color: var(--wt);
 }
 .effect.bgw .bgb,
