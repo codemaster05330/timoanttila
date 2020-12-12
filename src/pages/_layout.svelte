@@ -1,7 +1,6 @@
 <script>
 	import { isActive, url, page } from "@sveltech/routify"
 	import { metatags } from "@sveltech/routify";
-	import { not_equal } from "svelte/internal";
 	import { lang } from "../components/lang"
 	import Social from "../components/Social.svelte"
 	import { Nav } from "./_data.js"
@@ -130,11 +129,11 @@ body {
 .effect.bgd .bgw {
     background-color: var(--black);
 }
-body,
 #menu a,
 .bgb,
 .effect.bgd .bgw,
-.effect.bgd .featured {
+.effect.bgd .featured,
+.effect.bgw code {
     color: var(--wt);
 }
 .effect.bgw .bgb,
