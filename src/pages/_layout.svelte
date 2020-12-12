@@ -134,7 +134,8 @@ body {
 .bgb,
 .effect.bgd .bgw,
 .effect.bgd .featured,
-footer h4 {
+
+		{
     color: var(--wt);
 }
 .effect.bgw .bgb,
@@ -281,7 +282,7 @@ footer a:hover svg {
 }
 footer h4 {
     font-size: 1.2rem;
-    max-width: 260px;
+    max-width: 300px;
     margin-bottom: 0.5rem;
     color: var(--wt6);
 }
