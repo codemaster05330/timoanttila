@@ -21,7 +21,7 @@ Full Stack Web Developer specializing in PHP, JavaScript, ProcessWire, Svelte, a
 
 - https://timoanttila.com
 - https://tuspe.com
-- https://www.linkedin.com/in/anttilatimo/
 - https://twitter.com/_timoanttila
+- https://www.linkedin.com/in/anttilatimo/
 - https://www.instagram.com/_timoanttila/
 - https://trakt.tv/users/timoanttila
