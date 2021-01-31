@@ -19,7 +19,7 @@ Teknologiajohtaja
 
 ## Työelämä:
 
-Täyden palvelun verkkokehittäjä, joka haluaa intohimoisesti tehdä verkkopalveluista parempia, nopeampia ja helpompia käyttää. Tekniikoita, joiden kanssa nautin työskennellä, ovat JavaScript, Svelte, PHP, NodeJS ja MariaDB. Käytän yleensä sisällönhallintaan ProcessWireä, mutta tuttuja alustoja ovat myös WordPress ja Drupal. Rakastan työtäni ja haluan kehittää osaamistani joka päivä. Aina löytyy jotain uutta ja mielenkiintoista tutkittavaa.
+Verkkosivustojen ja -kauppojen luoja, webbisovellusten kehittäjä. Haluan intohimoisesti tehdä verkkopalveluista parempia, nopeampia ja helpompia käyttää. Tekniikoita, joiden kanssa nautin työskennellä, ovat JavaScript, Svelte, PHP, NodeJS ja MariaDB. Käytän yleensä sisällönhallintaan ProcessWireä, mutta tuttuja alustoja ovat myös WordPress ja Drupal. Rakastan työtäni ja haluan kehittää osaamistani joka päivä. Aina löytyy jotain uutta ja mielenkiintoista tutkittavaa.
 
 Projekteja tehdessä haluaisin aina ylittää asiakkaan odotukset ja tiedän onnistuneeni, asiakkaan tuntiessa saavansa enemmän kuin alunperin tilasi.
 
