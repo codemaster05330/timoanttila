@@ -28,7 +28,7 @@ Projekteja tehdessä haluaisin aina ylittää asiakkaan odotukset ja tiedän onn
 - Aktiivinen alihankkija digitoimistolle [Molentum Oy](https://molentum.fi/).
 - Teknologiajohtaja ja hallituksen puheenjohtaja yrityksessä [Ratsukko Solutions Oy](https://www.ratsukko.com/).
 - Ylläpidän viittä palvelinta ja olen vastuussa asiakkaiden verkkopalveluiden turvallisuudesta.
-- Sitoutumaton [Perussuomalaisten]((https://www.perussuomalaiset.fi/)) kunnallisvaaliehdokas Nokialla.
+- Sitoutumaton [Perussuomalaisten](https://www.perussuomalaiset.fi/) kunnallisvaaliehdokas Nokialla.
 
 ## Henkilökohtainen elämä:
 
