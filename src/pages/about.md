@@ -14,6 +14,7 @@ language: en
 ## Professional title:
 
 Full Stack Developer  
+Chairman of the Board (x2)  
 Chief technology officer  
 Server Administrator
 
