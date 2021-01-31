@@ -21,7 +21,7 @@ Server Administrator
 
 ## Professional life:
 
-The active CEO of [Tuspe Design Oy](https://tuspe.com/), a digital agency that provides solutions for websites, stores and applications, and the chairman and CTO of [Ratsukko Solutions Oy](https://www.ratsukko.com/), a company that promotes the riding hobby and offers modern solutions for booking courses and sales of digital teaching materials.
+The active CEO of [Tuspe Design Oy](https://tuspe.com/), a digital agency that provides solutions for websites, stores and applications, and the chairman and CTO of [Ratsukko Solutions Oy](https://www.ratsukko.com/), a company that promotes the riding hobby and offers modern solutions for booking courses.
 
 Full stack web developer who is passionate about making websites and webstores better, faster and easier to update. Technologies I enjoy working with include JavaScript, Svelte, PHP, NodeJS and MariaDB. Mostly using ProcessWire CMS for all the new projects, but I know my way with Wordpress and Drupal too. I love my job, but I would like to focus on the front end and develop my Vue skills in the future.
 
