@@ -2,17 +2,17 @@ export const Nav = {
 	"en": [
 		['/', 'Home', 'en'],
 		['/about', 'About me', 'en'],
-		['/politics','Political Views', 'en'],
-		['/gallery','Featured photos','en'],
-		['/tutorials','Tutorials','en'],
-		['/fi','Suomeksi','fi']
+		['/politics', 'Political Views', 'en'],
+		['/gallery', 'Featured photos', 'en'],
+		['/tutorials', 'Tutorials', 'en'],
+		['/fi', 'Suomeksi', 'fi']
 	],
 	"fi": [
 		['/fi', 'Etusivu', 'fi'],
 		['/fi/info', 'Tietoa minusta', 'fi'],
-		['/fi/politiikka','Politiikka', 'fi'],
-		['/fi/galleria','Galleria','fi'],
-		['/','In English','en']
+		['/fi/politiikka', 'Politiikka', 'fi'],
+		['/fi/galleria', 'Galleria', 'fi'],
+		['/', 'In English', 'en']
 	]
 }
 
@@ -75,7 +75,7 @@ export const Front = [
 				"url": "https://tuspe.com/"
 			}
 		},
-		"fi": { 
+		"fi": {
 			"title": "Tuspe Design Oy",
 			"body": "Tavoitteena tarjota asiakkaille helppokäyttöinen ja selkeästi ymmärrettävä ja päivitettävä digitaalinen hakukoneoptimoitu myyntikanava, kotisivu- ja verkkokaupparatkaisu, sekä niiden ylläpito. Näiden avulla asiakas saa selkeää myynnillistä hyötyä ja se löytyy ja erottuu kilpailijoista.",
 			"link": {
