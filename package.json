@@ -1,7 +1,7 @@
 {
   "name": "timoanttila",
   "version": "3.0.0",
-  "description": "Personal website with many different content types and Markdown support. Built on Svelte and Routify.",
+  "description": "Personal website with many different content types and support for Markdown and SCSS. Built on Svelte and Routify.",
   "homepage": "https://timoanttila.com",
   "bugs": "https://github.com/timoanttila/timoanttila/issues",
   "license": "GNU GPL",
@@ -12,13 +12,15 @@
     "svelte-example",
     "svelte-template",
     "svelte-blog",
+    "svelte-markdown",
     "prerendered",
     "svelte-prerendered",
     "rollup",
     "website",
     "blog",
     "spa",
-    "pwa"
+    "pwa",
+    "scss"
   ],
   "author": {
     "name": "Timo Anttila",
