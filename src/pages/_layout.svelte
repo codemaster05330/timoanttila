@@ -65,7 +65,6 @@
 <main id="hello" class={effect} style={'font-size:' + font + 'px'}>
     <slot />
 </main>
-<footer class={effect}><div class="container mxa tc"><Social /></div></footer>
 
 <div id="helpMe" class:active={help}>
     <button id="helper" class="abs bgw" on:click={() => (help = !help)}

@@ -1,10 +1,12 @@
 ---
-title: "Kuntavaaliehdokas 2021"
-summary: Tarvitsemme Nokialla järkeviä päätöksiä kuntalaisten ja yritysten hyväksi. Rakennetaan yhdessä parempi tulevaisuus meille ja lapsillemme.
-desc: Tarvitsemme Nokialla järkeviä päätöksiä kuntalaisten ja yritysten hyväksi. Rakennetaan yhdessä parempi tulevaisuus meille ja lapsillemme. Olen Perussuomalaisten sitoutumaton kuntavaaliehdokas Nokialla.
-layout: profile
-img: timo
-language: fi
+title: Kuntavaaliehdokas, Nokia
+pub:
+- 3
+- Mar
+published: 2016-03-02T00:03:47+03:00
+modified: 2016-03-02T00:03:47+03:00
+summary: Kattava analyysi ilmastomuutoksesta ja sen aiheuttamista taloudellisista ongelmista Suomessa.
+layout: tutorial
 ---
 
 Yrittäjä ja duunari meidän yhteisellä asialla. Kokemusta yrityksien pyörittämisestä, hallitustyöskentelystä ja asiakaspalvelusta. Seuraan aktiivisesti politiikkaa enkä pelkää kertoa omia näkemyksiäni.
