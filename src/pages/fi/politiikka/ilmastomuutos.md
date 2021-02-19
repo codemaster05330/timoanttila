@@ -6,7 +6,8 @@ pub:
 published: 2016-03-02T00:03:47+03:00
 modified: 2016-03-02T00:03:47+03:00
 summary: Kattava analyysi ilmastomuutoksesta ja sen aiheuttamista taloudellisista ongelmista Suomessa.
-layout: tutorial
+img: ilmasto.jpg
+layout: article
 ---
 
 Yrittäjä ja duunari meidän yhteisellä asialla. Kokemusta yrityksien pyörittämisestä, hallitustyöskentelystä ja asiakaspalvelusta. Seuraan aktiivisesti politiikkaa enkä pelkää kertoa omia näkemyksiäni.

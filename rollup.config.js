@@ -64,6 +64,7 @@ export default {
                     remarkPlugins: [slug],
                     layout: {
                     profile: 'src/components/Profile.svelte',
+                    article: 'src/components/Article.svelte',
                     tutorial: 'src/components/Tutorial.svelte'
                     },
                     extension: 'md'

@@ -1,5 +1,6 @@
 <script>
 	import { components, url, layout, metatags } from '@roxi/routify';
+	import { mode } from '../../../components/store.js';
 
 	const entriesFolder = $components.find(
 		(node) => node.path === '/fi/politiikka'
@@ -19,10 +20,17 @@
 	$: metatags.description = summary;
 	$: metatags['twitter:title'] = title;
 	$: metatags['twitter:description'] = summary;
+
+	$: subMod = $mode == 'bg2' ? 'white' : 'blue';
 </script>
 
-<section id="posts" class="noUnd" itemscope itemtype="http://schema.org/Blog">
-	<h1 class="title violet">{title}</h1>
+<section
+	id="posts"
+	class={'noUnd ' + subMod}
+	itemscope
+	itemtype="http://schema.org/Blog"
+>
+	<h1 class="title">{title}</h1>
 	<div id="postList">
 		{#each entries as { meta, path }}
 			<article
@@ -36,7 +44,7 @@
 					title={meta.frontmatter.title}
 				>
 					<div class="content">
-						<h2 class="violet">{meta.frontmatter.title}</h2>
+						<h2>{meta.frontmatter.title}</h2>
 						<p class="summary">{meta.frontmatter.summary}</p>
 					</div>
 				</a>
@@ -48,19 +56,17 @@
 <style type="text/scss">
 	#posts {
 		article {
-			padding: 1.5rem;
-			border: 1px solid var(--violet);
+			border: 1px solid;
 			& + article {
 				margin-top: 1rem;
 			}
-			h2 {
-				color: var(--dark);
-			}
-			p {
-				color: #444;
-			}
 		}
-		h2,
+		a {
+			padding: 1.5rem;
+		}
+		h2 {
+			margin: 0 0 15px;
+		}
 		p {
 			margin: 0;
 		}
