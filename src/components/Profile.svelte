@@ -33,33 +33,3 @@
 		<div class="container mxa"><slot /></div>
 	</div>
 </article>
-
-<svelte:head>
-	<style>
-		h2 {
-			font-size: clamp(1.4em, 1.6em, 10vw);
-			font-weight: 700;
-		}
-		p + h2,
-		ul + h2 {
-			margin-top: 25px;
-		}
-		h2 + p,
-		h2 + ul {
-			margin-top: 15px;
-		}
-		.container {
-			max-width: 900px;
-		}
-		#content ul {
-			margin-left: 18px;
-		}
-		@media screen and (max-width: 1000px) {
-			#about .content {
-				max-width: 500px;
-				margin: 0 auto;
-				text-align: center;
-			}
-		}
-	</style>
-</svelte:head>

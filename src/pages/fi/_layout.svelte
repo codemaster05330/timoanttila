@@ -1,5 +1,5 @@
 <script>
-	import { lang } from '../../components/lang';
+	import { lang } from '../../components/store';
 	lang.set('fi-fi');
 </script>
 

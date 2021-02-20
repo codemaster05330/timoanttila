@@ -5,6 +5,7 @@
 	$: metatags.title = title;
 	$: metatags.author = 'Timo Anttila <moro@tuspe.com>';
 	$: metatags.description = summary;
+	$: if (img) metatags.image = '/images/' + img + '.jpg';
 	$: subMod = $mode == 'bg2' ? 'white' : 'blue';
 	$: more = twitter ? twitter : 'https://twitter.com/_timoanttila';
 </script>
@@ -32,23 +33,3 @@
 		</a>
 	</div>
 </div>
-
-<style type="text/scss">
-	.inl {
-		display: inline-block;
-		vertical-align: middle;
-		line-height: 1;
-	}
-	#more {
-		margin-bottom: 1.5rem;
-		a {
-			border-radius: 40px;
-			padding: 15px 45px;
-			text-transform: uppercase;
-			border: 1px solid;
-			span {
-				margin-top: 5px;
-			}
-		}
-	}
-</style>
