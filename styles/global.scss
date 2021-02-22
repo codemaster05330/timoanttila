@@ -22,9 +22,11 @@ body {
 	font-weight: 400;
 	font-family: Lato, -apple-system, BlinkMacSystemFont, 'Segoe UI',
 		Roboto, Helvetica, Arial, sans-serif;
-	line-height: 1.5;
-	margin: 0
+	line-height: 1.5
 }
+
+body,
+.title { margin: 0 }
 
 h1,
 h2 {
@@ -32,15 +34,19 @@ h2 {
 	line-height: 1.2
 }
 
-.title { font-size: clamp(2rem, 3rem, 10vw) }
+.title { font-size: clamp(1.8rem, 2.5rem, 10vw) }
 
 .violet { color: var(--violet) }
 
-.blue { border-color: var(--v1) }
+.blue {
+	border-color: var(--v1);
+	a { color: #016064 }
+}
 
 .white {
 	border-color: var(--wt6);
 	svg { fill: var(--wt) }
+	a { color: var(--link) }
 }
 
 .blue,
@@ -160,35 +166,17 @@ img { width: 100% }
 			color: #319795;
 		}
 	}
-}
-@media screen and (min-width: 1000px) {
-	#hello {
-		section {
-			&.about {
-				min-height: 370px;
-				.container {
-					grid-template-columns: 350px 1fr;
-					grid-gap: 3rem;
-					height: 100%
-				}
-			}
+	section {
+		.title {
+			font-size: clamp(2rem, 3rem, 10vw);
 		}
+		p { margin: 15px 0 0 }
 	}
 }
-@media screen and (min-width: 680.1px) {
-	#skills .container {
-		grid-template-columns: 1fr 1fr;
-		grid-gap: 2rem;
-		max-width: 800px;
-	}
-}
-@media screen and (max-width: 680px) {
-	#skills .skill + .skill {
-		margin-top: 1.5rem;
-	}
-	#skills .skill {
-		max-width: 384px;
-	}
+
+#about,
+#politics {
+	img { border-radius: 50% }
 }
 
 #more {
@@ -211,4 +199,30 @@ img { width: 100% }
 	z-index: 666;
 	min-width: 48px;
 	min-height: 48px
+}
+
+@media screen and (min-width: 1000px) {
+	#hello {
+		.about .container {
+			grid-template-columns: 350px 1fr;
+			grid-gap: 3rem;
+			height: 100%;
+			padding: 3rem 0
+		}
+	}
+}
+@media screen and (min-width: 680.1px) {
+	#skills .container {
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 2rem;
+		max-width: 800px;
+	}
+}
+@media screen and (max-width: 680px) {
+	#skills .skill + .skill {
+		margin-top: 1.5rem;
+	}
+	#skills .skill {
+		max-width: 384px;
+	}
 }

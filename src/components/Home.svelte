@@ -7,7 +7,7 @@
 {#each Front as item, i}
 	<section id={item.id} class="about featured pad noUnd">
 		<div class="container grid mx">
-			<picture class="img">
+			<picture class="img grid cell">
 				<source
 					srcset={'/images/' + item.img[0] + '.webp'}
 					type="media/webp"
@@ -22,10 +22,12 @@
 				/>
 			</picture>
 			<div class="content">
-				<div class="grid">
-					{#if i == 0}<h1>{item[data[0]].title}</h1>{:else}<h2>
-							{item[data[0]].title}
-						</h2>{/if}
+				<div class="grid cell">
+					{#if i == 0}
+						<h1 class="title">{item[data[0]].title}</h1>
+					{:else}
+						<h2 class="title">{item[data[0]].title}</h2>
+					{/if}
 					<p>{item[data[0]].body}</p>
 					<p>
 						<a

@@ -2,7 +2,7 @@
 title: "What is going on in my life right now?"
 summary: Now page is a place to tell where my focus is right now in my professional and personal life.
 desc: Welcome to get to know me more. On this page you will comprehensively find everything that is important to me at the moment in my professional and personal life.
-layout: profile
+layout: article
 img: timo
 language: en
 ---
@@ -13,10 +13,10 @@ language: en
 
 ## Professional title:
 
-Full Stack Developer  
-Chairman of the Board  
-Chief executive officer  
-Chief technology officer  
+Full Stack Developer
+Chairman of the Board
+Chief executive officer
+Chief technology officer
 Server Administrator
 
 ## Professional life:
@@ -74,5 +74,5 @@ Always want to surpass myself and my customers. When the customer feels they hav
 
 ## Now?
 
-Now page is a place to tell where my focus is right now in my professional and personal life. If activities or priorities change, I'll update this page accordingly.  
+Now page is a place to tell where my focus is right now in my professional and personal life. If activities or priorities change, I'll update this page accordingly.
 Inspired by [nownownow project](https://nownownow.com/).
