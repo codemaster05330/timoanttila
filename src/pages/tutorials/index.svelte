@@ -30,17 +30,17 @@
 	$: metatags['twitter:description'] = summary;
 </script>
 
-<section id="about" class="bgw pad noUnd">
-	<div class="container content mxa tc">
-		<h1>{title}</h1>
-		<p class="summary mxa">{summary}</p>
+<section id="about" class="bg3 pad noUnd">
+	<div class="container content mx tc">
+		<h1 class="title">{title}</h1>
+		<p class="summary mx">{summary}</p>
 	</div>
 </section>
 
-<div id="content" class="bgb pad">
-	<ul id="posts" class="container mxa grid block noUnd">
+<div id="content" class="bg2 pad">
+	<ul id="tutorials" class="container mx grid block noUnd">
 		{#each posts as { meta, path }}
-			<li class="mxa">
+			<li class="mx">
 				<div class="content grid">
 					<aside class="grid tc">
 						<div class="pub bor">
@@ -58,7 +58,7 @@
 						title={meta.frontmatter.title}
 					>
 						<div class="content">
-							<h2 class="bold">{meta.frontmatter.title}</h2>
+							<h2 class="m0">{meta.frontmatter.title}</h2>
 							<p class="summary">{meta.frontmatter.summary}</p>
 						</div>
 					</a>
@@ -67,78 +67,3 @@
 		{/each}
 	</ul>
 </div>
-
-<svelte:head>
-	<style>
-		h2.bold {
-			font-size: 1.2em;
-			line-height: 1.4;
-			font-weight: 700;
-			margin-bottom: 15px;
-			color: var(--wt);
-		}
-		#about .container {
-			max-width: 650px;
-		}
-		#posts .day {
-			font-size: 20px;
-			line-height: 1.3;
-		}
-		#post .month {
-			font-size: 16px;
-		}
-		#posts.container {
-			max-width: 1250px;
-		}
-		#posts li {
-			display: block;
-		}
-		#posts .pub {
-			width: 70px;
-			font-weight: 700;
-			background-color: var(--violet);
-			border: 1px ridge var(--wt4);
-		}
-		#posts .pub,
-		#posts .summary {
-			color: var(--wt6);
-		}
-		#posts li:hover .pub {
-			color: var(--blue);
-			background-color: var(--wb);
-		}
-		#posts li:hover h2 {
-			color: var(--link);
-		}
-		@media screen and (min-width: 600px) {
-			#posts {
-				grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
-				grid-gap: 1.5rem;
-			}
-		}
-		@media screen and (max-width: 600px) {
-			#posts li + li {
-				margin-top: 1.5rem;
-			}
-		}
-		@media screen and (min-width: 400px) {
-			#posts .content {
-				grid-template-columns: 70px 1fr;
-				grid-gap: 1rem;
-			}
-			#posts aside {
-				grid-template-rows: 70px 48px 1fr;
-				grid-gap: 0.5rem;
-			}
-		}
-		@media screen and (max-width: 400px) {
-			#posts {
-				text-align: center;
-			}
-			#posts .pub {
-				padding: 5px 0;
-				margin-bottom: 15px;
-			}
-		}
-	</style>
-</svelte:head>

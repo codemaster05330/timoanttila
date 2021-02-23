@@ -52,23 +52,3 @@
 		{/each}
 	</div>
 </section>
-
-<style type="text/scss">
-	#posts {
-		article {
-			border: 1px solid;
-			& + article {
-				margin-top: 1rem;
-			}
-		}
-		a {
-			padding: 1.5rem;
-		}
-		h2 {
-			margin: 0 0 15px;
-		}
-		p {
-			margin: 0;
-		}
-	}
-</style>

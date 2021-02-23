@@ -2,7 +2,7 @@
 title: "What is going on in my life right now?"
 summary: Now page is a place to tell where my focus is right now in my professional and personal life.
 desc: Welcome to get to know me more. On this page you will comprehensively find everything that is important to me at the moment in my professional and personal life.
-layout: article
+layout: profile
 img: timo
 language: en
 ---

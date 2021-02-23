@@ -13,8 +13,8 @@ language: fi
 
 ## Tittelit:
 
-Hallituksen puheenjohtaja  
-Toimitusjohtaja  
+Hallituksen puheenjohtaja
+Toimitusjohtaja
 Teknologiajohtaja
 
 ## Työelämä:
