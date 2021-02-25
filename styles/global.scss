@@ -4,7 +4,8 @@
 	--wt: rgba(255, 255, 255, 0.87);
 	--wt6: rgba(255, 255, 255, 0.6);
 	--wt4: rgba(255, 255, 255, 0.4);
-	--blue: #2196f3
+	--blue: #2196f3;
+	--link: rgb(126, 255, 225)
 }
 
 * { box-sizing: border-box; }
@@ -39,11 +40,13 @@ p + p { margin-top: 15px }
 .blue {
 	border-color: var(--v1);
 	a { color: #016064 }
+	#socialmedia svg { fill: var(--v1) }
 }
 
 .white {
 	border-color: var(--wt6);
-	svg { fill: var(--wt) }
+	svg,
+	#socialmedia svg { fill: var(--wt) }
 	a { color: var(--link) }
 }
 
@@ -173,6 +176,14 @@ img { width: 100% }
 	}
 }
 
+article {
+	ul {
+		padding-left: 18px;
+		li + li { margin-top: 10px }
+	}
+
+}
+
 #cols {
 	grid-template-columns: 1fr 300px;
 	.container {
@@ -182,12 +193,6 @@ img { width: 100% }
 		max-width: 600px;
 		h1 {
 			font-size: clamp(2rem, 2.8rem, 10vw)
-		}
-	}
-	article {
-		ul {
-			padding-left: 18px;
-			li + li { margin-top: 10px }
 		}
 	}
 }

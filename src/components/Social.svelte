@@ -105,8 +105,5 @@
 				place-content: center;
 			}
 		}
-		svg {
-			fill: var(--wt6);
-		}
 	}
 </style>
