@@ -17,6 +17,10 @@ body {
 	line-height: 1.5
 }
 
+h1,
+h2,
+.bold { font-weight: 700 }
+
 body,
 .title,
 .m0 { margin: 0 }
@@ -29,8 +33,6 @@ h2 {
 
 .title { font-size: clamp(1.8rem, 2.8rem, 10vw) }
 
-.pad { padding: 3rem 0 }
-
 p { margin-bottom: 0 }
 
 p + p { margin-top: 15px }
@@ -39,7 +41,7 @@ p + p { margin-top: 15px }
 
 .blue {
 	border-color: var(--v1);
-	a { color: #016064 }
+	p a { color: #016064 }
 	#socialmedia svg { fill: var(--v1) }
 }
 
@@ -47,30 +49,26 @@ p + p { margin-top: 15px }
 	border-color: var(--wt6);
 	svg,
 	#socialmedia svg { fill: var(--wt) }
-	a { color: var(--link) }
+	p a { color: var(--link) }
 }
 
 .blue,
-.blue #postList article a,
-.white #postList article a:hover {
+.blue #postList a {
 	color: var(--v2)
 }
 
 .white,
-.white #postList article a,
-.blue #postList article a:hover {
+.white #postList a {
 	color: var(--wt)
 }
 
 .bg1,
-.white #postList article,
-.blue #postList article:hover { background-color: var(--v1) }
+#menu a:hover,
+.white #postList a { background-color: var(--v1) }
 
 .bg2 { background-color: var(--v2) }
 
-.bg3,
-.blue #postList article,
-.white #postList article:hover { background-color: var(--wt) }
+.bg3 { background-color: var(--wt) }
 
 .tc { text-align: center }
 
@@ -83,29 +81,94 @@ img { display: block }
 
 .abs { position: absolute }
 
+.up { text-transform: uppercase }
+
 .mx {
 	margin-left: auto;
 	margin-right: auto
 }
-
-.ltr { direction: ltr }
-
-.rtl { direction: rtl }
 
 .wh { min-height: 100vh }
 
 .cell,
 img { width: 100% }
 
-.cell {
-	height: 100%;
-	place-content: center;
-}
+.cell { height: 100% }
+
+.cell,
+#menu { place-content: center }
 
 .inl {
 	display: inline-block;
 	vertical-align: middle;
 	line-height: 1;
+}
+
+#logo {
+	padding: 1rem 1rem .5rem;
+	line-height: 1;
+	letter-spacing: 1px;
+	font-size: 1.4rem;
+	border-bottom-right-radius: 15px;
+}
+
+#openMenu {
+	height: 48px;
+	z-index: 800;
+	border: 0;
+	&.open {
+		svg {
+			fill: var(--wt)
+		}
+	}
+	&:not(.open){
+		&.bg2 svg {
+			fill: var(--blue);
+		}
+		&.bg3 svg {
+			fill: var(--v1);
+		}
+	}
+}
+
+#menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 666;
+	width: 100vw;
+	height: 100vh;
+	&.hidden { display: none }
+	ul {
+		list-style-type: none;
+		padding: 0;
+		width: 250px
+	}
+	a {
+		padding: 1.5rem 2rem 1rem;
+		border-radius: 30px;
+	}
+	li + li { margin-top: 10px }
+}
+
+.container {
+	padding-left: 2rem;
+	padding-right: 2rem
+}
+
+#hello {
+	&.bg2 {
+		#openMenu svg,
+		#helpMe svg { fill: var(--wt) }
+		.bor {
+			border: 2px solid rgba(255, 255, 255, 0.1)
+		}
+	}
+	&.bg3 {
+		.bor {
+			border: 2px solid rgba(21, 32, 43, 0.1)
+		}
+	}
 }
 
 #front {
@@ -176,24 +239,41 @@ img { width: 100% }
 	}
 }
 
+#postList {
+	h3 { padding-bottom: 5px }
+	.bor {
+		padding: 1.5rem
+	}
+}
+
 article {
 	ul {
 		padding-left: 18px;
 		li + li { margin-top: 10px }
 	}
-
+	&.mb { margin-bottom: 3rem }
 }
 
-#cols {
-	grid-template-columns: 1fr 300px;
-	.container {
-		max-width: 700px;
+#now {
+	&.container {
+		max-width: 750px;
 	}
-	#header {
-		max-width: 600px;
-		h1 {
-			font-size: clamp(2rem, 2.8rem, 10vw)
-		}
+	.title {
+		max-width: 540px;
+	}
+}
+
+.article {
+	max-width: 1200px;
+	article {
+		max-width: 750px
+	}
+}
+
+#card {
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+	.content {
+		margin-bottom: 1rem;
 	}
 }
 
@@ -202,70 +282,8 @@ article {
 	img { border-radius: 50% }
 }
 
-#posts {
-	h1 { margin-bottom: 3rem }
-	article {
-		border: 1px solid;
-		& + article {
-			margin-top: 1rem;
-		}
-	}
-	a {
-		padding: 1.5rem;
-	}
-	h2 {
-		margin: 0 0 15px;
-	}
-	p {
-		margin: 0;
-	}
-}
-
 #about .container {
 	max-width: 650px;
-}
-
-#tutorials {
-	grid-gap: 1.5rem;
-	h2 {
-		font-size: 1.2em;
-		line-height: 1.4;
-		font-weight: 700;
-		margin-bottom: 15px;
-		color: var(--wt);
-	}
-	.day {
-		font-size: 20px;
-		line-height: 1.3;
-	}
-	.month {
-		font-size: 16px;
-	}
-	.container {
-		max-width: 1250px;
-	}
-	li {
-		display: block;
-		&:hover {
-			.pub {
-				color: var(--blue);
-				background-color: var(--wb);
-			}
-			h2 {
-				color: var(--link);
-			}
-		}
-	}
-	.pub {
-		width: 70px;
-		font-weight: 700;
-		background-color: var(--violet);
-		border: 1px ridge var(--wt4);
-	}
-	.pub,
-	.summary {
-		color: var(--wt6);
-	}
 }
 
 #more {
@@ -281,13 +299,94 @@ article {
 	}
 }
 
+#socialmedia {
+	grid-template-columns: repeat(5, 48px);
+	margin: 0;
+	padding: 0;
+	li {
+		width: 48px;
+		height: 48px;
+		a {
+			place-content: center;
+		}
+	}
+}
+
+#darkmode {
+	width: 60px;
+	height: 34px;
+	input {
+		opacity: 0;
+		width: 0;
+		height: 0;
+		&:focus + .slider {
+			box-shadow: 0 0 1px var(--blue);
+		}
+		&:checked {
+			& + .slider {
+				background-color: var(--blue);
+				&:before {
+					-webkit-transform: translateX(26px);
+					-ms-transform: translateX(26px);
+					transform: translateX(26px);
+				}
+			}
+		}
+	}
+	.slider {
+		position: absolute;
+		cursor: pointer;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #ccc;
+		-webkit-transition: 0.4s;
+		transition: 0.4s;
+		&:before {
+			position: absolute;
+			content: '';
+			height: 26px;
+			width: 26px;
+			left: 4px;
+			bottom: 4px;
+			background-color: white;
+			-webkit-transition: 0.4s;
+			transition: 0.4s;
+		}
+		&.round {
+			border-radius: 34px;
+			&:before {
+				border-radius: 50%;
+			}
+		}
+	}
+}
+
 #helpMe {
-	position: fixed;
-	right: 0;
-	bottom: 0;
-	z-index: 666;
 	min-width: 48px;
-	min-height: 48px
+	min-height: 48px;
+	button {
+		background-color: transparent;
+		border: 0
+	}
+}
+
+#darkmode,
+#helpMe { z-index: 100 }
+
+.pad {
+	padding-top: 3rem;
+	padding-bottom: 3rem
+}
+
+@media screen and (min-height:890px){
+	#front {
+		section {
+			display: grid;
+			min-height: 50vh;
+		}
+	}
 }
 
 @media screen and (min-width: 1000px) {
@@ -298,14 +397,84 @@ article {
 			height: 100%
 		}
 	}
-	#cols {
-		#content {
-			padding: 3rem;
+	#card {
+		padding: 2rem 4rem 2rem 3rem;
+		grid-template-columns: 250px 1fr;
+		grid-gap: 3rem;
+		border-radius: 200px;
+		img {
+			border-radius: 50%;
 		}
 	}
 }
 
-@media screen and (min-width: 680.1px) {
+@media screen and (max-width: 1000px){
+	#front .about {
+		img {
+			width: 250px;
+			height: 250px
+		}
+		picture { margin-bottom: 2rem }
+		.title { text-align: center }
+	}
+	#card {
+		text-align: center;
+		padding: 2rem 5vw;
+		border-radius: 20px;
+		picture { display: none }
+		#socialmedia {
+			max-width: 240px;
+			margin-left: auto;
+			margin-right: auto
+		}
+	}
+}
+
+@media screen and (max-width: 1000px) and (min-width: 680px) {
+	#card { max-width: 550px }
+}
+
+@media screen and (min-width: 750px){
+	#openMenu {
+		width: 54px;
+		top: 1.5rem;
+		right: 1.5rem;
+		background-color: transparent;
+	}
+	#darkmode {
+		top: 80px;
+		right: 1.2rem
+	}
+	#helpMe {
+		right: 23px;
+		top: 128px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	#logo { height: 48px }
+	#openMenu {
+		top: 0;
+		right: 0;
+		width: auto;
+		padding-left: 1.5rem;
+		padding-right: 1rem;
+		background-color: var(--v1);
+		border-bottom-left-radius: 20px;
+		svg { fill: var(--wt) }
+	}
+	#darkmode {
+		top: 9px;
+		right: 145px;
+	}
+	#wrap { padding-top: 70px }
+	#helpMe {
+		right: 85px;
+		top: 1px
+	}
+}
+
+@media screen and (min-width: 680px) {
 	#skills {
 		.container {
 			grid-template-columns: 1fr 1fr;
@@ -325,13 +494,13 @@ article {
 }
 
 @media screen and (min-width: 600px) {
-	#tutorials {
-		grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+	#postList {
+		grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
 	}
 }
 
 @media screen and (min-width: 400px) {
-	#tutorials {
+	#postList {
 		.content {
 			grid-template-columns: 70px 1fr;
 			grid-gap: 1rem;

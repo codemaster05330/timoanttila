@@ -92,18 +92,3 @@
 		</a>
 	</li>
 </ul>
-
-<style type="text/scss">
-	#socialmedia {
-		grid-template-columns: repeat(5, 48px);
-		margin: 0;
-		padding: 0;
-		li {
-			width: 48px;
-			height: 48px;
-			a {
-				place-content: center;
-			}
-		}
-	}
-</style>

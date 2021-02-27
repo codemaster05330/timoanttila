@@ -1,11 +1,11 @@
 ---
-title: Kuntavaaliehdokas, Nokia
+title: Kuntavaalit 2021, Nokia
 pub:
-- 3
-- Mar
-published: 2016-03-02T00:03:47+03:00
-modified: 2016-03-02T00:03:47+03:00
-summary: Kattava analyysi ilmastomuutoksesta ja sen aiheuttamista taloudellisista ongelmista Suomessa.
+- 28
+- Helmi
+published: 2021-02-02T00:03:47+03:00
+modified: 2021-02-02T00:03:47+03:00
+summary: Olen huolissani Suomen poliittisesta suunnasta, joten haluan olla varmistamassa, että Nokialla kuunnellaan kuntalaisten mielipiteitä ja tehdään asioita kuntalaisten eduksi. Varmistetaan yhdessä parempi tulevaisuus!
 layout: article
 ---
 

@@ -1,17 +1,17 @@
 <script>
 	import { isActive, url, page, metatags } from '@roxi/routify';
 	import { Nav } from '../pages/_data.js';
-	import { mode } from './store.js';
-	$: u = $page.path.split('/');
+	import { lang, mode } from './store.js';
+	$: i = $lang.split('-');
+	$: menu = Nav ? Nav[i[0]] : Nav.en;
 	let active;
 	$: metatags.canonical = 'https://timoanttila.com' + $page.path;
 </script>
 
 <button
 	id="openMenu"
-	class={'abs toggle ' + $mode}
+	class="abs toggle"
 	class:open={active}
-	class:bgw={!active}
 	on:click={() => (active = !active)}
 	title="Open/close main navigation"
 >
@@ -42,53 +42,22 @@
 	{/if}
 </button>
 
-{#if Nav[0]}
-	<div id="logo" class="abs">
-		<a class="cell tw" href="/" hreflang="en">TA</a>
+{#if menu}
+	<div id="logo" class="abs bg1 noUnd bold">
+		<a class="cell white" href="/" hreflang="en">TA</a>
 	</div>
-	<nav
-		id="menu"
-		class="cell tc up block"
-		class:hidden={!active}
-		class:grid={active}
-	>
-		<ul class="abs cell">
-			{#each Nav as [path, name, lang]}<li>
+	<nav id="menu" class="tc up bg2" class:hidden={!active} class:grid={active}>
+		<ul class="m0 noUnd">
+			{#each menu as item}
+				<li class="block">
 					<a
-						href={$url(path)}
-						class:active={$isActive(path)}
+						class="block white"
+						class:bg1={$isActive(item[0])}
+						href={$url(item[0])}
 						on:click={() => (active = !active)}
-						hreflang={lang}>{name}</a
+						hreflang={item[2]}>{item[1]}</a
 					>
 				</li>{/each}
 		</ul>
 	</nav>
 {/if}
-
-<style type="text/scss">
-	#openMenu {
-		width: 54px;
-		height: 48px;
-		position: absolute;
-		top: 1.5rem;
-		right: 1.5rem;
-		border: 0;
-		background-color: transparent;
-		&.bg2 svg {
-			fill: var(--blue);
-		}
-		&.bg3 svg {
-			fill: var(--v1);
-		}
-	}
-	#menu {
-		display: grid;
-		place-content: center;
-		position: fixed;
-		top: 0;
-		left: 0;
-		z-index: 500;
-		width: 100vw;
-		height: 100vh;
-	}
-</style>

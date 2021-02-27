@@ -1,6 +1,9 @@
 <script>
 	import { components, url, layout, metatags } from '@roxi/routify';
-	import { mode } from '../../../components/store.js';
+	import Card from '../../../components/Card.svelte';
+	import Posts from '../../../components/Postlist.svelte';
+	import { mode } from '../../../components/store';
+	$: subMod = $mode == 'bg2' ? 'white' : 'blue';
 
 	const entriesFolder = $components.find(
 		(node) => node.path === '/fi/politiikka'
@@ -20,35 +23,10 @@
 	$: metatags.description = summary;
 	$: metatags['twitter:title'] = title;
 	$: metatags['twitter:description'] = summary;
-
-	$: subMod = $mode == 'bg2' ? 'white' : 'blue';
 </script>
 
-<section
-	id="posts"
-	class={'noUnd ' + subMod}
-	itemscope
-	itemtype="http://schema.org/Blog"
->
-	<h1 class="title">{title}</h1>
-	<div id="postList">
-		{#each entries as { meta, path }}
-			<article
-				itemprop="blogPosts"
-				itemscope
-				itemtype="http://schema.org/BlogPosting"
-			>
-				<a
-					class="article grid"
-					href={$url(path)}
-					title={meta.frontmatter.title}
-				>
-					<div class="content">
-						<h2>{meta.frontmatter.title}</h2>
-						<p class="summary">{meta.frontmatter.summary}</p>
-					</div>
-				</a>
-			</article>
-		{/each}
-	</div>
-</section>
+<div id="politics" class="article container mx">
+	<Card card={summary} mod={subMod} />
+	<h2 class="title tc pad">{title}</h2>
+	<Posts posts={entries} />
+</div>

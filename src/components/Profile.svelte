@@ -14,8 +14,8 @@
 
 <Dark />
 
-<div id="wrap" class={$mode}>
-	<div id="profile" class="container mx">
+<div id="wrap" class={'pad ' + $mode}>
+	<div id="profile" class="article container mx">
 		<Card item={card} mod={subMod} />
 
 		<div
@@ -36,22 +36,3 @@
 		</div>
 	</div>
 </div>
-
-<style type="text/scss">
-	#wrap {
-		padding: 3rem 0;
-	}
-	#profile {
-		&.container {
-			width: 1000px;
-		}
-	}
-	#now {
-		&.container {
-			max-width: 750px;
-		}
-		.title {
-			max-width: 540px;
-		}
-	}
-</style>
