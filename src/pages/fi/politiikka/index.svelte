@@ -3,7 +3,9 @@
 	import Card from '../../../components/Card.svelte';
 	import Posts from '../../../components/Postlist.svelte';
 	import { mode } from '../../../components/store';
+	import { CardInfo } from '../../_data';
 	$: subMod = $mode == 'bg2' ? 'white' : 'blue';
+	$: info = CardInfo.politics.fi;
 
 	const entriesFolder = $components.find(
 		(node) => node.path === '/fi/politiikka'
@@ -25,8 +27,10 @@
 	$: metatags['twitter:description'] = summary;
 </script>
 
-<div id="politics" class="article container mx">
-	<Card card={summary} mod={subMod} />
+<div id="politics" class="article mx">
+	{#if info}
+		<Card item={info} mod={subMod} />
+	{/if}
 	<h2 class="title tc pad">{title}</h2>
 	<Posts posts={entries} />
 </div>

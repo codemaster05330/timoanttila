@@ -86,31 +86,11 @@ export const Front = [
 	}
 ]
 
-export const Skills = [
-	{
-		"title": "Front-End",
-		"en": "Most of my work is front-end development and styling. Using my own frameworks or writing things from scratch.",
-		"fi": "Suurin osa työstäni on frontin kehitystä ja tyylejä. Käytän kehittämääni runkoa nopeuttamaan tyylejä ja PHP-koodia.",
-		"tools": [
-			"HTML",
-			"CSS",
-			"JavaScript",
-			"Svelte",
-			"JQuery"
-		]
-	}, {
-		"title": "Back-End",
-		"en": "I usually use CMS and a bit of PHP code for back-end, but nowadays I'm also studying other technologies and tools.",
-		"fi": "Käytän yleensä CMS-ratkaisuja ja hieman omaa koodia, mutta tutustun aktiivisesti uusiin teknologioihin ja työkaluihin.",
-		"tools": [
-			"PHP",
-			"SQL / SQLite",
-			"CMS",
-			"NodeJS",
-			"Express"
-		]
+export const CardInfo = {
+	"politics": {
+		"fi": "Verkkosivustoihin ja -kauppoihin erikoistunut yrittäjä meidän yhteisellä asialla. Vuosien kokemus yritysten hallitustyöskentelystä ja asiakaspalvelusta. Seuraan aktiivisesti politiikkaa enkä pelkää kertoa mielipiteitäni. Päätökset teen loogisesti perustuen numeroihin ja faktoihin eikä aatteisiin."
 	}
-]
+}
 
 export const gallery = [
 	{

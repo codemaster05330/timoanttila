@@ -14,25 +14,25 @@
 
 <Dark />
 
-<div id="wrap" class={'pad ' + $mode}>
-	<div id="profile" class="article container mx">
-		<Card item={card} mod={subMod} />
+<div id="profile" class="article container mx pad">
+	<Card item={card} mod={subMod} />
 
-		<div
-			id="now"
-			class={'container mx ' + subMod}
-			itemscope
-			itemtype="http://schema.org/Blog"
-		>
-			<article itemscope itemtype="http://schema.org/blogPost">
-				<div id="header" class="tc mx">
-					<h2 class="title tc mx m0" itemprop="headline">{title}</h2>
-					{#if summary}<p>{summary}</p>{/if}
-				</div>
-				<div class="bgb pad" itemprop="articleBody">
-					<slot />
-				</div>
-			</article>
-		</div>
+	<div
+		id="now"
+		class={'container mx ' + subMod}
+		itemscope
+		itemtype="http://schema.org/Blog"
+	>
+		<article itemscope itemtype="http://schema.org/blogPost">
+			<div id="header" class="tc mx">
+				<h2 class="title tc pt" itemprop="headline">
+					{title}
+				</h2>
+				{#if summary}<p>{summary}</p>{/if}
+			</div>
+			<div class="bgb pad" itemprop="articleBody">
+				<slot />
+			</div>
+		</article>
 	</div>
 </div>

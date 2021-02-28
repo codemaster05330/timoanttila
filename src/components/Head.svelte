@@ -1,7 +1,8 @@
 <script>
 	import { isActive, url, page, metatags } from '@roxi/routify';
 	import { Nav } from '../pages/_data.js';
-	import { lang, mode } from './store.js';
+	import { lang } from './store.js';
+	import Dark from './Darkmode.svelte';
 	$: i = $lang.split('-');
 	$: menu = Nav ? Nav[i[0]] : Nav.en;
 	let active;
@@ -43,21 +44,23 @@
 </button>
 
 {#if menu}
-	<div id="logo" class="abs bg1 noUnd bold">
-		<a class="cell white" href="/" hreflang="en">TA</a>
+	<div id="logo" class="abs noUnd bold">
+		<a class="grid cell white" href="/" hreflang="en">TA</a>
 	</div>
-	<nav id="menu" class="tc up bg2" class:hidden={!active} class:grid={active}>
+	<nav id="menu" class="tc up" class:hidden={!active} class:grid={active}>
 		<ul class="m0 noUnd">
 			{#each menu as item}
 				<li class="block">
 					<a
 						class="block white"
-						class:bg1={$isActive(item[0])}
 						href={$url(item[0])}
 						on:click={() => (active = !active)}
 						hreflang={item[2]}>{item[1]}</a
 					>
-				</li>{/each}
+				</li>
+			{/each}
 		</ul>
 	</nav>
 {/if}
+
+<Dark />
