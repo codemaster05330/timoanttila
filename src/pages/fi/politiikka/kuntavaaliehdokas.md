@@ -1,24 +1,57 @@
 ---
 title: Kuntavaalit 2021, Nokia
-pub:
-- 28
-- Helmi
-published: 2021-02-02T00:03:47+03:00
-modified: 2021-02-02T00:03:47+03:00
+published: 2021-03-01T00:03:47+03:00
+modified: 2021-03-01T00:03:47+03:00
 summary: Olen huolissani Suomen poliittisesta suunnasta, joten haluan olla varmistamassa, että Nokialla kuunnellaan kuntalaisten mielipiteitä ja tehdään asioita kuntalaisten eduksi. Varmistetaan yhdessä parempi tulevaisuus!
+image: 20210301-nokia.jpg
 layout: article
 ---
 
-Yrittäjä ja duunari meidän yhteisellä asialla. Kokemusta yrityksien pyörittämisestä, hallitustyöskentelystä ja asiakaspalvelusta. Seuraan aktiivisesti politiikkaa enkä pelkää kertoa omia näkemyksiäni.
+Hei ja tervetuloa tutustumaan minuun.
 
-Haluan olla varmistamassa, että Nokialla kuunnellaan kuntalaisten mielipiteitä ja tehdään asioita kuntalaisten edun mukaisesti. Resursseja ja rahaa on rajallisesti, joten ne pitää käyttää viisaasti kuntalaisten hyödyksi, meidän kaikkien parhaaksi, sekä yrityksien toimintaympäristön turvaamiseksi ja kehitykseen. Vasta kun kuntalaiset ja yritykset voivat hyvin, voimme miettiä puolueiden muita teemoja.
+Päätoiminen yrittäjä ja pyöritän tällä hetkellä kolmea yritystä. Loihdin verkkosivustoja, -kauppoja ja -sovelluksia alihankintana palveluita myyville yrityksille.
 
-Tärkeitä asioita minulle ovat kuntalaisten peruspalveluiden saatavuus läheltä sopivalla hinnalla, kohtuuhintainen asuminen ja verotus, nuorten harrastaminen ja tulevaisuus sekä yrityksien toimintaympäristön turvaaminen, kehitys ja työttömille helpompaa työllistymistä. Haluaisin myös kehittää nuorten sijoitustietoutta, koska se voi olla nuoren yksi tärkeimmistä päätöksistä.
+Olen asunut monissa Suomen kaupungeissa, vuoden Englannissa ja kaksi kesää veneessä, mutta vasta muutettuani tänne Alhoniityn Petäjäpolulle syksyllä 2020 löysin paikan, joka oikeasti tuntuu kodilta. Rakastuin Nokiaan.
 
-Haluan toimia aidosti kuntalaisten äänenä ja tuoda kuntapolitiikan lähemmäs kuntalaisia. Äänestämisen lisäksi haluan kehittää vuorovaikutusta ja olen avoin kuulemaan, mitä juuri sinä haluaisit kehittää Nokialla tai yleisesti Suomessa.
+## Poliittinen elämä?
+
+Aktiivisesti seurannut politiikkaa noin parisen vuotta, mutta vasta viime vuonna aloin enemmän osallistumaan keskusteluun Twitterissä ja Facebookissa sekä miettimään miten voisin paremmin vaikuttaa meidän tulevaisuuteen.
+
+Olen hiukan huolissani Suomen poliittisesta suunnasta, joten haluan olla varmistamassa, että Nokialla kuunnellaan kuntalaisten mielipiteitä ja tehdään asioita oikeasti kuntalaisia ajatellen. Resursseja ja rahaa on rajallisesti, joten on erittäin tärkeää käyttää niitä viisaasti meidän yhteiseksi hyväksi.
 
 Päätökset ja mielipiteet perustuvat aina faktoihin, numeroihin ja todelliseen vaikutukseen eikä poliittisiin teemoihin. Kokonaiskuva ja -vaikutus pitää olla tiedossa ennen päätösten tekemistä ja sen pitää olla kuntalaisten parhaaksi. Politiikkaa ei voi tehdä teemalasit silmillä välittämättä miten päätökset oikeasti vaikuttavat kuntalaisten elämään.
 
-Haluan olla vaikuttamassa siihen, millaisessa maailmassa, millaisessa kunnassa elämme ja millaisen tulevaisuuden jätämme nuorille. Muutos lähtee rohkeista yksilöistä ja muutosta tapahtuu kun heitä on tarpeeksi. Haluan olla rakentamassa oikeudenmukaista, tasa-arvoista, kaikille turvallista ja viihtyisää yhteiskuntaa.
+Haluan olla vaikuttamassa siihen, millaisessa kunnassa elämme ja millaisen tulevaisuuden jätämme lapsille ja nuorille. Muutos lähtee sinusta ja minusta, rohkeista yksilöistä, jotka uskaltavat lähteä vaikuttamaan. Haluan olla rakentamassa oikeudenmukaista, tasa-arvoista, kaikille turvallista ja viihtyisää yhteiskuntaa.
 
-Äänestämällä voit vaikuttaa!
+Tehdään yhdessä parempaa politiikkaa ylitse puoluerajojen!
+
+## Vaalilupauksia?
+
+Kuntalaisten hyvinvointi ja yrityksien toimintaympäristö ovat minulle tärkeitä asioita.
+
+### Yrittäjät ja duunarit
+
+Yrittäjyys on kunnan tärkein voimavara ja meidän tulee luoda yrityksille paras mahdollinen toiminta- ja kehitysympäristö tulevaisuudelle. Sujuvampaa paikallista sopimista ja helpompaa työllistymistä. Kannatan etätöitä mahdollisuuksien mukaan. Haluan olla aktiivisesti kehittämässä ja kartoittamassa uusia työllistämismahdollisuuksia sekä kehittämässä nuorten työkokeiluja ja -harjoittelua yrityksissä.
+
+### Hyvinvointi
+
+Jokaisella on oikeus riittäviin sosiaali- ja terveyspalveluihin kohtuullisella ajalla ja hinnalla sekä mieluusti mahdollisimman lähellä. Kiireettömänäkin pitää päästä viikossa hoitoon. Verkkotapaamisia mahdollisuuksien mukaan.
+
+### Talous- ja sijoitustietoa nuorille
+
+Nykyään lempiaiheeni on sijoittaminen ja olisin halunnut tietää sen tuomista mahdollisuuksista jo nuorena.
+
+Oppilaitosten tulisi tarjota parhaat eväät elämään, joten parempi taloustieto ja sijoittaminen pitäisi saada vähintään valinnaiseksi. Vastaavia kokeiluja on jo menossa joissain kouluissa tällä hetkellä.
+
+Sijoittaminen on kaikkien oikeus eikä aloitus vaadi suurta pääomaa. Kouluissa tulisi olla hyvät eväät elämään ja sijoittaminen voi olla yksi nuoren parhaista ratkaisuista.
+
+## Muista äänestää
+
+Muista, että kuntavaalit ovat henkilövaalit. Me perussuomalaiset saamme äänestää vapaasti kunnan asioista ilman puoluekuria. On tärkeää saada päättäjiä, jotka eivät aja ensisijaisesti poliittista ideologiaa vaan haluaa meidän parasta. Kun kuntalaiset ja kunnassa toimivat yritykset voivat hyvin, voimme miettiä miten pelastaa muu maailma.
+
+Riippumatta siitä, kuka on sinun valintasi, muista äänestää. Vain äänestämällä voit vaikutta meidän yhteiseen tulevaisuuteen.
+
+## Linkkejä
+
+- https://twitter.com/_timoanttila
+- https://vaalit.perussuomalaiset.fi/kuntavaalit/ehdokas/timo-anttila

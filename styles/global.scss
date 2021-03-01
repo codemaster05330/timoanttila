@@ -23,7 +23,8 @@ h2,
 
 body,
 section.about .title,
-.m0 { margin: 0 }
+.m0,
+p { margin: 0 }
 
 h1,
 h2 {
@@ -37,9 +38,10 @@ h2.title { margin: 0 auto }
 	font-size: clamp(1.8rem, 2.8rem, 10vw);
 }
 
-p { margin-bottom: 0 }
-
-p + p { margin-top: 15px }
+p {
+	& + p { padding-top: 15px }
+	& + h3 { margin: 20px 0 15px }
+}
 
 .violet { color: var(--violet) }
 
@@ -79,6 +81,8 @@ img { display: block }
 
 .abs { position: absolute }
 
+.rel { position: relative }
+
 .up { text-transform: uppercase }
 
 .mx {
@@ -89,9 +93,11 @@ img { display: block }
 .wh { min-height: 100vh }
 
 .cell,
+.w100,
 img { width: 100% }
 
-.cell { height: 100% }
+.cell,
+.h100 { height: 100% }
 
 .cell,
 #menu { place-content: center }
@@ -225,7 +231,25 @@ img { width: 100% }
 	}
 }
 
+#header {
+	height: 400px;
+	overflow: hidden;
+	img {
+		object-fit: cover;
+	}
+	#caption {
+		background-color: rgba(0,0,0,.6);
+		.content {
+			max-width: 700px;
+			font-size: 1.1em
+		}
+	}
+}
+
 article {
+	#content {
+		max-width: 750px;
+	}
 	ul {
 		padding-left: 18px;
 		li + li { margin-top: 10px }
@@ -239,13 +263,6 @@ article {
 	}
 	#header {
 		max-width: 540px;
-	}
-}
-
-.article {
-	max-width: 1200px;
-	article {
-		max-width: 750px
 	}
 }
 
