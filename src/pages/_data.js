@@ -88,7 +88,8 @@ export const Front = [
 
 export const CardInfo = {
 	"politics": {
-		"fi": "Verkkosivustoihin ja -kauppoihin erikoistunut yrittäjä meidän yhteisellä asialla. Vuosien kokemus yritysten hallitustyöskentelystä ja asiakaspalvelusta. Seuraan aktiivisesti politiikkaa enkä pelkää kertoa mielipiteitäni. Päätökset teen loogisesti perustuen numeroihin ja faktoihin eikä aatteisiin."
+		"fi": "Verkkosivustoihin ja -kauppoihin erikoistunut yrittäjä meidän yhteisellä asialla. Vuosien kokemus yritysten hallitustyöskentelystä ja asiakaspalvelusta. Seuraan aktiivisesti politiikkaa enkä pelkää kertoa mielipiteitäni. Päätökset teen loogisesti perustuen numeroihin ja faktoihin eikä aatteisiin.",
+		"en": "An entrepreneur specializing in websites and stores with our common cause. Years of experience in corporate board work and customer service. I actively follow politics and I am not afraid to express my opinions. I make decisions logically based on numbers and facts and not ideas."
 	}
 }
 

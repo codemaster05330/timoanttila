@@ -3,6 +3,6 @@
 	$: subMod = $mode == 'bg2' ? 'white' : 'blue';
 </script>
 
-<div class={subMod} itemscope itemtype="http://schema.org/Blog">
+<div class={'pad ' + subMod} itemscope itemtype="http://schema.org/Blog">
 	<slot />
 </div>

@@ -4,8 +4,7 @@
 	--wt: rgba(255, 255, 255, 0.87);
 	--wt6: rgba(255, 255, 255, 0.6);
 	--wt4: rgba(255, 255, 255, 0.4);
-	--blue: #2196f3;
-	--link: rgb(126, 255, 225)
+	--blue: #24b5bc
 }
 
 * { box-sizing: border-box; }
@@ -19,7 +18,10 @@ body {
 
 h1,
 h2,
+h3,
 .bold { font-weight: 700 }
+
+article a { color: var(--blue) }
 
 body,
 section.about .title,
@@ -27,7 +29,9 @@ section.about .title,
 p { margin: 0 }
 
 h1,
-h2 {
+h2,
+h3,
+.pops {
 	font-family: Poppins;
 	line-height: 1.2
 }
@@ -35,7 +39,7 @@ h2 {
 h2.title { margin: 0 auto }
 
 .title {
-	font-size: clamp(1.8rem, 2.8rem, 10vw);
+	font-size: clamp(1.8em, 2.8em, 10vw);
 }
 
 p {
@@ -43,11 +47,9 @@ p {
 	& + h3 { margin: 20px 0 15px }
 }
 
-.violet { color: var(--violet) }
-
 .blue {
 	border-color: var(--v1);
-	p a { color: #016064 }
+	p a { color: var(--blue) }
 	#socialmedia svg { fill: var(--v1) }
 }
 
@@ -58,12 +60,15 @@ p {
 }
 
 .blue,
-.blue #postList a {
+.blue #postList a,
+.bg3 .btn,
+#helpers h3 {
 	color: var(--v2)
 }
 
 .white,
-.white #postList a {
+.white #postList a,
+.bg2 .btn {
 	color: var(--wt)
 }
 
@@ -153,7 +158,7 @@ img { width: 100% }
 	a {
 		padding: 1.5rem 2rem 1rem;
 		border-radius: 30px;
-		&:hover { color: var(--link) }
+		&:hover { color: var(--blue) }
 	}
 	li + li {
 		border-top: 2px solid rgba(255,225,225,.1)
@@ -165,7 +170,20 @@ img { width: 100% }
 	padding-right: 1rem
 }
 
+.btn,
+aside .pub {
+	border: 2px ridge var(--blue);
+	line-height: 45px;
+	height: 45px;
+	padding: 0 1.5rem;
+	&:hover {
+		color: var(--v1);
+		background-color: var(--blue)
+	}
+}
+
 #hello {
+	min-height: 100vh;
 	section.about {
 		p { margin: 15px 0 0 }
 		.container {
@@ -185,70 +203,68 @@ img { width: 100% }
 }
 
 .bg2,
-.bg3 section#politics {
-	color: var(--wt);
-}
+.bg2 .list a,
+.bg3 section#politics { color: var(--wt) }
 
 .bg2 {
-	article,
-	section.about {
-		a { color: var(--link) }
-	}
 	&,
 	#menu {
 		background-color: var(--v2);
 	}
 	#openMenu svg,
 	#helpMe svg { fill: var(--wt) }
-	.bor {
-		border: 2px solid rgba(255, 255, 255, 0.1)
-	}
+	.bor { border: 2px solid rgba(255,255,255,.2) }
 }
 
 .bg3 {
 	section {
 		&:not(#politics){
 			color: var(--v1);
-			background-color: var(--wt);
-			article,
-			.about {
-				a { color: darkcyan }
-			}
-			.bor {
-				border: 2px solid rgba(21, 32, 43, 0.1)
-			}
+			background-color: var(--wt)
 		}
+		&:not(#politics) article,
+		&:not(#politics) .about,
 		&#politics {
-			a { color: var(--link) }
+			a { color: var(--blue) }
 		}
 	}
+	.list a { color: var(--v2) }
+	.bor { border: 2px solid rgba(21,32,43,.2) }
 }
 
 #postList {
-	h3 { padding-bottom: 5px }
+	h3 {
+		font-size: 1.6em;
+		padding-bottom: 10px
+	}
 	.bor {
 		padding: 1.5rem
 	}
 }
 
-#header {
-	height: 400px;
-	overflow: hidden;
-	img {
-		object-fit: cover;
+.list {
+	grid-template-columns: repeat(auto-fill, minmax(20em,  1fr));
+	grid-gap: 2rem;
+	max-width: 1200px;
+	h3 { padding-bottom: 10px }
+	.content.grid {
+		grid-template-columns: 80px 1fr;
+		grid-gap: 1rem
 	}
-	#caption {
-		background-color: rgba(0,0,0,.6);
-		.content {
-			max-width: 700px;
-			font-size: 1.1em
-		}
-	}
+	.pub { height: 80px }
 }
 
 article {
 	#content {
 		max-width: 750px;
+		h1 {
+			font-size: 2.2em;
+			margin: 0 0 1.5rem
+		}
+		h2 { font-size: 1.7em }
+		h3 { font-size: 1.4em }
+		h2,
+		h3 { margin: 1.5rem 0 15px }
 	}
 	ul {
 		padding-left: 18px;
@@ -260,9 +276,6 @@ article {
 #now {
 	&.container {
 		max-width: 750px;
-	}
-	#header {
-		max-width: 540px;
 	}
 }
 
@@ -280,20 +293,11 @@ article {
 	img { border-radius: 50% }
 }
 
-#about .container {
-	max-width: 650px;
-}
-
-#more {
-	margin-bottom: 1.5rem;
-	a {
-		border-radius: 40px;
-		padding: 15px 45px;
-		text-transform: uppercase;
-		border: 1px solid #000;
-		span {
-			margin-top: 5px;
-		}
+#about {
+	margin-bottom: 3rem;
+	p { font-size: 1.2em }
+	.container {
+		max-width: 650px;
 	}
 }
 
@@ -309,6 +313,15 @@ article {
 		}
 	}
 }
+
+#gallery {
+	img {
+		object-fit: cover;
+	}
+}
+
+button,
+#darkmode .slider { cursor: pointer }
 
 #darkmode {
 	width: 60px;
@@ -333,7 +346,6 @@ article {
 	}
 	.slider {
 		position: absolute;
-		cursor: pointer;
 		top: 0;
 		left: 0;
 		right: 0;
@@ -373,6 +385,7 @@ article {
 }
 
 #helpers {
+	background-color: var(--wt);
 	border: 1px solid var(--v1);
 	top: 0;
 	right: 55px;

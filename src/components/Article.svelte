@@ -11,19 +11,9 @@
 	$: metatags.image = img;
 </script>
 
-<article class="mb" itemscope itemtype="http://schema.org/blogPost">
-	<div id="header" class="tc rel white">
-		<div id="caption" class="abs grid cell">
-			<div class="content">
-				<h2 class="title m0" itemprop="headline">{title}</h2>
-				{#if summary}<p>{summary}</p>{/if}
-			</div>
-		</div>
-		<picture class="w100 h100">
-			<img class="h100" src={img} alt={title} />
-		</picture>
-	</div>
+<article class="mb mt" itemscope itemtype="http://schema.org/blogPost">
 	<div id="content" class="container mx" itemprop="articleBody">
+		<h1 class="title" itemprop="headline">{title}</h1>
 		<slot />
 	</div>
 </article>

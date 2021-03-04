@@ -3,7 +3,6 @@ title: Kuntavaalit 2021, Nokia
 published: 2021-03-01T00:03:47+03:00
 modified: 2021-03-01T00:03:47+03:00
 summary: Olen huolissani Suomen poliittisesta suunnasta, joten haluan olla varmistamassa, että Nokialla kuunnellaan kuntalaisten mielipiteitä ja tehdään asioita kuntalaisten eduksi. Varmistetaan yhdessä parempi tulevaisuus!
-image: 20210301-nokia.jpg
 layout: article
 ---
 

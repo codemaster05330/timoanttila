@@ -5,7 +5,7 @@
 </script>
 
 {#each Front as item, i}
-	<section id={item.id} class="about featured pad">
+	<section id={item.id} class="about featured pad noUnd">
 		<div class="container grid mx">
 			<picture class="img grid cell">
 				<source
@@ -31,12 +31,11 @@
 					<p>{item[data[0]].body}</p>
 					<p>
 						<a
-							class="btn"
+							class="btn bold inl"
 							href={item[data[0]].link.url}
 							title={item[data[0]].link.title}
 						>
 							{#if lang == 'fi'}Lue lisää{:else}Read more{/if}
-							&rarr;
 						</a>
 					</p>
 				</div>
