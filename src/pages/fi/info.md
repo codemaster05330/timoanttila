@@ -2,6 +2,7 @@
 title: "Mitä elämässäni tapahtuu juuri nyt?"
 summary: Tältä sivulta löydät tiivistelmän mihin keskityn ammatillisesti ja henkilökohtaisessa elämässä.
 desc: Tervetuloa tutustumaan minuun tarkemmin. Tältä sivulta löydät kattavasti kaiken mikä on minulle tärkeää tällä hetkellä ammatillisesti ja henkilökohtaisessa elämässä.
+card: <p>Verkkosivustoja ja -sovelluksia loihtiva toimitusjohtaja yrityksessä Tuspe Design Oy sekä hallituksen puheenjohtaja ja teknologiajohtaja yrityksessä Ratsukko Solutions Oy.</p><p>Perussuomalaisten kuntavaaliehdokas Nokialla.</p>
 layout: profile
 img: timo
 language: fi
@@ -13,8 +14,8 @@ language: fi
 
 ## Tittelit:
 
-Hallituksen puheenjohtaja  
-Toimitusjohtaja  
+Hallituksen puheenjohtaja
+Toimitusjohtaja
 Teknologiajohtaja
 
 ## Työelämä:
@@ -28,7 +29,7 @@ Projekteja tehdessä haluaisin aina ylittää asiakkaan odotukset ja tiedän onn
 - Aktiivinen alihankkija digitoimistolle [Molentum Oy](https://molentum.fi/).
 - Teknologiajohtaja ja hallituksen puheenjohtaja yrityksessä [Ratsukko Solutions Oy](https://www.ratsukko.com/).
 - Ylläpidän viittä palvelinta ja olen vastuussa asiakkaiden verkkopalveluiden turvallisuudesta.
-- Sitoutumaton [Perussuomalaisten](https://www.perussuomalaiset.fi/) kunnallisvaaliehdokas Nokialla.
+- [Perussuomalaisten](https://www.perussuomalaiset.fi/) kunnallisvaaliehdokas Nokialla.
 
 ## Henkilökohtainen elämä:
 

@@ -2,6 +2,7 @@
 title: "What is going on in my life right now?"
 summary: Now page is a place to tell where my focus is right now in my professional and personal life.
 desc: Welcome to get to know me more. On this page you will comprehensively find everything that is important to me at the moment in my professional and personal life.
+card: <p>The active CEO of <a href="https://tuspe.com/">Tuspe Design Oy</a>, a digital agency that provides solutions for websites, stores and applications, and the chairman and CTO of <a href="https://www.ratsukko.com/">Ratsukko Solutions Oy</a>, a company that promotes the riding hobby and offers modern solutions for booking courses.</p><p>Municipal candidate in Nokia.</p>
 layout: profile
 img: timo
 language: en
@@ -20,8 +21,6 @@ Chief technology officer
 Server Administrator
 
 ## Professional life:
-
-The active CEO of [Tuspe Design Oy](https://tuspe.com/), a digital agency that provides solutions for websites, stores and applications, and the chairman and CTO of [Ratsukko Solutions Oy](https://www.ratsukko.com/), a company that promotes the riding hobby and offers modern solutions for booking courses.
 
 Full stack web developer who is passionate about making websites and webstores better, faster and easier to update. Technologies I enjoy working with include JavaScript, Svelte, PHP, NodeJS and MariaDB. Mostly using ProcessWire CMS for all the new projects, but I know my way with Wordpress and Drupal too. I love my job, but I would like to focus on the front end and develop my Vue skills in the future.
 
@@ -74,5 +73,5 @@ Always want to surpass myself and my customers. When the customer feels they hav
 
 ## Now?
 
-Now page is a place to tell where my focus is right now in my professional and personal life. If activities or priorities change, I'll update this page accordingly.  
+Now page is a place to tell where my focus is right now in my professional and personal life. If activities or priorities change, I'll update this page accordingly.
 Inspired by [nownownow project](https://nownownow.com/).

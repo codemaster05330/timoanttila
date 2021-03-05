@@ -2,17 +2,17 @@ export const Nav = {
 	"en": [
 		['/', 'Home', 'en'],
 		['/about', 'About me', 'en'],
-		['/politics','Political Views', 'en'],
-		['/gallery','Featured photos','en'],
-		['/tutorials','Tutorials','en'],
-		['/fi','Suomeksi','fi']
+		['/politics', 'Political Views', 'en'],
+		['/gallery', 'Featured photos', 'en'],
+		['/tutorials', 'Tutorials', 'en'],
+		['/fi', 'Suomeksi', 'fi']
 	],
 	"fi": [
 		['/fi', 'Etusivu', 'fi'],
 		['/fi/info', 'Tietoa minusta', 'fi'],
-		['/fi/politiikka','Politiikka', 'fi'],
-		['/fi/galleria','Galleria','fi'],
-		['/','In English','en']
+		['/fi/politiikka', 'Politiikka', 'fi'],
+		['/fi/galleria', 'Galleria', 'fi'],
+		['/', 'In English', 'en']
 	]
 }
 
@@ -21,7 +21,7 @@ export const Front = [
 		"id": "about",
 		"img": [
 			"timo",
-			"jpg"
+			"jpeg"
 		],
 		"en": {
 			"title": "Hi, I'm Timo Anttila",
@@ -75,7 +75,7 @@ export const Front = [
 				"url": "https://tuspe.com/"
 			}
 		},
-		"fi": { 
+		"fi": {
 			"title": "Tuspe Design Oy",
 			"body": "Tavoitteena tarjota asiakkaille helppokäyttöinen ja selkeästi ymmärrettävä ja päivitettävä digitaalinen hakukoneoptimoitu myyntikanava, kotisivu- ja verkkokaupparatkaisu, sekä niiden ylläpito. Näiden avulla asiakas saa selkeää myynnillistä hyötyä ja se löytyy ja erottuu kilpailijoista.",
 			"link": {
@@ -86,31 +86,12 @@ export const Front = [
 	}
 ]
 
-export const Skills = [
-	{
-		"title": "Front-End",
-		"en": "Most of my work is front-end development and styling. Using my own frameworks or writing things from scratch.",
-		"fi": "Suurin osa työstäni on frontin kehitystä ja tyylejä. Käytän kehittämääni runkoa nopeuttamaan tyylejä ja PHP-koodia.",
-		"tools": [
-			"HTML",
-			"CSS",
-			"JavaScript",
-			"Svelte",
-			"JQuery"
-		]
-	}, {
-		"title": "Back-End",
-		"en": "I usually use CMS and a bit of PHP code for back-end, but nowadays I'm also studying other technologies and tools.",
-		"fi": "Käytän yleensä CMS-ratkaisuja ja hieman omaa koodia, mutta tutustun aktiivisesti uusiin teknologioihin ja työkaluihin.",
-		"tools": [
-			"PHP",
-			"SQL / SQLite",
-			"CMS",
-			"NodeJS",
-			"Express"
-		]
+export const CardInfo = {
+	"politics": {
+		"fi": "Verkkosivustoihin ja -kauppoihin erikoistunut yrittäjä meidän yhteisellä asialla. Vuosien kokemus yritysten hallitustyöskentelystä ja asiakaspalvelusta. Seuraan aktiivisesti politiikkaa enkä pelkää kertoa mielipiteitäni. Päätökset teen loogisesti perustuen numeroihin ja faktoihin eikä aatteisiin.",
+		"en": "An entrepreneur specializing in websites and stores with our common cause. Years of experience in corporate board work and customer service. I actively follow politics and I am not afraid to express my opinions. I make decisions logically based on numbers and facts and not ideas."
 	}
-]
+}
 
 export const gallery = [
 	{
