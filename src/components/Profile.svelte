@@ -24,15 +24,8 @@
 		itemtype="http://schema.org/Blog"
 	>
 		<article itemscope itemtype="http://schema.org/blogPost">
-			<div id="header" class="tc mx">
-				<h2 class="title tc pt" itemprop="headline">
-					{title}
-				</h2>
-				{#if summary}<p>{summary}</p>{/if}
-			</div>
-			<div class="bgb pad" itemprop="articleBody">
-				<slot />
-			</div>
+			<h2 class="title tc pt" itemprop="headline">{title}</h2>
+			<div class="bgb pad" itemprop="articleBody"><slot /></div>
 		</article>
 	</div>
 </div>

@@ -11,8 +11,7 @@
 
 body {
 	font-weight: 400;
-	font-family: Lato, -apple-system, BlinkMacSystemFont, 'Segoe UI',
-		Roboto, Helvetica, Arial, sans-serif;
+	font-family: Lato, Verdana, Roboto, Helvetica, Arial, sans-serif;
 	line-height: 1.5
 }
 
@@ -21,7 +20,8 @@ h2,
 h3,
 .bold { font-weight: 700 }
 
-article a { color: var(--blue) }
+article a,
+#card a { color: var(--blue) }
 
 body,
 section.about .title,
@@ -39,7 +39,7 @@ h3,
 h2.title { margin: 0 auto }
 
 .title {
-	font-size: clamp(1.8em, 2.8em, 10vw);
+	font-size: clamp(1.8em, 2.8em, 7vw);
 }
 
 p {
@@ -73,7 +73,9 @@ p {
 }
 
 .bg1,
-.white #postList a { background-color: var(--v1) }
+.white #postList a,
+pre,
+p code { background-color: var(--v1) }
 
 .tc { text-align: center }
 
@@ -166,14 +168,15 @@ img { width: 100% }
 }
 
 .container {
-	padding-left: 1rem;
-	padding-right: 1rem
+	padding-left: 1.5rem;
+	padding-right: 1.5rem
 }
+
+.btn { line-height: 45px }
 
 .btn,
 aside .pub {
 	border: 2px ridge var(--blue);
-	line-height: 45px;
 	height: 45px;
 	padding: 0 1.5rem;
 	&:hover {
@@ -204,7 +207,8 @@ aside .pub {
 
 .bg2,
 .bg2 .list a,
-.bg3 section#politics { color: var(--wt) }
+.bg3 section#politics,
+pre code { color: var(--wt) }
 
 .bg2 {
 	&,
@@ -240,6 +244,7 @@ aside .pub {
 	.bor {
 		padding: 1.5rem
 	}
+	.article { border-radius: 20px }
 }
 
 .list {
@@ -251,17 +256,19 @@ aside .pub {
 		grid-template-columns: 80px 1fr;
 		grid-gap: 1rem
 	}
-	.pub { height: 80px }
+	.pub {
+		height: 80px;
+		.day { font-size: 1.6rem }
+	}
 }
 
 article {
 	#content {
 		max-width: 750px;
 		h1 {
-			font-size: 2.2em;
 			margin: 0 0 1.5rem
 		}
-		h2 { font-size: 1.7em }
+		h2 { font-size: clamp(1.4em, 1.8em, 7vw) }
 		h3 { font-size: 1.4em }
 		h2,
 		h3 { margin: 1.5rem 0 15px }
@@ -281,6 +288,7 @@ article {
 
 #card {
 	max-width: 1000px;
+	width: 90%;
 	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
 	.content {
 		margin-bottom: 1rem;
@@ -294,7 +302,6 @@ article {
 }
 
 #about {
-	margin-bottom: 3rem;
 	p { font-size: 1.2em }
 	.container {
 		max-width: 650px;
@@ -408,6 +415,20 @@ button,
 	padding-bottom: 3rem
 }
 
+pre {
+	padding: 1rem;
+	margin: 15px 0;
+	border-left: 6px solid #bb86fc;
+	margin-left: -6px;
+	width: calc(100% + 6px);
+	overflow: hidden;
+	border-radius: 10px;
+}
+p code {
+	padding: 0 5px;
+	border-radius: 5px;
+}
+
 @media screen and (min-height:890px){
 	#hello section.about {
 		display: grid;
@@ -460,6 +481,11 @@ button,
 	#card { max-width: 550px }
 }
 
+@media screen and (max-width:860px){
+	article,
+	#card { margin-top: 1rem }
+}
+
 @media screen and (min-width: 750px){
 	#openMenu {
 		width: 54px;
@@ -482,6 +508,9 @@ button,
 		border-width: 0 2px 2px 0;
 		border-style: solid;
 		border-color: rgba(255, 255, 255, 0.1);
+	}
+	#postList {
+		grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
 	}
 }
 
@@ -511,12 +540,6 @@ button,
 		top: 4px
 	}
 	#hello { padding-top: 1.5rem }
-}
-
-@media screen and (min-width: 600px) {
-	#postList {
-		grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
-	}
 }
 
 @media screen and (min-width: 400px) {
