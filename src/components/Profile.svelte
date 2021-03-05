@@ -24,8 +24,10 @@
 		itemtype="http://schema.org/Blog"
 	>
 		<article itemscope itemtype="http://schema.org/blogPost">
-			<h2 class="title tc pt" itemprop="headline">{title}</h2>
-			<div class="bgb pad" itemprop="articleBody"><slot /></div>
+			<div id="content" class="mx">
+				<h2 class="title tc pt" itemprop="headline">{title}</h2>
+				<div class="pad" itemprop="articleBody"><slot /></div>
+			</div>
 		</article>
 	</div>
 </div>

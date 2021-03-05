@@ -12,7 +12,7 @@
 </script>
 
 <article class="mb mt" itemscope itemtype="http://schema.org/blogPost">
-	<div id="content" class="container mx" itemprop="articleBody">
+	<div id="content" class="mx" itemprop="articleBody">
 		<h1 class="title" itemprop="headline">{title}</h1>
 		<slot />
 	</div>

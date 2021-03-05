@@ -4,4 +4,4 @@
 	lang.set('en-us');
 </script>
 
-<Home lang={$lang} />
+<Home lang="en" />

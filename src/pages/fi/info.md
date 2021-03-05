@@ -8,17 +8,17 @@ img: timo
 language: fi
 ---
 
-## Paikkakunta:
+### Paikkakunta:
 
 [Nokia](https://goo.gl/maps/k437LzVrvYzhUvXV9 "Google Maps")
 
-## Tittelit:
+### Tittelit:
 
 Hallituksen puheenjohtaja
 Toimitusjohtaja
 Teknologiajohtaja
 
-## Työelämä:
+### Työelämä:
 
 Verkkosivustojen ja -kauppojen luoja, webbisovellusten kehittäjä. Haluan intohimoisesti tehdä verkkopalveluista parempia, nopeampia ja helpompia käyttää. Tekniikoita, joiden kanssa nautin työskennellä, ovat JavaScript, Svelte, PHP, NodeJS ja MariaDB. Käytän yleensä sisällönhallintaan ProcessWireä, mutta tuttuja alustoja ovat myös WordPress ja Drupal. Rakastan työtäni ja haluan kehittää osaamistani joka päivä. Aina löytyy jotain uutta ja mielenkiintoista tutkittavaa.
 
@@ -31,7 +31,7 @@ Projekteja tehdessä haluaisin aina ylittää asiakkaan odotukset ja tiedän onn
 - Ylläpidän viittä palvelinta ja olen vastuussa asiakkaiden verkkopalveluiden turvallisuudesta.
 - [Perussuomalaisten](https://www.perussuomalaiset.fi/) kunnallisvaaliehdokas Nokialla.
 
-## Henkilökohtainen elämä:
+### Henkilökohtainen elämä:
 
 - Kiinnostunut tekoälyn mahdollisuuksista, tekniikan ihmeistä ja ihmisten käyttäytymisestä.
 - Valokuvaan kaikenlaista kaunista ja mielenkiintoista [Instagramiin](https://www.instagram.com/_timoanttila/).
@@ -41,23 +41,23 @@ Projekteja tehdessä haluaisin aina ylittää asiakkaan odotukset ja tiedän onn
 - Aktiivinen vierailija ja vapaaehtoinen monissa tapahtumissa.
 - Sijoitan aktiivisesti osakkeisiin ja rahastoihin ([Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios)).
 
-## Teknologiat / työkalut:
+### Teknologiat / työkalut:
 
 - HTML, CSS, JavaScript, Svelte, JQuery
 - PHP, SQL, NodeJS, Express
 - ProcessWire, Drupal, Wordpress
 - MySQL, MariaDB, SQLite
 
-## Kielet:
+### Kielet:
 
 - Finnish, English
 
-## Yhteystiedot:
+### Yhteystiedot:
 
 - <a href="tel:+358407746121" rel="nofollow">+358 40 774 6121</a>
 - <a href="mailto:moro@tuspe.com" rel="nofollow">moro@tuspe.com</a>
 
-## Seuraa minua somessa
+### Seuraa minua somessa
 
 - https://tuspe.com
 - https://github.com/timoanttila

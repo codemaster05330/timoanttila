@@ -1,7 +1,6 @@
 <script>
-	import { Front, Skills } from '../pages/_data.js';
+	import { Front } from '../pages/_data.js';
 	export let lang;
-	$: data = lang.split('-');
 </script>
 
 {#each Front as item, i}
@@ -18,22 +17,22 @@
 				/>
 				<img
 					src={'/images/' + item.img[0] + '.' + item.img[1]}
-					alt={item[data[0]].title}
+					alt={item[lang].title}
 				/>
 			</picture>
 			<div class="content">
 				<div class="grid cell">
 					{#if i == 0}
-						<h1 class="title">{item[data[0]].title}</h1>
+						<h1 class="title">{item[lang].title}</h1>
 					{:else}
-						<h2 class="title">{item[data[0]].title}</h2>
+						<h2 class="title">{item[lang].title}</h2>
 					{/if}
-					<p>{item[data[0]].body}</p>
+					<p>{item[lang].body}</p>
 					<p>
 						<a
 							class="btn bold inl"
-							href={item[data[0]].link.url}
-							title={item[data[0]].link.title}
+							href={item[lang].link.url}
+							title={item[lang].link.title}
 						>
 							{#if lang == 'fi'}Lue lisää{:else}Read more{/if}
 						</a>

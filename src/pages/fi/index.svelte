@@ -4,4 +4,4 @@
 	lang.set('fi-fi');
 </script>
 
-<Home lang={$lang} />
+<Home lang="fi" />

@@ -8,19 +8,19 @@ img: timo
 language: en
 ---
 
-## Location:
+### Location:
 
 [Nokia, Finland](https://goo.gl/maps/k437LzVrvYzhUvXV9 "Google Maps")
 
-## Professional title:
+### Professional title:
 
-Full Stack Developer  
-Chairman of the Board  
-Chief executive officer  
-Chief technology officer  
+Full Stack Developer
+Chairman of the Board
+Chief executive officer
+Chief technology officer
 Server Administrator
 
-## Professional life:
+### Professional life:
 
 Full stack web developer who is passionate about making websites and webstores better, faster and easier to update. Technologies I enjoy working with include JavaScript, Svelte, PHP, NodeJS and MariaDB. Mostly using ProcessWire CMS for all the new projects, but I know my way with Wordpress and Drupal too. I love my job, but I would like to focus on the front end and develop my Vue skills in the future.
 
@@ -34,7 +34,7 @@ Always want to surpass myself and my customers. When the customer feels they hav
 - [Finns Party](https://www.perussuomalaiset.fi/kielisivu/in-english/) municipal election candidate in [Nokia](https://www.nokiankaupunki.fi/).
 - Participating in the open source revolution on [Github](https://github.com/timoanttila?tab=repositories).
 
-## Personal life:
+### Personal life:
 
 - Learning how to live a real life.
 - Interested in artificial intelligence, the wonders of technology, and human behavior.
@@ -45,23 +45,23 @@ Always want to surpass myself and my customers. When the customer feels they hav
 - An avid visitor as well as a volunteer at many events.
 - Investing in stocks and funds.
 
-## Technologies:
+### Technologies:
 
 - HTML, CSS, JavaScript, Svelte, JQuery
 - PHP, SQL, NodeJS, Express
 - ProcessWire, Drupal, Wordpress
 - MySQL, MariaDB, SQLite
 
-## Languages:
+### Languages:
 
 - Finnish, English
 
-## Contact:
+### Contact:
 
 - <a href="tel:+358407746121" rel="nofollow">+358 40 774 6121</a>
 - <a href="mailto:info@tuspe.com" rel="nofollow">info@tuspe.com</a>
 
-## Find me around the web:
+### Find me around the web:
 
 - https://tuspe.com
 - https://github.com/timoanttila
@@ -71,7 +71,7 @@ Always want to surpass myself and my customers. When the customer feels they hav
 - https://www.linkedin.com/in/anttilatimo/
 - https://github.com/TuspeDesign
 
-## Now?
+### Now?
 
 Now page is a place to tell where my focus is right now in my professional and personal life. If activities or priorities change, I'll update this page accordingly.
 Inspired by [nownownow project](https://nownownow.com/).
