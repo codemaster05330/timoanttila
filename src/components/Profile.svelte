@@ -19,7 +19,7 @@
 
 	<div
 		id="now"
-		class={'container mx ' + subMod}
+		class={subMod}
 		itemscope
 		itemtype="http://schema.org/Blog"
 	>

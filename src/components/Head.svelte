@@ -11,7 +11,7 @@
 
 <button
 	id="openMenu"
-	class="abs toggle"
+	class="toggle"
 	class:open={active}
 	on:click={() => (active = !active)}
 	title="Open/close main navigation"
@@ -44,7 +44,7 @@
 </button>
 
 {#if menu}
-	<div id="logo" class="abs noUnd bold">
+	<div id="logo" class="noUnd bold">
 		<a class="grid cell white" href="/" hreflang="en">TA</a>
 	</div>
 	<nav id="menu" class="tc up" class:hidden={!active} class:grid={active}>
