@@ -50,28 +50,28 @@
     "routify": "routify"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^17.1.0",
-    "@rollup/plugin-node-resolve": "^11.2.0",
-    "@roxi/routify": "^2.13.1",
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "@roxi/routify": "^2.15.1",
     "cross-env": "^7.0.3",
     "fs-extra": "^9.1.0",
-    "mdsvex": "^0.8.9",
-    "nollup": "^0.15.3",
+    "mdsvex": "^0.9.3",
+    "nollup": "^0.16.3",
     "npm-run-all": "^4.1.5",
-    "postcss": "^8.2.7",
-    "postcss-import": "^14.0.0",
+    "postcss": "^8.2.13",
+    "postcss-import": "^14.0.1",
     "remark-slug": "^6.0.0",
-    "rollup": "^2.40.0",
+    "rollup": "^2.46.0",
     "rollup-plugin-hot": "^0.1.1",
     "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-svelte": "^7.1.0",
     "rollup-plugin-svelte-hot": "^0.13.0",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-workbox": "^6.1.1",
-    "spank": "^1.5.3",
-    "spassr": "^2.2.3",
-    "svelte": "^3.35.0",
-    "svelte-preprocess": "^4.6.9",
+    "spank": "^1.7.0",
+    "spassr": "^2.6.0",
+    "svelte": "^3.38.0",
+    "svelte-preprocess": "^4.7.2",
     "tossr": "^1.4.2"
   },
   "routify": {
@@ -90,6 +90,6 @@
   },
   "dependencies": {
     "routify-plugin-frontmatter": "^1.0.1",
-    "sass": "^1.32.8"
+    "sass": "^1.32.12"
   }
 }
