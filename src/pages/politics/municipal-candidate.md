@@ -16,8 +16,6 @@ I have lived in many Finnish cities, abroad for a year, and two summers on the b
 
 I actively follow political debates and articles and participate in the debate on Twitter, YouTube and Facebook.
 
-I'm a little worried about the political developments in Finland.
-
 I'm a little worried about Finland's political direction, so I want to be making sure that Nokia’s decision-makers listen to the people of the community and make decisions only for their benefit. Resources and money are limited, so it is very important to use them wisely for our common good.
 
 My decisions and opinions are always based on facts, numbers and real impact to community. The overall picture and impact must be known before decisions are made and must be in the best interests of the community.

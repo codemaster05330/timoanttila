@@ -47,7 +47,7 @@ export const Front = [
 		],
 		"en": {
 			"title": "Municipal candidate",
-			"body": "I'm a little worried about political direction and I want to be involved to ensure that MPs and City Council members make decisions in our best interests. Resources and money are limited, so those must be used wisely for the benefit of local residents, for the benefit of us all, and for securing and developing the operating environment for companies. Security, equality and comfort. Let's create a better future together.",
+			"body": "I'm a little worried about political direction and I want to be involved to ensure that MPs and City Council members make decisions in our best interests. Resources and money are limited, so those must be used wisely for the benefit of local residents, for the benefit of us all, and for securing and developing the operating environment for companies. Security, equality and comfort. Let's create a better future together. Vote for lucky number 2!",
 			"link": {
 				"title": "My political views and candidacy in municipal elections.",
 				"url": "/politics"
@@ -55,7 +55,7 @@ export const Front = [
 		},
 		"fi": {
 			"title": "Poliittiset näkemykset",
-			"body": "Olen hiukan huolissani Suomen poliittisesta suunnasta, joten haluan olla varmistamassa, että Nokialla kuunnellaan kuntalaisten mielipiteitä ja tehdään asioita kuntalaisten eduksi. Resursseja ja rahaa on rajallisesti, joten ne pitää käyttää viisaasti kuntalaisten hyödyksi, meidän parhaaksi, sekä yrityksien toimintaympäristön kehittämiseen. Turvallisuus, tasa-arvo ja viihtyvyys. Varmistetaan yhdessä parempi tulevaisuus!",
+			"body": "Olen hiukan huolissani Suomen poliittisesta suunnasta, joten haluan olla varmistamassa, että Nokialla kuunnellaan kuntalaisten mielipiteitä ja tehdään asioita kuntalaisten eduksi. Resursseja ja rahaa on rajallisesti, joten ne pitää käyttää viisaasti kuntalaisten hyödyksi, meidän parhaaksi, sekä yrityksien toimintaympäristön kehittämiseen. Turvallisuus, tasa-arvo ja viihtyvyys. Varmistetaan yhdessä parempi tulevaisuus! Äänestä numeroa 2.",
 			"link": {
 				"title": "Minun poliittiset näkemykset ja ehdokkuus kunnallisvaaleissa.",
 				"url": "/fi/politiikka"
@@ -88,8 +88,8 @@ export const Front = [
 
 export const CardInfo = {
 	"politics": {
-		"fi": "Verkkosivustoihin ja -kauppoihin erikoistunut yrittäjä meidän yhteisellä asialla. Vuosien kokemus yritysten hallitustyöskentelystä ja asiakaspalvelusta. Seuraan aktiivisesti politiikkaa enkä pelkää kertoa mielipiteitäni. Päätökset teen loogisesti perustuen numeroihin ja faktoihin eikä aatteisiin.",
-		"en": "An entrepreneur specializing in websites and stores with our common cause. Years of experience in corporate board work and customer service. I actively follow politics and I am not afraid to express my opinions. I make decisions logically based on numbers and facts and not ideas."
+		"fi": "Verkkosivustoihin ja -kauppoihin erikoistunut yrittäjä meidän yhteisellä asialla. Vuosien kokemus yritysten hallitustyöskentelystä ja asiakaspalvelusta. Seuraan aktiivisesti politiikkaa enkä pelkää kertoa mielipiteitäni. Päätökset teen loogisesti perustuen numeroihin ja faktoihin eikä aatteisiin. Äänestä numeroa 2!",
+		"en": "An entrepreneur specializing in websites and stores with our common cause. Years of experience in corporate board work and customer service. I actively follow politics and I am not afraid to express my opinions. I make decisions logically based on numbers and facts and not ideas. Vote for lucky number 2!"
 	}
 }
 

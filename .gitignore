@@ -7,3 +7,4 @@ src/tmp/
 assets/build
 .vercel
 package-lock.json
+dist
