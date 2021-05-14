@@ -21,7 +21,7 @@ export const Front = [
 		"id": "about",
 		"img": [
 			"timo",
-			"jpeg"
+			"jpg"
 		],
 		"en": {
 			"title": "Hi, I'm Timo Anttila",
