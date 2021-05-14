@@ -237,14 +237,44 @@ pre code { color: var(--wt) }
 }
 
 #postList {
+	grid-gap: 1.5rem;
 	h3 {
 		font-size: 1.6em;
 		padding-bottom: 10px
 	}
-	.bor {
-		padding: 1.5rem
+}
+
+#postList .article,
+#recovery a { border-radius: 20px }
+
+#postList .bor,
+#recovery a {
+	padding: 1.5rem
+}
+
+#recovery {
+	ul {
+		padding: 0;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+		grid-gap: 1.5rem
 	}
-	.article { border-radius: 20px }
+	li {
+		& + li {
+			margin: 0
+		}
+		&,
+		a { display: block }
+		a {
+			font-size: 1.2rem;
+			color: var(--wt);
+			border: 1px solid var(--wt4);
+			background-color: var(--v1);
+			height: 100%;
+			display: grid;
+			place-content: center;
+		}
+	}
 }
 
 .list {
@@ -269,7 +299,7 @@ article {
 		h2,
 		h3 { margin: 1.5rem 0 15px }
 	}
-	ul {
+	ul:not(.videolist) {
 		padding-left: 18px;
 		li + li { margin-top: 10px }
 	}
@@ -424,6 +454,22 @@ p code {
 	border-radius: 5px;
 }
 
+.video {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	margin-bottom: 2rem
+}
+
+.video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0
+}
+
 @media screen and (min-height:890px){
 	#hello section.about {
 		display: grid;
@@ -477,6 +523,10 @@ p code {
 @media screen and (max-width:860px){
 	article,
 	#card { margin-top: 1rem }
+	#card,
+	#content {
+		width: 90vw
+	}
 }
 
 @media screen and (min-width: 750px){
