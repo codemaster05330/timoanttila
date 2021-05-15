@@ -47,7 +47,7 @@ export const Front = [
 		],
 		"en": {
 			"title": "Municipal candidate",
-			"body": "I'm a little worried about political direction and I want to be involved to ensure that MPs and City Council members make decisions in our best interests. Resources and money are limited, so those must be used wisely for the benefit of local residents, for the benefit of us all, and for securing and developing the operating environment for companies. Security, equality and comfort. Let's create a better future together. Vote for lucky number 2!",
+			"body": "I'm a little worried about political direction and I want to be involved to ensure that MPs and City Council members make decisions in our best interests. Resources and money are limited, so those must be used wisely for the benefit of local residents, for the benefit of us all, and for securing and developing the operating environment for companies. Security, equality and comfort. Let's create a better future together. Vote for number 2!",
 			"link": {
 				"title": "My political views and candidacy in municipal elections.",
 				"url": "/politics"

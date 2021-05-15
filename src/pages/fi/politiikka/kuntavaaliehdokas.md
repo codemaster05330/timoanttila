@@ -48,7 +48,7 @@ Sijoittaminen on kaikkien oikeus eikä aloitus vaadi suurta pääomaa. Kouluissa
 
 Muista, että kuntavaalit ovat henkilövaalit. Me perussuomalaiset saamme äänestää vapaasti kunnan asioista ilman puoluekuria. On tärkeää saada päättäjiä, jotka eivät aja ensisijaisesti poliittista ideologiaa vaan haluaa meidän parasta. Kun kuntalaiset ja kunnassa toimivat yritykset voivat hyvin, voimme miettiä miten pelastaa muu maailma.
 
-Riippumatta siitä, kuka on sinun valintasi, muista äänestää. Vain äänestämällä voit vaikutta meidän yhteiseen tulevaisuuteen.
+**Olen ehdolla Nokialla ja minun numeroni on 2**. Riippumatta siitä, kuka on sinun valintasi, muista äänestää. Vain äänestämällä voit vaikutta meidän yhteiseen tulevaisuuteen.
 
 ## Linkkejä
 

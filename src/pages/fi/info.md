@@ -2,7 +2,7 @@
 title: "Mitä elämässäni tapahtuu juuri nyt?"
 summary: Tältä sivulta löydät tiivistelmän mihin keskityn ammatillisesti ja henkilökohtaisessa elämässä.
 desc: Tervetuloa tutustumaan minuun tarkemmin. Tältä sivulta löydät kattavasti kaiken mikä on minulle tärkeää tällä hetkellä ammatillisesti ja henkilökohtaisessa elämässä.
-card: <p>Verkkosivustoja ja -sovelluksia loihtiva toimitusjohtaja yrityksessä Tuspe Design Oy sekä hallituksen puheenjohtaja ja teknologiajohtaja yrityksessä Ratsukko Solutions Oy.</p><p>Perussuomalaisten kuntavaaliehdokas Nokialla.</p>
+card: <p>Verkkosivustoja ja -sovelluksia loihtiva toimitusjohtaja yrityksessä Tuspe Design Oy sekä hallituksen puheenjohtaja ja teknologiajohtaja yrityksessä Ratsukko Solutions Oy.</p><p>Perussuomalaisten kuntavaaliehdokas Nokialla.<br><strong>Äänestä numeroa 2</strong>.</p>
 layout: profile
 img: timo
 language: fi
@@ -14,9 +14,9 @@ language: fi
 
 ### Tittelit:
 
-Hallituksen puheenjohtaja
-Toimitusjohtaja
-Teknologiajohtaja
+Hallituksen puheenjohtaja  
+Toimitusjohtaja  
+Teknologiajohtaja  
 
 ### Työelämä:
 
@@ -26,10 +26,10 @@ Projekteja tehdessä haluaisin aina ylittää asiakkaan odotukset ja tiedän onn
 
 - Suunnittelen ja kehitän kokemuksia mitkä tekevät ihmisten elämästä helpompaa. Tärkeimpänä aina yksinkertaisuus, nopeus, käytettävyys ja helppo päivitys.
 - Toimitusjohtaja ja kehittäjä digitoimistossa [Tuspe Design Oy](https://tuspe.com/ "Digitoimisto Tuspe Design")
-- Aktiivinen alihankkija digitoimistolle [Molentum Oy](https://molentum.fi/).
+- Aktiivinen alihankkija digitoimistoille [Molentum Oy](https://molentum.fi/) ja [Dataline Group Oy](https://www.dataline.fi/).
 - Teknologiajohtaja ja hallituksen puheenjohtaja yrityksessä [Ratsukko Solutions Oy](https://www.ratsukko.com/).
 - Ylläpidän viittä palvelinta ja olen vastuussa asiakkaiden verkkopalveluiden turvallisuudesta.
-- [Perussuomalaisten](https://www.perussuomalaiset.fi/) kunnallisvaaliehdokas Nokialla.
+- [Perussuomalaisten](https://www.perussuomalaiset.fi/) kunnallisvaaliehdokas Nokialla. **Äänestä numeroa 2**.
 
 ### Henkilökohtainen elämä:
 
@@ -37,9 +37,11 @@ Projekteja tehdessä haluaisin aina ylittää asiakkaan odotukset ja tiedän onn
 - Valokuvaan kaikenlaista kaunista ja mielenkiintoista [Instagramiin](https://www.instagram.com/_timoanttila/).
 - Ylpeä isä kahdelle lemmikille.
 - Rakastan luontoa.
-- Vapaaehtoisena: [Plan International Finland](https://plan.fi/), [Best Buddies](https://www.tukiliitto.fi/toiminta/best-buddies-kaveritoiminta/ "Best Buddies -kaveritoiminta")
+- Vapaaehtoisena: [Punainen Risti](https://www.punainenristi.fi/), [Plan International Finland](https://plan.fi/), [Best Buddies](https://www.tukiliitto.fi/toiminta/best-buddies-kaveritoiminta/ "Best Buddies -kaveritoiminta")
 - Aktiivinen vierailija ja vapaaehtoinen monissa tapahtumissa.
-- Sijoitan aktiivisesti osakkeisiin ja rahastoihin ([Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios)).
+- Sijoitan aktiivisesti osakkeisiin, rahastoihin ja virtuaalivaluuttoihin ([Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios) / [eToro](https://www.etoro.com/people/timoanttila)).
+- Katson liikaa elokuvia ja sarjoja ([Trakt](https://trakt.tv/users/timoanttila)).
+- Kuuntelen äänikirjoja koiran kanssa ulkoillessa ([Goodreads](https://www.goodreads.com/timoanttila)).
 
 ### Teknologiat / työkalut:
 

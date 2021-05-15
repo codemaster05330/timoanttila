@@ -46,6 +46,6 @@ Investing is everyone’s right and getting started doesn’t require a lot of c
 
 ## Remember to vote
 
-Remember that municipal elections are person elections. We Basic Finns are allowed to vote freely on municipal matters without party discipline. It is important to have decision-makers who do not primarily pursue political ideology but want our best. When the citizens and the companies operating in the municipality are well, we can think about how to save the rest of the world.
+Remember that municipal elections are person elections. We are allowed to vote freely on municipal matters without party discipline. It is important to have decision-makers who do not primarily pursue political ideology but want our best. When the citizens and the companies operating in the municipality are well, we can think about how to save the rest of the world.
 
-No matter who is your choice, be sure to vote. You can only make the future better by voting correctly.
+**My number is 2**, but no matter who is your choice, be sure to vote. You can only make the future better by voting correctly.
