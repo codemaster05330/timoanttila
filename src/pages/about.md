@@ -14,11 +14,11 @@ language: en
 
 ### Professional title:
 
-Full Stack Developer  
-Chairman of the Board  
-Chief executive officer  
-Chief technology officer  
-Server Administrator  
+Full Stack Developer
+Chairman of the Board
+Chief executive officer
+Chief technology officer
+Server Administrator
 
 ### Professional life:
 
@@ -43,9 +43,9 @@ Always want to surpass myself and my customers. When the customer feels they hav
 - Nature lover.
 - Volunteer at [Red Cross](https://www.redcross.fi/), [Plan International Finland](https://plan.fi/en) and [Best Buddies](https://www.bestbuddies.org/).
 - An avid visitor as well as a volunteer at many events.
-- Investing in stocks, funds and virtual currencies ([Shareville] (https://shareville.fi/jasenet/timo-anttila/portfolios) / [eToro] (https://www.etoro.com/people/timoanttila)).
-- Watching too many movies and series ([Trakt] (https://trakt.tv/users/timoanttila)).
-- Listening to audiobooks when I go out with my dog ([Goodreads] (https://www.goodreads.com/timoanttila)).
+- Investing in stocks, funds and virtual currencies ([Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios) / [eToro](https://www.etoro.com/people/timoanttila)).
+- Watching too many movies and series ([Trakt](https://trakt.tv/users/timoanttila)).
+- Listening to audiobooks when I go out with my dog ([Goodreads](https://www.goodreads.com/timoanttila)).
 
 ### Technologies:
 
