@@ -24,7 +24,7 @@ Verkkosivustojen ja -kauppojen luoja, webbisovellusten kehittäjä. Haluan intoh
 Projekteja tehdessä haluaisin aina ylittää asiakkaan odotukset ja tiedän onnistuneeni, asiakkaan tuntiessa saavansa enemmän kuin alunperin tilasi.
 
 - Suunnittelen ja kehitän kokemuksia mitkä tekevät ihmisten elämästä helpompaa. Tärkeimpänä aina yksinkertaisuus, nopeus, käytettävyys ja helppo päivitys.
-- Toimitusjohtaja ja kehittäjä digitoimistossa [Tuspe Design Oy](https://tuspe.com/ "Digitoimisto Tuspe Design")
+- Omistaja ja verkkovelho digitoimistossa [Tuspe Design Oy](https://tuspe.com/ "Digitoimisto Tuspe Design")
 - Aktiivinen alihankkija digitoimistoille [Molentum Oy](https://molentum.fi/) ja [Dataline Group Oy](https://www.dataline.fi/).
 - Teknologiajohtaja yrityksessä [Ratsukko Solutions Oy](https://www.ratsukko.com/).
 - Ylläpidän viittä palvelinta ja olen vastuussa asiakkaiden verkkopalveluiden turvallisuudesta.
