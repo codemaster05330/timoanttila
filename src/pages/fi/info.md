@@ -14,9 +14,8 @@ language: fi
 
 ### Tittelit:
 
-Hallituksen puheenjohtaja  
 Toimitusjohtaja  
-Teknologiajohtaja  
+Teknologiajohtaja
 
 ### Työelämä:
 
@@ -27,7 +26,7 @@ Projekteja tehdessä haluaisin aina ylittää asiakkaan odotukset ja tiedän onn
 - Suunnittelen ja kehitän kokemuksia mitkä tekevät ihmisten elämästä helpompaa. Tärkeimpänä aina yksinkertaisuus, nopeus, käytettävyys ja helppo päivitys.
 - Toimitusjohtaja ja kehittäjä digitoimistossa [Tuspe Design Oy](https://tuspe.com/ "Digitoimisto Tuspe Design")
 - Aktiivinen alihankkija digitoimistoille [Molentum Oy](https://molentum.fi/) ja [Dataline Group Oy](https://www.dataline.fi/).
-- Teknologiajohtaja ja hallituksen puheenjohtaja yrityksessä [Ratsukko Solutions Oy](https://www.ratsukko.com/).
+- Teknologiajohtaja yrityksessä [Ratsukko Solutions Oy](https://www.ratsukko.com/).
 - Ylläpidän viittä palvelinta ja olen vastuussa asiakkaiden verkkopalveluiden turvallisuudesta.
 - [Perussuomalaisten](https://www.perussuomalaiset.fi/) kunnallisvaaliehdokas Nokialla. **Äänestä numeroa 2**.
 
@@ -37,7 +36,7 @@ Projekteja tehdessä haluaisin aina ylittää asiakkaan odotukset ja tiedän onn
 - Valokuvaan kaikenlaista kaunista ja mielenkiintoista [Instagramiin](https://www.instagram.com/_timoanttila/).
 - Ylpeä isä kahdelle lemmikille.
 - Rakastan luontoa.
-- Vapaaehtoisena: [Punainen Risti](https://www.punainenristi.fi/), [Plan International Finland](https://plan.fi/), [Best Buddies](https://www.tukiliitto.fi/toiminta/best-buddies-kaveritoiminta/ "Best Buddies -kaveritoiminta")
+- Vapaaehtoisena mm. [Mannerheimin Lastensuojeluliitto](https://www.mll.fi/), [Punainen Risti](https://www.punainenristi.fi/), [Plan International Finland](https://plan.fi/), [Best Buddies](https://www.tukiliitto.fi/toiminta/best-buddies-kaveritoiminta/ "Best Buddies -kaveritoiminta")
 - Aktiivinen vierailija ja vapaaehtoinen monissa tapahtumissa.
 - Sijoitan aktiivisesti osakkeisiin, rahastoihin ja virtuaalivaluuttoihin ([Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios) / [eToro](https://www.etoro.com/people/timoanttila)).
 - Katson liikaa elokuvia ja sarjoja ([Trakt](https://trakt.tv/users/timoanttila)).
