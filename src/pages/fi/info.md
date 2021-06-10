@@ -37,7 +37,7 @@ Projekteja tehdessä haluaisin aina ylittää asiakkaan odotukset ja tiedän onn
 - Valokuvaan kaikenlaista kaunista ja mielenkiintoista [Instagramiin](https://www.instagram.com/_timoanttila/).
 - Ylpeä isä kahdelle lemmikille.
 - Rakastan luontoa.
-- Vapaaehtoisena mm. [Mannerheimin Lastensuojeluliitto](https://www.mll.fi/), [Punainen Risti](https://www.punainenristi.fi/), [Plan International Finland](https://plan.fi/), [Best Buddies](https://www.tukiliitto.fi/toiminta/best-buddies-kaveritoiminta/ "Best Buddies -kaveritoiminta"), [LanTrek](https://www.lantrek.org/), [Ropecon](https://ropecon.fi/).
+- Vapaaehtoisena mm. [Mannerheimin Lastensuojeluliitto](https://hameenpiiri.mll.fi/), [Punainen Risti](https://www.punainenristi.fi/), [Plan International Finland](https://plan.fi/), [LanTrek](https://www.lantrek.org/), [Ropecon](https://ropecon.fi/).
 - Aktiivinen vierailija ja vapaaehtoinen monissa tapahtumissa.
 - Sijoitan aktiivisesti osakkeisiin, rahastoihin ja virtuaalivaluuttoihin ([Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios) / [eToro](https://www.etoro.com/people/timoanttila)).
 - Katson liikaa elokuvia ja sarjoja ([Trakt](https://trakt.tv/users/timoanttila)).

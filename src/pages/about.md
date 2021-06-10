@@ -41,7 +41,7 @@ Always want to surpass myself and my customers. When the customer feels they hav
 - Photographing all kinds of beautiful on [Instagram](https://www.instagram.com/_timoanttila/).
 - Proud father of two pets; border collie Deli and cat Sera.
 - Nature lover.
-- Volunteer at [The Mannerheim League for Child Welfare](https://www.mll.fi/en/about-mll/), [Red Cross](https://www.redcross.fi/), [Plan International Finland](https://plan.fi/en) and [Best Buddies](https://www.bestbuddies.org/), [LanTrek](https://www.lantrek.org/), [Ropecon](https://ropecon.fi/).
+- Volunteer at [The Mannerheim League for Child Welfare](https://hameenpiiri.mll.fi/), [Red Cross](https://www.redcross.fi/), [Plan International Finland](https://plan.fi/en), [LanTrek](https://www.lantrek.org/), [Ropecon](https://ropecon.fi/).
 - An avid visitor as well as a volunteer at many events.
 - Investing in stocks, funds and virtual currencies ([Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios) / [eToro](https://www.etoro.com/people/timoanttila)).
 - Watching too many movies and series ([Trakt](https://trakt.tv/users/timoanttila)).
