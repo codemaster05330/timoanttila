@@ -1,0 +1,302 @@
+/* Defaults */
+
+@font-face {
+	font-family: montserrat;
+	src: url("/fonts/montserrat-light-webfont.woff2") format("woff2"),
+		url("/fonts/montserrat-light-webfont.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: montserrat;
+	src: url("/fonts/montserrat-bold-webfont.woff2") format("woff2"),
+		url("/fonts/montserrat-bold-webfont.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: koho;
+	src: url("/fonts/koho-bold-webfont.woff2") format("woff2"),
+		url("/fonts/koho-bold-webfont.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+:root {
+	--white: #fff;
+	--light: rgba(255,255,255,.87);
+	--black: #000;
+	--purple: #422e43;
+	--purpleLight: #8D80AD;
+	--yellow: #FFDE59
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font: 300 18px montserrat;
+	line-height: 1.5;
+	text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+#menu a {
+	font-family: koho;
+	font-weight: 700;
+	line-height: 1.1;
+}
+
+strong,
+.font-semi {
+	font-weight: 500;
+}
+
+.uppercase { text-transform: uppercase }
+
+a,
+button { cursor: pointer }
+
+article h2 {
+	font-size: clamp(1.6rem, 2rem, 8vw);
+	color: var(--light)
+}
+
+.noUnd a { text-decoration: none }
+
+.border {
+	border: 1px solid;
+}
+
+body,
+main,
+#matrix,
+header.grid {
+	overflow-x: hidden;
+	width: 100vw;
+	min-height: 100vh;
+}
+
+img {
+	max-width: 100%;
+}
+
+.w-full { width: 100% }
+
+.h-full { height: 100% }
+
+.object-cover {
+	object-fit: cover;
+}
+
+/* Display */
+
+main,
+header,
+footer,
+picture,
+img,
+.block { display: block }
+
+.inline-block { display: inline-block }
+
+.hidden { display: none }
+
+/* Text alignment */
+
+.text-center { text-align: center }
+
+/* Grid */
+
+.grid {
+	display: grid;
+	.self-center {
+		align-self: center;
+	}
+}
+
+/* Margin & padding */
+
+.p-0 { padding: 0 }
+
+.m-0,
+body,
+figure,
+header ul {
+	margin: 0;
+}
+
+.mt-0 { margin-top: 0 }
+
+.mx-auto {
+	margin-left: auto;
+	margin-right: auto
+}
+
+/* Backgrounds */
+
+body,
+.bg-purple { background-color: var(--purple) }
+
+.bg-transparent {
+	background-color: transparent;
+}
+
+/* Colors */
+
+.text-white { color: var(--white) }
+
+.icon-white svg {
+	fill: var(--light);
+}
+
+.text-yellow,
+.content a,
+nav .nuxt-link-exact-active {
+	color: var(--yellow);
+}
+
+.icon-white a:hover svg,
+button.icon-white:hover svg {
+	fill: var(--yellow);
+}
+
+/* Position */
+
+.fixed { position: fixed }
+
+.absolute { position: absolute }
+
+.relative { position: relative }
+
+.z-10 { z-index: 10 }
+
+.z-20 { z-index: 20 }
+
+.z-40 { z-index: 40 }
+
+.z-50 { z-index: 50 }
+
+/* Navigation */
+
+.icon {
+	width: 48px;
+	height: 48px
+}
+
+header {
+	&.icon {
+		top: 1.5rem;
+		right: 1.5rem;
+		#menuToggle {
+			top: 0;
+			right: 0
+		}
+	}
+	&:not(.icon){
+		top: 0;
+		left: 0;
+		background-color: var(--purple);
+		#menuToggle {
+			top: 1.5rem;
+			right: 1.5rem
+		}
+	}
+}
+
+#menuToggle {
+	top: 0;
+	right: 0;
+	background: transparent;
+	border: 0
+}
+
+#menu {
+	width: 80vw;
+	max-width: 300px;
+	a {
+		padding: .8rem 1.5rem
+	}
+	li + li {
+		border-top: 2px solid rgba(255, 255, 255, 0.2);
+	}
+}
+
+/* Content */
+
+.content {
+	ul {
+		padding-left: 0;
+		li {
+			list-style-type: none;
+			& + li {
+				margin-top: 10px;
+			}
+			&:before {
+				content: "-";
+				display: inline;
+				margin-right: 10px;
+			}
+		}
+	}
+}
+
+#bigText { text-shadow: 1px 1px 2px rgba(0,0,0,.6); }
+
+/* Footer */
+
+footer {
+	ul a {
+		height: 48px;
+		svg {
+			width: 32px;
+			height: 32px;
+		}
+	}
+}
+
+@media screen and (max-width:1000px){
+	.fixedLayout {
+		#myPic {
+			height: 300px;
+			overflow: hidden;
+		}
+		#content { padding: 2rem }
+		#bigText {
+			font-size: clamp(2rem, 3.4rem, 10vw);
+			padding: 0 2rem 3rem
+		}
+		&#home #bigText { text-align: center }
+	}
+	footer { margin-bottom: 10px }
+}
+
+@media screen and (min-width:1000px){
+	.fixedLayout {
+		#content {
+			position: absolute;
+			top: 0;
+		}
+		#myPic {
+			position: fixed;
+			top: 0;
+			clip-path: polygon(28% 0, 100% 30%, 58% 100%, 0px 88%, 20% 0);
+			height: 90vh;
+		}
+		#bigText {
+			position: fixed;
+			bottom: 1.5rem;
+		}
+	}
+	footer {
+		position: fixed;
+		bottom: 10px;
+		right: 10px;
+		width: 48px;
+	}
+}
