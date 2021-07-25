@@ -1,12 +1,13 @@
 <template>
 	<ol
-		class="absolute -top-2 -left-3 text-sm text-white"
+		id="breadcrumb"
+		class="absolute text-light noUnd text-sm"
 		vocab="http://schema.org/"
 		typeof="BreadcrumbList"
 	>
 		<li property="itemListElement" typeof="ListItem">
 			<nuxt-link
-				class="text-white no-underline"
+				class="text-light"
 				property="item"
 				typeof="WebPage"
 				to="/"
@@ -22,7 +23,7 @@
 			typeof="ListItem"
 		>
 			<nuxt-link
-				class="text-white no-underline"
+				class="text-light"
 				property="item"
 				typeof="WebPage"
 				:to="crumb.path"
@@ -71,20 +72,29 @@
 	};
 </script>
 
-<style scoped>
-	ol {
-		list-style: none;
+<style scoped lang="scss">
+	@media screen and (min-width: 600px) {
+		#breadcrumb {
+			list-style: none;
+			top: 0;
+			left: 1rem;
+			li {
+				display: inline;
+				&:after {
+					content: " » ";
+					display: inline;
+					font-size: 0.9em;
+					padding: 0 0.0725em 0 0.15em;
+				}
+				&:last-child:after {
+					content: "";
+				}
+			}
+		}
 	}
-	li {
-		display: inline;
-	}
-	li:after {
-		content: " » ";
-		display: inline;
-		font-size: 0.9em;
-		padding: 0 0.0725em 0 0.15em;
-	}
-	li:last-child:after {
-		content: "";
+	@media screen and (max-width: 600px) {
+		#breadcrumb {
+			display: none;
+		}
 	}
 </style>

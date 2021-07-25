@@ -1,6 +1,8 @@
 <template>
 	<footer class="icon-white text-white text-center">
-		<span>Don’t forget your right to stalk me</span>
+		<span id="stalkme" class="inline-block text-sm"
+			>You have right to stalk</span
+		>
 		<ul
 			class="m-0 p-0"
 			role="menu"

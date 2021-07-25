@@ -39,7 +39,7 @@ Now I have a number. If the number is not bigger than three, add one to that num
 echo "$line" > "$file"
 ```
 
-Now we have a new number which tells us which list we want to use next week and the script wrote it to the file. Here's the same script as a whole and shortcutted by [galaktos](https://www.reddit.com/user/galaktos from [reddit](https://www.reddit.com/r/bash/comments/5tlap6/how_to_replace_a_line_in_a_text_file/). Thanks for help.
+Now we have a new number which tells us which list we want to use next week and the script wrote it to the file. Here's the same script as a whole and shortcutted by [galaktos](https://www.reddit.com/user/galaktos) from [reddit](https://www.reddit.com/r/bash/comments/5tlap6/how_to_replace_a_line_in_a_text_file/). Thanks for help.
 
 ```Bash
 #!/bin/bash

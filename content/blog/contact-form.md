@@ -1,5 +1,5 @@
 ---
-title: Create a simple contact form in HTML and PHP
+title: Create a simple contact form in HTML, PHP and SQL
 createdAt: 2017-01-01T11:43:34.000Z
 description: HTML Forms are one of the main points of interaction between a user and a web site. This tutorial teaches you how to make one.
 tags: tutorials, drupal, php

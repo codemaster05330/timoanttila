@@ -1,9 +1,11 @@
 <template>
-	<div id="article">
+	<div id="article" class="py">
 		<article class="max-w-prose mx-auto text-white content">
-			<div class="text-center pt-14 pb-10">
-				<h1 class="font-koho text-6xl mt-0 mb-4">{{ page.title }}</h1>
-				<p class="m-0 text-2xl">{{ page.description }}</p>
+			<div class="text-center">
+				<h1 id="articleTitle" class="line-2">{{ page.title }}</h1>
+				<p id="articleDescription">
+					{{ page.description }}
+				</p>
 			</div>
 			<nuxt-content :document="page" />
 		</article>
@@ -13,20 +15,16 @@
 </template>
 
 <script>
-	import Breadcrumb from "@/components/breadcrumb.vue";
+	import Breadcrumb from "@/components/breadcrumb";
 	export default {
 		components: { Breadcrumb },
 		async asyncData({ $content, params }) {
 			const slug = params.slug;
 			const page = await $content("blog", slug).fetch();
-
 			return { page };
 		},
 	};
 </script>
 
-<style>
-	article pre {
-		background-color: #8d80ad;
-	}
+<style lang="scss" scoped>
 </style>

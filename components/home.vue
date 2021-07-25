@@ -10,12 +10,12 @@
 			"
 		>
 			<article class="self-center">
-				<h1 class="text-yellow mt-0">{{ title }}</h1>
+				<h1 class="text-yellow mt-0 line-1">{{ title }}</h1>
 				<p v-html="body"/>
 			</article>
 		</div>
 
-		<h2 id="bigText" class="z-20 text-yellow m-0">Web Developmenti</h2>
+		<h2 id="bigText" class="z-20 text-yellow m-0 line-1">Web Developmenti</h2>
 		</div>
 	</div>
 </template>

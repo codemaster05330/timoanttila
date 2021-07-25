@@ -40,6 +40,11 @@ export default {
 			"@context": "https://schema.org/", "@type": "Person", "name": "Timo Anttila", "url": "https://timoanttila.com", "image": "https://timoanttila.com/images/timo.jpg", "sameAs": ["https://github.com/timoanttila", "https://github.com/TuspeDesign", "https://github.com/RatsukkoSolutions", "https://www.linkedin.com/in/anttilatimo/", "https://twitter.com/_timoanttila", "https://trakt.tv/users/timoanttila", "https://www.instagram.com/_timoanttila/", "https://www.goodreads.com/user/show/104287756-timo-anttila", "https://ello.co/timoanttila", "https://www.reddit.com/user/timoanttila", "https://keybase.io/timoanttila", "https://timoanttila.carrd.co/"], "jobTitle": ["Chief Executive Officer", "Chief Technology Officer", "Full Stack Developer"], "worksFor": [{ "@type": "Organization", "name": "Tuspe Design Oy" }, { "@type": "Organization", "name": "Ratsukko Solutions Oy" }]
 		},
 	],
+	markdown: {
+		prism: {
+			theme: false
+		}
+	},
 	css: [
 		'~/static/style.scss',
 	],
@@ -55,11 +60,6 @@ export default {
 
 				document.readingTime = time
 			}
-		}
-	},
-	markdown: {
-		prism: {
-			theme: false
 		}
 	},
 	generate: {
