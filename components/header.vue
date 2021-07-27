@@ -35,7 +35,7 @@
 		>
 			<ul class="m-0 p-0" role="menu">
 				<li
-					v-for="item in menu"
+					v-for="item in menu[lang]"
 					:key="item.id"
 					class="block"
 					role="none"
@@ -58,43 +58,78 @@
 
 <script>
 	export default {
+		props: {
+			lang: {
+				type: String,
+				default: "en",
+			},
+		},
 		data() {
 			return {
 				active: false,
-				menu: [
-					{
-						title: "Home",
-						description: "A brief description of me",
-						link: "/",
-						lang: "en",
-					},
-					{
-						title: "About",
-						description:
-							"What is happening in my life right now and what is important to me.",
-						link: "/about",
-						lang: "en",
-					},
-					{
-						title: "Work",
-						description: "Reference works and open source projects.",
-						link: "/work",
-						lang: "en",
-					},
-					{
-						title: "Blog",
-						description:
-							"Stories of life and tutorials / how-to articles on the wonderful world of technology.",
-						link: "/blog",
-						lang: "en",
-					},
-					{
-						title: "Finnish",
-						description: ".",
-						link: "/blog",
-						lang: "fi",
-					},
-				],
+				menu: {
+					en: [
+						{
+							title: "Home",
+							description: "A brief description of me",
+							link: "/",
+							lang: "en",
+						},
+						{
+							title: "About",
+							description:
+								"What is happening in my life right now and what is important to me.",
+							link: "/about",
+							lang: "en",
+						},
+						{
+							title: "Work",
+							description:
+								"Reference works and open source projects.",
+							link: "/work",
+							lang: "en",
+						},
+						{
+							title: "Blog",
+							description:
+								"Stories of life and tutorials / how-to articles on the wonderful world of technology.",
+							link: "/blog",
+							lang: "en",
+						},
+						{
+							title: "Finnish",
+							description: "Suomeksi",
+							link: "/fi/",
+							lang: "fi",
+						},
+					],
+					fi: [
+						{
+							title: "Etusivu",
+							description: "Tervetuloa tutustumaan",
+							link: "/fi/",
+							lang: "fi",
+						},
+						{
+							title: "Info",
+							description: "Mitä elämässäni tapahtuu juuri nyt?",
+							link: "/fi/info",
+							lang: "fi",
+						},
+						{
+							title: "Blog",
+							description: "Artikkeleita ja tutoriaaleja",
+							link: "/fi/blog",
+							lang: "fi",
+						},
+						{
+							title: "English",
+							description: "In English",
+							link: "/",
+							lang: "en",
+						},
+					],
+				},
 			};
 		},
 	};

@@ -1,6 +1,6 @@
 <template>
 	<div id="matrix" class="relative">
-		<HeaderBlock />
+		<HeaderBlock v-if="activeLanguage" :lang="activeLanguage" />
 		<main class="block">
 			<Nuxt keep-alive />
 		</main>
@@ -16,6 +16,19 @@
 		components: {
 			HeaderBlock,
 			FooterBlock,
+		},
+		data() {
+			return {
+				activeLanguage: "en",
+			};
+		},
+		mounted() {
+			this.activeLanguage = $nuxt.$route.path.includes("/fi") ? "fi" : "en";
+		},
+		head: {
+			htmlAttrs: {
+				lang: this.activeLanguage,
+			},
 		},
 	};
 </script>
