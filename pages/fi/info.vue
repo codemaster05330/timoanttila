@@ -1,5 +1,5 @@
 <template>
-	<About query="about" />
+	<About query="fi/info" />
 </template>
 
 <script>
@@ -8,6 +8,6 @@
 		components: {
 			About,
 		},
-		name: "HomeEN",
+		name: "HomeFI",
 	};
 </script>

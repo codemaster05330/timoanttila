@@ -1,30 +1,38 @@
 <template>
 	<div id="home" class="fixedLayout overflow-hidden">
-		<MyPic/>
-		<div
-		id="content"
-			class="
-				text-white text-center
-				grid
-				z-10
-			"
-		>
+		<MyPic />
+		<div id="content" class="text-white text-center grid z-10">
 			<article class="self-center">
 				<h1 class="text-yellow mt-0 line-1">{{ title }}</h1>
-				<p v-html="body"/>
+				<p v-html="body" />
 			</article>
 		</div>
 
-		<h2 id="bigText" class="z-20 text-yellow m-0 line-1">Web Developmenti</h2>
-		</div>
+		<no-ssr v-if="text">
+			<vue-typed-js
+				:strings="text"
+				:loop="true"
+				:backSpeed="30"
+				:showCursor="true"
+				:cursorChar="'_'"
+				:smartBackspace="true"
+			>
+				<h2
+					id="bigText"
+					class="z-20 text-yellow m-0 line-1 typing"
+				></h2>
+			</vue-typed-js>
+		</no-ssr>
 	</div>
 </template>
 
 <script>
 	import MyPic from "@/components/mypic";
+	import { VueTypedJs } from "vue-typed-js";
 	export default {
 		components: {
 			MyPic,
+			VueTypedJs,
 		},
 		props: {
 			title: {
@@ -43,15 +51,18 @@
 				type: String,
 				default: null,
 			},
+			text: {
+				type: Array,
+				default: null,
+			},
 		},
-		head() {
-			return {
-				title: this.title + " | It all starts with a dream!",
+		mounted() {
+			this.$store.commit("addLang", this.lang);
+			this.$store.commit("currentPage", {
+				title: this.title,
 				description: this.description,
-				htmlAttrs: {
-					lang: this.lang,
-				},
-			};
+				image: "/images/timoanttila.jpg",
+			});
 		},
 	};
 </script>
@@ -82,13 +93,12 @@
 		#bigText {
 			left: 10vw;
 			font-size: 4rem;
-			max-width: 600px;
 		}
 	}
 	@media screen and (min-width: 1920px) {
 		#bigText {
 			left: 15vw;
-			font-size: 5rem;
+			font-size: 4.5rem;
 			max-width: 36vw;
 		}
 		#myPic {

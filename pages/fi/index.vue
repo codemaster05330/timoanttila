@@ -1,9 +1,15 @@
 <template>
 	<Home
 		title="Timo Anttila"
-		body="A self-taught passionate developer, who loves solving problems and learning new ways to deliver solutions. Spending most of my day behind the screen, drinking coffee and listening to metal and hard rock. I never miss a daily workout to get the blood flow going. My motto is 'only a fool worries over what he can't control'."
-		description="Timo Anttila is a self-taught passionate developer, who loves solving problems and learning new ways to deliver solutions. Full Stack Web Developer and entrepreneur."
+		body="Itseoppinut intohimoinen verkkokehittäjä, joka rakastaa luomista tyhjästä, ongelmien ratkaisemista ja verkkosivustojen kehittämistä nopeammiksi ja paremmiksi. Vietän suurimman osan päivästäni näytön edessä koodaten metallin ja rokin soidessa taustalla, mutta en kuitenkaan unohda päivittäistä kuntoilua ja metsälenkkejä koiran kanssa. Toimin myös aktiivisesti erilaisissa vapaaehtoistöissä. Mottoni on 'vain tyhmä on huolissaan siitä, mitä hän ei voi hallita'."
+		description="Timo Anttila on itseoppinut intohimoinen verkkokehittäjä, yrittäjä ja sijoittaja. Hän rakastaa ratkoa ongelmia ja kehittää uusia tapoja luoda ratkaisuja."
 		lang="fi"
+		:text="[
+			'Itseoppinut verkkovelho',
+			'Nuorisotyön vapaaehtoinen',
+			'Yrittäjä ja sijoittaja',
+			'Luonnon ja eläinten ystävä',
+		]"
 	/>
 </template>
 
@@ -13,6 +19,6 @@
 		components: {
 			Home,
 		},
-		name: "HomeFi",
+		name: "HomeFI",
 	};
 </script>
