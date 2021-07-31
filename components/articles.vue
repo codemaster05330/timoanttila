@@ -12,7 +12,7 @@
 		<ul
 			v-if="articles"
 			id="articles"
-			class="grid max-w-screen-xl mx-auto m-0 p-0 noUnd"
+			class="grid max-w-screen-lg mx-auto m-0 p-0 noUnd"
 			aria-label="List of articles I have written"
 			role="menu"
 		>
@@ -70,6 +70,9 @@
 				type: Array,
 				default: null,
 			},
+		},
+		mounted() {
+			this.$store.commit("addMain", "articleList");
 		},
 	};
 </script>

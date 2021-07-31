@@ -27,6 +27,9 @@
 				default: null,
 			},
 		},
+		mounted() {
+			this.$store.commit("addMain", "aboutPage");
+		},
 	};
 </script>
 

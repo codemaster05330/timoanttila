@@ -23,6 +23,9 @@
 			const page = await $content("blog", slug).fetch();
 			return { page };
 		},
+		mounted() {
+			this.$store.commit("addMain", "articlePage");
+		},
 	};
 </script>
 

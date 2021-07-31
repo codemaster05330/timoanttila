@@ -1,5 +1,5 @@
 <template>
-	<div id="matrix" class="relative">
+	<div id="matrix" class="relative" :class="main">
 		<HeaderBlock />
 		<main class="block">
 			<Nuxt keep-alive />
@@ -9,6 +9,7 @@
 </template>
 
 <script>
+	import { mapGetters } from "vuex";
 	import HeaderBlock from "@/components/header";
 	import FooterBlock from "@/components/footer";
 
@@ -28,6 +29,7 @@
 					this.page && this.page.description ? this.page.description : "",
 				image: "/images/timoanttila.jpg",
 				url: null,
+				style: null,
 			};
 		},
 		mounted() {
@@ -35,6 +37,9 @@
 				"addLang",
 				$nuxt.$route.fullPath.includes("/fi") ? "fi" : "en"
 			);
+		},
+		computed: {
+			...mapGetters(["main"]),
 		},
 	};
 </script>

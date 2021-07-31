@@ -63,6 +63,7 @@
 		},
 		mounted() {
 			this.$store.commit("addLang", this.lang);
+			this.$store.commit("addMain", "aboutPage");
 			this.$store.commit("currentPage", {
 				title: this.title,
 				description: this.description,
