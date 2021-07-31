@@ -1,9 +1,12 @@
 <template>
 	<div id="about" class="fixedLayout">
 		<MyPic />
-		<div v-if="about && page" id="content" class="text-white grid z-10">
+		<div v-if="page" id="content" class="text-white grid z-10">
 			<article class="self-center content">
-				<h1 id="bigText" class="z-20 text-yellow text-center m-0">
+				<h1
+					id="bigText"
+					class="z-20 text-yellow text-center m-0 leading-tight"
+				>
 					{{ page.title }}
 				</h1>
 				<nuxt-content :document="page" />
@@ -18,18 +21,11 @@
 		components: {
 			MyPic,
 		},
-		name: "About",
 		props: {
-			query: {
-				type: String,
-				default: "about",
+			page: {
+				type: Object,
+				default: null,
 			},
-		},
-		async asyncData({ $content }) {
-			const page = await $content(this.query).fetch();
-			return {
-				page,
-			};
 		},
 	};
 </script>
@@ -47,12 +43,17 @@
 		#bigText {
 			left: 2vw;
 			bottom: 1.5rem;
-			font-size: 2.6rem;
 			max-width: 36vw;
 		}
 	}
 
-	@media screen and (min-width: 1200px) {
+	@media screen and (min-width: 1000px) and (max-width: 1200px) {
+		#bigText {
+			font-size: 2.6rem;
+		}
+	}
+
+	@media screen and (min-width: 1200px) and (max-width: 1750px) {
 		#bigText {
 			font-size: 3rem;
 		}

@@ -78,13 +78,6 @@
 							lang: "en",
 						},
 						{
-							title: "Work",
-							description:
-								"Reference works and open source projects.",
-							link: "/work",
-							lang: "en",
-						},
-						{
 							title: "Blog",
 							description:
 								"Stories of life and tutorials / how-to articles on the wonderful world of technology.",

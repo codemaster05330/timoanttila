@@ -1,5 +1,5 @@
 <template>
-	<About query="about" />
+	<About :page="page" />
 </template>
 
 <script>
@@ -8,6 +8,12 @@
 		components: {
 			About,
 		},
-		name: "HomeEN",
+		name: "AboutEN",
+		async asyncData({ $content }) {
+			const page = await $content("about").fetch();
+			return {
+				page,
+			};
+		},
 	};
 </script>
