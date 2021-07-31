@@ -1,8 +1,10 @@
 export const state = () => ({
 	lang: "en",
 	page: {
+		lang: "en",
 		title: null,
 		description: null,
+		image: null,
 		modified: null,
 		created: null
 	}

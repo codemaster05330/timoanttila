@@ -57,13 +57,8 @@
 </template>
 
 <script>
+	import { mapGetters } from "vuex";
 	export default {
-		props: {
-			lang: {
-				type: String,
-				default: "en",
-			},
-		},
 		data() {
 			return {
 				active: false,
@@ -130,6 +125,49 @@
 						},
 					],
 				},
+				image: "/images/timoanttila.jpg",
+			};
+		},
+		computed: {
+			...mapGetters(["lang", "page"]),
+		},
+		head() {
+			return {
+				htmlAttrs: { lang: this.lang },
+				title: this.title,
+				link: [
+					{
+						rel: "canonical",
+						property: "og:url",
+						href: this.page.url,
+					},
+				],
+				meta: [
+					{
+						property: "og:title",
+						name: "twitter:title",
+						content: this.page.title,
+					},
+					{
+						hid: this.page.hid,
+						name: "description",
+						content: this.page.description,
+					},
+					{
+						name: "twitter:description",
+						property: "og:description",
+						content: this.page.description,
+					},
+					{
+						name: "twitter:image",
+						property: "og:image",
+						content:
+							this.page && this.page.image
+								? this.page.image
+								: this.image,
+					},
+					{ property: "og:site_name", content: this.page.title },
+				],
 			};
 		},
 	};

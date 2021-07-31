@@ -56,12 +56,19 @@
 				default: null,
 			},
 		},
+		data() {
+			return {
+				url: "https://timoanttila.com",
+			};
+		},
 		mounted() {
 			this.$store.commit("addLang", this.lang);
 			this.$store.commit("currentPage", {
 				title: this.title,
 				description: this.description,
-				image: "/images/timoanttila.jpg",
+				image: this.url + "/images/timoanttila.jpg",
+				url: this.url + $nuxt.$route.fullPath,
+				hid: $nuxt.$route.path,
 			});
 		},
 	};
