@@ -19,7 +19,7 @@
 			>
 				<h2
 					id="bigText"
-					class="z-20 text-yellow m-0 line-1 typing"
+					class="inline-block z-20 text-yellow m-0 line-1 typing"
 				></h2>
 			</vue-typed-js>
 		</no-ssr>
@@ -85,32 +85,6 @@
 			height: 1px;
 			margin: 1.5rem auto 1.75rem;
 			max-width: 65px;
-		}
-	}
-
-	@media screen and (min-width: 1000px) {
-		#content {
-			left: 50vw;
-			max-width: 600px;
-			height: 100vh;
-		}
-		#myPic {
-			left: 2vw;
-			width: 48vw;
-		}
-		#bigText {
-			left: 10vw;
-			font-size: 4rem;
-		}
-	}
-	@media screen and (min-width: 1920px) {
-		#bigText {
-			left: 15vw;
-			font-size: 4.5rem;
-			max-width: 36vw;
-		}
-		#myPic {
-			width: 50vw;
 		}
 	}
 </style>

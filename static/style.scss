@@ -139,11 +139,6 @@ img,
 	padding-bottom: 4rem
 }
 
-main {
-	padding-left: 2rem;
-	padding-right: 2rem
-}
-
 .m-0,
 body,
 figure,
@@ -304,7 +299,11 @@ header {
 	}
 }
 
-#bigText { text-shadow: 1px 1px 2px rgba(0,0,0,.6); }
+#bigText {
+	font-size: clamp(2.4rem, 3rem, 10vw);
+	text-shadow: 1px 1px 2px rgba(0,0,0,.6);
+	line-height: 1.2;
+}
 
 /* Footer */
 
@@ -326,7 +325,6 @@ footer {
 		}
 		#content { padding: 2rem }
 		#bigText {
-			font-size: clamp(2rem, 3.4rem, 10vw);
 			padding: 0 2rem 3rem
 		}
 		&#home #bigText { text-align: center }
@@ -336,31 +334,74 @@ footer {
 
 @media screen and (min-width:1000px){
 	.fixedLayout {
+		#content,
+		#myPic { top: 0 }
 		#content {
 			position: absolute;
-			top: 0;
+			height: 100vh;
 		}
+		#myPic,
+		#bigText { position: fixed }
 		#myPic {
-			position: fixed;
-			top: 0;
 			clip-path: polygon(28% 0, 100% 30%, 58% 100%, 0px 88%, 20% 0);
 			height: 90vh;
 		}
-		#bigText {
+		#bigText { bottom: 1.5rem }
+	}
+	.aboutPage {
+		#content {
+			height: 100vh;
+		}
+		footer {
 			position: fixed;
-			bottom: 1.5rem;
+			bottom: 10px;
+			right: 10px;
+			width: 48px;
+			#stalkme {
+				writing-mode: vertical-rl;
+				position: absolute;
+				top: 16px;
+				right: 50px;
+			}
 		}
 	}
-	.aboutPage footer {
-		position: fixed;
-		bottom: 10px;
-		right: 10px;
-		width: 48px;
-		#stalkme {
-			writing-mode: vertical-rl;
-			position: absolute;
-			top: 16px;
-			right: 50px;
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1000px){
+	.aboutPage {
+		#bigText {
+			left: 5vw;
+		}
+		#myPic {
+			width: 38vw;
+		}
+		#content { max-width: 600px }
+	}
+	.fixedLayout {
+		#content {
+			left: 40vw;
+			width: 48vw;
+			height: 100vh;
+		}
+	}
+}
+
+@media screen and (min-width:1920px){
+	.aboutPage {
+		#content {
+			left: 50vw;
+			max-width: 600px
+		}
+		#bigText {
+			left: 15vw;
+		}
+		#myPic {
+			width: 38vw;
+		}
+	}
+	.fixedLayout {
+		#content {
+			left: 50vw
 		}
 	}
 }
