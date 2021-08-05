@@ -3,7 +3,7 @@
 		<MyPic />
 		<div id="content" class="text-white text-center grid z-10">
 			<article class="self-center">
-				<h1 class="text-yellow mt-0 line-1">{{ title }}</h1>
+				<h1 class="text-yellow mt-0 line-1">Timo Anttila</h1>
 				<p v-html="body" />
 			</article>
 		</div>

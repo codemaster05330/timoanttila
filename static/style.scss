@@ -134,9 +134,19 @@ img,
 
 .p-0 { padding: 0 }
 
+.py-0 {
+	padding-top: 0;
+	padding-bottom: 0
+}
+
 .py {
 	padding-top: 4rem;
 	padding-bottom: 4rem
+}
+
+.px {
+	padding-left: 2rem;
+	padding-right: 2rem
 }
 
 .m-0,
@@ -287,10 +297,6 @@ header {
 	#articleDescription {
 		max-width: 650px;
 		font-size: 1.4rem
-	}
-	pre {
-		border-radius: 10px;
-		margin: 0
 	}
 	.nuxt-content-container {
 		margin-top: 30px;

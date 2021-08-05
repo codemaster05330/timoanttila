@@ -1,8 +1,9 @@
 ---
 title: Creating a bootable Manjaro USB memory stick on Linux
 createdAt: 2021-07-24T00:23:31.000Z
-description: Are you guilty of one of these common PHP mistakes? Refer to this list next time you're debugging PHP code.
+description: Tips on how to create a bootable USB flash drive on Linux. Nowadays, Etcher is the easiest and best way to create a bootable USB drive.
 tags: tutorials, linux
+image: etcher
 ---
 
 Whether you are installing a new linux distro or trying a new live one, you need to create a bootable USB stick. Windows and MacOS are well supported by a variety of software, but we Linux users have a built-in command line dd and a separate download and run Etcher.
@@ -42,6 +43,12 @@ The bootable USB flash drive is ready! No internet connection or new application
 # Bootable USB flash drive with Etcher
 
 Was it difficult or what? Fortunately, Balena now offers a very easy-to-use installation software called [Etcher](https://www.balena.io/etcher/) for all major platforms.
+
+<picture>
+<source srcset="/images/etcher.webp" type="image/webp"/>
+<source srcset="/images/etcher.jpg" type="image/jpeg"/>
+<img class="block w-full" src="/images/etcher.jpg" alt="Etcher"/>
+</picture>
 
 - Download the software from the link above
 - Two icons, first one for the file and second for the path where to install

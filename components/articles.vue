@@ -12,7 +12,7 @@
 		<ul
 			v-if="articles"
 			id="articles"
-			class="grid max-w-screen-lg mx-auto m-0 p-0 noUnd"
+			class="grid m-0 py-0 px noUnd"
 			aria-label="List of articles I have written"
 			role="menu"
 		>

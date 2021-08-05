@@ -22,8 +22,7 @@
 			>
 				<title>Close the main navigation</title>
 				<path
-					d="M24 3.752l-4.423-3.752-7.771 9.039-7.647-9.008-4.159
-				4.278c2.285 2.885 5.284 5.903"
+					d="M24 3.752l-4.423-3.752-7.771 9.039-7.647-9.008-4.159 4.278c2.285 2.885 5.284 5.903 8.362 8.708l-8.165 9.447 1.343 1.487c1.978-1.335 5.981-4.373 10.205-7.958 4.304 3.67 8.306 6.663 10.229 8.006l1.449-1.278-8.254-9.724c3.287-2.973 6.584-6.354 8.831-9.245z"
 				/>
 			</svg>
 		</button>
@@ -105,12 +104,6 @@
 							lang: "fi",
 						},
 						{
-							title: "Blog",
-							description: "Artikkeleita ja tutoriaaleja",
-							link: "/fi/blog",
-							lang: "fi",
-						},
-						{
 							title: "English",
 							description: "In English",
 							link: "/",
@@ -118,7 +111,8 @@
 						},
 					],
 				},
-				image: "/images/timoanttila.jpg",
+				url: "https://timoanttila.com",
+				image: this.url + "/images/timoanttila.jpg",
 			};
 		},
 		computed: {
@@ -127,12 +121,12 @@
 		head() {
 			return {
 				htmlAttrs: { lang: this.lang },
-				title: this.title,
+				title: this.page.title,
 				link: [
 					{
 						rel: "canonical",
 						property: "og:url",
-						href: this.page.url,
+						href: this.url + this.page.url,
 					},
 				],
 				meta: [
@@ -156,7 +150,7 @@
 						property: "og:image",
 						content:
 							this.page && this.page.image
-								? this.page.image
+								? this.url + this.page.image
 								: this.image,
 					},
 					{ property: "og:site_name", content: this.page.title },

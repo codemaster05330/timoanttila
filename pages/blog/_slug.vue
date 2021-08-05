@@ -1,5 +1,5 @@
 <template>
-	<div id="article" class="py">
+	<div v-if="page" id="article" class="py">
 		<article class="max-w-prose mx-auto text-white content">
 			<div class="text-center">
 				<h1 id="articleTitle" class="line-2">{{ page.title }}</h1>
@@ -25,9 +25,15 @@
 		},
 		mounted() {
 			this.$store.commit("addMain", "articlePage");
+			this.$store.commit("currentPage", {
+				title: this.page.title,
+				description: this.page.description,
+				image: this.page.image
+					? "/images/" + this.page.image + ".jpg"
+					: "/images/timoanttila.jpg",
+				url: $nuxt.$route.fullPath,
+				hid: $nuxt.$route.path,
+			});
 		},
 	};
 </script>
-
-<style lang="scss" scoped>
-</style>

@@ -4,8 +4,6 @@ export default {
 
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
-		title: 'Timo Anttila | It all starts with a dream!',
-		description: 'Timo Anttila is a self-taught passionate developer, who loves solving problems and learning new ways to deliver solutions. Full Stack Web Developer and entrepreneur.',
 		lang: 'en'
 	},
 	meta: [
