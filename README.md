@@ -1,6 +1,6 @@
 # Hi, I'm Timo Anttila
 
-A self-taught developer, I love solving problems and learning new ways to deliver solutions. 
+A self-taught developer, who loves solving problems and learning new ways to deliver solutions.
 
 Full Stack Web Developer specializing in PHP, JavaScript, ProcessWire, Svelte, and SQL engines. Currently learning Vue + Nuxt. Passionately improving websites usage experience and loading time. Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.
 
@@ -10,7 +10,8 @@ Full Stack Web Developer specializing in PHP, JavaScript, ProcessWire, Svelte, a
 - Maintaining many servers and being responsible for the security and backup of clients’ websites.
 
 ## Technologies
-- HTML, CSS, JavaScript, Svelte, JQuery
+
+- HTML, CSS, JavaScript, Svelte, Vue, JQuery
 - PHP, SQL, NodeJS, Express
 - ProcessWire, Wordpress, Drupal
 - MySQL, MariaDB, SQLite
