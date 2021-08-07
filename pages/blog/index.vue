@@ -1,9 +1,9 @@
 <template>
 	<Articles
-		v-if="title && articles"
+		v-if="title && list"
 		:title="title"
 		:desc="description"
-		:articles="articles"
+		:articles="list"
 	/>
 </template>
 
@@ -15,12 +15,12 @@
 		},
 		name: "ArticlesEng",
 		async asyncData({ $content }) {
-			const articles = await $content("blog")
+			const list = await $content("blog")
 				.only(["title", "description", "createdAt"])
 				.sortBy("createdAt", "desc")
 				.fetch();
 			return {
-				articles,
+				list,
 			};
 		},
 		data() {
