@@ -16,7 +16,7 @@
 		name: "ArticlesEng",
 		async asyncData({ $content }) {
 			const list = await $content("blog")
-				.only(["title", "description", "createdAt"])
+				.only(["title", "description", "path", "createdAt"])
 				.sortBy("createdAt", "desc")
 				.fetch();
 			return {

@@ -25,7 +25,7 @@
 				<div class="published text-sm">
 					<Datetime :item="item.createdAt" />
 				</div>
-				<div v-if="item.title && item.path" class="content">
+				<div class="content">
 					<h2 class="listTitle line-3">
 						<nuxt-link
 							:to="item.path"
