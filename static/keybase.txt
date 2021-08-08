@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/timoanttila
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://timoanttila.com
+  * I am timoanttila (https://keybase.io/timoanttila) on keybase.
+  * I have a public key with fingerprint A288 EACC 267A 5865 7A24  E0C2 7977 16BF 4782 51A7
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101be66a3619c0e825e781edda12db055d83b49a627586fdc7920e7a96ba196ce3d0a",
+      "fingerprint": "a288eacc267a58657a24e0c2797716bf478251a7",
+      "host": "keybase.io",
+      "key_id": "797716bf478251a7",
+      "kid": "0101be66a3619c0e825e781edda12db055d83b49a627586fdc7920e7a96ba196ce3d0a",
+      "uid": "6effe766bca9cf4f42c63dd80608b519",
+      "username": "timoanttila"
+    },
+    "merkle_root": {
+      "ctime": 1628439161,
+      "hash_meta": "c38c2f576b89d3814825017ab0923b396b0a7c6454c7fcde02f875def7e7d6fc",
+      "seqno": 20527887
+    },
+    "revoke": {
+      "sig_ids": [
+        "b849bbd7d54699d89d4e257a609cf7df801e635eaf6ec0ae089b55d94fe7b1ac0f"
+      ]
+    },
+    "service": {
+      "hostname": "timoanttila.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1628439220,
+  "expire_in": 157680000,
+  "prev": "ba5e1d97566d1aaeaa4114142b5aa77a9b18e066bff3d493555c764f08ceb98d",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMK5AnicrZNdaBxVGIY3SdO6MamtiIFK03RatK2xnDMz52dWxBsRZQMGRJT+sJ6f
+7+yOye5sZyZr65qCGmn0QsSmxRtttDRWTatWIy2IxjVe6NaL5ErQCxEpUqgXttRe
+Wc8ERUQvnZthznm/93vP881Z7OvK9XS0nzm4/tKhN5c72q2J8ZxY1/lR05GRPuAU
+ms4orLxgTEOSlkZD7RQchBGWQKnwKA4UAu4SYByD1gK7WiJCNPekHwjqMsKp0YoF
+LgImAioFDqgCTyPhDDkmrJUhrsdhLbW2wuUchFIuZcKWESZcH5ByWcAYptL4zDbC
+gtnCSpRkFTacFAnsDCO7Zj9KK/H+Q/8/5x5fsaNgDDBKpRKBMr7xXUU9rTmiiEuC
+g0yYQFwTVbDqNKxGopam4ZhwJoacKsSjY1CKoyjN+Cq7bVWYutz3AkyxPaNIKqUq
+pMIWK48r1xBGJQ+0x7FvoyPMhESB60nP5kOCKeoTXzGjNCDXcEY0GAZMU6NslAT2
+1SKn4CLiMs6ZjRBDIxqFrHsSli26xCnsdiT3Ayk108SnQaBtOx9cOwqK7BmZNhxh
+oB4BYSgoJADxQFpugW9RSCwUMs7eiaxb3AjVink2q38z2Kmiqk1Vj6M0UtGY3ayk
+aT0pZGzSA/VM/STI0p8+JRnWtP1ZbEUD4iSMapaVVf4Tm+uiIQf218MYSmGmsMA4
+sk/WBxrWUgoCWAeMUKqxECCEj7GPfVcSIZgdtMQckB2pMZ72A48Qohj1DeIKZMD1
+3xyxZ3OKsvW08GoiHY/BmWgt7FmV6+jJre7uzG5Rrie/7q+79VBxzfWRjwd/WGib
+mebc5qt35Ms3L7hdL0c3rj9+aa2+cnqtuVZ8e+CLex87soE3N5+rPLBxdubpTwZ6
+l7bgbbe8sfXWweUjP31vpteItPvypvz8s+8+cnWm/9yiuX7/De+vusc8t3HLnsXO
+XWd7nEPk1ZHLSdcrv3zXutAeGVj67PG5/PyFk+9MPniteef5Snty6u7bv2migReH
+V+86e7zgXTxcHD5WPvza780z0/jruenWch8+dmrHl/d9vj3Y8e1sNDVc35b8vG/w
+6G2PvvRenvQufvrj5PYX5ocO7o0aG6InHv7trqW3THFW9feeGf6q+/zup06/3uo7
+8Wvx1MUP505+sP/oTSODU/1XNm0lz/8BXL18fA==
+=SEk0
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/timoanttila
+
+==================================================================
