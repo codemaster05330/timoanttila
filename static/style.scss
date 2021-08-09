@@ -223,22 +223,13 @@ button.icon-white:hover svg {
 }
 
 header {
-	&.icon {
-		top: 1.5rem;
-		right: 1.5rem;
-		#menuToggle {
-			top: 0;
-			right: 0
-		}
+	&.icon #menuToggle,
+	&:not(.icon) {
+		top: 0;
+		right: 0
 	}
 	&:not(.icon){
-		top: 0;
-		left: 0;
 		background-color: var(--purple);
-		#menuToggle {
-			top: 1.5rem;
-			right: 1.5rem
-		}
 	}
 }
 
@@ -319,6 +310,26 @@ footer {
 		svg {
 			width: 32px;
 			height: 32px;
+		}
+	}
+}
+
+@media screen and (max-width:720px){
+	header {
+		&.icon,
+		&:not(.icon) #menuToggle {
+			top: 0.5rem;
+			right: 0.5rem;
+		}
+	}
+}
+
+@media screen and (min-width:720px){
+	header {
+		&.icon,
+		&:not(.icon) #menuToggle {
+			top: 1.5rem;
+			right: 1.5rem;
 		}
 	}
 }

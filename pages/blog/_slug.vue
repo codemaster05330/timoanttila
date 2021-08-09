@@ -1,5 +1,5 @@
 <template>
-	<div v-if="page" id="article" class="py">
+	<div v-if="page" id="article" class="py px">
 		<article class="max-w-prose mx-auto text-white content">
 			<div class="text-center mb-10">
 				<h1 id="articleTitle" class="line-2">{{ page.title }}</h1>
