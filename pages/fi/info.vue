@@ -13,6 +13,52 @@
 			const page = await $content("fi/info").fetch();
 			return {
 				page,
+				title: page.title,
+				description: page.description,
+				image: page.image
+					? "/images/" + page.image + ".jpg"
+					: "/images/timoanttila.jpg",
+				url: page.path,
+			};
+		},
+		data() {
+			return {
+				site: "https://timoanttila.com",
+			};
+		},
+		head() {
+			return {
+				htmlAttrs: { lang: "fi" },
+				title: this.title,
+				link: [
+					{
+						rel: "canonical",
+						property: "og:url",
+						href: this.site + this.url,
+					},
+				],
+				meta: [
+					{
+						property: "og:title",
+						name: "twitter:title",
+						content: this.title,
+					},
+					{
+						hid: this.url,
+						name: "description",
+						content: this.description,
+					},
+					{
+						name: "twitter:description",
+						property: "og:description",
+						content: this.description,
+					},
+					{
+						name: "twitter:image",
+						property: "og:image",
+						content: this.image,
+					},
+				],
 			};
 		},
 	};

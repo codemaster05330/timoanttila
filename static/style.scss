@@ -333,7 +333,10 @@ footer {
 		#bigText {
 			padding: 0 2rem 3rem
 		}
-		&#home #bigText { text-align: center }
+		#bigText {
+			text-align: center;
+			width: 100%
+		}
 	}
 	footer { margin-bottom: 10px }
 }

@@ -64,13 +64,6 @@
 		mounted() {
 			this.$store.commit("addLang", this.lang);
 			this.$store.commit("addMain", "aboutPage");
-			this.$store.commit("currentPage", {
-				title: this.title,
-				description: this.description,
-				image: this.url + "/images/timoanttila.jpg",
-				url: this.url + $nuxt.$route.fullPath,
-				hid: $nuxt.$route.path,
-			});
 		},
 	};
 </script>
@@ -86,5 +79,8 @@
 			margin: 1.5rem auto 1.75rem;
 			max-width: 65px;
 		}
+	}
+	h2#bigText {
+		font-size: clamp(2rem, 5rem, 10vw);
 	}
 </style>

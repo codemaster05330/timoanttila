@@ -1,7 +1,7 @@
 <template>
 	<Articles
 		v-if="title && list"
-		:title="title"
+		:title="Articles"
 		:desc="description"
 		:articles="list"
 	/>
@@ -25,25 +25,38 @@
 		},
 		data() {
 			return {
-				title: "Articles",
+				title: "Articles written by Timo Anttila",
 				description:
 					"Stories about projects and life, easy-to-learn tutorials and political opinions.",
+				url: "/blog/",
 			};
 		},
 		head() {
 			return {
+				htmlAttrs: { lang: "en" },
 				title: this.title,
+				link: [
+					{
+						rel: "canonical",
+						property: "og:url",
+						href: this.url,
+					},
+				],
 				meta: [
 					{
-						hid: this.title,
+						property: "og:title",
+						name: "twitter:title",
+						content: this.title,
+					},
+					{
+						hid: "articles-en",
 						name: "description",
-						property: "og:description",
 						content: this.description,
 					},
 					{
-						name: "twitter:title",
-						property: "og:title",
-						content: this.title,
+						name: "twitter:description",
+						property: "og:description",
+						content: this.description,
 					},
 					{
 						name: "twitter:image",

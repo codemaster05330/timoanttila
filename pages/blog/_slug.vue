@@ -21,19 +21,55 @@
 		async asyncData({ $content, params }) {
 			const slug = params.slug;
 			const page = await $content("blog", slug).fetch();
-			return { page };
-		},
-		mounted() {
-			this.$store.commit("addMain", "articlePage");
-			this.$store.commit("currentPage", {
-				title: this.page.title,
-				description: this.page.description,
-				image: this.page.image
-					? "/images/" + this.page.image + ".jpg"
+			return {
+				page,
+				title: page.title,
+				description: page.description,
+				image: page.image
+					? "/images/" + page.image + ".jpg"
 					: "/images/timoanttila.jpg",
-				url: $nuxt.$route.fullPath,
-				hid: $nuxt.$route.path,
-			});
+				url: page.path,
+			};
+		},
+		data() {
+			return {
+				site: "https://timoanttila.com",
+			};
+		},
+		head() {
+			return {
+				htmlAttrs: { lang: "en" },
+				title: this.title,
+				link: [
+					{
+						rel: "canonical",
+						property: "og:url",
+						href: this.site + this.url,
+					},
+				],
+				meta: [
+					{
+						property: "og:title",
+						name: "twitter:title",
+						content: this.title,
+					},
+					{
+						hid: this.url,
+						name: "description",
+						content: this.description,
+					},
+					{
+						name: "twitter:description",
+						property: "og:description",
+						content: this.description,
+					},
+					{
+						name: "twitter:image",
+						property: "og:image",
+						content: this.image,
+					},
+				],
+			};
 		},
 	};
 </script>
