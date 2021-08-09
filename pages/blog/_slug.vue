@@ -25,9 +25,7 @@
 				page,
 				title: page.title,
 				description: page.description,
-				image: page.image
-					? "/images/" + page.image + ".jpg"
-					: "/images/timoanttila.jpg",
+				image: page.image ? page.image : "timoanttila",
 				url: page.path,
 			};
 		},
@@ -66,7 +64,7 @@
 					{
 						name: "twitter:image",
 						property: "og:image",
-						content: this.image,
+						content: this.site + "/images/" + this.image + ".jpg",
 					},
 				],
 			};

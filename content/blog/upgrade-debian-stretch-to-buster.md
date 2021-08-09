@@ -1,8 +1,9 @@
 ---
-title: How to upgrade Debian 9 Stretch to Debian 10 Buster
+title: Upgrade Debian 9 Stretch to Debian 10 Buster
 createdAt: 2021-08-08T23:34:34.000Z
-description: How to upgrade Linux from Debian 9 Stretch to Debian 10 Buster safely and making sure all packages work after the upgrade.
+description: How to upgrade Debian GNU/Linux from Stretch (9) to Buster (10) safely and making sure all packages work after the upgrade.
 tags: tutorials, linux, debian
+image: debian
 ---
 
 Debian GNU Linux is one of the first Linux distro and one of the most popular in the world. That’s where Ubuntu and its descendants come from. We have Debian running on all servers.
