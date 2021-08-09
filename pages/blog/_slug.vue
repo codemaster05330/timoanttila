@@ -1,7 +1,7 @@
 <template>
 	<div v-if="page" id="article" class="py">
 		<article class="max-w-prose mx-auto text-white content">
-			<div class="text-center">
+			<div class="text-center mb-10">
 				<h1 id="articleTitle" class="line-2">{{ page.title }}</h1>
 				<p id="articleDescription">
 					{{ page.description }}

@@ -1,7 +1,7 @@
 <template>
 	<div v-if="page" id="article" class="py">
 		<article class="max-w-prose mx-auto text-white content">
-			<div class="text-center">
+			<div class="text-center mb-10">
 				<h1 id="articleTitle" class="line-2">{{ page.title }}</h1>
 				<p id="articleDescription">
 					{{ page.description }}
@@ -21,19 +21,53 @@
 		async asyncData({ $content, params }) {
 			const slug = params.slug;
 			const page = await $content("fi/blog", slug).fetch();
-			return { page };
+			return {
+				page,
+				title: page.title,
+				description: page.description,
+				image: page.image ? page.image : "timoanttila",
+				url: page.path,
+			};
 		},
-		mounted() {
-			this.$store.commit("addMain", "articlePage");
-			this.$store.commit("currentPage", {
-				title: this.page.title,
-				description: this.page.description,
-				image: this.page.image
-					? "/images/" + this.page.image + ".jpg"
-					: "/images/timoanttila.jpg",
-				url: $nuxt.$route.fullPath,
-				hid: $nuxt.$route.path,
-			});
+		data() {
+			return {
+				site: "https://timoanttila.com",
+			};
+		},
+		head() {
+			return {
+				htmlAttrs: { lang: "en" },
+				title: this.title,
+				link: [
+					{
+						rel: "canonical",
+						property: "og:url",
+						href: this.site + this.url,
+					},
+				],
+				meta: [
+					{
+						property: "og:title",
+						name: "twitter:title",
+						content: this.title,
+					},
+					{
+						hid: this.url,
+						name: "description",
+						content: this.description,
+					},
+					{
+						name: "twitter:description",
+						property: "og:description",
+						content: this.description,
+					},
+					{
+						name: "twitter:image",
+						property: "og:image",
+						content: this.site + "/images/" + this.image + ".jpg",
+					},
+				],
+			};
 		},
 	};
 </script>
