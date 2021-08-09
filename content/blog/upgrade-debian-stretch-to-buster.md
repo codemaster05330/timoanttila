@@ -10,7 +10,7 @@ Debian GNU Linux is one of the first Linux distro and one of the most popular in
 
 The downside to Debian is that it does not automatically support version upgrades, rolling releases, but the user has to change the version in the apt files. Upgrades may also break packages if the upgrade is not done securely.
 
-We had Debian Stretch (9) running on one of the servers. The newer version offers a longer support period and new features, so we wanted to upgrade it to Buster (10), even when Stretch is still officially supported until June 2022. It is highly recommended to upgrade to the latest version.
+We had Debian 9 Stretch running on one of the servers. The newer version offers a longer support period and new features, so we wanted to upgrade it to Debian 10 Buster, even when Stretch is still officially supported until June 2022. It is highly recommended to upgrade to the latest version.
 
 This tutorial will walk you through how to upgrade from Debian 9 Stretch to Debian 10 Buster. You need A Debian user account with `sudo` privileges.
 
