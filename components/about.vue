@@ -31,8 +31,10 @@
 </script>
 
 <style scoped>
-	#bigText {
-		width: 30vw;
-		max-width: 432px;
+	@media screen and (min-width: 1000px) {
+		#bigText {
+			width: 30vw;
+			max-width: 432px;
+		}
 	}
 </style>

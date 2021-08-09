@@ -330,8 +330,9 @@ footer {
 			overflow: hidden;
 		}
 		#content { padding: 2rem }
-		#bigText {
-			padding: 0 2rem 3rem
+		&#home #bigText {
+			padding: 0 2rem 2rem;
+			min-height: 133px
 		}
 		#bigText {
 			text-align: center;
