@@ -6,7 +6,7 @@ Full Stack Web Developer specializing in PHP, JavaScript, ProcessWire, Svelte, a
 
 - Designing and developing experiences that make people's lives simple.
 - Working at Tuspe Design Oy as a full stack developer and developing its business as an owner.
-- Partner and chief technology officer at Ratsukko Solutions Oy.
+- Partner and chief technology officer at Ratsukko Solutions Oy and Dataline Group Oy.
 - Maintaining many servers and being responsible for the security and backup of clients’ websites.
 
 ## Technologies
