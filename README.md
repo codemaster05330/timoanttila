@@ -11,10 +11,10 @@ Full Stack Web Developer specializing in PHP, JavaScript, ProcessWire, Svelte, a
 
 ## Technologies
 
-- HTML, CSS, JavaScript, Svelte, Vue, JQuery
+- HTML, CSS, JavaScript, Vue + Nuxt, Svelte + Routify, JQuery
 - PHP, SQL, NodeJS, Express
 - ProcessWire, Wordpress, Drupal
-- MySQL, MariaDB, SQLite
+- MySQL / MariaDB, PostgreSQL, SQLite
 
 ## Languages
 
