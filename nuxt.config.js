@@ -44,18 +44,8 @@ export default {
 	],
 	components: true,
 	modules: [,
-		'@nuxt/content',
-		'reading-time'
+		'@nuxt/content'
 	],
-	hooks: {
-		'content:file:beforeInsert': (document) => {
-			if (document.extension === '.md') {
-				const { time } = require('reading-time')(document.text)
-
-				document.readingTime = time
-			}
-		}
-	},
 	generate: {
 		async routes() {
 			const { $content } = require('@nuxt/content')

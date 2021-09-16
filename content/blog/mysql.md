@@ -5,7 +5,7 @@ description: A basic tutorial how to take control of MySQL / MariaDB server, how
 tags: tutorials, servers, sql
 ---
 
-Normally, you can do everything with MySQL Workbench or software like that, but sometimes, you need to know how to use basic MySQL commands to complete your tasks.
+Normally, you can do everything with MySQL Workbench, HeidiSQL, DBeaver or software like that, but sometimes, you need to know how to use basic MySQL commands to complete your tasks.
 
 ## How to install MySQL / MariaDB on Ubuntu, Debian and CentOS
 
@@ -126,6 +126,31 @@ When the database is no longer needed you can drop it.
 
 ```SQL
 DROP DATABASE test;
+```
+
+## How to use mysqldump to get backups or schema
+
+I usually use the `mysqldump` command to take database backups, but it can also take out a schema without data. I sometimes use it when saving initial settings to Github.
+
+```SQL
+mysqldump -u youruser -p yourdatabase
+```
+
+The `-u` flag indicates the username and the `-p` flag that a password will be supplied. After pressing `<enter>` you will be prompted for the password.
+
+Alternatively, the password can be supplied on the command line, but there must be no space between the `-p` flag and the password. For example, if the password was "tuspe" do this:
+
+```SQL
+mysqldump --d -u youruser -ptuspe yourdatabase
+```
+
+### Schema only
+
+The `-d` flag says not to include data in the dump. Alternatively you can use `–no-data` instead if you find that easier to remember:
+
+```SQL
+mysqldump -d -u youruser -p yourdatabase  
+mysqldump --no-data -u youruser -p yourdatabase
 ```
 
 ## How to create a new MySQL / MariaDB user
