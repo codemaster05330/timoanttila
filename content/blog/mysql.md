@@ -193,6 +193,12 @@ After making a change, you should flush privileges.
 FLUSH PRIVILEGES;
 ```
 
+## Change user password
+
+```SQL
+ALTER USER 'timo'@'localhost' IDENTIFIED BY 'newpassword?';
+```
+
 ## Delete a MySQL / MariaDB user
 
 ```SQL
