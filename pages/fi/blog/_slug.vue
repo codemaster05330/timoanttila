@@ -36,7 +36,7 @@
 		},
 		head() {
 			return {
-				htmlAttrs: { lang: "en" },
+				htmlAttrs: { lang: "fi" },
 				title: this.title,
 				link: [
 					{

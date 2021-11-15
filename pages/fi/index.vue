@@ -1,7 +1,7 @@
 <template>
 	<Home
 		body="Itseoppinut intohimoinen verkkokehittäjä, joka rakastaa luomista tyhjästä, ongelmien ratkaisemista ja verkkosivustojen kehittämistä nopeammiksi ja paremmiksi. Vietän suurimman osan päivästäni näytön edessä koodaten metallin ja rokin soidessa taustalla, mutta en kuitenkaan unohda päivittäistä kuntoilua ja metsälenkkejä koiran kanssa. Toimin myös aktiivisesti erilaisissa vapaaehtoistöissä. Mottoni on 'vain tyhmä on huolissaan siitä, mitä hän ei voi hallita'."
-		lang="en"
+		:lang="lang"
 		:text="[
 			'Itseoppinut verkkovelho',
 			'Nuorisotyön vapaaehtoinen',
@@ -24,11 +24,12 @@
 				description:
 					"Timo Anttila on itseoppinut intohimoinen verkkokehittäjä, joka rakastaa luomista, ongelmien ratkaisemista ja verkkosivustojen kehittämistä nopeammiksi ja paremmiksi.",
 				url: "/fi/",
+				lang: "fi",
 			};
 		},
 		head() {
 			return {
-				htmlAttrs: { lang: "fi" },
+				htmlAttrs: { lang: this.lang },
 				title: this.title,
 				link: [
 					{
