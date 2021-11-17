@@ -32,7 +32,6 @@ Verkkosivustojen ja -kauppojen luoja, webbisovellusten kehittäjä. Haluan intoh
 ### Henkilökohtainen elämä:
 
 - Kiinnostunut tekoälyn mahdollisuuksista, tekniikan ihmeistä ja ihmisten käyttäytymisestä.
-- Valokuvaan kaikenlaista kaunista ja mielenkiintoista [Instagramiin](https://www.instagram.com/_timoanttila/).
 - Ylpeä isä kahdelle lemmikille.
 - Rakastan luontoa.
 - Vapaaehtoisena mm. [Mannerheimin Lastensuojeluliitto](https://hameenpiiri.mll.fi/), [Plan International Finland](https://plan.fi/), [LanTrek](https://www.lantrek.org/).
@@ -62,7 +61,6 @@ Verkkosivustojen ja -kauppojen luoja, webbisovellusten kehittäjä. Haluan intoh
 - https://tuspe.com
 - https://github.com/timoanttila
 - [https://twitter.com/_timoanttila](https://twitter.com/_timoanttila/with_replies)
-- https://www.instagram.com/_timoanttila/
 - https://trakt.tv/users/timoanttila
 - https://www.linkedin.com/in/anttilatimo/
 - https://github.com/TuspeDesign

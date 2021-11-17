@@ -37,7 +37,6 @@ Always want to surpass myself and my customers. When the customer feels they hav
 
 - Learning how to live a real life.
 - Interested in artificial intelligence, the wonders of technology, and human behavior.
-- Photographing all kinds of beautiful on [Instagram](https://www.instagram.com/_timoanttila/).
 - Proud father of two pets; border collie Deli and cat Sera.
 - Nature lover.
 - Volunteer at [The Mannerheim League for Child Welfare](https://hameenpiiri.mll.fi/), [Plan International Finland](https://plan.fi/en).
@@ -67,7 +66,6 @@ Always want to surpass myself and my customers. When the customer feels they hav
 - https://tuspe.com
 - https://github.com/timoanttila
 - [https://twitter.com/_timoanttila](https://twitter.com/_timoanttila/with_replies)
-- https://www.instagram.com/_timoanttila/
 - https://trakt.tv/users/timoanttila
 - https://www.linkedin.com/in/anttilatimo/
 - https://github.com/TuspeDesign
