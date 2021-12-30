@@ -14,8 +14,9 @@ language: fi
 
 ### Tittelit:
 
+Yrittäjä  
 Toimitusjohtaja  
-Teknologiajohtaja
+Full Stack Web Developer
 
 ### Työelämä:
 
@@ -61,7 +62,7 @@ Verkkosivustojen ja -kauppojen luoja, webbisovellusten kehittäjä. Haluan intoh
 - https://tuspe.com
 - https://github.com/timoanttila
 - [https://twitter.com/_timoanttila](https://twitter.com/_timoanttila/with_replies)
-- https://trakt.tv/users/timoanttila
 - https://www.linkedin.com/in/anttilatimo/
-- https://www.polywork.com/timoanttila
 - https://github.com/TuspeDesign
+- https://trakt.tv/users/timoanttila
+- https://www.goodreads.com/user/show/104287756-timo-anttila

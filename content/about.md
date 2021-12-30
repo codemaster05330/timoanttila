@@ -11,10 +11,9 @@ language: en
 
 ## Professional title:
 
+Entrepreneur  
 Full Stack Developer  
 Chief executive officer  
-Chief technology officer  
-Server Administrator
 
 ## Professional life:
 
@@ -66,10 +65,10 @@ Always want to surpass myself and my customers. When the customer feels they hav
 - https://tuspe.com
 - https://github.com/timoanttila
 - [https://twitter.com/_timoanttila](https://twitter.com/_timoanttila/with_replies)
-- https://trakt.tv/users/timoanttila
 - https://www.linkedin.com/in/anttilatimo/
-- https://www.polywork.com/timoanttila
 - https://github.com/TuspeDesign
+- https://trakt.tv/users/timoanttila
+- https://www.goodreads.com/user/show/104287756-timo-anttila
 
 ## Now?
 
