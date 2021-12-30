@@ -15,9 +15,7 @@
 </template>
 
 <script>
-	import Breadcrumb from "@/components/breadcrumb";
 	export default {
-		components: { Breadcrumb },
 		async asyncData({ $content, params }) {
 			const slug = params.slug;
 			const page = await $content("fi/blog", slug).fetch();

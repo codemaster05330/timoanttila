@@ -1,6 +1,6 @@
 <template>
 	<div id="matrix" class="relative" :class="main">
-		<HeaderBlock />
+		<Header />
 		<main class="block">
 			<Nuxt keep-alive />
 		</main>
@@ -10,14 +10,8 @@
 
 <script>
 	import { mapGetters } from "vuex";
-	import HeaderBlock from "@/components/header";
-	import FooterBlock from "@/components/footer";
 
 	export default {
-		components: {
-			HeaderBlock,
-			FooterBlock,
-		},
 		data() {
 			return {
 				site: "Timo Anttila",

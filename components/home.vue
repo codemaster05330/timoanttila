@@ -27,11 +27,9 @@
 </template>
 
 <script>
-	import MyPic from "@/components/mypic";
 	import { VueTypedJs } from "vue-typed-js";
 	export default {
 		components: {
-			MyPic,
 			VueTypedJs,
 		},
 		props: {
@@ -68,17 +66,17 @@
 	};
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 	h1 {
 		font-size: clamp(2rem, 3.4rem, 10vw);
-		&:after {
-			content: "";
-			display: block;
-			background-color: #ccc;
-			height: 1px;
-			margin: 1.5rem auto 1.75rem;
-			max-width: 65px;
-		}
+	}
+	h1:after {
+		content: "";
+		display: block;
+		background-color: #ccc;
+		height: 1px;
+		margin: 1.5rem auto 1.75rem;
+		max-width: 65px;
 	}
 	h2#bigText {
 		font-size: clamp(2rem, 5rem, 10vw);

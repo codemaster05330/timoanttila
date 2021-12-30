@@ -12,11 +12,7 @@
 </template>
 
 <script>
-	import Home from "@/components/home";
 	export default {
-		components: {
-			Home,
-		},
 		name: "HomeFI",
 		data() {
 			return {

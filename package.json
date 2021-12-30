@@ -32,9 +32,5 @@
     "luxon": "^2.2.0",
     "nuxt": "^2.15.8",
     "vue-typed-js": "^0.1.2"
-  },
-  "devDependencies": {
-    "node-sass": "^7.0.1",
-    "sass-loader": "^12.4.0"
   }
 }

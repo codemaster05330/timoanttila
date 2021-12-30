@@ -52,11 +52,7 @@
 </template>
 
 <script>
-	import Datetime from "@/components/date";
 	export default {
-		components: {
-			Datetime,
-		},
 		props: {
 			title: {
 				type: String,
@@ -77,7 +73,7 @@
 	};
 </script>
 
-<style scoped lang="scss">
+<style scoped>
 	h1 {
 		font-size: clamp(2.4rem, 5rem, 10vw);
 		line-height: 1.2;
@@ -85,16 +81,16 @@
 	#articles {
 		grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 		grid-gap: 3rem;
-		#articleDescription {
-			max-width: 500px;
-		}
-		.listItem {
-			grid-template-columns: 85px 1fr;
-			grid-gap: 1.5rem;
-		}
-		.listTitle {
-			font-size: 1.6rem;
-			margin: 0 0 15px 0;
-		}
+	}
+	#articleDescription {
+		max-width: 500px;
+	}
+	.listItem {
+		grid-template-columns: 85px 1fr;
+		grid-gap: 1.5rem;
+	}
+	.listTitle {
+		font-size: 1.6rem;
+		margin: 0 0 15px 0;
 	}
 </style>

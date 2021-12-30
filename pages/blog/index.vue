@@ -8,12 +8,8 @@
 </template>
 
 <script>
-	import Articles from "@/components/articles";
 	export default {
-		components: {
-			Articles,
-		},
-		name: "ArticlesEng",
+		name: "ArticlesEN",
 		async asyncData({ $content }) {
 			const list = await $content("blog")
 				.only(["title", "description", "path", "createdAt"])

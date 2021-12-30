@@ -72,24 +72,24 @@
 	};
 </script>
 
-<style scoped lang="scss">
+<style scoped>
 	@media screen and (min-width: 600px) {
 		#breadcrumb {
 			list-style: none;
 			top: 0;
 			left: 1rem;
-			li {
-				display: inline;
-				&:after {
-					content: " » ";
-					display: inline;
-					font-size: 0.9em;
-					padding: 0 0.0725em 0 0.15em;
-				}
-				&:last-child:after {
-					content: "";
-				}
-			}
+		}
+		#breadcrumb li {
+			display: inline;
+		}
+		#breadcrumb li:after {
+			content: " » ";
+			display: inline;
+			font-size: 0.9em;
+			padding: 0 0.0725em 0 0.15em;
+		}
+		#breadcrumb li:last-child:after {
+			content: "";
 		}
 	}
 	@media screen and (max-width: 600px) {

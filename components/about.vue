@@ -13,11 +13,7 @@
 </template>
 
 <script>
-	import MyPic from "@/components/mypic";
 	export default {
-		components: {
-			MyPic,
-		},
 		props: {
 			page: {
 				type: Object,

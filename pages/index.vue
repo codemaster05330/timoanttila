@@ -14,13 +14,8 @@
 </template>
 
 <script>
-	import Home from "@/components/home";
 	export default {
-		components: {
-			Home,
-		},
-		name: "HomeEng",
-		name: "HomeFI",
+		name: "HomeEN",
 		data() {
 			return {
 				title: "Timo Anttila | It all starts with a dream!",
