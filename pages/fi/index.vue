@@ -19,7 +19,7 @@
 				title: "Timo Anttila | Kaikki alkaa unelmasta!",
 				description:
 					"Timo Anttila on itseoppinut intohimoinen verkkokehittäjä, joka rakastaa luomista, ongelmien ratkaisemista ja verkkosivustojen kehittämistä nopeammiksi ja paremmiksi.",
-				url: "/fi/",
+				url: "https://timoanttila.com/fi",
 				lang: "fi",
 			};
 		},

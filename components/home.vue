@@ -1,6 +1,16 @@
 <template>
 	<div id="home" class="fixedLayout overflow-hidden">
-		<MyPic />
+		<picture id="myPic" class="block">
+			<source srcset="/images/timoanttila.webp" type="image/webp" />
+			<source srcset="/images/timoanttila.jpg" type="image/jpeg" />
+			<img
+				class="block w-full h-full object-cover"
+				src="/images/timoanttila.jpg"
+				alt="A self-taught passionate developer Timo Anttila"
+				aria-label="Portrait of Timo Anttila"
+			/>
+		</picture>
+
 		<div id="content" class="text-white text-center grid z-10">
 			<article class="self-center">
 				<h1 class="text-yellow mt-0 line-1">Timo Anttila</h1>

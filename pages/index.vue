@@ -21,7 +21,7 @@
 				title: "Timo Anttila | It all starts with a dream!",
 				description:
 					"Timo Anttila is a self-taught passionate developer, who loves solving problems and learning new ways to deliver solutions. Full Stack Web Developer and entrepreneur.",
-				url: "/fi/",
+				url: "https://timoanttila.com/",
 			};
 		},
 		head() {
