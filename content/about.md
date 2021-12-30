@@ -68,6 +68,7 @@ Always want to surpass myself and my customers. When the customer feels they hav
 - [https://twitter.com/_timoanttila](https://twitter.com/_timoanttila/with_replies)
 - https://trakt.tv/users/timoanttila
 - https://www.linkedin.com/in/anttilatimo/
+- https://www.polywork.com/timoanttila
 - https://github.com/TuspeDesign
 
 ## Now?

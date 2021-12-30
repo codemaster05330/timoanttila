@@ -11,7 +11,7 @@ export default {
 			{ name: 'twitter:site', content: '@_timoanttila' },
 			{ name: 'twitter:creator', content: '@_timoanttila' },
 			{ name: 'twitter:card', content: 'summary_large_image' },
-			{ property: "og:site_name", content: "Timo Anttila" },
+			{ property: 'og:site_name', content: 'Timo Anttila' },
 			{ name: 'email', property: 'og:email', content: 'moro@tuspe.com' },
 			{ name: 'telephone', property: 'og:phone_number', content: '+358407746121' },
 			{ property: 'og:site_name', content: 'Timo Anttila' },
@@ -30,7 +30,7 @@ export default {
 		],
 		script: [
 			{
-				"@context": "https://schema.org/", "@type": "Person", "name": "Timo Anttila", "url": "https://timoanttila.com", "image": "https://timoanttila.com/images/timo.jpg", "sameAs": ["https://github.com/timoanttila", "https://github.com/TuspeDesign", "https://github.com/RatsukkoSolutions", "https://www.linkedin.com/in/anttilatimo/", "https://twitter.com/_timoanttila", "https://trakt.tv/users/timoanttila", "https://www.instagram.com/_timoanttila/", "https://www.goodreads.com/user/show/104287756-timo-anttila", "https://ello.co/timoanttila", "https://www.reddit.com/user/timoanttila", "https://keybase.io/timoanttila", "https://timoanttila.carrd.co/"], "jobTitle": ["Chief Executive Officer", "Chief Technology Officer", "Full Stack Developer"], "worksFor": { "@type": "Organization", "name": "Tuspe Design Oy" }
+				"@context": "https://schema.org/", "@type": "Person", "name": "Timo Anttila", "url": "https://timoanttila.com", "image": "https://timoanttila.com/images/timo.jpg", "sameAs": ["https://github.com/timoanttila", "https://github.com/TuspeDesign", "https://www.linkedin.com/in/anttilatimo/", "https://twitter.com/_timoanttila", "https://trakt.tv/users/timoanttila", "https://www.instagram.com/_timoanttila/", "https://www.goodreads.com/user/show/104287756-timo-anttila", "https://www.polywork.com/timoanttila", "https://www.reddit.com/user/timoanttila", "https://keybase.io/timoanttila", "https://timoanttila.carrd.co/"], "jobTitle": ["Entrepreneur", "Chief Executive Officer", "Chief Technology Officer", "Full Stack Developer"], "worksFor": [{ "@type": "Organization", "name": "Tuspe Design Oy" }, { "@type": "Organization", "name": "Ratsukko Solutions Oy" }]
 			},
 		],
 	},

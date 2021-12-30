@@ -27,14 +27,14 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxt/content": "^1.14.0",
-    "core-js": "^3.17.3",
-    "luxon": "^2.0.2",
+    "@nuxt/content": "^1.15.1",
+    "core-js": "^3.20.1",
+    "luxon": "^2.2.0",
     "nuxt": "^2.15.8",
     "vue-typed-js": "^0.1.2"
   },
   "devDependencies": {
-    "node-sass": "^6.0.1",
-    "sass-loader": "^10.1.1"
+    "node-sass": "^7.0.1",
+    "sass-loader": "^12.4.0"
   }
 }
