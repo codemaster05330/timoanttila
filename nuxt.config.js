@@ -30,7 +30,7 @@ export default {
 		],
 		script: [
 			{
-				"@context": "https://schema.org/", "@type": "Person", "name": "Timo Anttila", "url": "https://timoanttila.com", "image": "https://timoanttila.com/images/timo.jpg", "sameAs": ["https://github.com/timoanttila", "https://github.com/TuspeDesign", "https://www.linkedin.com/in/anttilatimo/", "https://twitter.com/_timoanttila", "https://trakt.tv/users/timoanttila", "https://www.instagram.com/_timoanttila/", "https://www.goodreads.com/user/show/104287756-timo-anttila", "https://www.polywork.com/timoanttila", "https://www.reddit.com/user/timoanttila", "https://keybase.io/timoanttila", "https://timoanttila.carrd.co/"], "jobTitle": ["Entrepreneur", "Chief Executive Officer", "Chief Technology Officer", "Full Stack Developer"], "worksFor": [{ "@type": "Organization", "name": "Tuspe Design Oy" }, { "@type": "Organization", "name": "Ratsukko Solutions Oy" }]
+				"@context": "https://schema.org/", "@type": "Person", "name": "Timo Anttila", "url": "https://timoanttila.com", "image": "https://timoanttila.com/images/timo.jpg", "sameAs": ["https://github.com/timoanttila", "https://github.com/TuspeDesign", "https://www.linkedin.com/in/anttilatimo/", "https://twitter.com/_timoanttila", "https://trakt.tv/users/timoanttila", "https://www.instagram.com/_timoanttila/", "https://www.goodreads.com/user/show/104287756-timo-anttila", "https://www.polywork.com/timoanttila", "https://www.reddit.com/user/timoanttila", "https://keybase.io/timoanttila", "https://timoanttila.carrd.co/"], "jobTitle": ["Entrepreneur", "Chief Executive Officer", "Chief Technology Officer", "Full Stack Developer"], "worksFor": { "@type": "Organization", "name": "Tuspe Design Oy" }
 			},
 		],
 	},
