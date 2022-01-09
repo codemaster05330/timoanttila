@@ -101,4 +101,9 @@
 	h2#bigText {
 		font-size: clamp(2rem, 4.2rem, 10vw);
 	}
+	@media screen and (max-width: 1000px) {
+		#bigText {
+			height: 100px;
+		}
+	}
 </style>
