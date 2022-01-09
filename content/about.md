@@ -17,7 +17,7 @@ Chief executive officer
 
 ## Professional life:
 
-Full stack web developer who is passionate about making websites and webstores better, faster and easier to update. Technologies I enjoy working with include JavaScript, Vue + Nuxt, Svelte + Routify, PHP and MariaDB. Mostly using ProcessWire CMS for all the new projects, but I know my way with Wordpress and Drupal too.
+Full stack web developer who is passionate about making websites and webstores better, faster and easier to update. Technologies I enjoy working with include JavaScript, Vue, Nuxt, Svelte Kit, PHP and MariaDB. Mostly using ProcessWire CMS for all the new projects, but I know my way with Wordpress and Drupal too.
 
 Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.
 

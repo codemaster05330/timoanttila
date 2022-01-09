@@ -29,7 +29,7 @@ In the example command, Linux distro is loaded into the `user's` directory of th
 The process may take about ten minutes, depending on the size and content of the file.
 
 ```
-cd ~/Downloads
+cd ~/Downloads   
 dd if=manjaro-xface-21.0.7-210614-linux510.iso of=/dev/sda bs=4M status=progress
 ```
 

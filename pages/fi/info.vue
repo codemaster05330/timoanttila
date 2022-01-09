@@ -34,6 +34,7 @@
 					},
 				],
 				meta: [
+					{ property: "og:locale", content: "fi_FI" },
 					{
 						property: "og:title",
 						name: "twitter:title",

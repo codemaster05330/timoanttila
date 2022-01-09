@@ -1,13 +1,23 @@
 <template>
-	<span v-if="date" class="date">
+	<span v-if="date">
 		{{ date }}
 	</span>
-	<div v-else-if="month" class="text-center text-white">
-		<div class="date border font-bold">
-			<span class="block day">{{ day }}</span>
-			<span class="block month">{{ month }}</span>
+	<div v-else-if="month" class="text-center text-content">
+		<div
+			class="
+				grid
+				border border-solid border-gray-100 border-opacity-40
+				h-20
+				font-montserrat font-bold
+				leading-tight
+			"
+		>
+			<div class="self-center">
+				<span class="block text-md">{{ day }}</span>
+				<span class="block text-normal">{{ month }}</span>
+			</div>
 		</div>
-		<span class="block year">{{ year }}</span>
+		<span class="block font-montserrat font-light mt-2">{{ year }}</span>
 	</div>
 </template>
 
@@ -39,17 +49,3 @@
 		},
 	};
 </script>
-
-<style scoped>
-	.date {
-		margin-bottom: 5px;
-	}
-	.border {
-		border-color: rgba(255, 255, 255, 0.5);
-		padding: 1rem 0.5rem;
-		line-height: 1.2;
-	}
-	.day {
-		font-size: 1.4rem;
-	}
-</style>

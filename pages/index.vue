@@ -1,8 +1,14 @@
 <template>
 	<Home
-		body="A self-taught passionate web developer who loves creating awesome things from scratch, solving problems, and learning new ways to deliver solutions. I spend most of my day in front of the screen coding with metal and hard rock playing in the background, but I never miss the daily workout and forest walks with the dog. Also active in various volunteer activities. My motto is ‘only a fool worries over what he can't control’."
+		body="A self-taught passionate web developer who loves creating
+	awesome things from scratch, solving problems, and learning new ways to
+	deliver solutions. I spend most of my day in front of the screen coding with
+	metal and hard rock playing in the background, but I never miss the daily
+	workout and forest walks with the dog. Also active in various volunteer
+	activities. My motto is ‘only a fool worries over what he can't control’."
 		lang="en"
 		:text="[
+			'Hey there, I am Timo',
 			'Full Stack Developer',
 			'Youth work volunteer',
 			'Entrepreneur',
@@ -34,8 +40,21 @@
 						property: "og:url",
 						href: this.url,
 					},
+					{
+						rel: "me",
+						type: "application/atom+xml",
+						href: "https://github.com/timoanttila/timoanttila/commits/master.atom",
+						title: "Newest commits to the project",
+					},
+					{
+						rel: "me",
+						type: "text/html",
+						href: "https://tuspe.com/",
+						title: "My company Tuspe Design Oy",
+					},
 				],
 				meta: [
+					{ property: "og:locale", content: "en_US" },
 					{
 						property: "og:title",
 						name: "twitter:title",

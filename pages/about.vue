@@ -34,6 +34,7 @@
 					},
 				],
 				meta: [
+					{ property: "og:locale", content: "en_US" },
 					{
 						property: "og:title",
 						name: "twitter:title",

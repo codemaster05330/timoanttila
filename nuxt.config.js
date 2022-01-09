@@ -5,28 +5,31 @@ export default {
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
 		meta: [
-			{ charset: 'utf-8' },
+			{ charset: 'UTF-8' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
+			{ 'http-equiv': 'X-UA-Compatible', content: 'IE=edge' },
 			{ name: 'format-detection', content: 'telephone=no' },
 			{ name: 'twitter:site', content: '@_timoanttila' },
 			{ name: 'twitter:creator', content: '@_timoanttila' },
 			{ name: 'twitter:card', content: 'summary_large_image' },
+			{ property: 'og:type', content: 'article' },
 			{ property: 'og:site_name', content: 'Timo Anttila' },
 			{ name: 'email', property: 'og:email', content: 'moro@tuspe.com' },
 			{ name: 'telephone', property: 'og:phone_number', content: '+358407746121' },
 			{ property: 'og:site_name', content: 'Timo Anttila' },
 			{ name: 'geo.placename', content: 'Nokia' },
+			{ name: 'latitude', property: 'og:latitude', content: '61.489173' },
+			{ name: 'longitude', property: 'og:longitude', content: '23.492723' },
 			{ name: 'geo.region', content: 'FI-11' },
-			{ name: 'geo:position', content: '61.4888946;23.4921663' },
-			{ name: 'ICBM', content: '61.4888946,23.4921663' },
+			{ name: 'geo.position', content: '61.489173;23.492723' },
+			{ name: 'ICBM', content: '61.489173, 23.492723' },
 			{ name: 'theme-color', content: '#2c5364' },
 			{ name: 'apple-mobile-web-app-status-bar-style', content: '#2c5364' },
-			{ name: 'apple-mobile-web-app-capable', content: 'yes' }
+			{ name: 'apple-mobile-web-app-capable', content: 'yes' },
 		],
 		link: [
 			{ rel: 'icon', type: 'image/x-icon', href: 'https://timoanttila.com/favicon.ico', sizes: '16x16' },
-			{ rel: 'icon', type: 'image/png', href: 'https://timoanttila.com/favicon.png', sizes: '96x96' },
-			{ rel: 'me', type: 'application/atom+xml', href: 'https://github.com/timoanttila/timoanttila/commits/master.atom', title: 'Newest commits to the project' }
+			{ rel: 'icon', type: 'image/png', href: 'https://timoanttila.com/favicon.png', sizes: '96x96' }
 		],
 		script: [
 			{
@@ -37,9 +40,11 @@ export default {
 			},
 		],
 	},
-	markdown: {
-		prism: {
-			theme: false
+	content: {
+		markdown: {
+			prism: {
+				theme: false
+			}
 		}
 	},
 	css: [
@@ -56,5 +61,8 @@ export default {
 
 			return files.map(file => file.path === '/index' ? '/' : file.path)
 		},
-	}
+	},
+	buildModules: [
+		'@nuxtjs/tailwindcss'
+	],
 }

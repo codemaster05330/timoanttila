@@ -1,17 +1,22 @@
 <template>
 	<ol
 		id="breadcrumb"
-		class="absolute text-light noUnd text-sm"
+		class="
+			absolute
+			top-4
+			left-4
+			font-montserrat font-light
+			text-sm
+			hidden
+			lg:block
+			m-0
+			p-0
+		"
 		vocab="http://schema.org/"
 		typeof="BreadcrumbList"
 	>
-		<li property="itemListElement" typeof="ListItem">
-			<nuxt-link
-				class="text-light"
-				property="item"
-				typeof="WebPage"
-				to="/"
-			>
+		<li property="itemListElement" typeof="ListItem" class="inline">
+			<nuxt-link property="item" typeof="WebPage" to="/">
 				<span property="name">home</span>
 			</nuxt-link>
 			<meta property="position" content="1" />
@@ -21,13 +26,9 @@
 			:key="index"
 			property="itemListElement"
 			typeof="ListItem"
+			class="inline"
 		>
-			<nuxt-link
-				class="text-light"
-				property="item"
-				typeof="WebPage"
-				:to="crumb.path"
-			>
+			<nuxt-link property="item" typeof="WebPage" :to="crumb.path">
 				<span property="name">{{
 					$route.fullPath === crumb.path && title !== null
 						? title
@@ -74,14 +75,6 @@
 
 <style scoped>
 	@media screen and (min-width: 600px) {
-		#breadcrumb {
-			list-style: none;
-			top: 0;
-			left: 1rem;
-		}
-		#breadcrumb li {
-			display: inline;
-		}
 		#breadcrumb li:after {
 			content: " » ";
 			display: inline;
@@ -91,10 +84,9 @@
 		#breadcrumb li:last-child:after {
 			content: "";
 		}
-	}
-	@media screen and (max-width: 600px) {
-		#breadcrumb {
-			display: none;
+		#breadcrumb,
+		#breadcrumb a {
+			color: var(--text);
 		}
 	}
 </style>

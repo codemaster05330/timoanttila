@@ -1,13 +1,26 @@
 <template>
-	<div v-if="page" id="article" class="py px">
-		<article class="max-w-prose mx-auto text-white content">
-			<div class="text-center mb-10">
-				<h1 id="articleTitle" class="line-2">{{ page.title }}</h1>
-				<p id="articleDescription">
+	<div v-if="page" id="article" class="py-10 px-4 lg:px-10">
+		<article class="max-w-screen-md mx-auto block">
+			<div class="text-center mb-10 max-w-lg mx-auto">
+				<h1 class="m-0 font-koho text-title text-lg leading-tight">
+					{{ page.title }}
+				</h1>
+				<p
+					id="articleDescription"
+					class="
+						mt-2
+						font-montserrat font-light
+						leading-normal
+						text-content text-desc
+					"
+				>
 					{{ page.description }}
 				</p>
 			</div>
-			<nuxt-content :document="page" />
+			<nuxt-content
+				:document="page"
+				class="font-montserrat font-light leading-normal text-content"
+			/>
 		</article>
 
 		<Breadcrumb />
@@ -44,6 +57,7 @@
 					},
 				],
 				meta: [
+					{ property: "og:locale", content: "en_US" },
 					{
 						property: "og:title",
 						name: "twitter:title",
@@ -69,3 +83,27 @@
 		},
 	};
 </script>
+
+<style>
+	strong {
+		font-weight: 700;
+	}
+	pre,
+	pre code {
+		display: block;
+	}
+	pre code {
+		margin: 1rem;
+	}
+	.nuxt-content-highlight {
+		display: block;
+		background-color: var(--bg-secondary);
+		width: 100%;
+		overflow-x: auto;
+		overflow-y: hidden;
+		border-radius: 8px;
+	}
+	article h3 {
+		font-size: 1.2em;
+	}
+</style>

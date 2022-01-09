@@ -1,20 +1,20 @@
 <template>
-	<div id="home" class="fixedLayout overflow-hidden">
-		<picture id="myPic" class="block">
-			<source srcset="/images/timoanttila.webp" type="image/webp" />
-			<source srcset="/images/timoanttila.jpg" type="image/jpeg" />
-			<img
-				class="block w-full h-full object-cover"
-				src="/images/timoanttila.jpg"
-				alt="A self-taught passionate developer Timo Anttila"
-				aria-label="Portrait of Timo Anttila"
-			/>
-		</picture>
+	<div id="home" class="lg:grid lg:grid-cols-3 lg:h-screen">
+		<MyPic />
 
-		<div id="content" class="text-white text-center grid z-10">
-			<article class="self-center">
-				<h1 class="text-yellow mt-0 line-1">Timo Anttila</h1>
-				<p v-html="body" />
+		<div id="content" class="text-center grid z-10 lg:col-span-2">
+			<article class="self-center px-4 max-w-prose mx-auto">
+				<h1 class="font-koho text-title text-xl leading-1 lg:mt-0">
+					Timo Anttila
+				</h1>
+				<p
+					v-html="body"
+					class="
+						text-content
+						leading-normal
+						font-light font-montserrat
+					"
+				/>
 			</article>
 		</div>
 
@@ -26,10 +26,23 @@
 				:showCursor="true"
 				:cursorChar="'_'"
 				:smartBackspace="true"
+				class="mx-auto block lg:fixed lg:bottom-10 lg:left-28"
 			>
 				<h2
 					id="bigText"
-					class="inline-block z-20 text-yellow m-0 line-1 typing"
+					class="
+						inline-block
+						z-20
+						font-koho
+						text-title text-2xl
+						m-0
+						leading-1
+						typing
+						w-11/12
+						text-center
+						mx-auto
+						lg:w-auto lg:text-left
+					"
 				></h2>
 			</vue-typed-js>
 		</no-ssr>
@@ -77,9 +90,6 @@
 </script>
 
 <style scoped>
-	h1 {
-		font-size: clamp(2rem, 3.4rem, 10vw);
-	}
 	h1:after {
 		content: "";
 		display: block;
@@ -89,6 +99,6 @@
 		max-width: 65px;
 	}
 	h2#bigText {
-		font-size: clamp(2rem, 5rem, 10vw);
+		font-size: clamp(2rem, 4.2rem, 10vw);
 	}
 </style>

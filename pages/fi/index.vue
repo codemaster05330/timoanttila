@@ -33,8 +33,21 @@
 						property: "og:url",
 						href: this.url,
 					},
+					{
+						rel: "me",
+						type: "application/atom+xml",
+						href: "https://github.com/timoanttila/timoanttila/commits/master.atom",
+						title: "Uusimmat muutokset projektiin",
+					},
+					{
+						rel: "me",
+						type: "text/html",
+						href: "https://tuspe.com/",
+						title: "Minun yritykseni Tuspe Design Oy",
+					},
 				],
 				meta: [
+					{ property: "og:locale", content: "fi_FI" },
 					{
 						property: "og:title",
 						name: "twitter:title",
