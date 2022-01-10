@@ -26,13 +26,15 @@
 					id="menuToggle"
 					class="
 						w-14
-						h-12
+						h-14
 						mx-auto
 						inline-block
+						align-middle
 						bg-transparent
 						border-0
 						ml-6
 						md:m-0
+						p-0
 					"
 					v-bind:class="{ open: toggleMenu }"
 					title="Menu toggle for navigation"
@@ -41,7 +43,7 @@
 					<div class="grid w-full">
 						<svg
 							v-if="!toggleMenu"
-							class="self-center mx-auto"
+							class="self-center mx-auto block"
 							viewBox="0 0 100 80"
 							width="30"
 							height="30"
@@ -53,6 +55,7 @@
 						</svg>
 						<svg
 							v-else
+							class="self-center mx-auto block"
 							xmlns="http://www.w3.org/2000/svg"
 							width="24"
 							height="24"
@@ -74,16 +77,18 @@
 						h-14
 						mx-auto
 						inline-block
+						align-middle
 						bg-transparent
 						border-0
-						md:m-0 md:h-12 md:w-12
+						md:m-0
+						p-0
 					"
 					title="Menu toggle for accessibility"
 					aria-label="Open / close the accessibility menu"
 				>
 					<div class="grid w-full">
 						<svg
-							class="self-center"
+							class="self-center mx-auto block"
 							width="36"
 							height="36"
 							viewBox="0 0 24 24"
@@ -105,14 +110,21 @@
 						open: toggleAccessibility,
 					}"
 					id="accessibility"
-					class="inline-block md:w-12 md:mt-2 md:mx-auto"
+					class="
+						bg-secondary
+						absolute
+						-top-12
+						left-0
+						w-full
+						text-center
+						md:relative md:top-0 md:w-12 md:mt-2 md:mx-auto
+					"
 				>
 					<ul class="m-0 p-0">
 						<li
 							v-for="(e, i) in colors"
 							:key="i"
-							@click="toggleAccessibility = !toggleAccessibility"
-							class="inline-block"
+							class="inline-block align-middle"
 							role="none"
 						>
 							<button
@@ -124,6 +136,7 @@
 									bg-transparent
 									border-0
 									text-center
+									p-0
 								"
 								role="listitem"
 								title="Change the theme"
@@ -147,6 +160,68 @@
 								</div>
 							</button>
 						</li>
+
+						<li class="inline-block align-middle" role="none">
+							<button
+								@click="changeSize(fontSize + 1)"
+								class="
+									w-12
+									h-12
+									mx-auto
+									bg-transparent
+									border-0
+									p-0
+								"
+								role="listitem"
+								title="Font magnification"
+								aria-label="Increase the font size of the site"
+								:disabled="fontSize >= 25"
+							>
+								<div
+									class="
+										grid
+										w-full
+										h-full
+										font-koho font-normal
+										text-fontSize text-content text-right
+										md:text-center
+									"
+								>
+									<span class="self-center">A+</span>
+								</div>
+							</button>
+						</li>
+
+						<li class="inline-block align-middle" role="none">
+							<button
+								@click="changeSize(fontSize - 1)"
+								class="
+									w-12
+									h-12
+									mx-auto
+									bg-transparent
+									border-0
+									p-0
+								"
+								role="listitem"
+								title="Font reduction"
+								aria-label="Reduce the font size of the site"
+								:disabled="fontSize <= 14"
+							>
+								<div
+									class="
+										grid
+										w-full
+										h-full
+										font-koho font-normal
+										text-fontSize text-content text-left
+										md:text-center
+									"
+								>
+									<span class="self-center">A-</span>
+								</div>
+							</button>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -154,7 +229,16 @@
 
 		<nav
 			id="menu"
-			class="fixed text-center w-screen h-screen grid bg-primary z-40"
+			class="
+				fixed
+				text-center
+				w-screen
+				h-screen
+				grid
+				bg-primary
+				z-40
+				-mt-16
+			"
 			v-bind:class="{ hidden: !toggleMenu, grid: toggleMenu }"
 		>
 			<ul class="m-0 p-0 self-center font-koho w-56 mx-auto" role="menu">
@@ -282,6 +366,9 @@
 		methods: {
 			fixStyles(color = "violet") {
 				this.styleClass = `${this.main} ${color}`;
+			},
+			changeSize(e) {
+				this.fontSize = e > 25 ? 25 : e < 14 ? 14 : e;
 			},
 		},
 	};

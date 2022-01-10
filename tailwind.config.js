@@ -27,6 +27,7 @@ module.exports = {
 			lg: '2.2em',
 			xl: 'clamp(2em, 3.4em, 10vw)',
 			'2xl': 'clamp(2em, 5em, 10vw)',
+			fontSize: '1.8rem'
 		},
 		extend: {
 			screens: {
