@@ -13,7 +13,7 @@
 				fixed
 				z-50
 				w-screen
-				h-12
+				h-14
 				bottom-0
 				right-0
 				md:top-0 md:h-screen md:w-14
@@ -25,12 +25,14 @@
 					@click="toggleMenu = !toggleMenu"
 					id="menuToggle"
 					class="
-						w-12
+						w-14
 						h-12
 						mx-auto
 						inline-block
 						bg-transparent
 						border-0
+						ml-6
+						md:m-0
 					"
 					v-bind:class="{ open: toggleMenu }"
 					title="Menu toggle for navigation"
@@ -68,12 +70,13 @@
 					@click="toggleAccessibility = !toggleAccessibility"
 					v-bind:class="{ open: toggleAccessibility }"
 					class="
-						w-12
-						h-12
+						w-14
+						h-14
 						mx-auto
 						inline-block
 						bg-transparent
 						border-0
+						md:m-0 md:h-12 md:w-12
 					"
 					title="Menu toggle for accessibility"
 					aria-label="Open / close the accessibility menu"
