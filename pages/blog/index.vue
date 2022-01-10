@@ -20,7 +20,7 @@
 		<ul
 			v-if="articles"
 			id="articles"
-			class="grid gap-10 xl:grid-cols-2 2xl:grid-cols-3 m-0 pl-0"
+			class="grid gap-6 xl:grid-cols-2 2xl:grid-cols-3 m-0 pl-0"
 			aria-label="List of articles I have written"
 		>
 			<li
@@ -63,8 +63,15 @@
 </template>
 
 <style scoped>
-	.listItem {
-		grid-template-columns: 85px 1fr;
+	@media screen and (max-width: 450px) {
+		.listItem {
+			grid-template-columns: 60px 1fr;
+		}
+	}
+	@media screen and (min-width: 450px) {
+		.listItem {
+			grid-template-columns: 85px 1fr;
+		}
 	}
 </style>
 
