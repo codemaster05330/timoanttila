@@ -99,7 +99,7 @@
 		max-width: 65px;
 	}
 	h2#bigText {
-		font-size: clamp(2rem, 4.2rem, 10vw);
+		font-size: clamp(2rem, 3.8rem, 10vw);
 	}
 	@media screen and (max-width: 1000px) {
 		#bigText {

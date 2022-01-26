@@ -16,7 +16,7 @@
 		typeof="BreadcrumbList"
 	>
 		<li property="itemListElement" typeof="ListItem" class="inline">
-			<nuxt-link property="item" typeof="WebPage" to="/">
+			<nuxt-link property="item" typeof="WebPage" to="/" rel="home">
 				<span property="name">home</span>
 			</nuxt-link>
 			<meta property="position" content="1" />
