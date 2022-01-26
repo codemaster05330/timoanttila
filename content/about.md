@@ -25,12 +25,10 @@ Always want to surpass myself and my customers. When the customer feels they hav
 - Working at [Tuspe Design Oy](https://tuspe.com/) as a full stack developer and developing its business as a owner.
 - Partner and CTO at [Ratsukko Solutions Oy](https://www.ratsukko.com/).
 - Partner and CEO at [Dataline Group Oy](https://www.dataline.fi/).
-- Subcontractor for [Molentum Oy](https://molentum.fi/).
-- Maintaining many servers and being responsible for the security and backup of clients' websites.
 - Member of the Central Electoral Commission of the City of Nokia from 2021 to 2025.
 - Participating in the open source revolution on [Github](https://github.com/timoanttila?tab=repositories).
 - Developing and maintaining awesome sport platform and several different webshops.
-- Learning Vue + Nuxt
+- Maintaining many servers and being responsible for the security and backup of clients' websites.
 
 ## Personal life:
 

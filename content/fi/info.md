@@ -26,14 +26,12 @@ Verkkosivustojen ja -kauppojen luoja, webbisovellusten kehittäjä. Haluan intoh
 - Omistaja ja verkkovelho digitoimistossa [Tuspe Design Oy](https://tuspe.com/ "Digitoimisto Tuspe Design")
 - Kumppani ja teknologiajohtaja yrityksessä [Ratsukko Solutions Oy](https://www.ratsukko.com/).
 - Kumppani ja toimitusjohtaja yrityksessä [Dataline Group Oy](https://www.dataline.fi/).
-- Alihankkija digitoimistoille [Molentum Oy](https://molentum.fi/).
 - Ylläpidän viittä palvelinta ja olen vastuussa asiakkaiden verkkopalveluiden turvallisuudesta.
 - Nokian kaupungin keskusvaalilautakunnan jäsen 2021-2025.
 
 ### Henkilökohtainen elämä:
 
 - Kiinnostunut tekoälyn mahdollisuuksista, tekniikan ihmeistä ja ihmisten käyttäytymisestä.
-- Ylpeä isä kahdelle lemmikille.
 - Rakastan luontoa.
 - Vapaaehtoisena mm. [Mannerheimin Lastensuojeluliitto](https://hameenpiiri.mll.fi/), [Plan International Finland](https://plan.fi/), [LanTrek](https://www.lantrek.org/).
 - Aktiivinen vierailija ja vapaaehtoinen monissa tapahtumissa.
