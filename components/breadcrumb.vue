@@ -52,7 +52,7 @@
 					: fullPath.split("/");
 
 				const count = params.length;
-				if (params[count - 1] == "") delete params[count - 1];
+				if (params[count - 1] == "") params.pop();
 
 				const crumbs = [];
 				let path = "";
