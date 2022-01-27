@@ -28,13 +28,12 @@
 			typeof="ListItem"
 			class="inline"
 		>
-			<nuxt-link property="item" typeof="WebPage" :to="crumb.path">
-				<span property="name">{{
-					$route.fullPath === crumb.path && title !== null
-						? title
-						: crumb.title
-				}}</span>
-			</nuxt-link>
+			<template v-if="$route.fullPath != crumb.path">
+				<nuxt-link property="item" typeof="WebPage" :to="crumb.path">
+					<span property="name">{{ crumb.title }}</span>
+				</nuxt-link>
+			</template>
+			<span v-else property="name">{{ crumb.title }}</span>
 			<meta property="position" :content="index + 2" />
 		</li>
 	</ol>
@@ -42,12 +41,6 @@
 
 <script>
 	export default {
-		props: {
-			title: {
-				type: String,
-				default: null,
-			},
-		},
 		name: "Breadcrumb",
 		computed: {
 			crumbs() {
