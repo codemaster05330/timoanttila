@@ -28,7 +28,9 @@
 			typeof="ListItem"
 			class="inline"
 		>
-			<template v-if="$route.fullPath != crumb.path">
+			<template
+				v-if="![crumb.path, crumb.path + '/'].includes($route.fullPath)"
+			>
 				<nuxt-link property="item" typeof="WebPage" :to="crumb.path">
 					<span property="name">{{ crumb.title }}</span>
 				</nuxt-link>
@@ -45,12 +47,16 @@
 		computed: {
 			crumbs() {
 				const fullPath = this.$route.fullPath;
-				const params = fullPath.startsWith("/")
+				let params = fullPath.startsWith("/")
 					? fullPath.substring(1).split("/")
 					: fullPath.split("/");
+
+				const count = params.length;
+				if (params[count - 1] == "") delete params[count - 1];
+
 				const crumbs = [];
 				let path = "";
-				params.forEach((param, index) => {
+				for (const param of params) {
 					path = `${path}/${param}`;
 					const match = this.$router.match(path);
 					if (match.name !== null) {
@@ -59,7 +65,7 @@
 							...match,
 						});
 					}
-				});
+				}
 				return crumbs;
 			},
 		},
