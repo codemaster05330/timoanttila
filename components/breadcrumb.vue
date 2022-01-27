@@ -21,7 +21,14 @@
 			itemtype="https://schema.org/ListItem"
 			class="inline"
 		>
-			<nuxt-link itemprop="item" to="/" rel="home">
+			<nuxt-link
+				itemscope
+				itemtype="https://schema.org/WebPage"
+				itemprop="item"
+				itemid="/"
+				to="/"
+				rel="home"
+			>
 				<span itemprop="name">home</span>
 			</nuxt-link>
 			<meta itemprop="position" content="1" />
@@ -34,13 +41,16 @@
 			itemtype="https://schema.org/ListItem"
 			class="inline"
 		>
-			<template
+			<nuxt-link
 				v-if="![crumb.path, crumb.path + '/'].includes($route.fullPath)"
+				itemscope
+				itemtype="https://schema.org/WebPage"
+				itemprop="item"
+				:itemid="crumb.path"
+				:to="crumb.path"
 			>
-				<nuxt-link itemprop="item" :to="crumb.path">
-					<span itemprop="name">{{ crumb.title }}</span>
-				</nuxt-link>
-			</template>
+				<span itemprop="name">{{ crumb.title }}</span>
+			</nuxt-link>
 			<span v-else itemprop="name">{{ crumb.title }}</span>
 			<meta itemprop="position" :content="index + 2" />
 		</li>
