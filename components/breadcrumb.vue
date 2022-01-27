@@ -12,31 +12,37 @@
 			m-0
 			p-0
 		"
-		vocab="http://schema.org/"
-		typeof="BreadcrumbList"
+		itemscope
+		itemtype="https://schema.org/BreadcrumbList"
 	>
-		<li property="itemListElement" typeof="ListItem" class="inline">
-			<nuxt-link property="item" typeof="WebPage" to="/" rel="home">
-				<span property="name">home</span>
+		<li
+			itemprop="itemListElement"
+			itemscope
+			itemtype="https://schema.org/ListItem"
+			class="inline"
+		>
+			<nuxt-link itemprop="item" to="/" rel="home">
+				<span itemprop="name">home</span>
 			</nuxt-link>
-			<meta property="position" content="1" />
+			<meta itemprop="position" content="1" />
 		</li>
 		<li
 			v-for="(crumb, index) in crumbs"
 			:key="index"
-			property="itemListElement"
-			typeof="ListItem"
+			itemprop="itemListElement"
+			itemscope
+			itemtype="https://schema.org/ListItem"
 			class="inline"
 		>
 			<template
 				v-if="![crumb.path, crumb.path + '/'].includes($route.fullPath)"
 			>
-				<nuxt-link property="item" typeof="WebPage" :to="crumb.path">
-					<span property="name">{{ crumb.title }}</span>
+				<nuxt-link itemprop="item" :to="crumb.path">
+					<span itemprop="name">{{ crumb.title }}</span>
 				</nuxt-link>
 			</template>
-			<span v-else property="name">{{ crumb.title }}</span>
-			<meta property="position" :content="index + 2" />
+			<span v-else itemprop="name">{{ crumb.title }}</span>
+			<meta itemprop="position" :content="index + 2" />
 		</li>
 	</ol>
 </template>
