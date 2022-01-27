@@ -229,19 +229,13 @@
 
 		<nav
 			id="menu"
-			class="
-				fixed
-				text-center
-				w-screen
-				h-screen
-				grid
-				bg-primary
-				z-40
-				-mt-16
-			"
+			class="fixed text-center w-screen h-screen grid bg-primary z-40"
 			v-bind:class="{ hidden: !toggleMenu, grid: toggleMenu }"
 		>
-			<ul class="m-0 p-0 self-center font-koho w-56 mx-auto" role="menu">
+			<ul
+				class="-mt-16 mb-0 p-0 self-center font-koho w-56 mx-auto"
+				role="menu"
+			>
 				<li
 					v-for="item in menu[lang]"
 					:key="item.id"
