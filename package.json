@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.15.1",
-    "core-js": "^3.20.3",
+    "core-js": "^3.21.0",
     "luxon": "^2.3.0",
     "nuxt": "^2.15.8",
     "vue-typed-js": "^0.1.2"

@@ -11,8 +11,13 @@
 </url>
 <url>
   <loc>https://timoanttila.com/about</loc>
-  <lastmod>2022-01-27T23:18:18+00:00</lastmod>
+  <lastmod>2022-02-04T12:05:00+00:00</lastmod>
   <priority>0.95</priority>
+</url>
+<url>
+  <loc>https://timoanttila.com/fi/info</loc>
+  <lastmod>2022-02-04T12:05:00+00:00</lastmod>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog</loc>

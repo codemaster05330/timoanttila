@@ -62,5 +62,4 @@ Verkkosivustojen ja -kauppojen luoja, webbisovellusten kehittäjä. Haluan intoh
 - [https://twitter.com/_timoanttila](https://twitter.com/_timoanttila/with_replies)
 - https://www.linkedin.com/in/anttilatimo/
 - https://github.com/TuspeDesign
-- https://trakt.tv/users/timoanttila
 - https://www.goodreads.com/user/show/104287756-timo-anttila
