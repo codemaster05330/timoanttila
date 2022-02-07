@@ -105,8 +105,12 @@ svg path { fill: var(--white) }
 	main { width: calc(100vw - 48px) }
 }
 @media screen and (max-width: 1000px) {
-	#myPic { height: 300px }
-	#about #myPic { display: none }
+	#myPic {
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+		margin: 0 auto
+	}
 	article { width: calc(100vw - 2rem) }
 }
 @media screen and (min-width: 1000px) {

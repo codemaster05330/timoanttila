@@ -11,9 +11,6 @@
 				page,
 				title: page.title,
 				description: page.description,
-				image: page.image
-					? "/images/" + page.image + ".jpg"
-					: "/images/timoanttila.jpg",
 				url: page.path,
 			};
 		},
@@ -49,11 +46,6 @@
 						name: "twitter:description",
 						property: "og:description",
 						content: this.description,
-					},
-					{
-						name: "twitter:image",
-						property: "og:image",
-						content: this.image,
 					},
 				],
 			};

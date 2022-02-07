@@ -63,12 +63,6 @@
 						property: "og:description",
 						content: this.description,
 					},
-					{
-						name: "twitter:image",
-						property: "og:image",
-						content: "https://timoanttila.com/images/timoanttila.jpg",
-					},
-					{ property: "og:site_name", content: "Timo Anttila" },
 				],
 			};
 		},

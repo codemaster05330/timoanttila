@@ -1,5 +1,5 @@
 <template>
-	<div id="home" class="lg:grid lg:grid-cols-3 lg:h-screen">
+	<div id="home" class="lg:grid lg:grid-cols-3 lg:h-screen lg:pt-0 pt-6">
 		<MyPic />
 
 		<div id="content" class="text-center grid z-10 lg:col-span-2">
