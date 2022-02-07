@@ -24,7 +24,7 @@
 						leading-1
 						my-6
 						mx-auto
-						max-w-lg
+						max-w-md
 						text-lg
 						xl:text-xl xl:my-0 xl:fixed xl:bottom-6 xl:left-4
 						2xl:max-w-xl 2xl:left-18
