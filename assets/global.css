@@ -46,6 +46,10 @@
 	--bg-secondary: #063a52;
 }
 
+html {
+	-webkit-tap-highlight-color: transparent;
+}
+
 body {
 	text-rendering: optimizeLegibility;
 	margin: 0;
@@ -85,6 +89,18 @@ article li:before {
 svg,
 svg path { fill: var(--white) }
 
+@media screen and (max-width:210px){
+	#buttons .hide-210 { display: none }
+}
+@media screen and (max-width:270px){
+	#buttons .hide-270 { display: none }
+}
+@media screen and (max-width:330px){
+	#buttons .hide-330 { display: none }
+}
+@media screen and (max-width:390px){
+	#buttons .hide-390 { display: none }
+}
 @media screen and (min-width: 768px) and (max-width: 1000px){
 	main { width: calc(100vw - 48px) }
 }

@@ -51,7 +51,7 @@ export default {
 		'@/assets/global.css',
 	],
 	components: true,
-	modules: [,
+	modules: [
 		'@nuxt/content'
 	],
 	generate: {
