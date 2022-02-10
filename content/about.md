@@ -17,7 +17,7 @@ Chief executive officer
 
 ## Professional life:
 
-Full stack web developer who is passionate about making websites and webstores better, faster and easier to update. Technologies I enjoy working with include JavaScript, Vue, Nuxt, Svelte Kit, PHP and MariaDB. Mostly using ProcessWire CMS for all the new projects, but I know my way with Wordpress and Drupal too.
+Full stack web developer who is passionate about making websites and webstores better, faster and easier to update. Technologies I enjoy working with include JavaScript, Vue, Nuxt, Svelte Kit, PHP and MariaDB. Mostly using ProcessWire CMS for all the new projects, but I know my way with Wordpress and Drupal too. Currently learning React.
 
 Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.
 
@@ -65,7 +65,6 @@ Always want to surpass myself and my customers. When the customer feels they hav
 - [https://twitter.com/_timoanttila](https://twitter.com/_timoanttila/with_replies)
 - https://www.linkedin.com/in/anttilatimo/
 - https://github.com/TuspeDesign
-- https://www.goodreads.com/user/show/104287756-timo-anttila
 
 ## Now?
 
