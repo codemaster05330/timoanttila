@@ -2,7 +2,7 @@
 
 A self-taught developer, who loves solving problems and learning new ways to deliver solutions.
 
-Full Stack Web Developer specializing in PHP, JavaScript, ProcessWire, Svelte, and SQL engines. Currently learning Vue + Nuxt. Passionately improving websites usage experience and loading time. Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.
+Full Stack Web Developer specializing in PHP, JavaScript, Vue + Nuxt, Svelte, MariaDB, ProcessWire, and WordPress. Currently learning React. Passionately improving websites usage experience and loading time. Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.
 
 - Designing and developing experiences that make people's lives simple.
 - Working at Tuspe Design Oy as a full stack developer and developing its business as an owner.
