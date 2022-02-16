@@ -17,7 +17,11 @@ Chief executive officer
 
 ## Professional life:
 
-Full stack web developer who is passionate about making websites and webstores better, faster and easier to update. Technologies I enjoy working with include JavaScript, Vue, Nuxt, Svelte Kit, PHP and MariaDB. Mostly using ProcessWire CMS for all the new projects, but I know my way with Wordpress and Drupal too. Currently learning React.
+Full stack web developer who is passionate about making websites and webstores better, faster and easier to update.
+
+Since beginning my journey as an entrepreneur over seven years ago, I've done remote work for businesses, developed hundreds of customer projects, and created booking calendars and own e-commerce platform. Also implemented various payment interfaces and REST APIs. Always ready for new challenges.
+
+Technologies I enjoy working with include JavaScript, Vue, Nuxt, PHP and MariaDB. Mostly using ProcessWire CMS for all the new projects, but I know my way with WordPress and Drupal too. Currently learning React.
 
 Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.
 
@@ -42,12 +46,12 @@ Always want to surpass myself and my customers. When the customer feels they hav
 - Watching too many movies and series ([Trakt](https://trakt.tv/users/timoanttila)).
 - Listening to audiobooks when I go out with my dog ([Goodreads](https://www.goodreads.com/timoanttila)).
 
-## Technologies:
+## Technologies / tools:
 
-- HTML, CSS, JavaScript, Vue + Nuxt, Svelte + Routify, JQuery
-- PHP, SQL, NodeJS + Express
-- ProcessWire, Drupal, Wordpress
-- MySQL, MariaDB, SQLite
+- HTML, CSS, JavaScript, Vue, Nuxt, Svelte Kit, JQuery
+- PHP, MySQL, MariaDB, SQLite, MongoDB, NodeJS + Express
+- ProcessWire, WordPress, Drupal
+- Github, Gitlab, VirtualBox, Visual Studio Code, Postman API Platform
 
 ## Languages:
 
@@ -56,7 +60,7 @@ Always want to surpass myself and my customers. When the customer feels they hav
 ## Contact:
 
 - <a href="tel:+358407746121" rel="nofollow">+358 40 774 6121</a>
-- <a href="mailto:info@tuspe.com" rel="nofollow">info@tuspe.com</a>
+- <a href="mailto:moro@tuspe.com" rel="nofollow">moro@tuspe.com</a>
 
 ## Find me around the web:
 
