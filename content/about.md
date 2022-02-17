@@ -19,7 +19,7 @@ Chief executive officer
 
 Full stack web developer who is passionate about making websites and webstores better, faster and easier to update.
 
-Since beginning my journey as an entrepreneur over seven years ago, I've done remote work for businesses, developed hundreds of customer projects, and created booking calendars and own e-commerce platform. Also implemented various payment interfaces and REST APIs. Always ready for new challenges.
+Since beginning my journey as an entrepreneur over seven years ago, I've done remote work for businesses, developed hundreds of customer projects, and created booking calendars and own ecommerce platform. Also implemented various payment interfaces and REST APIs. Always ready for new challenges.
 
 Technologies I enjoy working with include JavaScript, Vue, Nuxt, PHP and MariaDB. Mostly using ProcessWire CMS for all the new projects, but I know my way with WordPress and Drupal too. Currently learning React.
 
@@ -48,10 +48,13 @@ Always want to surpass myself and my customers. When the customer feels they hav
 
 ## Technologies / tools:
 
-- HTML, CSS, JavaScript, Vue, Nuxt, Svelte Kit, JQuery
-- PHP, MySQL, MariaDB, SQLite, MongoDB, NodeJS + Express
+- PHP, Javascript, Vue, Nuxt, Svelte Kit, JQuery, HTML, CSS
+- MySQL, MariaDB, SQLite, MongoDB
+- NodeJS + Express, Apache2, NGINX
 - ProcessWire, WordPress, Drupal
-- Github, Gitlab, VirtualBox, Visual Studio Code, Postman API Platform
+- Visual Studio Code, Github, Gitlab, Postman API Platform, VirtualBox
+- Cloudflare, Joker, Namecheap, Traficom domains
+- Slack, Google Chat, Google Meets, Microsoft Teams
 
 ## Languages:
 

@@ -23,9 +23,7 @@ Full Stack Web Developer
 Verkkosivustojen ja -kauppojen luoja, webbisovellusten kehittäjä. Haluan intohimoisesti tehdä verkkopalveluista parempia, nopeampia ja helpompia käyttää. Tekniikoita, joiden kanssa nautin työskennellä, ovat JavaScript, Vue, Nuxt, Svelte Kit, PHP, NodeJS ja MariaDB. Opiskelen Reactia. Käytän yleensä sisällönhallintaan ProcessWireä, mutta tuttuja alustoja ovat myös WordPress ja Drupal. Rakastan työtäni ja haluan kehittää osaamistani joka päivä. Aina löytyy jotain uutta ja mielenkiintoista tutkittavaa.
 
 - Suunnittelen ja kehitän kokemuksia mitkä tekevät ihmisten elämästä helpompaa. Tärkeimpänä aina yksinkertaisuus, nopeus, käytettävyys ja helppo päivitys.
-- Omistaja ja verkkovelho digitoimistossa [Tuspe Design Oy](https://tuspe.com/ "Digitoimisto Tuspe Design")
-- Kumppani ja teknologiajohtaja yrityksessä [Ratsukko Solutions Oy](https://www.ratsukko.com/).
-- Kumppani ja toimitusjohtaja yrityksessä [Dataline Group Oy](https://www.dataline.fi/).
+- Verkkovelho ja osakas yrityksissä [Tuspe Design Oy](https://tuspe.com/ "Digitoimisto Tuspe Design"), [Ratsukko Solutions Oy](https://www.ratsukko.com/), [Dataline Group Oy](https://www.dataline.fi/).
 - Ylläpidän viittä palvelinta ja olen vastuussa asiakkaiden verkkopalveluiden turvallisuudesta.
 - Nokian kaupungin keskusvaalilautakunnan jäsen 2021-2025.
 
@@ -41,10 +39,13 @@ Verkkosivustojen ja -kauppojen luoja, webbisovellusten kehittäjä. Haluan intoh
 
 ### Teknologiat / työkalut:
 
-- HTML, CSS, JavaScript, Svelte, JQuery
-- PHP, SQL, NodeJS, Express
-- ProcessWire, Drupal, Wordpress
-- MySQL, MariaDB, SQLite
+- PHP, Javascript, Vue, Nuxt, Svelte Kit, JQuery, HTML, CSS
+- MySQL, MariaDB, SQLite, MongoDB
+- NodeJS + Express, Apache2, NGINX
+- ProcessWire, WordPress, Drupal
+- Visual Studio Code, Github, Gitlab, Postman API Platform, VirtualBox
+- Cloudflare, Joker, Namecheap, Traficom domains
+- Slack, Google Chat, Google Meets, Microsoft Teams
 
 ### Kielet:
 
