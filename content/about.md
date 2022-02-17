@@ -1,7 +1,6 @@
 ---
 title: What is going on in my life right now?
 description: Welcome to get to know me more. On this page you will comprehensively find everything that is important to me at the moment in my professional and personal life.
-card: <p>The active CEO of <a href="https://tuspe.com/">Tuspe Design Oy</a>, a digital agency that provides solutions for websites, stores and applications, and the chairman and CTO of <a href="https://www.ratsukko.com/">Ratsukko Solutions Oy</a>, a company that promotes the riding hobby and offers modern solutions for booking courses.</p><p>Finns Party municipal election candidate in Nokia.<br><strong>Vote for number 2!</strong></p>
 language: en
 ---
 
@@ -26,9 +25,9 @@ Technologies I enjoy working with include JavaScript, Vue, Nuxt, PHP and MariaDB
 Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.
 
 - Designing and developing experiences that make people's lives simpler. A focus on simplicity, speed, usability, easy update and delight.
-- Working at [Tuspe Design Oy](https://tuspe.com/) as a full stack developer and developing its business as a owner.
-- Partner and CTO at [Ratsukko Solutions Oy](https://www.ratsukko.com/).
-- Partner and CEO at [Dataline Group Oy](https://www.dataline.fi/).
+- Problem solver, Full Stack Developer and owner at [Tuspe Design Oy](https://tuspe.com/).
+- Frontend Developer and member of the board, technical customer support and shareholder at [Ratsukko Solutions Oy](https://www.ratsukko.com/).
+- Full Stack Developer, CEO and shareholder at [Dataline Group Oy](https://www.dataline.fi/).
 - Member of the Central Electoral Commission of the City of Nokia from 2021 to 2025.
 - Participating in the open source revolution on [Github](https://github.com/timoanttila?tab=repositories).
 - Developing and maintaining awesome sport platform and several different webshops.

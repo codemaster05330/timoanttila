@@ -46,6 +46,7 @@
 					v-bind:class="{ open: toggleMenu }"
 					title="Menu toggle for navigation"
 					aria-label="Open / close the main navigation"
+					aria-controls="menuList"
 				>
 					<div class="grid w-full">
 						<svg
@@ -79,6 +80,7 @@
 				<button
 					@click="toggleAccessibility = !toggleAccessibility"
 					v-bind:class="{ open: toggleAccessibility }"
+					id="accessibilityToggle"
 					class="
 						w-14
 						h-14
@@ -92,6 +94,8 @@
 					"
 					title="Menu toggle for accessibility"
 					aria-label="Open / close the accessibility menu"
+					aria-haspopup="true"
+					aria-controls="accessibilityList"
 				>
 					<div class="grid w-full">
 						<svg
@@ -127,7 +131,12 @@
 						md:relative md:top-0 md:w-12 md:mt-2 md:mx-auto
 					"
 				>
-					<ul class="m-0 p-0">
+					<ul
+						id="accessibilityList"
+						class="m-0 p-0"
+						role="menu"
+						aria-labelledby="accessibilityToggle"
+					>
 						<li
 							v-for="(e, i) in colors"
 							:key="i"
@@ -145,7 +154,7 @@
 									text-center
 									p-0
 								"
-								role="listitem"
+								role="menuitem"
 								:title="`Change theme to ${e.name}`"
 							>
 								<div
@@ -178,7 +187,7 @@
 									border-0
 									p-0
 								"
-								role="listitem"
+								role="menuitem"
 								title="Font magnification"
 								aria-label="Increase the font size of the site"
 								:disabled="fontSize >= 25"
@@ -209,7 +218,7 @@
 									border-0
 									p-0
 								"
-								role="listitem"
+								role="menuitem"
 								title="Font reduction"
 								aria-label="Reduce the font size of the site"
 								:disabled="fontSize <= 14"
@@ -371,8 +380,10 @@
 			v-bind:class="{ hidden: !toggleMenu, grid: toggleMenu }"
 		>
 			<ul
+				id="menuList"
 				class="-mt-16 mb-0 p-0 self-center font-koho w-56 mx-auto"
 				role="menu"
+				aria-labelledby="menuToggle"
 			>
 				<li
 					v-for="item in menu[lang]"
@@ -486,10 +497,6 @@
 			};
 		},
 		mounted() {
-			this.$store.commit(
-				"addLang",
-				$nuxt.$route.fullPath.includes("/fi") ? "fi" : "en"
-			);
 			this.fixStyles();
 		},
 		computed: {
@@ -500,7 +507,17 @@
 				this.styleClass = `${this.main} ${color}`;
 			},
 			changeSize(e) {
-				this.fontSize = e > 25 ? 25 : e < 14 ? 14 : e;
+				if (e <= 25 || e >= 14) {
+					this.fontSize = e;
+				}
+			},
+		},
+		watch: {
+			async $route() {
+				this.$store.commit(
+					"addLang",
+					$nuxt.$route.fullPath.includes("/fi") ? "fi" : "en"
+				);
 			},
 		},
 	};
