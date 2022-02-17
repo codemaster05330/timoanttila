@@ -16,17 +16,16 @@ Chief executive officer
 
 ## Professional life:
 
-Full stack web developer who is passionate about making websites and webstores better, faster and easier to update.
+Full stack web developer who is passionate about making websites and web stores better, faster and easier to update.
 
-Since beginning my journey as an entrepreneur over seven years ago, I've done remote work for businesses, developed hundreds of customer projects, and created booking calendars and own ecommerce platform. Also implemented various payment interfaces and REST APIs. Always ready for new challenges.
+Since beginning my journey as an entrepreneur over seven years ago, I've done remote work for businesses, developed hundreds of customer projects, and created booking calendars and my own ecommerce platform. Also implemented various payment interfaces and REST APIs. Always ready for new challenges.
 
 Technologies I enjoy working with include JavaScript, Vue, Nuxt, PHP and MariaDB. Mostly using ProcessWire CMS for all the new projects, but I know my way with WordPress and Drupal too. Currently learning React.
 
-Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.
+Designing and developing experiences that make people's lives simpler. A focus on simplicity, speed, usability, easy update and delight. My goal is to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeed.
 
-- Designing and developing experiences that make people's lives simpler. A focus on simplicity, speed, usability, easy update and delight.
 - Problem solver, Full Stack Developer and owner at [Tuspe Design Oy](https://tuspe.com/).
-- Frontend Developer and member of the board, technical customer support and shareholder at [Ratsukko Solutions Oy](https://www.ratsukko.com/).
+- Frontend Developer, member of the board, technical customer support and shareholder at [Ratsukko Solutions Oy](https://www.ratsukko.com/).
 - Full Stack Developer, CEO and shareholder at [Dataline Group Oy](https://www.dataline.fi/).
 - Member of the Central Electoral Commission of the City of Nokia from 2021 to 2025.
 - Participating in the open source revolution on [Github](https://github.com/timoanttila?tab=repositories).
