@@ -141,7 +141,7 @@
 							v-for="(e, i) in colors"
 							:key="i"
 							class="inline-block align-middle"
-							role="none"
+							role="menuitem"
 						>
 							<button
 								@click="fixStyles(e.name)"
@@ -154,7 +154,6 @@
 									text-center
 									p-0
 								"
-								role="menuitem"
 								:title="`Change theme to ${e.name}`"
 							>
 								<div
@@ -176,7 +175,7 @@
 							</button>
 						</li>
 
-						<li class="inline-block align-middle" role="none">
+						<li class="inline-block align-middle" role="menuitem">
 							<button
 								@click="changeSize(fontSize + 1)"
 								class="
@@ -187,7 +186,6 @@
 									border-0
 									p-0
 								"
-								role="menuitem"
 								title="Font magnification"
 								aria-label="Increase the font size of the site"
 								:disabled="fontSize >= 25"
@@ -207,7 +205,7 @@
 							</button>
 						</li>
 
-						<li class="inline-block align-middle" role="none">
+						<li class="inline-block align-middle" role="menuitem">
 							<button
 								@click="changeSize(fontSize - 1)"
 								class="
@@ -218,7 +216,6 @@
 									border-0
 									p-0
 								"
-								role="menuitem"
 								title="Font reduction"
 								aria-label="Reduce the font size of the site"
 								:disabled="fontSize <= 14"
