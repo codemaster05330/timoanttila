@@ -6,132 +6,132 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://timoanttila.com/</loc>
-  <lastmod>2022-01-27T23:18:18+00:00</lastmod>
+  <lastmod>2022-01-27T23:18:18+02:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/about</loc>
-  <lastmod>2022-02-17T14:14:00+00:00</lastmod>
+  <lastmod>2022-03-03T21:14:00+02:00</lastmod>
   <priority>0.95</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/fi/info</loc>
-  <lastmod>2022-02-17T11:17:00+00:00</lastmod>
+  <lastmod>2022-03-03T21:14:00+02:00</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog</loc>
-  <lastmod>2021-08-08T23:34:34+00:00</lastmod>
+  <lastmod>2021-08-08T23:34:34+02:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/fi</loc>
-  <lastmod>2022-01-27T23:18:18+00:00</lastmod>
+  <lastmod>2022-01-27T23:18:18+02:00</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog/upgrade-debian-stretch-to-buster</loc>
-  <lastmod>2021-08-08T23:34:34+00:00</lastmod>
+  <lastmod>2021-08-08T23:34:34+02:00</lastmod>
   <priority>0.65</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog/making-bootable-usb-drive-on-linux</loc>
-  <lastmod>2021-07-24T00:23:31+00:00</lastmod>
+  <lastmod>2021-07-24T00:23:31+02:00</lastmod>
   <priority>0.60</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog/setup-crontab-to-remove-the-php-session-files</loc>
-  <lastmod>2020-04-10T01:06:14+00:00</lastmod>
+  <lastmod>2020-04-10T01:06:14+02:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog/bash-replace-line-in-file</loc>
-  <lastmod>2017-02-12T11:45:54+00:00</lastmod>
+  <lastmod>2017-02-12T11:45:54+02:00</lastmod>
   <priority>0.40</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog/contact-form</loc>
-  <lastmod>2017-01-01T11:43:34+00:00</lastmod>
+  <lastmod>2017-01-01T11:43:34+02:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog/flickr-photo-albums-on-processwire</loc>
-  <lastmod>2016-11-10T05:35:53+00:00</lastmod>
+  <lastmod>2016-11-10T05:35:53+02:00</lastmod>
   <priority>0.30</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog/offsetting-anchor-links-with-fixed-header</loc>
-  <lastmod>2016-10-04T06:35:53+00:00</lastmod>
+  <lastmod>2016-10-04T06:35:53+02:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog/leverage-browser-caching</loc>
-  <lastmod>2016-09-12T05:20:02+00:00</lastmod>
+  <lastmod>2016-09-12T05:20:02+02:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog/rsync</loc>
-  <lastmod>2016-05-14T19:50:05+00:00</lastmod>
+  <lastmod>2016-05-14T19:50:05+02:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog/backup-your-data-automatically-on-linux</loc>
-  <lastmod>2016-04-24T15:37:21+00:00</lastmod>
+  <lastmod>2016-04-24T15:37:21+02:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog/animated-smooth-scrolling-effect</loc>
-  <lastmod>2016-04-21T23:16:16+00:00</lastmod>
+  <lastmod>2016-04-21T23:16:16+02:00</lastmod>
   <priority>0.50</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog/add-or-remove-class-with-jquery-based-on-vertical-scroll</loc>
-  <lastmod>2016-03-02T04:20:02+00:00</lastmod>
+  <lastmod>2016-03-02T04:20:02+02:00</lastmod>
   <priority>0.40</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog/add-images-to-drupal-views-search-page</loc>
-  <lastmod>2016-03-02T00:03:47+00:00</lastmod>
+  <lastmod>2016-03-02T00:03:47+02:00</lastmod>
   <priority>0.20</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog/the-10-most-common-mistakes-that-php-developers-make</loc>
-  <lastmod>2016-02-21T12:13:31+00:00</lastmod>
+  <lastmod>2016-02-21T12:13:31+02:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog/drush</loc>
-  <lastmod>2016-01-27T20:01:10+00:00</lastmod>
+  <lastmod>2016-01-27T20:01:10+02:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog/simple-xml-flickr-feed-parser</loc>
-  <lastmod>2015-10-24T04:58:10+00:00</lastmod>
+  <lastmod>2015-10-24T04:58:10+02:00</lastmod>
   <priority>0.50</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog/mysql</loc>
-  <lastmod>2022-01-27T23:18:18+00:00</lastmod>
+  <lastmod>2022-01-27T23:18:18+02:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog/parse-an-xml-document-with-php</loc>
-  <lastmod>2015-10-01T20:57:18+00:00</lastmod>
+  <lastmod>2015-10-01T20:57:18+02:00</lastmod>
   <priority>0.65</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog/teamspeak-3</loc>
-  <lastmod>2018-09-30T00:20:02+00:00</lastmod>
+  <lastmod>2018-09-30T00:20:02+02:00</lastmod>
   <priority>0.20</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog/generating-ssh-keys</loc>
-  <lastmod>2015-09-19T01:23:32+00:00</lastmod>
+  <lastmod>2015-09-19T01:23:32+02:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://timoanttila.com/blog/simple-popup</loc>
-  <lastmod>2015-09-16T22:03:47+00:00</lastmod>
+  <lastmod>2015-09-16T22:03:47+02:00</lastmod>
   <priority>0.64</priority>
 </url>
 </urlset>

@@ -24,6 +24,7 @@ Technologies I enjoy working with include JavaScript, Vue, Nuxt, PHP and MariaDB
 
 Designing and developing experiences that make people's lives simpler. A focus on simplicity, speed, usability, easy update and delight. My goal is to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeed.
 
+- WordPress and PHP Developer at [Quux Oy](https://quux.fi/) / [Let's do !t](https://letsdoit.fi/).
 - Problem solver, Full Stack Developer and owner at [Tuspe Design Oy](https://tuspe.com/).
 - Frontend Developer, member of the board, technical customer support and shareholder at [Ratsukko Solutions Oy](https://www.ratsukko.com/).
 - Full Stack Developer, CEO and shareholder at [Dataline Group Oy](https://www.dataline.fi/).

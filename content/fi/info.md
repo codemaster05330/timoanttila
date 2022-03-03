@@ -22,7 +22,9 @@ Full Stack Web Developer
 
 Verkkosivustojen ja -kauppojen luoja, webbisovellusten kehittäjä. Haluan intohimoisesti tehdä verkkopalveluista parempia, nopeampia ja helpompia käyttää. Tekniikoita, joiden kanssa nautin työskennellä, ovat JavaScript, Vue, Nuxt, Svelte Kit, PHP, NodeJS ja MariaDB. Opiskelen Reactia. Käytän yleensä sisällönhallintaan ProcessWireä, mutta tuttuja alustoja ovat myös WordPress ja Drupal. Rakastan työtäni ja haluan kehittää osaamistani joka päivä. Aina löytyy jotain uutta ja mielenkiintoista tutkittavaa.
 
-- Suunnittelen ja kehitän kokemuksia mitkä tekevät ihmisten elämästä helpompaa. Tärkeimpänä aina yksinkertaisuus, nopeus, käytettävyys ja helppo päivitys.
+Suunnittelen ja kehitän kokemuksia mitkä tekevät ihmisten elämästä helpompaa. Tärkeimpänä aina yksinkertaisuus, nopeus, käytettävyys ja helppo päivitys.
+
+- WordPress- ja PHP-kehittäjä yrityksessä [Quux Oy](https://quux.fi/) / [Let's do !t](https://letsdoit.fi/).
 - Verkkovelho ja osakas yrityksissä [Tuspe Design Oy](https://tuspe.com/ "Digitoimisto Tuspe Design"), [Ratsukko Solutions Oy](https://www.ratsukko.com/), [Dataline Group Oy](https://www.dataline.fi/).
 - Ylläpidän viittä palvelinta ja olen vastuussa asiakkaiden verkkopalveluiden turvallisuudesta.
 - Nokian kaupungin keskusvaalilautakunnan jäsen 2021-2025.
