@@ -5,7 +5,37 @@
 		:class="styleClass"
 		:style="`font-size:${fontSize}px`"
 	>
-		<a href="#content" class="hidden">Jump to the content</a>
+		<a href="#content" class="false">Jump to the content</a>
+		<a href="#buttons" class="false">Jump to the controls</a>
+
+		<nav
+			id="menu"
+			:class="`fixed top-0 left-0 text-center w-screen h-screen grid bg-primary z-20 ${toggleMenu}`"
+			aria-labelledby="menuToggle"
+		>
+			<ul
+				id="menuList"
+				class="-mt-16 mb-0 p-0 self-center font-koho w-56 mx-auto"
+			>
+				<li
+					v-for="item in menu[lang]"
+					:key="item.id"
+					class="block"
+					role="none"
+				>
+					<nuxt-link
+						:to="item.link"
+						@click.native="toggleMenu = !toggleMenu"
+						class="text-content p-3 uppercase block no-underline"
+						:title="item.description"
+						:hreflang="item.lang"
+						role="menuitem"
+					>
+						{{ item.title }}
+					</nuxt-link>
+				</li>
+			</ul>
+		</nav>
 
 		<aside
 			v-bind:class="{ open: toggleMenu }"
@@ -29,7 +59,7 @@
 				"
 			>
 				<button
-					@click="toggleMenu = !toggleMenu"
+					@click="toggleMenuButton"
 					id="menuToggle"
 					class="
 						w-14
@@ -46,11 +76,13 @@
 					v-bind:class="{ open: toggleMenu }"
 					title="Menu toggle for navigation"
 					aria-label="Open / close the main navigation"
-					aria-controls="menuList"
+					aria-controls="menu"
+					aria-haspopup="true"
+					:aria-expanded="toggleMenu"
 				>
 					<div class="grid w-full">
 						<svg
-							v-if="!toggleMenu"
+							v-if="toggleMenu == 'false'"
 							class="self-center mx-auto block"
 							viewBox="0 0 100 80"
 							width="30"
@@ -78,24 +110,14 @@
 				</button>
 
 				<button
-					@click="toggleAccessibility = !toggleAccessibility"
-					v-bind:class="{ open: toggleAccessibility }"
+					@click="toggleAccessibilityButton"
 					id="accessibilityToggle"
-					class="
-						w-14
-						h-14
-						mx-auto
-						inline-block
-						align-middle
-						bg-transparent
-						border-0
-						md:m-0
-						p-0
-					"
+					:class="`w-14 h-14 mx-auto inline-block align-middle bg-transparent border-0 md:m-0 p-0 ${toggleAccessibility}`"
 					title="Menu toggle for accessibility"
 					aria-label="Open / close the accessibility menu"
 					aria-haspopup="true"
 					aria-controls="accessibilityList"
+					:aria-expanded="toggleAccessibility"
 				>
 					<div class="grid w-full">
 						<svg
@@ -116,20 +138,8 @@
 				</button>
 
 				<div
-					v-bind:class="{
-						hidden: !toggleAccessibility,
-						open: toggleAccessibility,
-					}"
 					id="accessibility"
-					class="
-						bg-secondary
-						absolute
-						bottom-14
-						left-0
-						w-full
-						text-center
-						md:relative md:top-0 md:w-12 md:mt-2 md:mx-auto
-					"
+					:class="`bg-secondary absolute bottom-14 left-0 w-full text-center md:relative md:top-0 md:w-12 md:mt-2 md:mx-auto ${toggleAccessibility}`"
 				>
 					<ul
 						id="accessibilityList"
@@ -388,37 +398,6 @@
 			</div>
 		</aside>
 
-		<nav
-			id="menu"
-			class="fixed text-center w-screen h-screen grid bg-primary z-40"
-			v-bind:class="{ hidden: !toggleMenu, grid: toggleMenu }"
-		>
-			<ul
-				id="menuList"
-				class="-mt-16 mb-0 p-0 self-center font-koho w-56 mx-auto"
-				role="menu"
-				aria-labelledby="menuToggle"
-			>
-				<li
-					v-for="item in menu[lang]"
-					:key="item.id"
-					class="block"
-					role="none"
-				>
-					<nuxt-link
-						:to="item.link"
-						@click.native="toggleMenu = !toggleMenu"
-						class="text-content p-3 uppercase block no-underline"
-						:title="item.description"
-						:hreflang="item.lang"
-						role="menuitem"
-					>
-						{{ item.title }}
-					</nuxt-link>
-				</li>
-			</ul>
-		</nav>
-
 		<main id="content" class="block min-h-screen pb-16 md:pb-0">
 			<Nuxt keep-alive />
 		</main>
@@ -439,8 +418,8 @@
 				description:
 					this.page && this.page.description ? this.page.description : "",
 				image: "/images/timoanttila.jpg",
-				toggleMenu: false,
-				toggleAccessibility: false,
+				toggleMenu: "false",
+				toggleAccessibility: "false",
 				menu: {
 					en: [
 						{
@@ -517,6 +496,13 @@
 			...mapGetters(["main", "lang", "page"]),
 		},
 		methods: {
+			toggleMenuButton() {
+				this.toggleMenu = this.toggleMenu == "false" ? "true" : "false";
+			},
+			toggleAccessibilityButton() {
+				this.toggleAccessibility =
+					this.toggleAccessibility == "false" ? "true" : "false";
+			},
 			fixStyles(color = "violet") {
 				this.styleClass = `${this.main} ${color}`;
 			},

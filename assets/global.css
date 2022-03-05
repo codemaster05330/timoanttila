@@ -74,6 +74,10 @@ nav a:hover,
 
 #menu li + li { border-top: 2px solid hsla(0,0%,100%,.2) }
 
+.false:not(button) {
+	display: none
+}
+
 article ul {
 	padding-left: 0;
 	list-style-type: none;
