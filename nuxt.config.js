@@ -13,7 +13,6 @@ export default {
 			{ property: 'og:site_name', content: 'Timo Anttila' },
 			{ name: 'email', property: 'og:email', content: 'moro@tuspe.com' },
 			{ name: 'telephone', property: 'og:phone_number', content: '+358407746121' },
-			{ property: 'og:site_name', content: 'Timo Anttila' },
 			{ name: 'geo.placename', content: 'Nokia' },
 			{ name: "twitter:image", property: "og:image", content: "https://timoanttila.com/images/laptop-social.jpg" },
 			{ property: "og:image:secure_url", content: "https://timoanttila.com/images/laptop-social.jpg" },
