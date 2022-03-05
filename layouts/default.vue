@@ -10,7 +10,7 @@
 
 		<nav
 			id="menu"
-			:class="`fixed top-0 left-0 text-center w-screen h-screen grid bg-primary z-20 ${toggleMenu}`"
+			:class="`fixed top-0 left-0 text-center w-screen h-screen grid bg-primary z-20 ${buttons.menu}`"
 			aria-labelledby="menuToggle"
 		>
 			<ul
@@ -25,7 +25,7 @@
 				>
 					<nuxt-link
 						:to="item.link"
-						@click.native="toggleMenu = !toggleMenu"
+						@click.native="toggleButtons('menu')"
 						class="text-content p-3 uppercase block no-underline"
 						:title="item.description"
 						:hreflang="item.lang"
@@ -38,7 +38,6 @@
 		</nav>
 
 		<aside
-			v-bind:class="{ open: toggleMenu }"
 			class="
 				fixed
 				z-50
@@ -59,30 +58,18 @@
 				"
 			>
 				<button
-					@click="toggleMenuButton"
+					@click="toggleButtons('menu')"
 					id="menuToggle"
-					class="
-						w-14
-						h-14
-						mx-auto
-						inline-block
-						align-middle
-						bg-transparent
-						border-0
-						ml-6
-						md:m-0
-						p-0
-					"
-					v-bind:class="{ open: toggleMenu }"
+					:class="`w-14 h-14 mx-auto inline-block align-middle bg-transparent border-0 ml-6 md:m-0 p-0 ${buttons.menu}`"
 					title="Menu toggle for navigation"
 					aria-label="Open / close the main navigation"
 					aria-controls="menu"
 					aria-haspopup="true"
-					:aria-expanded="toggleMenu"
+					:aria-expanded="buttons.menu"
 				>
 					<div class="grid w-full">
 						<svg
-							v-if="toggleMenu == 'false'"
+							v-if="buttons.menu == 'false'"
 							class="self-center mx-auto block"
 							viewBox="0 0 100 80"
 							width="30"
@@ -110,14 +97,14 @@
 				</button>
 
 				<button
-					@click="toggleAccessibilityButton"
+					@click="toggleButtons('accessibility')"
 					id="accessibilityToggle"
-					:class="`w-14 h-14 mx-auto inline-block align-middle bg-transparent border-0 md:m-0 p-0 ${toggleAccessibility}`"
+					:class="`w-14 h-14 mx-auto inline-block align-middle bg-transparent border-0 md:m-0 p-0 ${buttons.accessibility}`"
 					title="Menu toggle for accessibility"
 					aria-label="Open / close the accessibility menu"
 					aria-haspopup="true"
 					aria-controls="accessibilityList"
-					:aria-expanded="toggleAccessibility"
+					:aria-expanded="buttons.accessibility"
 				>
 					<div class="grid w-full">
 						<svg
@@ -139,7 +126,7 @@
 
 				<div
 					id="accessibility"
-					:class="`bg-secondary absolute bottom-14 left-0 w-full text-center md:relative md:top-0 md:w-12 md:mt-2 md:mx-auto ${toggleAccessibility}`"
+					:class="`bg-secondary absolute bottom-14 left-0 w-full text-center md:relative md:top-0 md:w-12 md:mt-2 md:mx-auto ${buttons.accessibility}`"
 				>
 					<ul
 						id="accessibilityList"
@@ -418,8 +405,10 @@
 				description:
 					this.page && this.page.description ? this.page.description : "",
 				image: "/images/timoanttila.jpg",
-				toggleMenu: "false",
-				toggleAccessibility: "false",
+				buttons: {
+					menu: "false",
+					accessibility: "false",
+				},
 				menu: {
 					en: [
 						{
@@ -496,12 +485,13 @@
 			...mapGetters(["main", "lang", "page"]),
 		},
 		methods: {
-			toggleMenuButton() {
-				this.toggleMenu = this.toggleMenu == "false" ? "true" : "false";
+			toggleButtons(type = "menu") {
+				this.buttons[type] =
+					this.buttons[type] == "false" ? "true" : "false";
 			},
-			toggleAccessibilityButton() {
-				this.toggleAccessibility =
-					this.toggleAccessibility == "false" ? "true" : "false";
+			closeMenus() {
+				this.buttons.toggleMenu = "false";
+				this.buttons.toggleAccessibility = "false";
 			},
 			fixStyles(color = "violet") {
 				this.styleClass = `${this.main} ${color}`;
