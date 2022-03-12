@@ -37,13 +37,14 @@ Designing and developing experiences that make people's lives simpler. A focus o
 
 - Learning how to live a real life.
 - Interested in artificial intelligence, the wonders of technology, and human behavior.
-- Proud father of two pets; border collie Deli and cat Sera.
-- Nature lover.
-- Volunteer at [The Mannerheim League for Child Welfare](https://hameenpiiri.mll.fi/), [Plan International Finland](https://plan.fi/en).
+- Volunteer at [The Mannerheim League for Child Welfare](https://hameenpiiri.mll.fi/) and [Equal friendship](https://www.tukiliitto.fi/toiminta/yhdenvertainen-kaveritoiminta/).
+- Updating the website, which lists articles on wars ([War News](https://warnews.info/)).
 - An avid visitor as well as a volunteer at many events.
 - Investing in stocks, funds and virtual currencies ([Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios) / [eToro](https://www.etoro.com/people/timoanttila)).
 - Watching too many movies and series ([Trakt](https://trakt.tv/users/timoanttila)).
 - Listening to audiobooks when I go out with my dog ([Goodreads](https://www.goodreads.com/timoanttila)).
+- Proud father of two pets; border collie Deli and cat Sera.
+- Nature lover.
 
 ## Technologies / tools:
 

@@ -32,12 +32,12 @@ Suunnittelen ja kehitän kokemuksia mitkä tekevät ihmisten elämästä helpomp
 ### Henkilökohtainen elämä:
 
 - Kiinnostunut tekoälyn mahdollisuuksista, tekniikan ihmeistä ja ihmisten käyttäytymisestä.
-- Rakastan luontoa.
-- Vapaaehtoisena mm. [Mannerheimin Lastensuojeluliitto](https://hameenpiiri.mll.fi/), [Plan International Finland](https://plan.fi/), [LanTrek](https://www.lantrek.org/).
-- Aktiivinen vierailija ja vapaaehtoinen monissa tapahtumissa.
+- Vapaaehtoisena mm. [Mannerheimin Lastensuojeluliitto](https://hameenpiiri.mll.fi/), [yhdenvertainen kaveritoiminta](https://www.tukiliitto.fi/toiminta/yhdenvertainen-kaveritoiminta/).
+- Päivitän aktiivisesti sotauutisia listaavaa sivustoa ([War News](https://warnews.info/)).
 - Sijoitan aktiivisesti osakkeisiin, rahastoihin ja virtuaalivaluuttoihin ([Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios) / [eToro](https://www.etoro.com/people/timoanttila)).
 - Katson liikaa elokuvia ja sarjoja ([Trakt](https://trakt.tv/users/timoanttila)).
 - Kuuntelen äänikirjoja koiran kanssa ulkoillessa ([Goodreads](https://www.goodreads.com/timoanttila)).
+- Rakastan luontoa.
 
 ### Teknologiat / työkalut:
 

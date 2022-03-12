@@ -10,7 +10,7 @@
 
 		<nav
 			id="menu"
-			:class="`fixed top-0 left-0 text-center w-screen h-screen grid bg-primary z-20 ${buttons.menu}`"
+			:class="`fixed top-0 left-0 w-screen h-screen text-center grid bg-primary z-40 ${buttons.menu}`"
 			aria-labelledby="menuToggle"
 		>
 			<ul
