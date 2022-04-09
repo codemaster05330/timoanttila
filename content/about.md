@@ -20,11 +20,11 @@ Full stack web developer who is passionate about making websites and web stores 
 
 Since beginning my journey as an entrepreneur over seven years ago, I've done remote work for businesses, developed hundreds of customer projects, and created booking calendars and my own ecommerce platform. Also implemented various payment interfaces and REST APIs. Always ready for new challenges.
 
-Technologies I enjoy working with include JavaScript, Vue, Nuxt, PHP and MariaDB. Mostly using ProcessWire CMS for all the new projects, but I know my way with WordPress and Drupal too. Currently learning React.
+Technologies I enjoy working with include JavaScript, Nuxt, PHP and MariaDB. Mostly using ProcessWire and WordPress CMS. Currently learning React and Python.
 
 Designing and developing experiences that make people's lives simpler. A focus on simplicity, speed, usability, easy update and delight. My goal is to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeed.
 
-- WordPress and PHP Developer at [Quux Oy](https://quux.fi/) / [Let's do !t](https://letsdoit.fi/).
+- WordPress and PHP Developer at [Quux Oy](https://quux.fi/).
 - Problem solver, Full Stack Developer and owner at [Tuspe Design Oy](https://tuspe.com/).
 - Frontend Developer, member of the board, technical customer support and shareholder at [Ratsukko Solutions Oy](https://www.ratsukko.com/).
 - Full Stack Developer, CEO and shareholder at [Dataline Group Oy](https://www.dataline.fi/).
@@ -37,7 +37,7 @@ Designing and developing experiences that make people's lives simpler. A focus o
 
 - Learning how to live a real life.
 - Interested in artificial intelligence, the wonders of technology, and human behavior.
-- Volunteer at [The Mannerheim League for Child Welfare](https://hameenpiiri.mll.fi/) and [Equal friendship](https://www.tukiliitto.fi/toiminta/yhdenvertainen-kaveritoiminta/).
+- Volunteer at [Equal friendship](https://www.tukiliitto.fi/toiminta/yhdenvertainen-kaveritoiminta/).
 - Updating the website, which lists articles on wars ([War News](https://warnews.info/)).
 - An avid visitor as well as a volunteer at many events.
 - Investing in stocks, funds and virtual currencies ([Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios) / [eToro](https://www.etoro.com/people/timoanttila)).
@@ -48,11 +48,11 @@ Designing and developing experiences that make people's lives simpler. A focus o
 
 ## Technologies / tools:
 
-- PHP, Javascript, Vue, Nuxt, Svelte Kit, JQuery, HTML, CSS
+- PHP, Javascript, Vue, Nuxt, Svelte Kit, React, TypeScript, JQuery, HTML, CSS
 - MySQL, MariaDB, SQLite, MongoDB
 - NodeJS + Express, Apache2, NGINX
 - ProcessWire, WordPress, Drupal
-- Visual Studio Code, Github, Gitlab, Postman API Platform, VirtualBox
+- Visual Studio Code, Github, Gitlab, Postman API Platform, Fork, VirtualBox
 - Cloudflare, Joker, Namecheap, Traficom domains
 - Slack, Google Chat, Google Meets, Microsoft Teams
 

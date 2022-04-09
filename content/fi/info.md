@@ -20,11 +20,11 @@ Full Stack Web Developer
 
 ### Työelämä:
 
-Verkkosivustojen ja -kauppojen luoja, webbisovellusten kehittäjä. Haluan intohimoisesti tehdä verkkopalveluista parempia, nopeampia ja helpompia käyttää. Tekniikoita, joiden kanssa nautin työskennellä, ovat JavaScript, Vue, Nuxt, Svelte Kit, PHP, NodeJS ja MariaDB. Opiskelen Reactia. Käytän yleensä sisällönhallintaan ProcessWireä, mutta tuttuja alustoja ovat myös WordPress ja Drupal. Rakastan työtäni ja haluan kehittää osaamistani joka päivä. Aina löytyy jotain uutta ja mielenkiintoista tutkittavaa.
+Verkkosivustojen ja -kauppojen luoja, webbisovellusten kehittäjä. Haluan intohimoisesti tehdä verkkopalveluista parempia, nopeampia ja helpompia käyttää. Tekniikoita, joiden kanssa nautin työskennellä, ovat JavaScript, Vue + Nuxt, Svelte Kit, PHP, NodeJS ja MariaDB. Opiskelen Reactia. ProcessWire ja WordPress yleensä käytössä uusille verkkosivustoille. Rakastan työtäni ja haluan kehittää osaamistani joka päivä. Aina löytyy jotain uutta ja mielenkiintoista tutkittavaa.
 
 Suunnittelen ja kehitän kokemuksia mitkä tekevät ihmisten elämästä helpompaa. Tärkeimpänä aina yksinkertaisuus, nopeus, käytettävyys ja helppo päivitys.
 
-- WordPress- ja PHP-kehittäjä yrityksessä [Quux Oy](https://quux.fi/) / [Let's do !t](https://letsdoit.fi/).
+- WordPress- ja PHP-kehittäjä yrityksessä [Quux Oy](https://quux.fi/).
 - Verkkovelho ja osakas yrityksissä [Tuspe Design Oy](https://tuspe.com/ "Digitoimisto Tuspe Design"), [Ratsukko Solutions Oy](https://www.ratsukko.com/), [Dataline Group Oy](https://www.dataline.fi/).
 - Ylläpidän viittä palvelinta ja olen vastuussa asiakkaiden verkkopalveluiden turvallisuudesta.
 - Nokian kaupungin keskusvaalilautakunnan jäsen 2021-2025.
@@ -32,7 +32,7 @@ Suunnittelen ja kehitän kokemuksia mitkä tekevät ihmisten elämästä helpomp
 ### Henkilökohtainen elämä:
 
 - Kiinnostunut tekoälyn mahdollisuuksista, tekniikan ihmeistä ja ihmisten käyttäytymisestä.
-- Vapaaehtoisena mm. [Mannerheimin Lastensuojeluliitto](https://hameenpiiri.mll.fi/), [yhdenvertainen kaveritoiminta](https://www.tukiliitto.fi/toiminta/yhdenvertainen-kaveritoiminta/).
+- Vapaaehtoisena: [yhdenvertainen kaveritoiminta](https://www.tukiliitto.fi/toiminta/yhdenvertainen-kaveritoiminta/).
 - Päivitän aktiivisesti sotauutisia listaavaa sivustoa ([War News](https://warnews.info/)).
 - Sijoitan aktiivisesti osakkeisiin, rahastoihin ja virtuaalivaluuttoihin ([Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios) / [eToro](https://www.etoro.com/people/timoanttila)).
 - Katson liikaa elokuvia ja sarjoja ([Trakt](https://trakt.tv/users/timoanttila)).
@@ -41,11 +41,11 @@ Suunnittelen ja kehitän kokemuksia mitkä tekevät ihmisten elämästä helpomp
 
 ### Teknologiat / työkalut:
 
-- PHP, Javascript, Vue, Nuxt, Svelte Kit, JQuery, HTML, CSS
+- PHP, Javascript, Vue, Nuxt, Svelte Kit, React, TypeScript, JQuery, HTML, CSS
 - MySQL, MariaDB, SQLite, MongoDB
 - NodeJS + Express, Apache2, NGINX
 - ProcessWire, WordPress, Drupal
-- Visual Studio Code, Github, Gitlab, Postman API Platform, VirtualBox
+- Visual Studio Code, Github, Gitlab, Postman API Platform, Fork, VirtualBox
 - Cloudflare, Joker, Namecheap, Traficom domains
 - Slack, Google Chat, Google Meets, Microsoft Teams
 
