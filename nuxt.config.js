@@ -1,13 +1,14 @@
 export default {
+  // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+
+  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    htmlAttrs: { lang: "en" },
     meta: [
       { charset: 'UTF-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge' },
       { name: 'format-detection', content: 'telephone=no' },
-      { property: "og:locale", content: "en_FI" },
       { property: 'og:type', content: 'article' },
       { property: 'og:site_name', content: 'Timo Anttila' },
       { name: 'email', property: 'og:email', content: 'moro@tuspe.com' },
@@ -68,5 +69,8 @@ export default {
   },
   buildModules: [
     '@nuxtjs/tailwindcss'
+  ],
+  redirect: [
+    { from: '/tutorials', to: '/blog', statusCode: 301 },
   ],
 }
