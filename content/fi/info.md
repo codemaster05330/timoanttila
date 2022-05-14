@@ -20,11 +20,9 @@ Full Stack Web Developer
 
 ### Työelämä:
 
-Verkkosivustojen ja -kauppojen luoja, webbisovellusten kehittäjä. Haluan intohimoisesti tehdä verkkopalveluista parempia, nopeampia ja helpompia käyttää. Tekniikoita, joiden kanssa nautin työskennellä, ovat JavaScript, Vue + Nuxt, Svelte Kit, PHP, NodeJS ja MariaDB. Opiskelen Reactia. ProcessWire ja WordPress yleensä käytössä uusille verkkosivustoille. Rakastan työtäni ja haluan kehittää osaamistani joka päivä. Aina löytyy jotain uutta ja mielenkiintoista tutkittavaa.
+Verkkosivustojen ja -kauppojen luoja, webbisovellusten kehittäjä. Suunnittelen ja kehitän kokemuksia mitkä tekevät ihmisten elämästä helpompaa. Tärkeimpänä aina yksinkertaisuus, nopeus, käytettävyys ja helppo päivitys.
 
-Suunnittelen ja kehitän kokemuksia mitkä tekevät ihmisten elämästä helpompaa. Tärkeimpänä aina yksinkertaisuus, nopeus, käytettävyys ja helppo päivitys.
-
-- WordPress- ja PHP-kehittäjä yrityksessä [Quux Oy](https://quux.fi/).
+- WordPress- ja React-kehittäjä yrityksessä [Quux Oy](https://quux.fi/).
 - Verkkovelho ja osakas yrityksissä [Tuspe Design Oy](https://tuspe.com/ "Digitoimisto Tuspe Design"), [Ratsukko Solutions Oy](https://www.ratsukko.com/), [Dataline Group Oy](https://www.dataline.fi/).
 - Ylläpidän viittä palvelinta ja olen vastuussa asiakkaiden verkkopalveluiden turvallisuudesta.
 - Nokian kaupungin keskusvaalilautakunnan jäsen 2021-2025.
@@ -33,7 +31,6 @@ Suunnittelen ja kehitän kokemuksia mitkä tekevät ihmisten elämästä helpomp
 
 - Kiinnostunut tekoälyn mahdollisuuksista, tekniikan ihmeistä ja ihmisten käyttäytymisestä.
 - Vapaaehtoisena: [yhdenvertainen kaveritoiminta](https://www.tukiliitto.fi/toiminta/yhdenvertainen-kaveritoiminta/).
-- Päivitän aktiivisesti sotauutisia listaavaa sivustoa ([War News](https://warnews.info/)).
 - Sijoitan aktiivisesti osakkeisiin, rahastoihin ja virtuaalivaluuttoihin ([Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios) / [eToro](https://www.etoro.com/people/timoanttila)).
 - Katson liikaa elokuvia ja sarjoja ([Trakt](https://trakt.tv/users/timoanttila)).
 - Kuuntelen äänikirjoja koiran kanssa ulkoillessa ([Goodreads](https://www.goodreads.com/timoanttila)).
@@ -42,10 +39,10 @@ Suunnittelen ja kehitän kokemuksia mitkä tekevät ihmisten elämästä helpomp
 ### Teknologiat / työkalut:
 
 - PHP, Javascript, Vue, Nuxt, Svelte Kit, React, TypeScript, JQuery, HTML, CSS
-- MySQL, MariaDB, SQLite, MongoDB
+- MySQL / MariaDB, PostgreSQL, SQLite, MongoDB
 - NodeJS + Express, Apache2, NGINX
 - ProcessWire, WordPress, Drupal
-- Visual Studio Code, Github, Gitlab, Postman API Platform, Fork, VirtualBox
+- Visual Studio Code, Github, Gitlab, Postman API Platform, Fork
 - Cloudflare, Joker, Namecheap, Traficom domains
 - Slack, Google Chat, Google Meets, Microsoft Teams
 

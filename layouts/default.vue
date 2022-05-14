@@ -18,7 +18,7 @@
 				class="-mt-16 mb-0 p-0 self-center font-koho w-56 mx-auto"
 			>
 				<li
-					v-for="item in menu[lang]"
+					v-for="item in menu"
 					:key="item.id"
 					class="block"
 					role="none"
@@ -28,7 +28,6 @@
 						@click.native="toggleButtons('menu')"
 						class="text-content p-3 uppercase block no-underline"
 						:title="item.description"
-						:hreflang="item.lang"
 						role="menuitem"
 					>
 						{{ item.title }}
@@ -409,8 +408,7 @@
 					menu: "false",
 					accessibility: "false",
 				},
-				menu: {
-					en: [
+				menu: [
 						{
 							title: "Home",
 							description: "A brief description of me",
@@ -430,35 +428,8 @@
 								"Stories of life and tutorials / how-to articles on the wonderful world of technology.",
 							link: "/blog",
 							lang: "en",
-						},
-						{
-							title: "Finnish",
-							description: "Suomeksi",
-							link: "/fi/",
-							lang: "fi",
-						},
+						}
 					],
-					fi: [
-						{
-							title: "Etusivu",
-							description: "Tervetuloa tutustumaan",
-							link: "/fi/",
-							lang: "fi",
-						},
-						{
-							title: "Info",
-							description: "Mitä elämässäni tapahtuu juuri nyt?",
-							link: "/fi/info",
-							lang: "fi",
-						},
-						{
-							title: "English",
-							description: "In English",
-							link: "/",
-							lang: "en",
-						},
-					],
-				},
 				url: "https://timoanttila.com",
 				colors: [
 					{
@@ -482,7 +453,7 @@
 			this.fixStyles();
 		},
 		computed: {
-			...mapGetters(["main", "lang", "page"]),
+			...mapGetters(["main", "page"]),
 		},
 		methods: {
 			toggleButtons(type = "menu") {
@@ -500,14 +471,6 @@
 				if (e <= 25 || e >= 14) {
 					this.fontSize = e;
 				}
-			},
-		},
-		watch: {
-			async $route() {
-				this.$store.commit(
-					"addLang",
-					$nuxt.$route.fullPath.includes("/fi") ? "fi" : "en"
-				);
 			},
 		},
 	};
