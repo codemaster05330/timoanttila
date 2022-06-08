@@ -20,13 +20,13 @@ Full stack web developer who is passionate about making websites and web stores 
 
 Since beginning my journey as an entrepreneur over seven years ago, I've done remote work for businesses, developed hundreds of customer projects, and created booking calendars and my own ecommerce platform. Also implemented various payment interfaces and REST APIs. Always ready for new challenges.
 
-Technologies I enjoy working with include JavaScript, Nuxt, Vue, React, PHP and MariaDB. Mostly using ProcessWire and WordPress CMS. Currently learning TypeScript.
+Technologies I enjoy working with include JavaScript, Nuxt, Vue, React, TypeScript, PHP and MariaDB. Mostly using ProcessWire and WordPress CMS.
 
 Designing and developing experiences that make people's lives simpler. A focus on simplicity, speed, usability, easy update and delight. My goal is to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeed.
 
 - Problem solver, React and WordPress Developer at [Quux Oy](https://quux.fi/).
 - Full Stack Developer and owner at [Tuspe Design Oy](https://tuspe.com/).
-- Frontend Developer, member of the board, technical customer support and shareholder at [Ratsukko Solutions Oy](https://www.ratsukko.com/).
+- Developer, technical customer support and shareholder at [Ratsukko Solutions Oy](https://www.ratsukko.com/).
 - Full Stack Developer, CEO and shareholder at [Dataline Group Oy](https://www.dataline.fi/).
 - Member of the Central Electoral Commission of the City of Nokia from 2021 to 2025.
 - Participating in the open source revolution on [Github](https://github.com/timoanttila?tab=repositories).
@@ -42,7 +42,7 @@ Designing and developing experiences that make people's lives simpler. A focus o
 - Investing in stocks, funds and virtual currencies ([Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios) / [eToro](https://www.etoro.com/people/timoanttila)).
 - Watching too many movies and series ([Trakt](https://trakt.tv/users/timoanttila)).
 - Listening to audiobooks when I go out with my dog ([Goodreads](https://www.goodreads.com/timoanttila)).
-- Proud father of two pets; border collie Deli and cat Sera.
+- Proud father of border collie Deli.
 - Nature lover.
 
 ## Technologies / tools:
