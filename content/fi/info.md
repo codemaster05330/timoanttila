@@ -12,12 +12,6 @@ language: fi
 
 [Nokia](https://goo.gl/maps/k437LzVrvYzhUvXV9 "Google Maps")
 
-### Tittelit:
-
-Yrittäjä  
-Toimitusjohtaja  
-Full Stack Web Developer
-
 ### Työelämä:
 
 Verkkosivustojen ja -kauppojen luoja, webbisovellusten kehittäjä. Suunnittelen ja kehitän kokemuksia mitkä tekevät ihmisten elämästä helpompaa. Tärkeimpänä aina yksinkertaisuus, nopeus, käytettävyys ja helppo päivitys.

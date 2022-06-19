@@ -1,8 +1,5 @@
 export default {
-  // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     meta: [
       { charset: 'UTF-8' },
@@ -67,9 +64,7 @@ export default {
       return files.map(file => file.path === '/index' ? '/' : file.path)
     },
   },
-  buildModules: [
-    '@nuxtjs/tailwindcss'
-  ],
+  buildModules: ['nuxt-windicss'],
   redirect: [
     { from: '/tutorials', to: '/blog', statusCode: 301 },
   ],

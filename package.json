@@ -1,6 +1,6 @@
 {
   "name": "timoanttila",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Personal website with many different content types and support for Markdown and SCSS. Built on Svelte and Routify.",
   "homepage": "https://timoanttila.com",
   "bugs": "https://github.com/timoanttila/timoanttila/issues",
@@ -27,12 +27,17 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.15.1",
-    "core-js": "^3.22.8",
+    "core-js": "^3.23.1",
     "luxon": "^2.4.0",
     "nuxt": "^2.15.8",
     "vue-typed-js": "^0.1.2"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^5.0.4"
+    "nuxt-windicss": "^2",
+    "@windicss/plugin-utils": "^1.8.4"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
   }
 }
