@@ -24,11 +24,11 @@ Verkkosivustojen ja -kauppojen luoja, webbisovellusten kehittäjä. Suunnittelen
 ### Henkilökohtainen elämä:
 
 - Kiinnostunut tekoälyn mahdollisuuksista, tekniikan ihmeistä ja ihmisten käyttäytymisestä.
-- Vapaaehtoisena: [yhdenvertainen kaveritoiminta](https://www.tukiliitto.fi/toiminta/yhdenvertainen-kaveritoiminta/).
 - Sijoitan aktiivisesti osakkeisiin, rahastoihin ja virtuaalivaluuttoihin ([Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios) / [eToro](https://www.etoro.com/people/timoanttila)).
 - Katson liikaa elokuvia ja sarjoja ([Trakt](https://trakt.tv/users/timoanttila)).
 - Kuuntelen äänikirjoja koiran kanssa ulkoillessa ([Goodreads](https://www.goodreads.com/timoanttila)).
 - Rakastan luontoa.
+- Pelaan aktiivisesti mobiilipeliä Wild Rift ([stats](https://eu.wildstats.gg/en/profile/MF2y2ctyhODhHmcTObwS)).
 
 ### Teknologiat / työkalut:
 
