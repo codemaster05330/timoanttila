@@ -10,7 +10,7 @@ Designing and developing experiences that make people's lives simple.
 
 - Problem solver, React and WordPress Developer at [Quux Oy](https://quux.fi/).
 - Full Stack Developer and owner at [Tuspe Design Oy](https://tuspe.com/).
-- Frontend Developer, member of the board, technical customer support and shareholder at [Ratsukko Solutions Oy](https://www.ratsukko.com/).
+- Frontend Developer, technical customer support and shareholder at [Ratsukko Solutions Oy](https://www.ratsukko.com/).
 - Full Stack Developer, CEO and shareholder at [Dataline Group Oy](https://www.dataline.fi/).
 
 ## Technologies
