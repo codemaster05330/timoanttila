@@ -40,10 +40,9 @@ Designing and developing experiences that make people's lives simpler. A focus o
 - An avid visitor as well as a volunteer at many events.
 - Investing in stocks, funds and virtual currencies ([Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios) / [eToro](https://www.etoro.com/people/timoanttila)).
 - Watching too many movies and series ([Trakt](https://trakt.tv/users/timoanttila)).
-- Listening to audiobooks when I go out with my dog ([Goodreads](https://www.goodreads.com/timoanttila)).
+- Playing the mobile game Wild Rift ([stats](https://eu.wildstats.gg/en/profile/MF2y2ctyhODhHmcTObwS)).
 - Proud father of border collie Deli.
 - Nature lover.
-- Playing the mobile game Wild Rift ([stats](https://eu.wildstats.gg/en/profile/MF2y2ctyhODhHmcTObwS))
 
 ## Technologies / tools:
 
@@ -71,6 +70,10 @@ Designing and developing experiences that make people's lives simpler. A focus o
 - [https://twitter.com/_timoanttila](https://twitter.com/_timoanttila/with_replies)
 - https://www.linkedin.com/in/anttilatimo/
 - https://github.com/TuspeDesign
+- https://trakt.tv/users/timoanttila
+- https://www.instagram.com/_timoanttila/
+- https://www.goodreads.com/timoanttila
+- https://eu.wildstats.gg/en/profile/MF2y2ctyhODhHmcTObwS
 
 ## Now?
 

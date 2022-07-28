@@ -26,8 +26,6 @@ Verkkosivustojen ja -kauppojen luoja, webbisovellusten kehittäjä. Suunnittelen
 - Kiinnostunut tekoälyn mahdollisuuksista, tekniikan ihmeistä ja ihmisten käyttäytymisestä.
 - Sijoitan aktiivisesti osakkeisiin, rahastoihin ja virtuaalivaluuttoihin ([Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios) / [eToro](https://www.etoro.com/people/timoanttila)).
 - Katson liikaa elokuvia ja sarjoja ([Trakt](https://trakt.tv/users/timoanttila)).
-- Kuuntelen äänikirjoja koiran kanssa ulkoillessa ([Goodreads](https://www.goodreads.com/timoanttila)).
-- Rakastan luontoa.
 - Pelaan aktiivisesti mobiilipeliä Wild Rift ([stats](https://eu.wildstats.gg/en/profile/MF2y2ctyhODhHmcTObwS)).
 
 ### Teknologiat / työkalut:
@@ -56,3 +54,7 @@ Verkkosivustojen ja -kauppojen luoja, webbisovellusten kehittäjä. Suunnittelen
 - [https://twitter.com/_timoanttila](https://twitter.com/_timoanttila/with_replies)
 - https://www.linkedin.com/in/anttilatimo/
 - https://github.com/TuspeDesign
+- https://trakt.tv/users/timoanttila
+- https://www.instagram.com/_timoanttila/
+- https://www.goodreads.com/timoanttila
+- https://eu.wildstats.gg/en/profile/MF2y2ctyhODhHmcTObwS
