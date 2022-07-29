@@ -40,7 +40,7 @@ Designing and developing experiences that make people's lives simpler. A focus o
 - An avid visitor as well as a volunteer at many events.
 - Investing in stocks, funds and virtual currencies ([Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios) / [eToro](https://www.etoro.com/people/timoanttila)).
 - Watching too many movies and series ([Trakt](https://trakt.tv/users/timoanttila)).
-- Playing the mobile game Wild Rift ([stats](https://eu.wildstats.gg/en/profile/MF2y2ctyhODhHmcTObwS)).
+- Playing the mobile game Wild Rift ([PahaPoro#EUNE](https://eu.wildstats.gg/en/profile/MF2y2ctyhODhHmcTObwS)).
 - Proud father of border collie Deli.
 - Nature lover.
 
