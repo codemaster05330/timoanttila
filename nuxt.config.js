@@ -30,8 +30,9 @@ export default {
       { name: 'apple-mobile-web-app-capable', content: 'yes' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'https://timoanttila.com/favicon.ico', sizes: '16x16' },
-      { rel: 'icon', type: 'image/png', href: 'https://timoanttila.com/favicon.png', sizes: '96x96' }
+      { rel: 'icon', type: 'image/x-icon', href: 'https://timoanttila.com/favicon.ico', sizes: '48x48' },
+      { rel: 'icon', type: 'image/png', href: 'https://timoanttila.com/images/favicon-96x96.png', sizes: '96x96' },
+      { rel: 'icon', type: 'image/png', href: 'https://timoanttila.com/images/favicon-32x32.png', sizes: '32x32' }
     ],
     script: [
       {
