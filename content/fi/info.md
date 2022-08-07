@@ -54,6 +54,7 @@ Verkkosivustojen ja -kauppojen luoja, webbisovellusten kehittäjä. Suunnittelen
 - [https://twitter.com/_timoanttila](https://twitter.com/_timoanttila/with_replies)
 - https://www.linkedin.com/in/anttilatimo/
 - https://github.com/TuspeDesign
+- https://codestats.net/users/timoanttila
 - https://trakt.tv/users/timoanttila
 - https://www.instagram.com/_timoanttila/
 - https://www.goodreads.com/timoanttila

@@ -1,6 +1,6 @@
 {
   "name": "timoanttila",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "Personal website with many different content types and support for Markdown and SCSS. Built on Svelte and Routify.",
   "homepage": "https://timoanttila.com",
   "bugs": "https://github.com/timoanttila/timoanttila/issues",
