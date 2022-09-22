@@ -30,6 +30,7 @@ Designing and developing experiences that make people's lives simple.
 - https://tuspe.com
 - https://twitter.com/_timoanttila
 - https://www.linkedin.com/in/anttilatimo/
+- https://wakatime.com/@timoanttila
 - https://codestats.net/users/timoanttila
 - https://www.instagram.com/_timoanttila/
 - https://trakt.tv/users/timoanttila
