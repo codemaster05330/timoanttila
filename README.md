@@ -35,3 +35,6 @@ Designing and developing experiences that make people's lives simple.
 - https://www.instagram.com/_timoanttila/
 - https://trakt.tv/users/timoanttila
 - https://www.goodreads.com/timoanttila
+
+
+![Timo's GitHub stats](https://github-readme-stats.vercel.app/api?username=timoanttila&show_icons=true)
