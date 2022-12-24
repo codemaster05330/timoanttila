@@ -4,7 +4,6 @@ useState('site', () => ({name: 'Timo Anttila', url, image: url + '/images/laptop
 
 useHead({
 	htmlAttrs: {lang: 'en'},
-	base: {href: url + '/'},
 	meta: [
 		{charset: 'utf-8'},
 		{name: 'viewport', content: 'width=device-width, initial-scale=1'},
