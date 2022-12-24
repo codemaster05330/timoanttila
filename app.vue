@@ -13,6 +13,7 @@ useHead({
 		{name: 'apple-mobile-web-app-capable', content: 'yes'},
 		{property: 'og:type', content: 'website'},
 		{property: 'og:locale', content: 'en_US'},
+		{property: 'og:site_name', content: 'Timo Anttila'},
 		{'http-equiv': 'X-UA-Compatible', content: 'IE=edge'},
 		{name: 'msapplication-TileColor', content: '#422e43'},
 		{name: 'msapplication-TileImage', content: '#422e43'},
