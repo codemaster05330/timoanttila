@@ -87,14 +87,13 @@ const fontSize = useState('fontSize', () => 18)
 			aria-labelledby="menuToggle"
 		>
 			<ul id="menuList" class="-mt-16 mb-0 p-0 self-center font-koho w-56 mx-auto">
-				<li v-for="item in menu" :key="item.id" class="block" role="none">
+				<li v-for="item in menu" :key="item.id" class="block">
 					<NuxtLink
 						:to="item.path"
 						@click.native="buttonMenu = false"
 						class="text-content p-3 uppercase block no-underline"
 						:aria-label="item.description"
 						:hreflang="item.lang"
-						role="menuitem"
 					>
 						{{ item.title }}
 					</NuxtLink>
@@ -120,9 +119,9 @@ const fontSize = useState('fontSize', () => 18)
 						<svg
 							v-if="!buttonMenu"
 							class="self-center mx-auto block"
+							height="30"
 							viewBox="0 0 100 80"
 							width="30"
-							height="30"
 						>
 							<title>Open the main navigation</title>
 							<rect width="100" height="20" />
@@ -132,10 +131,10 @@ const fontSize = useState('fontSize', () => 18)
 						<svg
 							v-else
 							class="self-center mx-auto block"
-							xmlns="http://www.w3.org/2000/svg"
-							width="24"
 							height="24"
 							viewBox="0 0 24 24"
+							width="24"
+							xmlns="http://www.w3.org/2000/svg"
 						>
 							<title>Close the main navigation</title>
 							<path
@@ -146,24 +145,24 @@ const fontSize = useState('fontSize', () => 18)
 				</button>
 
 				<button
-					@click="buttonAccessibility = !buttonAccessibility"
-					id="accessibilityToggle"
-					:class="`w-14 h-14 mx-auto inline-block align-middle bg-transparent border-0 md:m-0 p-0 ${buttonAccessibility}`"
-					title="Menu toggle for accessibility"
-					aria-label="Open / close the accessibility menu"
-					aria-haspopup="true"
-					aria-controls="accessibilityList"
 					:aria-expanded="String(buttonAccessibility)"
+					:class="`w-14 h-14 mx-auto inline-block align-middle bg-transparent border-0 md:m-0 p-0 ${buttonAccessibility}`"
+					@click="buttonAccessibility = !buttonAccessibility"
+					aria-controls="accessibilityList"
+					aria-haspopup="true"
+					aria-label="Open / close the accessibility menu"
+					id="accessibilityToggle"
+					title="Menu toggle for accessibility"
 				>
 					<div class="grid w-full">
 						<svg
 							class="self-center mx-auto block"
-							width="36"
+							clip-rule="evenodd"
+							fill-rule="evenodd"
 							height="36"
 							viewBox="0 0 24 24"
+							width="36"
 							xmlns="http://www.w3.org/2000/svg"
-							fill-rule="evenodd"
-							clip-rule="evenodd"
 						>
 							<title>Accessibility</title>
 							<path
@@ -180,14 +179,14 @@ const fontSize = useState('fontSize', () => 18)
 					<ul id="accessibilityList" class="m-0 p-0" aria-labelledby="accessibilityToggle">
 						<li v-for="(e, i) in colors" :key="i" class="inline-block align-middle" role="listitem">
 							<button
+								:title="`Change theme to ${e.name}`"
 								@click="styleClass = e.name"
 								class="w-12 h-12 mx-auto bg-transparent border-0 text-center p-0"
-								:title="`Change theme to ${e.name}`"
 							>
 								<div
-									class="w-8 h-8 rounded-full mx-auto border border-solid border-gray-100 border-opacity-80"
-									:style="`background-color:${e.color}`"
 									:aria-label="`Theme ${e.name}`"
+									:style="`background-color:${e.color}`"
+									class="w-8 h-8 rounded-full mx-auto border border-solid border-gray-100 border-opacity-80"
 								>
 									<span class="hidden">{{ e.name }}Mode</span>
 								</div>
@@ -196,11 +195,11 @@ const fontSize = useState('fontSize', () => 18)
 
 						<li class="inline-block align-middle" role="listitem">
 							<button
+								:disabled="fontSize >= 25"
 								@click="fontSize = fontSize + 1"
+								aria-label="Increase the font size of the site"
 								class="w-12 h-12 mx-auto bg-transparent border-0 p-0"
 								title="Font magnification"
-								aria-label="Increase the font size of the site"
-								:disabled="fontSize >= 25"
 							>
 								<div
 									class="grid font-koho h-full text-1.5rem text-content text-right md:text-center w-full"
@@ -212,11 +211,11 @@ const fontSize = useState('fontSize', () => 18)
 
 						<li class="inline-block align-middle" role="listitem">
 							<button
+								:disabled="fontSize <= 14"
 								@click="fontSize = fontSize - 1"
+								aria-label="Reduce the font size of the site"
 								class="w-12 h-12 mx-auto bg-transparent border-0 p-0"
 								title="Font reduction"
-								aria-label="Reduce the font size of the site"
-								:disabled="fontSize <= 14"
 							>
 								<div
 									class="grid font-koho h-full text-1.5rem text-content text-right md:text-center w-full"
@@ -229,25 +228,24 @@ const fontSize = useState('fontSize', () => 18)
 				</div>
 
 				<ul
+					aria-label="List of Timo Anttila's social media channels"
 					class="p-0 m-0 inline-block align-middle"
 					title="You have right to stalk me"
-					aria-label="List of Timo Anttila's social media channels"
 				>
-					<li class="inline-block align-middle" role="none">
+					<li class="inline-block align-middle">
 						<a
+							aria-label="Open the link to Timo Anttila's profile on Twitter"
 							class="w-14 h-14 mx-auto inline-block align-middle bg-transparent border-0 md:m-0 p-0 hide-210"
 							href="https://twitter.com/_timoanttila"
 							title="Timo Anttila on Twitter"
-							aria-label="Open the link to Timo Anttila's profile on Twitter"
-							role="listitem"
 						>
 							<div class="grid w-full h-full">
 								<svg
 									class="self-center mx-auto"
-									xmlns="http://www.w3.org/2000/svg"
-									width="32"
 									height="32"
 									viewBox="0 0 24 24"
+									width="32"
+									xmlns="http://www.w3.org/2000/svg"
 								>
 									<title>Twitter</title>
 									<path
@@ -258,21 +256,20 @@ const fontSize = useState('fontSize', () => 18)
 						</a>
 					</li>
 
-					<li class="inline-block align-middle" role="none">
+					<li class="inline-block align-middle">
 						<a
+							aria-label="Open the link to Timo Anttila's profile on Github"
 							class="w-14 h-14 mx-auto inline-block align-middle bg-transparent border-0 md:m-0 p-0 hide-270"
 							href="https://github.com/timoanttila"
 							title="Timo Anttila on Github"
-							aria-label="Open the link to Timo Anttila's profile on Github"
-							role="listitem"
 						>
 							<div class="grid w-full h-full">
 								<svg
 									class="self-center mx-auto"
-									xmlns="http://www.w3.org/2000/svg"
-									width="32"
 									height="32"
 									viewBox="0 0 24 24"
+									width="32"
+									xmlns="http://www.w3.org/2000/svg"
 								>
 									<title>Github</title>
 									<path
@@ -285,19 +282,18 @@ const fontSize = useState('fontSize', () => 18)
 
 					<li class="inline-block align-middle" role="none">
 						<a
+							aria-label="Open the link to Timo Anttila's company's profile on Github"
 							class="w-14 h-14 mx-auto inline-block align-middle bg-transparent border-0 md:m-0 p-0 hide-390"
 							href="https://github.com/TuspeDesign"
 							title="Tuspe Design on Github"
-							aria-label="Open the link to Timo Anttila's company's profile on Github"
-							role="listitem"
 						>
 							<div class="grid w-full h-full">
 								<svg
 									class="self-center mx-auto"
-									xmlns="http://www.w3.org/2000/svg"
-									width="32"
 									height="32"
 									viewBox="0 0 24 24"
+									width="32"
+									xmlns="http://www.w3.org/2000/svg"
 								>
 									<title>Github</title>
 									<path
