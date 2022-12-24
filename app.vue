@@ -1,3 +1,60 @@
+<script setup>
+const url = 'https://timoanttila.com'
+useState('site', () => ({name: 'Timo Anttila', url, image: url + '/images/blog.jpg'}))
+
+useHead({
+	htmlAttrs: {lang: 'en'},
+	meta: [
+		{charset: 'utf-8'},
+		{name: 'viewport', content: 'width=device-width, initial-scale=1'},
+		{name: 'format-detection', content: 'telephone=no'},
+		{name: 'twitter:creator', content: '@_timoanttila'},
+		{name: 'apple-mobile-web-app-capable', content: 'yes'},
+		{property: 'og:type', content: 'website'},
+		{property: 'og:locale', content: 'en_US'},
+		{'http-equiv': 'X-UA-Compatible', content: 'IE=edge'}
+	]
+})
+
+const menu = [
+	{
+		description: 'A brief description of me',
+		path: '/',
+		title: 'Home'
+	},
+	{
+		description: 'What is happening in my life right now and what is important to me.',
+		path: '/about',
+		title: 'About'
+	},
+	{
+		description: 'A collection of articles about web development, programming, and life.',
+		path: '/blog',
+		title: 'Articles'
+	}
+]
+
+const colors = [
+	{
+		name: 'violet',
+		color: '#422e43'
+	},
+	{
+		name: 'dark',
+		color: '#212121'
+	},
+	{
+		name: 'blue',
+		color: '#04293a'
+	}
+]
+
+const styleClass = useState('colorStyle', () => 'violet')
+const buttonMenu = useState('buttonMenu', () => false)
+const buttonAccessibility = useState('buttonAccessibility', () => false)
+const fontSize = useState('fontSize', () => 18)
+</script>
+
 <template>
 	<div
 		id="matrix"
@@ -6,70 +63,50 @@
 		:style="`font-size:${fontSize}px`"
 	>
 		<a href="#content" class="false">Jump to the content</a>
-		<a href="#buttons" class="false">Jump to the controls</a>
+		<a href="#buttons" class="false">Jump to the navigation</a>
+
+		<main id="content" class="block min-h-screen pb-16 md:pb-0">
+			<NuxtPage />
+		</main>
 
 		<nav
 			id="menu"
-			:class="`fixed top-0 left-0 w-screen h-screen text-center grid bg-primary z-40 ${buttons.menu}`"
+			:class="`fixed top-0 left-0 w-screen h-screen text-center grid bg-primary z-40 ${buttonMenu}`"
 			aria-labelledby="menuToggle"
 		>
-			<ul
-				id="menuList"
-				class="-mt-16 mb-0 p-0 self-center font-koho w-56 mx-auto"
-			>
-				<li
-					v-for="item in menu[lang]"
-					:key="item.id"
-					class="block"
-					role="none"
-				>
-					<nuxt-link
-						:to="item.link"
-						@click.native="toggleButtons('menu')"
+			<ul id="menuList" class="-mt-16 mb-0 p-0 self-center font-koho w-56 mx-auto">
+				<li v-for="item in menu" :key="item.id" class="block" role="none">
+					<NuxtLink
+						:to="item.path"
+						@click.native="buttonMenu = false"
 						class="text-content p-3 uppercase block no-underline"
-						:title="item.description"
+						:aria-label="item.description"
 						:hreflang="item.lang"
 						role="menuitem"
 					>
 						{{ item.title }}
-					</nuxt-link>
+					</NuxtLink>
 				</li>
 			</ul>
 		</nav>
 
 		<aside
-			class="
-				fixed
-				z-50
-				w-screen
-				h-14
-				bottom-0
-				right-0
-				md:top-0 md:h-screen md:w-14
-				bg-secondary
-			"
+			class="fixed z-50 w-screen h-14 bottom-0 right-0 md:top-0 md:h-screen md:w-14 bg-secondary"
 		>
-			<div
-				id="buttons"
-				class="
-					md:my-6 md:text-center
-					overflow-y-auto overflow-x-hidden
-					h-full
-				"
-			>
+			<div id="buttons" class="md:my-6 md:text-center overflow-y-auto overflow-x-hidden h-full">
 				<button
-					@click="toggleButtons('menu')"
-					id="menuToggle"
-					:class="`w-14 h-14 mx-auto inline-block align-middle bg-transparent border-0 ml-6 md:m-0 p-0 ${buttons.menu}`"
-					title="Menu toggle for navigation"
-					aria-label="Open / close the main navigation"
+					:aria-expanded="String(buttonMenu)"
+					:class="`w-14 h-14 mx-auto inline-block align-middle bg-transparent border-0 ml-6 md:m-0 p-0 ${buttonMenu}`"
+					@click="buttonMenu = !buttonMenu"
 					aria-controls="menu"
 					aria-haspopup="true"
-					:aria-expanded="buttons.menu"
+					aria-label="Open / close the main navigation"
+					id="menuToggle"
+					title="Menu toggle for navigation"
 				>
 					<div class="grid w-full">
 						<svg
-							v-if="buttons.menu == 'false'"
+							v-if="!buttonMenu"
 							class="self-center mx-auto block"
 							viewBox="0 0 100 80"
 							width="30"
@@ -97,14 +134,14 @@
 				</button>
 
 				<button
-					@click="toggleButtons('accessibility')"
+					@click="buttonAccessibility = !buttonAccessibility"
 					id="accessibilityToggle"
-					:class="`w-14 h-14 mx-auto inline-block align-middle bg-transparent border-0 md:m-0 p-0 ${buttons.accessibility}`"
+					:class="`w-14 h-14 mx-auto inline-block align-middle bg-transparent border-0 md:m-0 p-0 ${buttonAccessibility}`"
 					title="Menu toggle for accessibility"
 					aria-label="Open / close the accessibility menu"
 					aria-haspopup="true"
 					aria-controls="accessibilityList"
-					:aria-expanded="buttons.accessibility"
+					:aria-expanded="String(buttonAccessibility)"
 				>
 					<div class="grid w-full">
 						<svg
@@ -126,43 +163,17 @@
 
 				<div
 					id="accessibility"
-					:class="`bg-secondary absolute bottom-14 left-0 w-full text-center md:relative md:top-0 md:w-12 md:mt-2 md:mx-auto ${buttons.accessibility}`"
+					:class="`bg-secondary absolute bottom-14 left-0 w-full text-center md:relative md:top-0 md:w-12 md:mt-2 md:mx-auto ${buttonAccessibility}`"
 				>
-					<ul
-						id="accessibilityList"
-						class="m-0 p-0"
-						aria-labelledby="accessibilityToggle"
-					>
-						<li
-							v-for="(e, i) in colors"
-							:key="i"
-							class="inline-block align-middle"
-							role="listitem"
-						>
+					<ul id="accessibilityList" class="m-0 p-0" aria-labelledby="accessibilityToggle">
+						<li v-for="(e, i) in colors" :key="i" class="inline-block align-middle" role="listitem">
 							<button
-								@click="fixStyles(e.name)"
-								class="
-									w-12
-									h-12
-									mx-auto
-									bg-transparent
-									border-0
-									text-center
-									p-0
-								"
+								@click="styleClass = e.name"
+								class="w-12 h-12 mx-auto bg-transparent border-0 text-center p-0"
 								:title="`Change theme to ${e.name}`"
 							>
 								<div
-									class="
-										w-8
-										h-8
-										rounded-full
-										mx-auto
-										border
-										border-solid
-										border-gray-100
-										border-opacity-80
-									"
+									class="w-8 h-8 rounded-full mx-auto border border-solid border-gray-100 border-opacity-80"
 									:style="`background-color:${e.color}`"
 									:aria-label="`Theme ${e.name}`"
 								>
@@ -173,28 +184,14 @@
 
 						<li class="inline-block align-middle" role="listitem">
 							<button
-								@click="changeSize(fontSize + 1)"
-								class="
-									w-12
-									h-12
-									mx-auto
-									bg-transparent
-									border-0
-									p-0
-								"
+								@click="fontSize = fontSize + 1"
+								class="w-12 h-12 mx-auto bg-transparent border-0 p-0"
 								title="Font magnification"
 								aria-label="Increase the font size of the site"
 								:disabled="fontSize >= 25"
 							>
 								<div
-									class="
-										grid
-										w-full
-										h-full
-										font-koho font-normal
-										text-fontSize text-content text-right
-										md:text-center
-									"
+									class="grid font-koho h-full text-1.5rem text-content text-right md:text-center w-full"
 								>
 									<span class="self-center">A+</span>
 								</div>
@@ -203,28 +200,14 @@
 
 						<li class="inline-block align-middle" role="listitem">
 							<button
-								@click="changeSize(fontSize - 1)"
-								class="
-									w-12
-									h-12
-									mx-auto
-									bg-transparent
-									border-0
-									p-0
-								"
+								@click="fontSize = fontSize - 1"
+								class="w-12 h-12 mx-auto bg-transparent border-0 p-0"
 								title="Font reduction"
 								aria-label="Reduce the font size of the site"
 								:disabled="fontSize <= 14"
 							>
 								<div
-									class="
-										grid
-										w-full
-										h-full
-										font-koho font-normal
-										text-fontSize text-content text-left
-										md:text-center
-									"
+									class="grid font-koho h-full text-1.5rem text-content text-right md:text-center w-full"
 								>
 									<span class="self-center">A-</span>
 								</div>
@@ -240,18 +223,7 @@
 				>
 					<li class="inline-block align-middle" role="none">
 						<a
-							class="
-								w-14
-								h-14
-								mx-auto
-								inline-block
-								align-middle
-								bg-transparent
-								border-0
-								md:m-0
-								p-0
-								hide-210
-							"
+							class="w-14 h-14 mx-auto inline-block align-middle bg-transparent border-0 md:m-0 p-0 hide-210"
 							href="https://twitter.com/_timoanttila"
 							title="Timo Anttila on Twitter"
 							aria-label="Open the link to Timo Anttila's profile on Twitter"
@@ -276,18 +248,7 @@
 
 					<li class="inline-block align-middle" role="none">
 						<a
-							class="
-								w-14
-								h-14
-								mx-auto
-								inline-block
-								align-middle
-								bg-transparent
-								border-0
-								md:m-0
-								p-0
-								hide-270
-							"
+							class="w-14 h-14 mx-auto inline-block align-middle bg-transparent border-0 md:m-0 p-0 hide-270"
 							href="https://github.com/timoanttila"
 							title="Timo Anttila on Github"
 							aria-label="Open the link to Timo Anttila's profile on Github"
@@ -312,18 +273,7 @@
 
 					<li class="inline-block align-middle" role="none">
 						<a
-							class="
-								w-14
-								h-14
-								mx-auto
-								inline-block
-								align-middle
-								bg-transparent
-								border-0
-								md:m-0
-								p-0
-								hide-390
-							"
+							class="w-14 h-14 mx-auto inline-block align-middle bg-transparent border-0 md:m-0 p-0 hide-390"
 							href="https://github.com/TuspeDesign"
 							title="Tuspe Design on Github"
 							aria-label="Open the link to Timo Anttila's company's profile on Github"
@@ -345,170 +295,19 @@
 							</div>
 						</a>
 					</li>
-
-					<li class="inline-block align-middle" role="none">
-						<a
-							class="
-								w-14
-								h-14
-								mx-auto
-								inline-block
-								align-middle
-								bg-transparent
-								border-0
-								md:m-0
-								p-0
-								hide-330
-							"
-							href="mailto:moro@tuspe.com"
-							title="Send email"
-							aria-label="The link activates your default email application or website"
-							role="listitem"
-						>
-							<div class="grid w-full h-full">
-								<svg
-									class="self-center mx-auto"
-									xmlns="http://www.w3.org/2000/svg"
-									width="32"
-									height="32"
-									viewBox="0 0 24 24"
-								>
-									<title>Envelope</title>
-									<path
-										d="M12.042 23.648c-7.813 0-12.042-4.876-12.042-11.171 0-6.727 4.762-12.125 13.276-12.125 6.214 0 10.724 4.038 10.724 9.601 0 8.712-10.33 11.012-9.812 6.042-.71 1.108-1.854 2.354-4.053 2.354-2.516 0-4.08-1.842-4.08-4.807 0-4.444 2.921-8.199 6.379-8.199 1.659 0 2.8.876 3.277 2.221l.464-1.632h2.338c-.244.832-2.321 8.527-2.321 8.527-.648 2.666 1.35 2.713 3.122 1.297 3.329-2.58 3.501-9.327-.998-12.141-4.821-2.891-15.795-1.102-15.795 8.693 0 5.611 3.95 9.381 9.829 9.381 3.436 0 5.542-.93 7.295-1.948l1.177 1.698c-1.711.966-4.461 2.209-8.78 2.209zm-2.344-14.305c-.715 1.34-1.177 3.076-1.177 4.424 0 3.61 3.522 3.633 5.252.239.712-1.394 1.171-3.171 1.171-4.529 0-2.917-3.495-3.434-5.246-.134z"
-									/>
-								</svg>
-							</div>
-						</a>
-					</li>
 				</ul>
 			</div>
 		</aside>
-
-		<main id="content" class="block min-h-screen pb-16 md:pb-0">
-			<Nuxt keep-alive />
-		</main>
 	</div>
 </template>
-
-<script>
-	import { mapGetters } from "vuex";
-
-	export default {
-		data() {
-			return {
-				site: "Timo Anttila",
-				title:
-					this.page && this.page.title
-						? this.page.title
-						: "Timo Anttila | It all starts with a dream!",
-				description:
-					this.page && this.page.description ? this.page.description : "",
-				image: "/images/timoanttila.jpg",
-				buttons: {
-					menu: "false",
-					accessibility: "false",
-				},
-				menu: {
-					en: [
-						{
-							title: "Home",
-							description: "A brief description of me",
-							link: "/",
-							lang: "en",
-						},
-						{
-							title: "About",
-							description:
-								"What is happening in my life right now and what is important to me.",
-							link: "/about",
-							lang: "en",
-						},
-						{
-							title: "Blog",
-							description:
-								"Stories of life and tutorials / how-to articles on the wonderful world of technology.",
-							link: "/blog",
-							lang: "en",
-						},
-						{
-							title: "Finnish",
-							description: "Suomeksi",
-							link: "/fi/",
-							lang: "fi",
-						},
-					],
-					fi: [
-						{
-							title: "Etusivu",
-							description: "Tervetuloa tutustumaan",
-							link: "/fi/",
-							lang: "fi",
-						},
-						{
-							title: "Info",
-							description: "Mitä elämässäni tapahtuu juuri nyt?",
-							link: "/fi/info",
-							lang: "fi",
-						},
-						{
-							title: "English",
-							description: "In English",
-							link: "/",
-							lang: "en",
-						},
-					],
-				},
-				url: "https://timoanttila.com",
-				colors: [
-					{
-						name: "violet",
-						color: "#422e43",
-					},
-					{
-						name: "dark",
-						color: "#212121",
-					},
-					{
-						name: "blue",
-						color: "#04293a",
-					},
-				],
-				styleClass: "",
-				fontSize: 18,
-			};
-		},
-		mounted() {
-			this.fixStyles();
-		},
-		computed: {
-			...mapGetters(["main", "lang", "page"]),
-		},
-		methods: {
-			toggleButtons(type = "menu") {
-				this.buttons[type] =
-					this.buttons[type] == "false" ? "true" : "false";
-			},
-			closeMenus() {
-				this.buttons.toggleMenu = "false";
-				this.buttons.toggleAccessibility = "false";
-			},
-			fixStyles(color = "violet") {
-				this.styleClass = `${this.main} ${color}`;
-			},
-			changeSize(e) {
-				if (e <= 25 || e >= 14) {
-					this.fontSize = e;
-				}
-			},
-		},
-		watch: {
-			async $route() {
-				this.$store.commit(
-					"addLang",
-					$nuxt.$route.fullPath.includes("/fi") ? "fi" : "en"
-				);
-			},
-		},
-	};
-</script>
+<style>
+.page-enter-active,
+.page-leave-active {
+	transition: all 0.4s;
+}
+.page-enter-from,
+.page-leave-to {
+	opacity: 0;
+	filter: blur(1rem);
+}
+</style>
