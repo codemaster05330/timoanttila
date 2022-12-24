@@ -1,6 +1,6 @@
 <script setup>
 const url = 'https://timoanttila.com'
-useState('site', () => ({name: 'Timo Anttila', url, image: url + '/images/blog.jpg'}))
+useState('site', () => ({name: 'Timo Anttila', url, image: url + '/images/laptop-social.jpg'}))
 
 useHead({
 	htmlAttrs: {lang: 'en'},
@@ -12,7 +12,17 @@ useHead({
 		{name: 'apple-mobile-web-app-capable', content: 'yes'},
 		{property: 'og:type', content: 'website'},
 		{property: 'og:locale', content: 'en_US'},
-		{'http-equiv': 'X-UA-Compatible', content: 'IE=edge'}
+		{'http-equiv': 'X-UA-Compatible', content: 'IE=edge'},
+		{name: 'msapplication-TileColor', content: '#422e43'},
+		{name: 'msapplication-TileImage', content: '#422e43'},
+		{name: 'theme-color', content: '#422e43'}
+	],
+	link: [
+		{rel: 'apple-touch-icon', sizes: '180x180', type: 'image/png', href: '/apple-touch-icon.png'},
+		{rel: 'icon', sizes: '32x32', type: 'image/png', href: '/favicon-32x32.png'},
+		{rel: 'icon', sizes: '16x16', type: 'image/png', href: '/favicon-16x16.png'},
+		{rel: 'manifest', href: '/site.webmanifest'},
+		{rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#422e43'}
 	]
 })
 
