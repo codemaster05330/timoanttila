@@ -82,7 +82,7 @@ useHead({
 				<div class="published">
 					<div class="font-montserrat text-center text-content">
 						<div
-							class="grid border border-solid border-gray-100 border-opacity-40 h-20 font-montserrat font-bold leading-tight"
+							class="grid border border-solid border-opacity-40 h-20 font-montserrat font-bold leading-tight"
 						>
 							<div class="self-center">
 								<DateFormat :item="item.createdAt" dateType="DD" class="block text-1.4em" />
@@ -97,7 +97,7 @@ useHead({
 						:id="`title-${i}`"
 						:pubdate="item.createdAt"
 						:to="`${item._path}/`"
-						class="block font-koho no-underline hover:underline hover:text-white text-1.6em text-link"
+						class="articleLink block font-koho no-underline hover:underline text-1.6em"
 						role="article"
 					>
 						{{ item.title }}
@@ -114,7 +114,15 @@ useHead({
 	</div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+.listItem {
+	.articleLink {
+		color: var(--text-link);
+	}
+	.border {
+		border-color: var(--text);
+	}
+}
 @media screen and (max-width: 450px) {
 	.listItem {
 		grid-template-columns: 60px 1fr;
