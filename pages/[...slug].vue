@@ -9,6 +9,6 @@ const {data: article} = await useAsyncData(path, () => queryContent(path).findOn
 		class="font-montserrat font-light max-w-screen-lg mx-auto px-4 py-10 text-content"
 	>
 		<ArticleHead :article="article" />
-		<ContentDoc />
+		<ContentRenderer :value="article" />
 	</article>
 </template>

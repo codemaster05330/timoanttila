@@ -12,7 +12,7 @@ const description = 'Stories about projects and life, easy-to-learn tutorials.'
 const pubdate = '2015-09-16T22:03:47+03:00'
 
 useHead({
-	title: `${title} | ${useState('site').value.name}')}`,
+	title: `${title} | ${useState('site').value.name}`,
 	meta: [
 		{
 			hid: 'page-blog',
@@ -96,7 +96,7 @@ useHead({
 					<NuxtLink
 						:id="`title-${i}`"
 						:pubdate="item.createdAt"
-						:to="item._path"
+						:to="`${item._path}/`"
 						class="block font-koho no-underline hover:underline hover:text-white text-1.6em text-link"
 						role="article"
 					>

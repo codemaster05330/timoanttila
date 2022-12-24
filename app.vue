@@ -36,12 +36,12 @@ const menu = [
 	},
 	{
 		description: 'What is happening in my life right now and what is important to me.',
-		path: '/about',
+		path: '/about/',
 		title: 'About'
 	},
 	{
 		description: 'A collection of articles about web development, programming, and life.',
-		path: '/blog',
+		path: '/blog/',
 		title: 'Articles'
 	}
 ]
@@ -58,6 +58,10 @@ const colors = [
 	{
 		name: 'blue',
 		color: '#04293a'
+	},
+	{
+		name: 'white',
+		color: '#f2f2f2'
 	}
 ]
 
@@ -201,9 +205,7 @@ const fontSize = useState('fontSize', () => 18)
 								class="w-12 h-12 mx-auto bg-transparent border-0 p-0"
 								title="Font magnification"
 							>
-								<div
-									class="grid font-koho h-full text-1.5rem text-content text-right md:text-center w-full"
-								>
+								<div class="grid font-koho h-full text-1.5rem text-right md:text-center w-full">
 									<span class="self-center">A+</span>
 								</div>
 							</button>
@@ -217,9 +219,7 @@ const fontSize = useState('fontSize', () => 18)
 								class="w-12 h-12 mx-auto bg-transparent border-0 p-0"
 								title="Font reduction"
 							>
-								<div
-									class="grid font-koho h-full text-1.5rem text-content text-right md:text-center w-full"
-								>
+								<div class="grid font-koho h-full text-1.5rem text-right md:text-center w-full">
 									<span class="self-center">A-</span>
 								</div>
 							</button>

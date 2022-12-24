@@ -5,5 +5,12 @@ export default defineNuxtConfig({
 		attributify: true,
 		icons: true,
 		uno: true
+	},
+	routeRules: {
+		'*': {static: true},
+		'/fi': {redirect: '/'},
+		'/fi/info': {redirect: '/about/'},
+		'/tutorials': {redirect: '/blog/'},
+		'/tutorials/*': {redirect: '/blog/'}
 	}
 })

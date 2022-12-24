@@ -8,11 +8,22 @@ const props = defineProps({
 
 const site = useState('site').value
 let image = site.url
-image += props.article.image || site.image
+image += `/images/${props.article.image}.jpg` || site.image
 
 useHead({
-	titleTemplate: '%s | ' + site.name,
+	title: props.article.title,
 	meta: [
+		{
+			hid: props.article._path,
+			name: 'description',
+			property: 'og:description',
+			content: props.article.description
+		},
+		{
+			property: 'og:title',
+			name: 'twitter:title',
+			content: props.article.title
+		},
 		{property: 'canonical', content: site.url + props.article._path},
 		{
 			content: image,

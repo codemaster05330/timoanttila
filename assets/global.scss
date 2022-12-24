@@ -1,245 +1,273 @@
 @font-face {
-	font-family: montserrat;
-	src: url("/fonts/montserrat-light-webfont.woff2") format("woff2"), url("/fonts/montserrat-light-webfont.woff") format("woff");
-	font-weight: 300;
-	font-style: normal;
-	font-display: swap;
+  font-family: montserrat;
+  src: url("/fonts/montserrat-light-webfont.woff2") format("woff2"), url("/fonts/montserrat-light-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: montserrat;
-	src: url("/fonts/montserrat-bold-webfont.woff2") format("woff2"), url("/fonts/montserrat-bold-webfont.woff") format("woff");
-	font-weight: 700;
-	font-style: normal;
-	font-display: swap;
+  font-family: montserrat;
+  src: url("/fonts/montserrat-bold-webfont.woff2") format("woff2"), url("/fonts/montserrat-bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: koho;
-	src: url("/fonts/koho-bold-webfont.woff2") format("woff2"), url("/fonts/koho-bold-webfont.woff") format("woff");
-	font-weight: 700;
-	font-style: normal;
-	font-display: swap;
+  font-family: koho;
+  src: url("/fonts/koho-bold-webfont.woff2") format("woff2"), url("/fonts/koho-bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 :root {
-	--white: #fff;
+  --white: #fff;
+  --light: rgba(255 255 255 / 87%);
 }
 
 .violet {
-	--bg-primary: #422e43;
-	--bg-secondary: #8d80ad;
-	--text-link: var(--text-title);
-	--text-title: #ffde59;
-	--text: rgba(255 255 255 / 87%);
+  --bg-primary: #422e43;
+  --bg-secondary: #8d80ad;
+  --text: var(--light);
+  --text-link: var(--text-title);
+  --text-title: #ffde59;
 }
 
 .dark {
-	--bg-primary: #121212;
-	--bg-secondary: #282828;
-	--text-link: #c38fff;
-	--text-title: #fff;
-	--text: rgba(255 255 255 / 87%);
+  --bg-primary: #121212;
+  --bg-secondary: #282828;
+  --text-link: #c38fff;
+  --text-title: var(--white);
+  --text: var(--light);
 }
 
 .blue {
-	--bg-primary: #04293a;
-	--bg-secondary: #063a52;
-	--text-link: #ecb365;
-	--text-title: #e2e2e2;
-	--text: rgb(214, 210, 196);
+  --bg-primary: #04293a;
+  --bg-secondary: #063a52;
+  --text-link: #ecb365;
+  --text-title: #e2e2e2;
+  --text: rgb(214, 210, 196);
+}
+
+.white {
+  --bg-primary: #f2f2f2;
+  --bg-secondary: #063a52;
+  --text: rgba(0, 0, 0, .87);
+  --text-title: #04293a;
+  --text-link: #063a52;
 }
 
 html {
-	-webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
-	box-sizing: border-box;
-	margin: 0;
-	overflow-x: hidden;
-	text-rendering: optimizeLegibility;
-	width: 100vw;
+  box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  width: 100vw;
 }
 
 a,
 button {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .font-montserrat {
-	font-family: montserrat;
+  font-family: montserrat;
 }
 
 .font-koho,
 .text-title {
-	font-family: koho;
+  font-family: koho;
 }
 
 strong {
-	font-weight: 700;
+  font-weight: 700;
 }
 
 .bg-primary {
-	background-color: var(--bg-primary);
+  background-color: var(--bg-primary);
 }
 
 article pre,
 .bg-secondary {
-	background-color: var(--bg-secondary);
+  background-color: var(--bg-secondary);
 }
 
 .text-title {
-	color: var(--text-title);
-	font-size: clamp(2em, 3em, 10vw);
-	line-height: 1.1;
+  color: var(--text-title);
+  font-size: clamp(2em, 3em, 10vw);
+  line-height: 1.1;
 }
 
 .text-content,
 article h2 a,
 article h3 a {
-	color: var(--text);
+  color: var(--text);
 }
 
 .text-content {
-	line-height: 1.5;
+  line-height: 1.5;
 }
 
 .text-link,
 article a,
 nav a:hover,
 .nuxt-link-exact-active {
-	color: var(--text-link);
+  color: var(--text-link);
 }
 
 nav a,
 article h2 {
-	font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 #articleDescription {
-	font-size: 1.25em;
+  font-size: 1.25em;
 }
 
 #menu li + li {
-	border-top: 2px solid hsla(0, 0%, 100%, .2);
+  border-top: 2px solid hsla(0, 0%, 100%, .2);
 }
 
 .false:not(button) {
-	display: none;
+  display: none;
 }
 
 article {
-	a {
-		color: var(--text-link);
-		text-underline-offset: 4px;
-	}
+  a {
+    color: var(--text-link);
+    text-underline-offset: 4px;
+  }
 
-	h2 {
-		margin-top: 2.4rem 0 0;
-	}
+  h2 {
+    margin: 2.4rem 0 0;
+  }
 
-	h2,
-	h3 {
-		a {
-			text-decoration: none;
-		}
-	}
+  h2,
+  h3 {
+    a {
+      text-decoration: none;
+    }
+  }
 
-	ul {
-		list-style-type: none;
-		padding-left: 0;
-	}
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
 
-	li {
-		& + li {
-			margin-top: 10px;
-		}
+  li {
+    & + li {
+      margin-top: 10px;
+    }
 
-		&:before {
-			content: "-";
-			margin-right: 5px;
-		}
-	}
+    &:before {
+      content: "-";
+      margin-right: 5px;
+    }
+  }
 
-	table {
-		width: 100%;
-		border-collapse: collapse;
+  table {
+    width: 100%;
+    border-collapse: collapse;
 
-		thead {
-			text-align: left;
-		}
-	}
+    thead {
+      text-align: left;
+    }
+  }
 
-	pre {
-		margin: 1rem 0;
-		padding: 1rem;
-		border-radius: .6rem;
+  pre {
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: .6rem;
+    color: var(--light);
 
-		&,
-		code {
-			display: block;
-		}
-	}
+    &,
+    code {
+      display: block;
+    }
+  }
 }
 
-svg {
-	&,
-	path {
-		fill: var(--white);
-	}
+aside {
+  button,
+  a {
+    &:hover {
+      color: var(--white);
+
+      svg,
+      svg path {
+        fill: var(--white);
+      }
+    }
+
+    &:not(:hover) {
+      color: var(--light);
+
+      svg {
+        &,
+        path {
+          fill: var(--light);
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 210px) {
-	#buttons .hide-210 {
-		display: none;
-	}
+  #buttons .hide-210 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 270px) {
-	#buttons .hide-270 {
-		display: none;
-	}
+  #buttons .hide-270 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 330px) {
-	#buttons .hide-330 {
-		display: none;
-	}
+  #buttons .hide-330 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 390px) {
-	#buttons .hide-390 {
-		display: none;
-	}
+  #buttons .hide-390 {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1000px) {
-	main {
-		width: calc(100vw - 48px);
-	}
+  main {
+    width: calc(100vw - 48px);
+  }
 }
 
 @media screen and (max-width: 1000px) {
-	#myPic {
-		border-radius: 50%;
-		height: 200px;
-		margin: 0 auto;
-		width: 200px;
-	}
+  #myPic {
+    border-radius: 50%;
+    height: 200px;
+    margin: 0 auto;
+    width: 200px;
+  }
 
-	article {
-		width: calc(100vw - 2rem);
-	}
+  article {
+    width: calc(100vw - 2rem);
+  }
 }
 
 @media screen and (min-width: 1000px) {
-	main {
-		width: calc(100vw - 70px);
-	}
+  main {
+    width: calc(100vw - 70px);
+  }
 
-	#myPic {
-		clip-path: polygon(28% 0, 100% 30%, 58% 100%, 0px 88%, 20% 0);
-		height: 90vh;
-	}
+  #myPic {
+    clip-path: polygon(28% 0, 100% 30%, 58% 100%, 0px 88%, 20% 0);
+    height: 90vh;
+  }
 }
