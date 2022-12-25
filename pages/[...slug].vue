@@ -7,6 +7,8 @@ const {data: article} = await useAsyncData(path, () => queryContent(path).findOn
 	<article
 		v-if="article && article.title"
 		class="font-montserrat font-light max-w-screen-lg mx-auto text-content"
+		itemscope
+		itemtype="http://schema.org/BlogPosting"
 	>
 		<ArticleHead :article="article" />
 		<ContentRenderer :value="article" />

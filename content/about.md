@@ -1,10 +1,10 @@
 ---
 title: What is going on in my life right now?
 description: Welcome to getting to know me more. On this page, you will comprehensively find everything that is important to me at the moment in my professional and personal life.
+createdAt: '2015-01-01T00:00:00+02:00'
+updatedAt: '2022-12-25T12:38:45+02:00'
 language: en
 ---
-
-Welcome to getting to know me more. On this page, you will comprehensively find everything that is important to me at the moment in my professional and personal life. If activities or priorities change, I'll update this page accordingly.
 
 ## Location:
 

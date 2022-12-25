@@ -10,43 +10,74 @@ const site = useState('site').value
 const title = 'Articles'
 const description = 'Stories about projects and life, easy-to-learn tutorials.'
 const pubdate = '2015-09-16T22:03:47+03:00'
+const modified = '2022-12-24T20:02:20+02:00'
+const canonical = site.url + '/blog/'
 
 useHead({
 	title: `${title} | ${useState('site').value.name}`,
 	meta: [
 		{
+			content: description,
 			hid: 'page-blog',
 			name: 'description',
-			property: 'og:description',
-			content: description
+			property: 'og:description'
 		},
 		{
-			property: 'og:title',
+			content: title,
 			name: 'twitter:title',
-			content: title
+			property: 'og:title'
 		},
 		{
+			content: site.image,
 			name: 'twitter:image',
-			property: 'og:image',
-			content: site.image
+			property: 'og:image'
 		},
 		{
-			property: 'og:image:secure_url',
-			content: site.image
+			content: site.image,
+			property: 'og:image:secure_url'
 		},
 		{
+			content: pubdate,
 			name: 'pubdate',
-			property: 'og:pubdate',
-			content: pubdate
+			property: 'og:pubdate'
 		},
 		{
-			property: 'article:published_time',
-			content: pubdate
+			content: pubdate,
+			property: 'article:published_time'
 		},
 		{
+			content: modified,
 			name: 'revised',
-			property: 'article:modified_time',
-			content: '2022-12-24T20:02:20+02:00'
+			property: 'article:modified_time'
+		}
+	],
+	link: [
+		{
+			href: canonical,
+			rel: 'canonical'
+		}
+	],
+	script: [
+		{
+			type: 'application/ld+json',
+			children: JSON.stringify({
+				'@context': 'https://schema.org',
+				'@type': 'BreadcrumbList',
+				itemListElement: [
+					{
+						'@type': 'ListItem',
+						position: 1,
+						name: site.name,
+						item: site.url
+					},
+					{
+						'@type': 'ListItem',
+						position: 1,
+						name: title,
+						item: canonical
+					}
+				]
+			})
 		}
 	]
 })
@@ -127,7 +158,7 @@ useHead({
 	}
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
 	.listItem {
 		.published {
 			display: none;
@@ -140,7 +171,7 @@ useHead({
 	}
 }
 
-@media screen and (min-width: 451px) {
+@media screen and (min-width: 551px) {
 	.listItem {
 		grid-template-columns: 85px 1fr;
 		display: grid;

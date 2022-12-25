@@ -1,16 +1,14 @@
 <template>
-	<div>
-		<picture
-			id="myPic"
-			class="block overflow-hidden lg:fixed lg:top-0 lg:left-0 lg:w-1/3 2xl:-left-6 2xl:w-1/2"
-		>
+	<aside id="bigPhoto" aria-hidden="true">
+		<picture id="myPic" class="block">
 			<NuxtImg
 				alt="A self-taught passionate developer Timo Anttila"
 				aria-label="Portrait of Timo Anttila"
 				class="block w-full h-full object-cover"
-				sizes="sm:200px, md:1000px"
+				format="webp"
+				sizes="sm:250px, lg:1000px"
 				src="/images/timoanttila.jpg"
 			/>
 		</picture>
-	</div>
+	</aside>
 </template>

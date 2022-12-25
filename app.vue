@@ -25,6 +25,49 @@ useHead({
 		{rel: 'icon', type: 'image/x-icon', href: url + '/favicon.ico'},
 		{rel: 'manifest', href: '/site.webmanifest'},
 		{rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#422e43'}
+	],
+	script: [
+		{
+			type: 'application/ld+json',
+			children: JSON.stringify({
+				'@context': 'https://schema.org/',
+				'@type': 'Person',
+				name: 'Timo Anttila',
+				url: 'https://timoanttila.com/',
+				image: 'https://timoanttila.com/timo.jpg',
+				sameAs: [
+					'https://timoanttila.com/',
+					'https://twitter.com/_timoanttila',
+					'https://www.linkedin.com/in/anttilatimo/',
+					'https://github.com/timoanttila',
+					'https://www.etoro.com/people/timoanttila',
+					'https://trakt.tv/users/timoanttila',
+					'https://www.goodreads.com/timoanttila',
+					'https://www.instagram.com/_timoanttila/',
+					'https://www.youtube.com/@timoanttila'
+				],
+				jobTitle: [
+					'Frontend Developer',
+					'Full Stack Developer',
+					'Entrepreneur',
+					'Chief executive officer'
+				],
+				worksFor: [
+					{
+						'@type': 'Organization',
+						name: 'Quux Oy'
+					},
+					{
+						'@type': 'Organization',
+						name: 'Tuspe Design Oy'
+					},
+					{
+						'@type': 'Organization',
+						name: 'Ratsukko Oy'
+					}
+				]
+			})
+		}
 	]
 })
 
@@ -78,10 +121,13 @@ const fontSize = useState('fontSize', () => 18)
 		:class="styleClass"
 		:style="`font-size:${fontSize}px`"
 	>
-		<a href="#content" class="false">Jump to the content</a>
-		<a href="#buttons" class="false">Jump to the navigation</a>
+		<ul class="false" aria-label="Links to page content and navigation">
+			<li><NuxtLink to="#content">Jump to the content</NuxtLink></li>
+			<li><NuxtLink to="#menu">Jump to the navigation</NuxtLink></li>
+			<li><NuxtLink to="#buttons">Jump to the sidebar buttons</NuxtLink></li>
+		</ul>
 
-		<main id="content" class="block min-h-screen pl-6 pb-10">
+		<main id="content" class="block min-h-screen">
 			<NuxtPage />
 		</main>
 
@@ -105,7 +151,7 @@ const fontSize = useState('fontSize', () => 18)
 			</ul>
 		</nav>
 
-		<aside class="bg-secondary">
+		<aside id="menubar" class="bg-secondary">
 			<div id="buttons" class="overflow-y-auto overflow-x-hidden h-full">
 				<div>
 					<button

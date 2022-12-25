@@ -35,7 +35,7 @@ useHead({
 		{
 			rel: 'canonical',
 			property: 'og:url',
-			href: site.url
+			href: site.url + '/'
 		},
 		{
 			rel: 'me',
@@ -54,10 +54,10 @@ useHead({
 </script>
 
 <template>
-	<div id="home" class="lg:grid lg:grid-cols-3 lg:h-screen">
+	<div id="home" class="grid photoSide">
 		<MyPic />
 
-		<div id="content" class="text-center grid z-10 lg:col-span-2">
+		<div id="content" class="text-center grid z-10">
 			<div class="self-center max-w-prose mx-auto">
 				<h1 class="font-koho text-title lg:mt-0">Timo Anttila</h1>
 				<p v-html="body" class="text-content font-light font-montserrat" />
