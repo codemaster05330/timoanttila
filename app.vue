@@ -223,7 +223,11 @@ const fontSize = useState('fontSize', () => 18)
 				</div>
 
 				<div id="accessibility" :class="`${buttonAccessibility}`">
-					<ul id="accessibilityList" class="m-0 p-0" aria-labelledby="accessibilityToggle">
+					<ul
+						id="accessibilityColors"
+						class="align-middle inline-block m-0 p-0"
+						aria-label="Theme color options"
+					>
 						<li v-for="(e, i) in colors" :key="i" class="inline-block align-middle">
 							<button
 								:title="`Change theme to ${e.name}`"
@@ -239,7 +243,13 @@ const fontSize = useState('fontSize', () => 18)
 								</div>
 							</button>
 						</li>
+					</ul>
 
+					<ul
+						id="accessibilityFontSizes"
+						class="align-middle inline-block m-0 p-0"
+						aria-label="Theme's font size options"
+					>
 						<li class="inline-block align-middle">
 							<button
 								:disabled="fontSize >= 25"
