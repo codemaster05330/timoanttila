@@ -50,6 +50,6 @@ useHead({
 <template>
 	<header class="max-w-screen-md mx-auto pb-10 text-center">
 		<h1 class="m-0 text-title">{{ article.title }}</h1>
-		<div class="mt-4 text-1.25em">{{ article.description }}</div>
+		<div class="mt-4 text-1.2em">{{ article.description }}</div>
 	</header>
 </template>

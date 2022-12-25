@@ -50,17 +50,11 @@ useHead({
 </script>
 
 <template>
-	<div id="content" class="lg:grid-cols-3 grid">
+	<div id="aboutMe" class="lg:grid-cols-3 lg:grid">
 		<MyPic />
 
 		<div v-if="article" id="content" class="lg:col-span-2">
-			<article class="block max-w-2xl mx-auto px-4 bg-primary z-30 relative">
-				<h1
-					id="bigText"
-					class="z-20 text-title text-center font-koho my-6 mx-auto max-w-md xl:my-0 xl:fixed xl:bottom-6 xl:left-4 2xl:max-w-xl 2xl:left-18"
-				>
-					{{ article.title }}
-				</h1>
+			<article class="block max-w-2xl mx-auto z-30 relative">
 				<ContentDoc class="font-montserrat font-light text-content" />
 			</article>
 		</div>

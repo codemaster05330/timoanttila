@@ -6,7 +6,7 @@ const {data: article} = await useAsyncData(path, () => queryContent(path).findOn
 <template>
 	<article
 		v-if="article && article.title"
-		class="font-montserrat font-light max-w-screen-lg mx-auto px-4 py-10 text-content"
+		class="font-montserrat font-light max-w-screen-lg mx-auto text-content"
 	>
 		<ArticleHead :article="article" />
 		<ContentRenderer :value="article" />

@@ -53,7 +53,7 @@ useHead({
 </script>
 
 <template>
-	<div class="py-10 px-4 lg:px-10">
+	<div>
 		<div class="text-center mb-10 max-w-lg mx-auto">
 			<h1 class="m-0 text-title">
 				{{ title }}
@@ -75,7 +75,7 @@ useHead({
 			<li
 				v-for="(item, i) in articles"
 				:key="i"
-				class="listItem grid gap-6"
+				class="listItem"
 				:aria-labelledby="`title-${i}`"
 				:aria-describedby="`description-${i}`"
 			>
@@ -102,6 +102,9 @@ useHead({
 					>
 						{{ item.title }}
 					</NuxtLink>
+					<time class="font-montserrat font-light mt-2 text-content" :pubdate="item.createdAt"
+						><DateFormat :item="item.createdAt" dateType="DD.MM.YYYY" class="block"
+					/></time>
 					<div
 						:id="`description-${i}`"
 						class="description font-montserrat font-light mt-2 text-content"
@@ -123,15 +126,28 @@ useHead({
 		border-color: var(--text);
 	}
 }
+
 @media screen and (max-width: 450px) {
 	.listItem {
-		grid-template-columns: 60px 1fr;
+		.published {
+			display: none;
+		}
+
+		&,
+		time {
+			display: block;
+		}
 	}
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 451px) {
 	.listItem {
 		grid-template-columns: 85px 1fr;
+		display: grid;
+		gap: 1rem;
+		time {
+			display: none;
+		}
 	}
 }
 </style>

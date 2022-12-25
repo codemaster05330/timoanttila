@@ -54,11 +54,11 @@ useHead({
 </script>
 
 <template>
-	<div id="home" class="lg:grid lg:grid-cols-3 lg:h-screen lg:pt-0 pt-6">
+	<div id="home" class="lg:grid lg:grid-cols-3 lg:h-screen">
 		<MyPic />
 
 		<div id="content" class="text-center grid z-10 lg:col-span-2">
-			<div class="self-center px-4 max-w-prose mx-auto">
+			<div class="self-center max-w-prose mx-auto">
 				<h1 class="font-koho text-title lg:mt-0">Timo Anttila</h1>
 				<p v-html="body" class="text-content font-light font-montserrat" />
 			</div>

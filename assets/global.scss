@@ -100,7 +100,7 @@ article pre,
 
 .text-title {
   color: var(--text-title);
-  font-size: clamp(2em, 3em, 10vw);
+  font-size: clamp(2em, 3em, 7vw);
   line-height: 1.1;
 }
 
@@ -194,6 +194,12 @@ article {
 }
 
 aside {
+  min-width: 48px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+
   button,
   a {
     &:hover {
@@ -218,33 +224,54 @@ aside {
   }
 }
 
-@media screen and (max-width: 210px) {
-  #buttons .hide-210 {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 270px) {
-  #buttons .hide-270 {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 330px) {
-  #buttons .hide-330 {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 390px) {
-  #buttons .hide-390 {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1000px) {
+@media screen and (max-width: 450px) {
   main {
-    width: calc(100vw - 48px);
+    padding-top: 5rem;
+    padding-right: 1.5rem;
+  }
+
+  aside {
+    height: 48px;
+    width: 100vw;
+  }
+
+  #buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+
+  #accessibility {
+    position: absolute;
+    height: auto;
+    text-align: right;
+    border-top: 2px solid rgba(255, 255, 255, .2);
+    top: 48px;
+    left: 0;
+    width: 100vw;
+    background-color: var(--bg-secondary);
+
+    ul {
+      padding: 0 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 451px) {
+  main {
+    padding-top: 2rem;
+    padding-right: 68px;
+  }
+
+  aside {
+    height: 100vh;
+    text-align: center;
+    width: 48px;
+  }
+
+  #accessibility {
+    text-align: center;
   }
 }
 
@@ -255,17 +282,9 @@ aside {
     margin: 0 auto;
     width: 200px;
   }
-
-  article {
-    width: calc(100vw - 2rem);
-  }
 }
 
 @media screen and (min-width: 1000px) {
-  main {
-    width: calc(100vw - 70px);
-  }
-
   #myPic {
     clip-path: polygon(28% 0, 100% 30%, 58% 100%, 0px 88%, 20% 0);
     height: 90vh;
