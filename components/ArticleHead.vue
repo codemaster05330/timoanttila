@@ -130,7 +130,7 @@ useHead({
 <template>
 	<header class="max-w-screen-md mx-auto pb-6 text-center">
 		<h1 id="articleTitle" class="m-0 text-title" itemprop="headline">{{ article.title }}</h1>
-		<div id="articleDescription" class="mt-4 text-1.2em" itemprop="description">
+		<div id="articleDescription" class="mt-4" itemprop="description">
 			{{ article.description }}
 		</div>
 

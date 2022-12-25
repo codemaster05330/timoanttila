@@ -300,6 +300,10 @@ aside#menubar {
       margin: 0 auto;
     }
   }
+
+  #articleDescription {
+    font-size: 1.08em;
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -320,6 +324,10 @@ aside#menubar {
     img {
       clip-path: polygon(28% 0, 100% 30%, 58% 100%, 0px 88%, 20% 0);
     }
+  }
+
+  #articleDescription {
+    font-size: 1.2em;
   }
 }
 

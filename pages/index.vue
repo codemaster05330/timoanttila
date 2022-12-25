@@ -54,7 +54,7 @@ useHead({
 </script>
 
 <template>
-	<div id="home" class="grid photoSide">
+	<div id="home" class="photoSide">
 		<MyPic />
 
 		<div id="content" class="text-center grid z-10">

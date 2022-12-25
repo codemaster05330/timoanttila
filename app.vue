@@ -117,7 +117,7 @@ const fontSize = useState('fontSize', () => 18)
 <template>
 	<div
 		id="matrix"
-		class="relative w-screen bg-primary"
+		class="relative w-screen overflow-x-hidden bg-primary"
 		:class="styleClass"
 		:style="`font-size:${fontSize}px`"
 	>

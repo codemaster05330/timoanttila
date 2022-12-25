@@ -3,7 +3,7 @@ const {data: article} = await useAsyncData('about', () => queryContent('/about')
 </script>
 
 <template>
-	<div id="aboutMe" class="grid photoSide">
+	<div id="aboutMe" class="photoSide">
 		<MyPic />
 
 		<div v-if="article && article.title">
