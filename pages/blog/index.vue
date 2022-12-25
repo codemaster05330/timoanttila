@@ -110,7 +110,7 @@ useHead({
 				<div class="published">
 					<div class="font-montserrat text-center text-content">
 						<div
-							class="grid border border-solid border-opacity-40 h-20 font-montserrat font-bold leading-tight"
+							class="border border-solid border-opacity-40 font-bold font-montserrat grid h-20 leading-tight rounded-lg"
 						>
 							<div class="self-center">
 								<DateFormat :item="item.createdAt" dateType="DD" class="block text-1.4em" />
