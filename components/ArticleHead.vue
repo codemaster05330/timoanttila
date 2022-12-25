@@ -37,7 +37,7 @@ if (items[1] === 'blog') {
 		'@type': 'ListItem',
 		position,
 		name: 'Articles',
-		item: site.url + '/blog'
+		item: site.url + '/blog/'
 	})
 	position++
 }

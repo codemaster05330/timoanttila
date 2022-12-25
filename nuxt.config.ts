@@ -3,11 +3,10 @@ export default defineNuxtConfig({
 	css: ['@/assets/global.scss'],
 	unocss: {
 		attributify: true,
-		icons: true,
 		uno: true
 	},
 	routeRules: {
-		'*': {static: true},
+		'*': {static: true, ssr: true},
 		'/fi': {redirect: '/'},
 		'/fi/info': {redirect: '/about/'},
 		'/tutorials': {redirect: '/blog/'},

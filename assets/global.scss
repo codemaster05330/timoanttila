@@ -298,20 +298,47 @@ aside#menubar {
     height: 100vh;
   }
 
-  #myPic {
-    clip-path: polygon(28% 0, 100% 30%, 58% 100%, 0px 88%, 20% 0);
-    height: 90vh;
+  #bigPhoto {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  #bigPhoto {
+    height: 100vh;
+
+    img {
+      clip-path: polygon(28% 0, 100% 30%, 58% 100%, 0px 88%, 20% 0);
+    }
   }
 }
 
-@media screen and (max-width: 1100px) and (min-width: 1000px) {
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
   .photoSide {
-    grid-template-columns: 300px 1fr;
+    padding-left: 300px;
+  }
+
+  #bigPhoto {
+    width: 310px;
   }
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
   .photoSide {
-    grid-template-columns: 1fr 1fr;
+    padding-left: 40vw;
+  }
+
+  #bigPhoto {
+    width: 38vw;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .photoSide {
+    padding-left: 600px;
+  }
+
+  #bigPhoto {
+    width: 550px;
   }
 }
