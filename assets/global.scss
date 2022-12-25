@@ -308,6 +308,7 @@ aside#menubar {
 
 @media screen and (min-width: 1000px) {
   #home {
+    display: grid;
     height: 90vh;
     overflow: hidden;
   }
