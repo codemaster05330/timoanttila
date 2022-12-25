@@ -89,10 +89,7 @@ useHead({
 			<h1 class="m-0 text-title">
 				{{ title }}
 			</h1>
-			<p
-				id="articleDescription"
-				class="font-montserrat font-light leading-normal mt-2 text-content text-desc"
-			>
+			<p id="articleDescription" class="font-montserrat font-light mt-2 text-content text-desc">
 				{{ description }}
 			</p>
 		</div>
@@ -128,7 +125,7 @@ useHead({
 						:id="`title-${i}`"
 						:pubdate="item.createdAt"
 						:to="`${item._path}/`"
-						class="articleLink block font-koho no-underline hover:underline text-1.6em"
+						class="articleLink block font-koho no-underline hover:underline text-1.4em leading-tight"
 						role="article"
 					>
 						{{ item.title }}

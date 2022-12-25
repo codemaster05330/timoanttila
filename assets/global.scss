@@ -29,35 +29,36 @@
 :root {
   --white: #fff;
   --light: rgba(255 255 255 / 87%);
+  --violet2: #70688a;
 }
 
 .violet {
   --bg-primary: #422e43;
-  --bg-secondary: #70688a;
-  --text-title: #ffde59;
+  --bg-secondary: var(--violet2);
   --text: var(--light);
+  --text-title: #ffde59;
   --text-link: var(--text-title);
 }
 
 .dark {
   --bg-primary: #121212;
   --bg-secondary: #282828;
-  --text-link: #c38fff;
-  --text-title: var(--white);
   --text: var(--light);
+  --text-title: var(--white);
+  --text-link: #c38fff;
 }
 
 .blue {
   --bg-primary: #04293a;
   --bg-secondary: #063a52;
-  --text-link: #ecb365;
-  --text-title: #e2e2e2;
   --text: rgb(214, 210, 196);
+  --text-title: #e2e2e2;
+  --text-link: #ecb365;
 }
 
 .white {
   --bg-primary: #f2f2f2;
-  --bg-secondary: #8d80ad;
+  --bg-secondary: var(--violet2);
   --text: rgba(0, 0, 0, .87);
   --text-title: #000;
   --text-link: #810ca8;
