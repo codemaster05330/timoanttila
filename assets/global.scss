@@ -22,6 +22,10 @@
   font-display: swap;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --white: #fff;
   --light: rgba(255 255 255 / 87%);
@@ -64,7 +68,6 @@ html {
 }
 
 body {
-  box-sizing: border-box;
   margin: 0;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
@@ -286,16 +289,23 @@ aside#menubar {
 @media screen and (max-width: 1000px) {
   #bigPhoto {
     border-radius: 50%;
-    height: 250px;
+    height: 200px;
     margin: 0 auto 1.5rem;
     overflow: hidden;
-    width: 250px;
+    width: 200px;
+  }
+
+  #home {
+    .max-w-prose {
+      margin: 0 auto;
+    }
   }
 }
 
 @media screen and (min-width: 1000px) {
   #home {
-    height: 100vh;
+    height: 90vh;
+    overflow: hidden;
   }
 
   #bigPhoto {

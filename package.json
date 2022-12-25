@@ -26,7 +26,6 @@
   },
   "devDependencies": {
     "@nuxt/content": "^2.3.0",
-    "@nuxt/image-edge": "^1.0.0-27840416.dc1ed65",
     "@unocss/nuxt": "^0.48.0",
     "nuxt": "latest",
     "prettier": "^2.8.1",

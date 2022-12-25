@@ -8,7 +8,7 @@ const {data: article} = await useAsyncData('about', () => queryContent('/about')
 
 		<div v-if="article && article.title">
 			<article
-				class="block font-montserrat max-w-2xl mx-auto relative text-content z-30"
+				class="block font-montserrat max-w-screen-md text-content z-30"
 				itemscope
 				itemtype="http://schema.org/Article"
 			>

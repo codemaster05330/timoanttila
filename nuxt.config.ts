@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-	modules: ['@nuxt/content', '@nuxt/image-edge', '@unocss/nuxt'],
+	modules: ['@nuxt/content', '@unocss/nuxt'],
 	css: ['@/assets/global.scss'],
 	unocss: {
 		attributify: true,

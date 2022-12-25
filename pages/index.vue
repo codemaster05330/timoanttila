@@ -58,7 +58,7 @@ useHead({
 		<MyPic />
 
 		<div id="content" class="text-center grid z-10">
-			<div class="self-center max-w-prose mx-auto">
+			<div class="self-center max-w-prose">
 				<h1 class="font-koho text-title lg:mt-0">Timo Anttila</h1>
 				<p v-html="body" class="text-content font-light font-montserrat" />
 			</div>
