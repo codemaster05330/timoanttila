@@ -224,11 +224,11 @@ const fontSize = useState('fontSize', () => 18)
 
 				<div id="accessibility" :class="`${buttonAccessibility}`">
 					<ul id="accessibilityList" class="m-0 p-0" aria-labelledby="accessibilityToggle">
-						<li v-for="(e, i) in colors" :key="i" class="inline-block align-middle" role="listitem">
+						<li v-for="(e, i) in colors" :key="i" class="inline-block align-middle">
 							<button
 								:title="`Change theme to ${e.name}`"
 								@click="styleClass = e.name"
-								class="w-12 h-12 mx-auto bg-transparent border-0 text-center p-0"
+								class="bg-transparent border-0 h-12 mx-auto text-center p-0 w-12"
 							>
 								<div
 									:aria-label="`Theme ${e.name}`"
@@ -245,7 +245,7 @@ const fontSize = useState('fontSize', () => 18)
 								:disabled="fontSize >= 25"
 								@click="fontSize = fontSize + 1"
 								aria-label="Increase the font size of the site"
-								class="w-12 h-12 mx-auto bg-transparent border-0 p-0"
+								class="bg-transparent border-0 h-12 mx-auto p-0 w-12"
 								title="Font magnification"
 							>
 								<div class="grid font-koho h-full text-1.5rem text-center w-full">
@@ -259,7 +259,7 @@ const fontSize = useState('fontSize', () => 18)
 								:disabled="fontSize <= 14"
 								@click="fontSize = fontSize - 1"
 								aria-label="Reduce the font size of the site"
-								class="w-12 h-12 mx-auto bg-transparent border-0 p-0"
+								class="bg-transparent border-0 h-12 mx-auto p-0 w-12"
 								title="Font reduction"
 							>
 								<div class="grid font-koho h-full text-1.5rem w-full">
