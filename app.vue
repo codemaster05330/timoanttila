@@ -122,9 +122,9 @@ const fontSize = useState('fontSize', () => 18)
 		:style="`font-size:${fontSize}px`"
 	>
 		<ul class="false" aria-label="Links to page content and navigation">
-			<li><NuxtLink to="#content">Jump to the content</NuxtLink></li>
-			<li><NuxtLink to="#menu">Jump to the navigation</NuxtLink></li>
-			<li><NuxtLink to="#buttons">Jump to the sidebar buttons</NuxtLink></li>
+			<li><a href="#content">Jump to the content</a></li>
+			<li><a href="#menu">Jump to the navigation</a></li>
+			<li><a href="#buttons">Jump to the sidebar buttons</a></li>
 		</ul>
 
 		<main id="content" class="block min-h-screen">
