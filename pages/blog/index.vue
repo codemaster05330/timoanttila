@@ -84,15 +84,15 @@ useHead({
 </script>
 
 <template>
-	<div>
-		<div class="text-center mb-10 max-w-lg mx-auto">
+	<div id="content">
+		<header class="text-center mb-10 max-w-lg mx-auto">
 			<h1 class="m-0 text-title">
 				{{ title }}
 			</h1>
 			<p id="articleDescription" class="font-montserrat font-light mt-2 text-content text-desc">
 				{{ description }}
 			</p>
-		</div>
+		</header>
 
 		<ul
 			v-if="articles"
