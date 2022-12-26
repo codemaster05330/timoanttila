@@ -196,7 +196,7 @@ const fontSize = useState('fontSize', () => 18)
 						:aria-expanded="String(buttonAccessibility)"
 						:class="`w-12 h-12 mx-auto inline-block align-middle bg-transparent border-0 m-0 p-0 ${buttonAccessibility}`"
 						@click="buttonAccessibility = !buttonAccessibility"
-						aria-controls="accessibilityList"
+						aria-controls="accessibility"
 						aria-haspopup="true"
 						aria-label="Open / close the accessibility menu"
 						id="accessibilityToggle"
