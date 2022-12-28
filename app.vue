@@ -44,7 +44,8 @@ useHead({
 					'https://trakt.tv/users/timoanttila',
 					'https://www.goodreads.com/timoanttila',
 					'https://www.instagram.com/_timoanttila/',
-					'https://www.youtube.com/@timoanttila'
+					'https://www.youtube.com/@timoanttila',
+					'https://tuspe.com/'
 				],
 				jobTitle: [
 					'Frontend Developer',
@@ -281,6 +282,30 @@ const fontSize = useState('fontSize', () => 18)
 				>
 					<li class="inline-block align-middle">
 						<a
+							aria-label="Open the link to Timo Anttila's profile on LinkedIn"
+							class="w-12 h-12 mx-auto inline-block align-middle bg-transparent border-0 md:m-0 p-0 hide-210"
+							href="https://www.linkedin.com/in/anttilatimo/"
+							title="Timo Anttila on Twitter"
+						>
+							<div class="grid w-full h-full">
+								<svg
+									class="self-center mx-auto"
+									height="24"
+									viewBox="0 0 24 24"
+									width="24"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<title>LinkedIn</title>
+									<path
+										d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"
+									/>
+								</svg>
+							</div>
+						</a>
+					</li>
+
+					<li class="inline-block align-middle">
+						<a
 							aria-label="Open the link to Timo Anttila's profile on Twitter"
 							class="w-12 h-12 mx-auto inline-block align-middle bg-transparent border-0 md:m-0 p-0 hide-210"
 							href="https://twitter.com/_timoanttila"
@@ -289,9 +314,9 @@ const fontSize = useState('fontSize', () => 18)
 							<div class="grid w-full h-full">
 								<svg
 									class="self-center mx-auto"
-									height="32"
+									height="24"
 									viewBox="0 0 24 24"
-									width="32"
+									width="24"
 									xmlns="http://www.w3.org/2000/svg"
 								>
 									<title>Twitter</title>
@@ -313,9 +338,9 @@ const fontSize = useState('fontSize', () => 18)
 							<div class="grid w-full h-full">
 								<svg
 									class="self-center mx-auto"
-									height="32"
+									height="24"
 									viewBox="0 0 24 24"
-									width="32"
+									width="24"
 									xmlns="http://www.w3.org/2000/svg"
 								>
 									<title>Github</title>
@@ -337,9 +362,9 @@ const fontSize = useState('fontSize', () => 18)
 							<div class="grid w-full h-full">
 								<svg
 									class="self-center mx-auto"
-									height="32"
+									height="24"
 									viewBox="0 0 24 24"
-									width="32"
+									width="24"
 									xmlns="http://www.w3.org/2000/svg"
 								>
 									<title>Github</title>
