@@ -235,7 +235,7 @@ const fontSize = useState('fontSize', () => 18)
 							>
 								<span
 									:style="`background-color:${e.color}`"
-									class="block border border-solid border-gray-100 border-opacity-80 h-8 mx-auto rounded-full w-8"
+									class="block border border-solid border-text border-opacity-80 h-8 mx-auto rounded-full w-8"
 								>
 									<span class="hidden">{{ e.name }}Mode</span>
 								</span>

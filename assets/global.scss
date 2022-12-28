@@ -1,20 +1,4 @@
 @font-face {
-  font-family: montserrat;
-  src: url("/fonts/montserrat-light-webfont.woff2") format("woff2"), url("/fonts/montserrat-light-webfont.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: montserrat;
-  src: url("/fonts/montserrat-bold-webfont.woff2") format("woff2"), url("/fonts/montserrat-bold-webfont.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: koho;
   src: url("/fonts/koho-bold-webfont.woff2") format("woff2"), url("/fonts/koho-bold-webfont.woff") format("woff");
   font-weight: 700;
@@ -29,12 +13,11 @@
 :root {
   --white: #fff;
   --light: rgba(255 255 255 / 87%);
-  --violet2: #5b5570;
 }
 
 .violet {
   --bg-primary: #422e43;
-  --bg-secondary: var(--violet2);
+  --bg-secondary: #5b5570;
   --text: var(--light);
   --text-title: #ffde59;
   --text-link: var(--text-title);
@@ -57,11 +40,11 @@
 }
 
 .white {
-  --bg-primary: #f2f2f2;
-  --bg-secondary: var(--violet2);
-  --text: rgba(0, 0, 0, .87);
-  --text-title: #000;
-  --text-link: #4c74b9;
+  --bg-primary: #fafafa;
+  --bg-secondary: #eaf1fb;
+  --text: #1f1f1f;
+  --text-title: #3d4043;
+  --text-link: #185abc;
 }
 
 html {
@@ -73,15 +56,12 @@ body {
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
   width: 100vw;
+  font-family: Verdana, Tahoma, sans-serif;
 }
 
 a,
 button {
   cursor: pointer;
-}
-
-.font-montserrat {
-  font-family: montserrat;
 }
 
 .font-koho,
@@ -99,6 +79,7 @@ strong {
 
 article pre,
 .bg-secondary {
+  color: var(--text);
   background-color: var(--bg-secondary);
 }
 
@@ -192,11 +173,10 @@ article {
 
   pre {
     border-radius: .6rem;
-    color: var(--light);
     margin: 1rem 0;
     max-width: 100%;
     padding: 1rem;
-    overflow-x: scroll;
+    overflow-x: auto;
 
     &,
     code {
@@ -215,21 +195,21 @@ aside#menubar {
   button,
   a {
     &:hover {
-      color: var(--white);
+      color: var(--text-link);
 
       svg,
       svg path {
-        fill: var(--white);
+        fill: var(--text-link);
       }
     }
 
     &:not(:hover) {
-      color: var(--light);
+      color: var(--text);
 
       svg {
         &,
         path {
-          fill: var(--light);
+          fill: var(--text);
         }
       }
     }

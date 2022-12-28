@@ -1,6 +1,6 @@
 {
   "name": "timoanttila",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Personal website with many different content types and support for Markdown and SCSS. Built on Nuxt 3.",
   "homepage": "https://timoanttila.com",
   "bugs": "https://github.com/timoanttila/timoanttila/issues",

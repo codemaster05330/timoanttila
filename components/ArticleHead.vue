@@ -134,11 +134,7 @@ useHead({
 			{{ article.description }}
 		</div>
 
-		<div
-			v-if="datesActive"
-			id="articlePublished"
-			class="font-montserrat font-light mt-1 text-content"
-		>
+		<div v-if="datesActive" id="articlePublished" class="mt-1 text-content">
 			<small>
 				<time :content="article.createdAt" :datetime="article.createdAt" itemprop="datePublished"
 					><DateFormat :item="article.createdAt" dateType="MMMM DD, YYYY"

@@ -89,7 +89,7 @@ useHead({
 			<h1 class="m-0 text-title">
 				{{ title }}
 			</h1>
-			<p id="articleDescription" class="font-montserrat font-light mt-2 text-content text-desc">
+			<p id="articleDescription" class="mt-2 text-content text-desc">
 				{{ description }}
 			</p>
 		</header>
@@ -108,9 +108,9 @@ useHead({
 				:aria-describedby="`description-${i}`"
 			>
 				<div class="published">
-					<div class="font-montserrat text-center text-content">
+					<div class="text-center text-content">
 						<div
-							class="border border-solid border-opacity-40 font-bold font-montserrat grid h-20 leading-tight rounded-lg"
+							class="border border-solid border-opacity-40 font-bold grid h-20 leading-tight rounded-lg"
 						>
 							<div class="self-center">
 								<DateFormat :item="item.createdAt" dateType="DD" class="block text-1.4em" />
@@ -130,13 +130,10 @@ useHead({
 					>
 						{{ item.title }}
 					</NuxtLink>
-					<time class="font-montserrat font-light mt-2 text-content" :pubdate="item.createdAt"
-						><DateFormat :item="item.createdAt" dateType="DD.MM.YYYY" class="block"
-					/></time>
-					<div
-						:id="`description-${i}`"
-						class="description font-montserrat font-light mt-2 text-content"
-					>
+					<time class="mt-2 text-content" :datetime="item.createdAt">
+						<DateFormat :item="item.createdAt" dateType="DD.MM.YYYY" class="block" />
+					</time>
+					<div :id="`description-${i}`" class="description font-light mt-2 text-content">
 						{{ item.description }}
 					</div>
 				</div>

@@ -7,7 +7,7 @@ const {data: article} = await useAsyncData(path, () => queryContent(path).findOn
 	<article
 		v-if="article && article.title"
 		id="content"
-		class="font-montserrat font-light max-w-screen-lg mx-auto text-content"
+		class="max-w-screen-lg mx-auto text-content"
 		itemscope
 		itemtype="http://schema.org/BlogPosting"
 	>
