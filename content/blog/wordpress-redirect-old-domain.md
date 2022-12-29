@@ -31,7 +31,7 @@ RewriteRule ^(.*)$ https://newdomain.com/myotheroldsite/$1 [R=301,L]
 ```
 There is probably a better way to use regular expressions, but this is the simplest way I found.
 
-## If the old website is active, use its htaccess file
+## If the old website is active, use its .htaccess file
 
 If the old website is still up and running, you can use its `.htaccess` file. This is a simplified version of the code above that can also be used for local page redirects.
 
