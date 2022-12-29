@@ -77,7 +77,8 @@ strong {
   background-color: var(--bg-primary);
 }
 
-article pre,
+pre,
+p code,
 .bg-secondary {
   color: var(--text);
   background-color: var(--bg-secondary);
@@ -182,6 +183,11 @@ article {
     code {
       display: block;
     }
+  }
+
+  p code {
+    padding: 0 6px;
+    border-radius: 4px;
   }
 }
 
