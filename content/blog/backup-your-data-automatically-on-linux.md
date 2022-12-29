@@ -32,7 +32,7 @@ for db in $databases; do
 done
 ```
 
-## Make a backup of all important files.
+## Make a backup of all important files
 
 Because the files are less important than the database, take up more space, and are changed less frequently, I back them up only once per week. I always have two backups on hand. This script compresses my wwwroot and places the file where it belongs.
 
@@ -50,7 +50,7 @@ An entry in cron is made up of a series of fields separated by a space. Cron tim
 To command line:
 
 ```Bash
-<code>crontab -e
+crontab -e
 ```
 
 Edit crontab:

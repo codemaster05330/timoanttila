@@ -1,15 +1,16 @@
 ---
 title: A beginner's guide to MySQL / MariaDB
-createdAt: 2015-10-20T03:24:42.000Z
-description: A basic tutorial how to take control of MySQL / MariaDB server, how to make a database and a user, and how to store information in the MySQL database.
+createdAt: 2015-10-20T03:24:42+02:00
+updatedAt: 2022-12-29T21:25:49+02:00
+description: A basic tutorial on how to take control of a MySQL / MariaDB server, create a database and a user, and store data in a MySQL database.
 tags: tutorials, servers, sql
 ---
 
-Normally, you can do everything with MySQL Workbench, HeidiSQL, DBeaver or software like that, but sometimes, you need to know how to use basic MySQL commands to complete your tasks.
+Normally, you can complete all tasks with Sequel Pro, MySQL Workbench, HeidiSQL, DBeaver, or similar software, but there are times when you need to know how to use basic MySQL commands to complete your tasks.
 
-## How to install MySQL / MariaDB on Ubuntu, Debian and CentOS
+## MySQL / MariaDB installation on Ubuntu, Debian, and CentOS
 
-If you don't have MySQL installed on your server, you can quickly download it. Getting the right packets depends on your system, but it's very easy if you're using Debian / Ubuntu based systems or CentOS. Use a complex password for the root account when the system asks you to type it. Do not use same password what you use for your server's root / superuser account.
+If MySQL is not already installed on your server, you can quickly download it. Getting the correct packets depends on your system, but it's very simple if you're running Debian / Ubuntu or CentOS. When the system prompts you to enter a password for the root account, use a complex one. Use a different password for your server's root / superuser account.
 
 ### Debian and Ubuntu
 
@@ -36,21 +37,21 @@ sudo /etc/init.d/mysql restart | stop | start
 
 ## How to access the MySQL / MariaDB server
 
-I prefer a graphical interface for creating and managing databases and users (ex. [MySQL Workbench](https://www.mysql.com/products/workbench/), [HeidiSQL](https://www.heidisql.com/), [phpMyAdmin](https://www.phpmyadmin.net/), but you can also connect to the MySQL server by typing the following command into terminal:
+For creating and managing databases and users, I prefer a graphical interface, but you can also connect to the MySQL server by typing the following command into terminal:
 
 ```Shell
 mysql -u username -p
 ```
 
-If you're logging in the first time, then you probably don't have any other users than root and the password for that user is whatever you put when you installed the MySQL server.
+If this is your first time logging in, you probably don't have any other users other than root, and the password for that user is whatever you entered when you installed the MySQL server.
 
-Remember, all MySQL commands end with a semicolon (;). The command will not execute without it.
+Remember that all MySQL commands must be followed by a semicolon (;). Without it, the command will not run.
 
-It is common practise that MySQL commands are written in uppercase and everything else, like database and user names, are in lowercase to make them easier to distinguish. However, the MySQL command line is not case sensitive and you can write everything in lowercase if you like to.
+MySQL commands are typically written in uppercase, while everything else, such as database and user names, is written in lowercase to make them easier to distinguish. The MySQL command line, on the other hand, is not case sensitive, so you can type everything in lowercase if you prefer.
 
 ## How to create, access and delete a MySQL / MariaDB Database
 
-Let's make a database called test. Log in to the MySQL server as root and type:
+Let's create a test database. Log in as root to the MySQL server and type:
 
 ```SQL
 CREATE DATABASE test;
@@ -71,13 +72,13 @@ After creating a database, you can start using it and store information in it. O
 USE test;
 ```
 
-Now you're in the database and can create tables. Remember, table and database names are case sensitive.
+You are now in the database and have the ability to create tables. Keep in mind that table and database names are case sensitive.
 
 ## How to create a table inside of the database
 
-Let's create a table called test. There has to be a **PRIMARY KEY** in every table and in this case the key is **AUTO_INCREMENT** meaning it automatically numbers each row. The key must be unique, because rows are identified by it.
+Let's call this table test. Every table must have a **PRIMARY KEY**, and in this case, the key is **AUTO INCREMENT**, which means that each row is automatically numbered. Because it identifies rows, the key must be unique.
 
-There will also be a name and birthday. Name is using **VARCHAR** and bday is **DATE**. MySQL requires that dates be written as **yyyy-mm-dd**.
+A name and birthday will also be included. **VARCHAR** is used for the name, and **DATE** is used for the birthday. MySQL requires dates to be formatted as **yyyy-mm-dd**.
 
 ```SQL
 CREATE TABLE test (
@@ -130,15 +131,15 @@ DROP DATABASE test;
 
 ## How to use mysqldump to get backups or schema
 
-I usually use the `mysqldump` command to take database backups, but it can also take out a schema without data. I sometimes use it when saving initial settings to Github.
+I typically use the `mysqldump` command to backup databases, but it can also extract a schema without data. I use it occasionally when saving initial settings to Github.
 
 ```SQL
 mysqldump -u youruser -p yourdatabase
 ```
 
-The `-u` flag indicates the username and the `-p` flag that a password will be supplied. After pressing `<enter>` you will be prompted for the password.
+The `-u` flag specifies the username, while the '-p' flag specifies that a password will be supplied. You will be prompted for your password after pressing `<enter>`.
 
-Alternatively, the password can be supplied on the command line, but there must be no space between the `-p` flag and the password. For example, if the password was "tuspe" do this:
+The password can also be supplied on the command line, but there must be no space between the `-p` flag and the password. For instance, if the password was `tuspe`, do the following:
 
 ```SQL
 mysqldump --d -u youruser -ptuspe yourdatabase
@@ -163,31 +164,31 @@ There should be only one database per user. It is more secure.
 
 ## MySQL user permission
 
-The next command will give all the rights to the certain database but the user can not grant privileges to other users or take anything from them. The user can control the database, create tables and data, and drop everything. That is the most common way to give access to the database.
+The following command grants the user full access to the specified database, but the user cannot grant or take privileges from other users. The user has the ability to manage the database, create tables and data, and delete everything. This is the most common method of granting database access.
 
 ```SQL
 GRANT ALL PRIVILEGES ON test.* TO 'newuser'@'localhost';
 ```
 
-If you really want to, you can also give the user superuser rights with the grant option. That is not recommended when working with CMS or apps.
+If you really want to, you can grant the user superuser privileges using the grant option. When working with CMS or apps, this is not recommended.
 
 ```SQL
 GRANT ALL PRIVILEGES ON mydb.* TO 'myuser'@'%' WITH GRANT OPTION;
 ```
 
-You can also give certain permissions to the database or the table if you don't want to give all the rights.
+If you do not want to grant all rights to the database or table, you can grant specific permissions.
 
 ```SQL
 GRANT [type of permission] ON [database name].[table name] TO 'username'@'localhost';
 ```
 
-Or you can revoke some rights if the user don't need them:
+You can also revoke some rights if the user no longer requires them:
 
 ```SQL
 REVOKE [type of permission] ON [database name].[table name] FROM 'username'@'localhost';
 ```
 
-After making a change, you should flush privileges.
+You should flush privileges after making any changes.
 
 ```SQL
 FLUSH PRIVILEGES;
@@ -211,4 +212,4 @@ DROP USER 'demo'@'localhost';
 mysqlcheck -u username -p --optimize --all-databases
 ```
 
-Thanks for reading!
+Thank you for your time!
