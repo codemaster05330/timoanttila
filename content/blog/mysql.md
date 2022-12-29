@@ -76,9 +76,9 @@ You are now in the database and have the ability to create tables. Keep in mind 
 
 ## How to create a table inside of the database
 
-Let's call this table test. Every table must have a **PRIMARY KEY**, and in this case, the key is **AUTO INCREMENT**, which means that each row is automatically numbered. Because it identifies rows, the key must be unique.
+Let's call this table test. Every table must have a `PRIMARY KEY`, and in this case, the key is `AUTO INCREMENT`, which means that each row is automatically numbered. Because it identifies rows, the key must be unique.
 
-A name and birthday will also be included. **VARCHAR** is used for the name, and **DATE** is used for the birthday. MySQL requires dates to be formatted as **yyyy-mm-dd**.
+A name and birthday will also be included. `VARCHAR` is used for the name, and `DATE` is used for the birthday. MySQL requires dates to be formatted as `yyyy-mm-dd`.
 
 ```SQL
 CREATE TABLE test (

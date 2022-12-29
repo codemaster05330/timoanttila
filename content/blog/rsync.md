@@ -6,7 +6,7 @@ description: Rsync is a powerful tool for transferring and synchronizing data be
 tags: tutorials, servers, backup, crontab, security
 ---
 
-`[Rsync](https://linux.die.net/man/1/rsync)` finds files that need to be transferred by default using a `lqquick checkrq` algorithm that looks for files that have changed in size or last-modified time. Any changes in the other preserved attributes (as requested by options) are made on the destination file directly when the quick check indicates that the file's data does not need to be updated.
+[Rsync](https://linux.die.net/man/1/rsync) finds files that need to be transferred by default using a `lqquick checkrq` algorithm that looks for files that have changed in size or last-modified time. Any changes in the other preserved attributes (as requested by options) are made on the destination file directly when the quick check indicates that the file's data does not need to be updated.
 
 All new and modified files are transferred from Server 1 to Server 2. Full copy over SSH takes less time and bandwidth. Because it does not affect local files, you do not require write permission on Server 1 (and in my case, my user does not have write permission to /wwwroot).
 
