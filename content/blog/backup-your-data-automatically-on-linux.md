@@ -12,11 +12,11 @@ Backups are one of the most important aspects of running a server that houses cl
 
 Data changes on a daily basis, so a recent backup must be available in the event of a disaster. You never know what might happen, so it's better to be safe than sorry. If you don't run a very popular web store, once per day is usually sufficient.
 
-The script requires the username and password of the root / backup user, who has the authority to retrieve databases one by one. The user requires the privileges **EVENT**, **LOCK TABLES**, **SELECT**, and **SHOW DATABASES**. The script cannot destroy anything, so there is no need to be concerned.
+The script requires the username and password of the root / backup user, who has the authority to retrieve databases one by one. The user requires the privileges `EVENT`, `LOCK TABLES`, `SELECT`, and `SHOW DATABASES`. The script cannot destroy anything, so there is no need to be concerned.
 
 First, the script defines the variables, which are username, password, and the location of the files. Then, from the MySQL server, pull all the databases to `$databases` and break it with a for loop to `$db`. The script is now aware of the database names.
 
-If the database is not **information_schema** or start with **_** then use mysqldump to print the content of the database to SQL file. After that's done, compress it with **gzip**. The script does this separately for each database.
+If the database is not `information_schema` or start with `_` then use mysqldump to print the content of the database to SQL file. After that's done, compress it with `gzip`. The script does this separately for each database.
 
 ```Bash
 #!/bin/bash
