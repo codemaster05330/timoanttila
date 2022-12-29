@@ -137,13 +137,13 @@ useHead({
 		<div v-if="datesActive" id="articlePublished" class="mt-1 text-content">
 			<small>
 				<time :content="article.createdAt" :datetime="article.createdAt" itemprop="datePublished"
-					><DateFormat :item="article.createdAt" dateType="MMMM DD, YYYY"
+					><DateFormat :item="article.createdAt" dateType="MMM DD, YYYY"
 				/></time>
 
-				<span v-if="article.updatedAt"
-					>(last modified
+				<span v-if="article.updatedAt">
+					(modified
 					<time :datetime="article.updatedAt" itemprop="dateModified" :content="article.updatedAt"
-						><DateFormat :item="article.createdAt" dateType="MMMM DD, YYYY" /></time
+						><DateFormat :item="article.updatedAt" dateType="MMM DD, YY" /></time
 					>)</span
 				>
 				by

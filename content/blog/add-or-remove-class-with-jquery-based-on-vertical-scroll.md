@@ -1,7 +1,7 @@
 ---
 title: Add or remove class with JQuery based on vertical scroll
 createdAt: 2016-03-02T04:20:02.000Z
-description: A tutorial to show how to use JavaScript and CSS to change the appearance of  when scrolling down on the website.
+description: A tutorial to show how to use JavaScript and CSS to change the appearance of when scrolling down on the website.
 tags: tutorials, webdev, jquery
 ---
 
@@ -10,11 +10,11 @@ I often use **JQuery** to change appearance of `<header>` when scrolling down on
 ```JQuery
 <script>
 $(window).scroll(function() {
-   if ($(this).scrollTop() > 150){
-      $('header').addClass("small");
-   } else {
-      $('header').removeClass("small");
-   }
+  if ($(this).scrollTop() > 150){
+    $('header').addClass("small");
+  } else {
+    $('header').removeClass("small");
+  }
 });
 </script>
 ```
