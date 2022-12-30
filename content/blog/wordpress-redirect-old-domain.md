@@ -1,7 +1,7 @@
 ---
-title: Redirect old domain to new address in WordPress via .htaccess
+title: Redirect old domain to new domain in WordPress via .htaccess
 createdAt: 2022-12-29T19:17:24+02:00
-description: How to use .htaccess to redirect all traffic from the old and still valid domain to the new address in the same WordPress directory.
+description: How to use .htaccess to redirect all traffic from the old and still valid domain to the new domain in the same WordPress directory.
 tags: tutorials, wordpress, domain, htaccess
 image: wordpress
 ---
