@@ -113,6 +113,34 @@ const styleClass = useState('colorStyle', () => 'violet')
 const buttonMenu = useState('buttonMenu', () => false)
 const buttonAccessibility = useState('buttonAccessibility', () => false)
 const fontSize = useState('fontSize', () => 18)
+
+const social = [
+	{
+		icon: 'ri:linkedin-fill',
+		name: 'LinkedIn',
+		url: 'https://www.linkedin.com/in/anttilatimo/'
+	},
+	{
+		icon: 'mdi:twitter',
+		name: 'Twitter',
+		url: 'https://twitter.com/_timoanttila'
+	},
+	{
+		icon: 'fe:github-alt',
+		name: 'Github',
+		url: 'https://github.com/timoanttila'
+	},
+	{
+		icon: 'simple-icons:trakt',
+		name: 'Trakt.tv',
+		url: 'https://trakt.tv/users/timoanttila'
+	},
+	{
+		icon: 'mdi:goodreads',
+		name: 'Goodreads',
+		url: 'https://www.goodreads.com/timoanttila'
+	}
+]
 </script>
 
 <template>
@@ -237,49 +265,17 @@ const fontSize = useState('fontSize', () => 18)
 					class="p-0 mb-0 mt-6 mx-0 inline-block align-middle"
 					title="You have right to stalk me"
 				>
-					<li class="inline-block align-middle">
+					<li
+						v-for="(item, index) in social"
+						:key="index"
+						class="inline-block align-middle"
+						role="none"
+					>
 						<LinkSquare
-							icon="ri:linkedin-fill"
-							aria-label="Open the link to Timo Anttila's profile on LinkedIn"
-							link="https://www.linkedin.com/in/anttilatimo/"
-							title="Timo Anttila on Twitter"
-						/>
-					</li>
-
-					<li class="inline-block align-middle">
-						<LinkSquare
-							icon="mdi:twitter"
-							aria-label="Open the link to Timo Anttila's profile on Twitter"
-							link="https://twitter.com/_timoanttila"
-							title="Timo Anttila on Twitter"
-						/>
-					</li>
-
-					<li class="inline-block align-middle">
-						<LinkSquare
-							icon="fe:github-alt"
-							aria-label="Open the link to Timo Anttila's profile on Github"
-							link="https://github.com/timoanttila"
-							title="Timo Anttila on Github"
-						/>
-					</li>
-
-					<li class="inline-block align-middle" role="none">
-						<LinkSquare
-							icon="simple-icons:trakt"
-							aria-label="Open the link to Timo Anttila's profile on Trakt.tv"
-							link="https://trakt.tv/users/timoanttila"
-							title="Timo Anttila on Goodreads"
-						/>
-					</li>
-
-					<li class="inline-block align-middle" role="none">
-						<LinkSquare
-							icon="mdi:goodreads"
-							aria-label="Open the link to Timo Anttila's profile on Goodreads"
-							class="w-12 h-12 mx-auto inline-block align-middle bg-transparent border-0 md:m-0 p-0 hide-270"
-							link="https://www.goodreads.com/timoanttila"
-							title="Timo Anttila on Goodreads"
+							:icon="item.icon"
+							:aria-label="`Navigate to Timo Anttila's ${item.name} profile`"
+							:link="item.url"
+							:title="`Timo Anttila on ${item.name}`"
 						/>
 					</li>
 				</ul>
