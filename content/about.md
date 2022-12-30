@@ -1,9 +1,8 @@
 ---
-title: What is going on in my life right now?
-description: Welcome to getting to know me more. On this page, you will comprehensively find everything that is important to me at the moment in my professional and personal life.
-createdAt: '2015-01-01T00:00:00+02:00'
-updatedAt: '2022-12-25T12:38:45+02:00'
-language: en
+title: What is happening in my life right now?
+description: Welcome to getting to know more about me. This page contains a comprehensive list of everything that is currently important to me in my professional and personal life.
+createdAt: 2015-01-01T00:00:00+02:00
+updatedAt: 2022-12-31T01:17:48+02:00
 ---
 
 ## Location:
@@ -18,27 +17,27 @@ Chief executive officer
 
 ## Professional life:
 
-Designing and developing experiences that make people's lives simpler. Full-stack web developer who is passionate about making websites and web stores better, faster, and easier to update.
+Creating and designing experiences that make people's lives easier. Full-stack web developer who is passionate about making websites and web stores better, faster, and easier to update.
 
-Since beginning my journey as an entrepreneur over seven years ago, I've done remote work for businesses, developed hundreds of customer projects, and created booking calendars and my own e-commerce platform. Also implemented various payment interfaces and REST APIs. Always ready for new challenges.
+Since starting my entrepreneurial journey over seven years ago, I've done remote work for businesses, developed hundreds of customer projects, and built booking calendars and my own e-commerce platform. Various payment interfaces and REST APIs were also implemented. Always eager to take on new challenges.
 
-Technologies I enjoy working with include JavaScript, Nuxt, Vue, React, TypeScript, PHP, Nodejs and MariaDB. ProcessWire and WordPress CMS are frequently used. My main job is developing React webapps.
+JavaScript, Nuxt, Vue, PHP, Nodejs, and MariaDB are among the technologies I enjoy working with. I am also very familiar with Reactjs and TypeScript. ProcessWire and WordPress are frequently used as client admin areas and backends. My primary job is to develop React webapps.
 
-A focus on simplicity, speed, usability, easy updating, and delight. My goal is to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeed.
+The emphasis is on simplicity, speed, usability, ease of updating, and delight. My ambition is to outperform both myself and my customers. I consider myself successful when the customer feels they have received more than they originally ordered.
 
 - Problem solver, React and WordPress Developer at [Quux Oy](https://quux.fi/).
 - Full Stack Developer and owner at [Tuspe Design Oy](https://tuspe.com/).
 - Full Stack Developer and shareholder at [Ratsukko Solutions Oy](https://www.ratsukko.com/).
 - Full Stack Developer, CEO and shareholder at [Dataline Group Oy](https://www.dataline.fi/).
 - Member of the Central Electoral Commission of the City of Nokia from 2021 to 2025.
-- Developing and maintaining my own sports and e-commerce platforms.
-- Maintaining many servers and being responsible for the security and backup of clients' websites.
+- Developing and running my own sports and e-commerce platforms / SaaS services.
+- Maintaining a small number of servers and being in charge of the security and backup of clients' websites.
 
 ## Personal life:
 
-- Dating a Kenyan woman and thinking about moving to Kenya temporarily.
-- Interested in artificial intelligence, the wonders of technology, and human behavior.
-- Investing in stocks, funds, and coins ([eToro](https://www.etoro.com/people/timoanttila) / [Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios)).
+- Dating a Kenyan woman and considering moving there temporarily.
+- Fascinated by artificial intelligence, technological marvels, and human behavior.
+- Investing in stocks, mutual funds, and cryptocurrencies ([eToro](https://www.etoro.com/people/timoanttila) / [Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios)).
 - Watching too many movies and series ([Trakt](https://trakt.tv/users/timoanttila)).
 - Proud father of Deli, a border collie
 - Equal friendship-volunteer ([Yhdenvertainen kaveritoiminta](https://www.tukiliitto.fi/toiminta/yhdenvertainen-kaveritoiminta/)).
@@ -67,10 +66,10 @@ A focus on simplicity, speed, usability, easy updating, and delight. My goal is 
 - https://www.etoro.com/people/timoanttila
 - https://trakt.tv/users/timoanttila
 - https://www.goodreads.com/timoanttila
-- https://tuspe.com
-- https://github.com/TuspeDesign
 - https://wakatime.com/@timoanttila
 - https://codestats.net/users/timoanttila
+- https://tuspe.com/
+- https://github.com/TuspeDesign
 
 ## Recomended books:
 
