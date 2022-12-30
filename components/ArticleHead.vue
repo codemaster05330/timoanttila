@@ -18,7 +18,7 @@ const site = useState('site').value
 const canonical = site.url + props.article._path + '/'
 const modified = props.article.updatedAt || props.article.createdAt
 let image = site.url
-image += `/images/${props.article.image}.jpg` || site.image
+image += `/images/${props.article.image}.webp` || site.image
 
 let breadcrumb = [
 	{
@@ -63,7 +63,7 @@ useHead({
 			name: 'twitter:title',
 			content: props.article.title
 		},
-		{property: 'canonical', content: site.url + props.article._path},
+		{property: 'canonical', content: canonical},
 		{
 			content: image,
 			name: 'twitter:image',

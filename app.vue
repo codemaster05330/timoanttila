@@ -1,6 +1,6 @@
 <script setup>
 const url = 'https://timoanttila.com'
-useState('site', () => ({name: 'Timo Anttila', url, image: url + '/images/laptop-social.jpg'}))
+useState('site', () => ({name: 'Timo Anttila', url, image: url + '/images/laptop-social.webp'}))
 
 useHead({
 	htmlAttrs: {lang: 'en'},
