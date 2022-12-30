@@ -86,6 +86,10 @@ useHead({
 			name: 'revised',
 			property: 'article:modified_time',
 			content: modified
+		},
+		{
+			name: 'author',
+			content: 'Timo Anttila'
 		}
 	],
 	link: [
