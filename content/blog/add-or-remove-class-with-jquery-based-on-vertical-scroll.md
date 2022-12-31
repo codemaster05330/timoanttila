@@ -1,13 +1,17 @@
 ---
 title: Add or remove class with JQuery based on vertical scroll
-createdAt: 2016-03-02T04:20:02.000Z
-description: A tutorial to show how to use JavaScript and CSS to change the appearance of when scrolling down on the website.
+createdAt: 2016-03-02T04:20:02+02:00
+updatedAt: 2022-12-31T10:58:59+02:00
+description: A tutorial on how to use JQuery and CSS to change the appearance of the website when scrolling down.
 tags: tutorials, webdev, jquery
 ---
 
-I often use **JQuery** to change appearance of `<header>` when scrolling down on the website. I like to make it smaller after a certain pixel amount. The best way to do that is change a class name for `<header>` element with JavaScript / JQuery. You need to load JQuery library before this script to make it work.
+When scrolling down a website, I use [JQuery](https://jquery.com/) to change the appearance of the `<header>` element. I like to make it smaller after a certain number of pixels. The best way to accomplish this is to use JavaScript / JQuery to change the class name for the `<header>` element. To make this script work, you must first load the JQuery library.
 
-```JQuery
+Loading the JQuery library is easy. Simply add the following line to your HTML file after the `<footer>` element. You can also add it to the `<head>`element to load it faster, but for best performance, load it just before it is needed.
+
+```HTML
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
 $(window).scroll(function() {
   if ($(this).scrollTop() > 150){
@@ -19,15 +23,15 @@ $(window).scroll(function() {
 </script>
 ```
 
-This code calls the `.scroll() JavaScript event` and then use `.scrollTop()` to check if there are more than 150 pixels from the top of the browser. If there is more, add a new class name small to the header element. If there are less pixels than 150, remove the class name from the element.
+This code invokes the `.scroll()` JavaScript event and then uses `.scrollTop()` to determine whether there are more than 150 pixels from the browser's top. If the number of pixels exceeds 150, add a new class name `small` to the header element. If the element has fewer than 150 pixels, remove the class name.
 
-Then just add extra CSS styles for `header.small`.
+Then simply add additional CSS styles for `header.small`.
 
-```JQuery
+```CSS
 header { height: 50px }
 header .menu a { height: 1.2em }
 .small { height: 25px }
 .small .menu a { height: 1em }
 ```
 
-So simple but still so powerful. :)
+So simple, yet so effective. :)

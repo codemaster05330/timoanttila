@@ -11,7 +11,7 @@ const {data: article} = await useAsyncData(path, () => queryContent(path).findOn
 		itemscope
 		itemtype="http://schema.org/BlogPosting"
 	>
-		<ArticleHead :article="article" />
+		<ArticleHead :article="article" :datesActive="!article.type || article.type !== 'page'" />
 		<ContentRenderer :value="article" />
 	</article>
 </template>

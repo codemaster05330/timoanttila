@@ -3,6 +3,8 @@ title: What is happening in my life right now?
 description: Welcome to getting to know more about me. This page contains a comprehensive list of everything that is currently important to me in my professional and personal life.
 createdAt: 2015-01-01T00:00:00+02:00
 updatedAt: 2022-12-31T01:17:48+02:00
+language: en
+type: page
 ---
 
 ## Location:

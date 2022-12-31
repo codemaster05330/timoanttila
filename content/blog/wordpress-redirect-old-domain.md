@@ -4,6 +4,7 @@ createdAt: 2022-12-29T19:17:24+02:00
 description: How to use .htaccess to redirect all traffic from the old and still valid domain to the new domain in the same WordPress directory.
 tags: tutorials, wordpress, domain, htaccess
 image: wordpress
+twitter: 1608786717225676800
 ---
 
 When migrating a site from one domain to another, it is critical not to break all of the links that you have built to your old domain. All pages on the old domain should be properly redirected to the same location on the new domain to ensure that visitors to the old domain end up in the right place. Failure to redirect will result in a loss of both visitors and search engine rankings.

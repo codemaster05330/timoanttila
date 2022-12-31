@@ -3,7 +3,6 @@ const url = 'https://timoanttila.com'
 useState('site', () => ({name: 'Timo Anttila', url, image: url + '/images/laptop-social.webp'}))
 
 useHead({
-	htmlAttrs: {lang: 'en'},
 	meta: [
 		{charset: 'utf-8'},
 		{name: 'viewport', content: 'width=device-width, initial-scale=1'},
@@ -75,18 +74,27 @@ useHead({
 const menu = [
 	{
 		description: 'A brief description of me',
+		language: 'en',
 		path: '/',
 		title: 'Home'
 	},
 	{
 		description: 'What is happening in my life right now and what is important to me.',
+		language: 'en',
 		path: '/about/',
 		title: 'About'
 	},
 	{
 		description: 'A collection of articles about web development, programming, and life.',
+		language: 'en',
 		path: '/blog/',
 		title: 'Articles'
+	},
+	{
+		description: 'Mitä elämässäni tapahtuu juuri nyt ja mitä minulle on tärkeää.',
+		language: 'fi',
+		path: '/fi/',
+		title: 'Suomeksi'
 	}
 ]
 
@@ -172,6 +180,7 @@ const social = [
 						@click.native="buttonMenu = false"
 						class="text-content p-3 uppercase block no-underline"
 						:aria-label="item.description"
+						:hreflang="item.language"
 					>
 						{{ item.title }}
 					</NuxtLink>

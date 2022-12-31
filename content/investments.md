@@ -2,6 +2,7 @@
 title: What is going on in my life right now?
 description: Welcome to getting to know me more. On this page, you will comprehensively find everything that is important to me at the moment in my professional and personal life.
 language: en
+type: page
 ---
 
 ## eToro
