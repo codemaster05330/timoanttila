@@ -124,11 +124,6 @@ article h2 {
   display: none;
 }
 
-main {
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
-}
-
 article {
   a {
     color: var(--text-link);
@@ -192,12 +187,6 @@ article {
 }
 
 aside#menubar {
-  min-width: 48px;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 100;
-
   button,
   a {
     &:hover {
@@ -219,53 +208,6 @@ aside#menubar {
         }
       }
     }
-  }
-}
-
-@media screen and (max-width: 550px) {
-  main {
-    padding-right: 1rem;
-    padding-top: 5rem;
-  }
-
-  aside#menubar {
-    height: 48px;
-    width: 100vw;
-  }
-
-  #buttons {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    padding: 0 1rem;
-  }
-
-  #accessibility {
-    background-color: var(--bg-secondary);
-    border-top: 2px solid rgba(255, 255, 255, .2);
-    height: auto;
-    left: 0;
-    position: absolute;
-    text-align: center;
-    top: 48px;
-    width: 100vw;
-  }
-}
-
-@media screen and (min-width: 551px) {
-  main {
-    padding-right: 85px;
-    padding-top: 2rem;
-  }
-
-  aside#menubar {
-    height: 100vh;
-    text-align: center;
-    width: 48px;
-  }
-
-  #accessibility {
-    text-align: center;
   }
 }
 

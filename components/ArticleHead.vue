@@ -196,7 +196,7 @@ useHead({
 		<div
 			v-if="!article.type || article.type !== 'page'"
 			id="articleSubMenu"
-			class="absolute grid top-0 right-16"
+			class="absolute grid top-0 right-14"
 		>
 			<div>
 				<LinkSquare

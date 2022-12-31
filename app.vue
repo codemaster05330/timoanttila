@@ -164,7 +164,7 @@ const social = [
 			<li><a href="#buttons">Jump to the sidebar buttons</a></li>
 		</ul>
 
-		<main class="block min-h-screen">
+		<main class="block min-h-screen w-screen pb-6 pl-4 pr-16 pt-12">
 			<NuxtPage />
 		</main>
 
@@ -188,7 +188,7 @@ const social = [
 			</ul>
 		</nav>
 
-		<aside id="menubar" class="bg-secondary">
+		<aside id="menubar" class="bg-secondary fixed h-screen right-0 top-0 w-12 z-50">
 			<div id="buttons" class="overflow-y-auto overflow-x-hidden h-full">
 				<div>
 					<ButtonSquare
