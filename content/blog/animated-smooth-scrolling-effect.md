@@ -1,7 +1,11 @@
 ---
 title: Animated smooth scrolling effect for one-page website
-createdAt: 2016-04-21T23:16:16.000Z
 description: Every one-page website needs an animated smooth scrolling effect, and this script will rock your site.
+createdAt: 2016-04-21T23:16:16+02:00
+nextTitle: Backup your data automatically on Linux
+nextUrl: backup-your-data-automatically-on-linux
+prevTitle: Add or remove class with JQuery based on vertical scroll
+prevUrl: add-or-remove-class-with-jquery-based-on-vertical-scroll
 tags: tutorials, webdev, jquery
 ---
 

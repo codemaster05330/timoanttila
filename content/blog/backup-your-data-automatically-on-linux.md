@@ -1,8 +1,12 @@
 ---
 title: Backup your data automatically on Linux
+description: One of the most crucial aspects of running a server is backups, and these scripts assist in automatically backing up your critical data.
 createdAt: 2016-04-24T15:37:21+02:00
 updatedAt: 2022-12-29T20:35:29+02:00
-description: One of the most crucial aspects of running a server is backups, and these scripts assist in automatically backing up your critical data.
+nextTitle: Utilize rsync to backup or sync data on Linux
+nextUrl: rsync
+prevTitle: Animated smooth scrolling effect for one-page website
+prevUrl: animated-smooth-scrolling-effect
 tags: tutorials, servers, backup, bash
 ---
 

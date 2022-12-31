@@ -280,9 +280,9 @@ const social = [
 						class="inline-block align-middle"
 						role="none"
 					>
-						<LinkSquare
+						<LinkSquareExternal
 							:icon="item.icon"
-							:aria-label="`Navigate to Timo Anttila's ${item.name} profile`"
+							:aria="`Navigate to Timo Anttila's ${item.name} profile`"
 							:link="item.url"
 							:title="`Timo Anttila on ${item.name}`"
 						/>

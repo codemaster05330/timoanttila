@@ -1,7 +1,11 @@
 ---
 title: Set up TeamSpeak 3 server
-createdAt: 2015-09-30T00:20:02.000Z
-description: Complete guide how to setup a TeamSpeak 3 Server as service on Linux server.
+description: Complete guide for installing TeamSpeak 3 as a service on a Linux server.
+createdAt: 2015-09-30T00:20:02+02:00
+nextTitle: Parse an XML document with PHP
+nextUrl: parse-an-xml-document-with-php
+prevTitle: Create SSH keys and login to servers without using passwords
+prevUrl: generate-ssh-keys
 tags: tutorials, linux, software
 ---
 

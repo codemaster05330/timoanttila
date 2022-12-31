@@ -1,7 +1,11 @@
 ---
 title: Create a simple contact form in HTML, PHP and SQL
-createdAt: 2017-01-01T11:43:34.000Z
 description: HTML Forms are one of the main points of interaction between a user and a web site. This tutorial teaches you how to make one.
+createdAt: 2017-01-01T11:43:34+02:00
+nextTitle: Replace a line in a text file automatically every week with Linux bash shell script
+nextUrl: bash-replace-line-in-file
+prevTitle: Embed Flickr photo albums on ProcessWire
+prevUrl: flickr-photo-albums-on-processwire
 tags: tutorials, drupal, php
 ---
 

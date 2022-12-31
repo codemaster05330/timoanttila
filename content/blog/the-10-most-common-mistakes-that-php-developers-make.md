@@ -1,9 +1,13 @@
 ---
-title: The 10 most common mistakes with PHP
-createdAt: 2016-02-21T12:13:31.000Z
+title: The 10 most common mistakes PHP developers make
+description: Are you guilty of one of these common PHP mistakes? Refer to this list next time you're debugging PHP code.
+createdAt: 2016-02-21T12:13:31+02:00
 author: Ilya Sanosian
 alternative: https://www.toptal.com/php/10-most-common-mistakes-php-programmers-make
-description: Are you guilty of one of these common PHP mistakes? Refer to this list next time you're debugging PHP code.
+nextTitle: Add images to Drupal Views Search Page
+nextUrl: add-images-to-drupal-views-search-page
+prevTitle: A beginner's guide to Drush
+prevUrl: drush
 tags: tutorials, php
 ---
 

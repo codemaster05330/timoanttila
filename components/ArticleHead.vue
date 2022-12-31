@@ -17,8 +17,81 @@ const props = defineProps({
 const site = useState('site').value
 const canonical = site.url + props.article._path + '/'
 const modified = props.article.updatedAt || props.article.createdAt
-let image = site.url
-image += `/images/${props.article.image}.webp` || site.image
+const image = props.article.image ? `/images/${props.article.image}.webp` : site.image
+const author = props.article.author || 'Timo Anttila'
+
+let meta = [
+	{
+		hid: props.article._path,
+		name: 'description',
+		property: 'og:description',
+		content: props.article.description
+	},
+	{
+		property: 'og:title',
+		name: 'twitter:title',
+		content: props.article.title
+	},
+	{property: 'canonical', content: canonical},
+	{
+		content: image,
+		name: 'twitter:image',
+		property: 'og:image'
+	},
+	{
+		content: image,
+		property: 'og:image:secure_url'
+	},
+	{
+		content: props.article.createdAt,
+		name: 'pubdate',
+		property: 'og:pubdate'
+	},
+	{
+		content: props.article.createdAt,
+		property: 'article:published_time'
+	},
+	{
+		name: 'author',
+		content: author
+	}
+]
+
+if (props.article.updatedAt) {
+	meta.push({
+		name: 'revised',
+		property: 'article:modified_time',
+		content: modified
+	})
+}
+
+let link = [
+	{
+		rel: 'canonical',
+		href: canonical
+	}
+]
+
+if (props.article.alternative) {
+	link.push({
+		rel: 'alternate',
+		href: props.article.alternative
+	})
+}
+
+if (props.article.prevUrl) {
+	link.push({
+		rel: 'prev',
+		href: `${site.url}/blog/${props.article.prevUrl}/`
+	})
+}
+
+if (props.article.nextUrl) {
+	link.push({
+		rel: 'next',
+		href: `${site.url}/blog/${props.article.nextUrl}/`
+	})
+}
 
 let breadcrumb = [
 	{
@@ -52,53 +125,8 @@ breadcrumb.push({
 useHead({
 	htmlAttrs: {lang: props.article.language || 'en'},
 	title: props.article.title + ' | ' + site.name,
-	meta: [
-		{
-			hid: props.article._path,
-			name: 'description',
-			property: 'og:description',
-			content: props.article.description
-		},
-		{
-			property: 'og:title',
-			name: 'twitter:title',
-			content: props.article.title
-		},
-		{property: 'canonical', content: canonical},
-		{
-			content: image,
-			name: 'twitter:image',
-			property: 'og:image'
-		},
-		{
-			content: image,
-			property: 'og:image:secure_url'
-		},
-		{
-			content: props.article.createdAt,
-			name: 'pubdate',
-			property: 'og:pubdate'
-		},
-		{
-			content: props.article.createdAt,
-			property: 'article:published_time'
-		},
-		{
-			name: 'revised',
-			property: 'article:modified_time',
-			content: modified
-		},
-		{
-			name: 'author',
-			content: 'Timo Anttila'
-		}
-	],
-	link: [
-		{
-			rel: 'canonical',
-			href: canonical
-		}
-	],
+	meta,
+	link,
 	script: [
 		{
 			type: 'application/ld+json',
@@ -113,7 +141,7 @@ useHead({
 				image: image,
 				author: {
 					'@type': 'Person',
-					name: 'Timo Anttila',
+					name: author,
 					url: site.url
 				},
 				datePublished: props.article.createdAt,
@@ -164,5 +192,48 @@ useHead({
 				</span>
 			</small>
 		</div>
+
+		<div
+			v-if="!article.type || article.type !== 'page'"
+			id="articleSubMenu"
+			class="absolute grid top-0 right-16"
+		>
+			<div>
+				<LinkSquare
+					v-if="article.prevUrl"
+					icon="material-symbols:arrow-left-rounded"
+					:link="`/blog/${article.prevUrl}/`"
+					rel="prev"
+					:iconSize="2.4"
+					:title="article.prevTitle"
+					aria="Previous article"
+				/>
+			</div>
+			<div>
+				<LinkSquare
+					icon="material-symbols:list-alt-outline"
+					link="/blog/"
+					title="Stories about projects and life, easy-to-learn tutorials."
+					aria="Blog index"
+				/>
+			</div>
+			<div>
+				<LinkSquare
+					v-if="article.nextUrl"
+					icon="material-symbols:arrow-right-rounded"
+					:link="`/blog/${article.nextUrl}/`"
+					rel="next"
+					:iconSize="2.4"
+					:title="article.nextTitle"
+					aria="Next article"
+				/>
+			</div>
+		</div>
 	</header>
 </template>
+
+<style scoped lang="scss">
+#articleSubMenu {
+	grid-template-columns: repeat(3, 48px);
+}
+</style>

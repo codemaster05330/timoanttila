@@ -1,7 +1,11 @@
 ---
 title: Replace a line in a text file automatically every week with Linux bash shell script
-createdAt: 2017-02-12T11:45:54.000Z
 description: My goal was to read the number in the file, and if the number is smaller than three add one to it, and if bigger reset the number to one. Write new to the file.
+createdAt: 2017-02-12T11:45:54+02:00
+nextTitle: Remove unnecessary PHP sessions files on Debian
+nextUrl: setup-crontab-to-remove-the-php-session-files
+prevTitle: Create a simple contact form in HTML, PHP and SQL
+prevUrl: contact-form
 tags: tutorials, bash
 ---
 

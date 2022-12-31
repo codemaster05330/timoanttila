@@ -1,7 +1,11 @@
 ---
 title: Embed Flickr photo albums on ProcessWire
-createdAt: 2016-11-10T05:35:53.000Z
-description: A tutorial on how to set up Flickr photo galleries on ProcessWire. I modified Sergio's photo downloading script and made a Photobox effect for galleries.
+description: A guide to setting up Flickr photo galleries on ProcessWire. I modified Sergio's photo downloading script and made a Photobox effect for galleries.
+createdAt: 2016-11-10T05:35:53+02:00
+nextTitle: Create a simple contact form in HTML, PHP and SQL
+nextUrl: contact-form
+prevTitle: Offsetting achor links with fixed header (CSS only)
+prevUrl: offsetting-anchor-links-with-fixed-header
 tags: tutorials, processwire, flickr, php
 ---
 

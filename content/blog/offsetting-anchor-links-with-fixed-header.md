@@ -1,19 +1,23 @@
 ---
-title: Offsetting achor links with fixed header
-createdAt: 2016-10-04T06:35:53.000Z
-description: Using anchor links with a fixed header is a problem, as the body text may be hidden underneath the header. No JavaScript needed.
+title: Offsetting achor links with fixed header (CSS only)
+description: When using anchor links with a fixed header, the body text may be hidden beneath the header. CSS only, no need for JavaScript.
+createdAt: 2016-10-04T06:35:53+02:00
+nextTitle: Embed Flickr photo albums on ProcessWire
+nextUrl: flickr-photo-albums-on-processwire
+prevTitle: Leverage browser caching for images, CSS and JavaScript apache2
+prevUrl: leverage-browser-caching
 tags: tutorials, html, css
 ---
 
-Using anchor links with a fixed header is a problem, as the body text may be hidden underneath the header as the browser's default offset is zero pixels from top. So, how to change the starting point to be 60px down from the top?
+When using anchor links with a fixed header, the body text may be hidden beneath the header because the browser's default offset is zero pixels from the top. So, how do I make the starting point 60px lower from the top?
 
-I have found two ways to handle this problem. First, I can use the empty space before or after ID. Most of the time that looks good if the header’s height is less than 60px. If header is higher than that’s probably not going and one must use another way to force the browser to scroll to the right position.
+I've come up with two solutions to this problem. First, I have the option of inserting an empty space before or after ID. If the header height is less than 60px, this usually looks good. If the header is higher than that, another method must be used to force the browser to scroll to the correct position.
 
 The best way to solve this problem is using padding and margin. First, use :before and padding to it (padding-top: 90px) to make enough space before the ID. Then, degree that same amount with margin (margin-top: -90px).
 
-The reason I'm needing this is because I have fixed layers at the top of the page, so the comment is appearing overlapped behind the fixed header div.
+The reason I'm needing this is because I have fixed layers at the top of the page, so the content is appearing overlapped behind the fixed header div.
 
-Just in case, because of cross-browser compliance I prefer a solution that does not involve changing the container of the comment to fixed and positioning top minus the height of the header.
+Just in case, because of cross-browser compliance I prefer a solution that does not involve changing the container of the content to fixed and positioning top minus the height of the header.
 
 ### HTML
 
@@ -35,4 +39,4 @@ Just in case, because of cross-browser compliance I prefer a solution that does 
 }
 ```
 
-You should also use "[Animated smooth scrolling effect for one-page website](/blog/animated-smooth-scrolling-effect)" with anchor links.
+You should also use "[Animated smooth scrolling effect for one-page website](/blog/animated-smooth-scrolling-effect/)" with anchor links.

@@ -1,7 +1,11 @@
 ---
 title: Add images to Drupal Views Search Page
-createdAt: 2016-03-02T00:03:47.000Z
 description: Drupal Views is a powerful tool for all kind of mixed results but how to add images to Views' Page when url have '?'. Blocks can't help you, but PHP can.
+createdAt: 2016-03-02T00:03:47+02:00
+nextTitle: Add or remove class with JQuery based on vertical scroll
+nextUrl: add-or-remove-class-with-jquery-based-on-vertical-scroll
+prevTitle: The 10 most common mistakes PHP developers make
+prevUrl: the-10-most-common-mistakes-that-php-developers-make
 tags: tutorials, webdev, php
 ---
 

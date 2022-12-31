@@ -3,9 +3,7 @@ title: How to create a simple popup
 createdAt: 2015-09-16T22:03:47.000Z
 description: Simple PHP / JavaScript popup created for Drupal but can be used with any platform. Popup works only once and again after the cookie is cleared.
 tags: tutorials, php, html, css
-prevUrl: /about/
-prevTitle: What is happening in my life right now?
-nextUrl: /blog/generating-ssh-keys/
+nextUrl: generating-ssh-keys
 nextTitle: Generate SSH keys and login to servers without passwords
 ---
 

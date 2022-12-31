@@ -4,9 +4,9 @@ createdAt: 2015-09-19T01:23:32+02:00
 updatedAt: 2022-12-31T00:14:14+02:00
 description: SSH keys are used to authenticate yourself to an SSH server by utilizing public-key cryptography and challenge-response authentication.
 tags: tutorials, ssh, servers, security
-prevUrl: /blog/simple-popup/
+prevUrl: simple-popup
 prevTitle: Simple PHP / JavaScript popup
-nextUrl: /blog/teamspeak-3/
+nextUrl: teamspeak-3
 nextTitle: Set up TeamSpeak 3 server
 ---
 

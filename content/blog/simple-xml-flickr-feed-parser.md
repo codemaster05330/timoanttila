@@ -1,7 +1,11 @@
 ---
-title: Parse Flickr's XML feed with PHP
-createdAt: 2015-10-24T04:58:10.000Z
-description: This simple XML Flickr feed parser fetch newest photos and show them with links and thumbnails.
+title: Use PHP to parse Flickr's XML feed
+description: This simple XML Flickr feed parser retrieves the most recent photos and displays them with links and thumbnails.
+createdAt: 2015-10-24T04:58:10+02:00
+nextTitle: A beginner's guide to Drush
+nextUrl: drush
+prevTitle: A beginner's guide to MySQL / MariaDB
+prevUrl: mysql
 tags: tutorials, php, xml, css
 ---
 

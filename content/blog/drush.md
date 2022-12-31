@@ -1,8 +1,12 @@
 ---
 title: A beginner's guide to Drush
-createdAt: 2016-01-27T20:01:10.000Z
+createdAt: 2016-01-27T20:01:10+02:00
 description: Drush is a command-line shell and scripting interface for Drupal. This tutorial help you understand how Drush works and how it makes your life easier.
-tags: tutorials, drupal
+nextTitle: The 10 most common mistakes PHP developers make
+nextUrl: the-10-most-common-mistakes-that-php-developers-make
+prevTitle: Use PHP to parse Flickr's XML feed
+prevUrl: simple-xml-flickr-feed-parser
+tags: tutorials, drupal, drush
 ---
 
 [Drush](https://www.drush.org/) is a command-line shell and scripting interface for [Drupal](https://www.drupal.org/). It makes my life a lot easier because I don't have to manage all the websites from Drupal's admin pages, but I can give commands to the server's command line. It helps you perform admin tasks using one or few commands in the terminal.

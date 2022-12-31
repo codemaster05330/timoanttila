@@ -1,8 +1,12 @@
 ---
 title: Utilize rsync to backup or sync data on Linux
+description: Rsync is a powerful tool for transferring and synchronizing data between local and remote systems.
 createdAt: 2016-05-14T19:50:05+02:00
 updatedAt: 2022-12-29T20:15:36+02:00
-description: Rsync is a powerful tool for transferring and synchronizing data between local and remote systems.
+nextTitle: Leverage browser caching for images, CSS and JavaScript apache2
+nextUrl: leverage-browser-caching
+prevTitle: Backup your data automatically on Linux
+prevUrl: backup-your-data-automatically-on-linux
 tags: tutorials, servers, backup, crontab, security
 ---
 

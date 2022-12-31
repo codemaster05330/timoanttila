@@ -1,8 +1,12 @@
 ---
 title: Upgrade Debian 9 Stretch to Debian 10 Buster
+description: How to safely upgrade Debian GNU/Linux from Stretch (9) to Buster (10) while ensuring that all packages continue to function.
 createdAt: 2021-08-08T23:34:34+02:00
 updatedAt: 2022-12-29T19:44:44+02:00
-description: How to safely upgrade Debian GNU/Linux from Stretch (9) to Buster (10) while ensuring that all packages continue to function.
+nextTitle: Redirect old domain to new domain in WordPress via .htaccess
+nextUrl: wordpress-redirect-old-domain
+prevTitle: Creating a bootable Manjaro USB memory stick on Linux
+prevUrl: making-bootable-usb-drive-on-linux
 tags: tutorials, linux, debian
 image: debian
 ---

@@ -1,13 +1,18 @@
 ---
 title: Leverage browser caching for images, CSS and JavaScript apache2
-createdAt: 2016-09-12T05:20:02.000Z
-description: Page load times can be significantly improved by asking visitors to save and reuse the files included in your website.
-tags: tutorials, servers
+description: Page load times can be significantly reduced by requesting that visitors' browsers save and reuse the files on your website.
+createdAt: 2016-09-12T05:20:02+02:00
+updatedAt: 2022-12-31T18:04:12+02:00
+nextTitle: Offsetting achor links with fixed header
+nextUrl: offsetting-anchor-links-with-fixed-header
+prevTitle: Utilize rsync to backup or sync data on Linux
+prevUrl: rsync
+tags: tutorials, cache, browser, apache2, servers
 ---
 
-Normally, the website should load all its content under two seconds and hopefully even faster, but websites with a lot of pictures and JavaScript may take way too long time to load. And those websites also make a lot of requests to the web server. First visit is always harder and takes longer time to load, but after that, those websites could use browser caching instead of loading all that data again from the website's server.
+Normally, the website should load all of its content in under two seconds, if not faster, but websites with a lot of images and JavaScript may take much longer to load. Those websites also send a large number of requests to the web server. The first visit is always more difficult and takes longer to load, but after that, browsers could use caching instead of loading all that data from the server again.
 
-Browser caching stores some of the loaded files locally in the user's browser. Files like all the HTML, CSS, JavaScripts and images. When a user visits the same website again, refreshes a page or moves to a new page in the same website, they already have some of the data locally and requested page load faster. Less data to load and less requests to the server.
+Browser caching saves some of the files that have been loaded locally in the user's browser. Files such as HTML, CSS, JavaScript, and images. When a user returns to the same website, refreshes a page, or navigates to a different page within the same website, they already have some of the data locally, making the requested page load faster. Less data to load and fewer server requests.
 
 Easiest way to enable browser caching on a website running on Apache2 is to modify a file called .htaccess. The "code" below tells browsers how long it should "remember" files loaded from the web site.
 

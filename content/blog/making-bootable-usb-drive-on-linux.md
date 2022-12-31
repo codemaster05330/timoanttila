@@ -1,7 +1,11 @@
 ---
 title: Creating a bootable Manjaro USB memory stick on Linux
-createdAt: 2021-07-24T00:23:31.000Z
-description: Tips on how to create a bootable USB flash drive on Linux. Nowadays, Etcher is the easiest and best way to create a bootable USB drive.
+description: Tips for creating a bootable USB flash drive in Linux. Etcher is now the simplest and best way to create a bootable USB drive.
+createdAt: 2021-07-24T00:23:31+02:00
+nextTitle: Upgrade Debian 9 Stretch to Debian 10 Buster
+nextUrl: upgrade-debian-stretch-to-buster
+prevTitle: Remove unnecessary PHP sessions files on Debian
+prevUrl: setup-crontab-to-remove-the-php-session-files
 tags: tutorials, linux
 image: etcher
 ---

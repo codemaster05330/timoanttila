@@ -1,8 +1,12 @@
 ---
 title: A beginner's guide to MySQL / MariaDB
+description: A basic tutorial on how to take control of a MySQL / MariaDB server, create a database and a user, and store data in a MySQL database.
 createdAt: 2015-10-20T03:24:42+02:00
 updatedAt: 2022-12-29T21:25:49+02:00
-description: A basic tutorial on how to take control of a MySQL / MariaDB server, create a database and a user, and store data in a MySQL database.
+nextTitle: Parse Flickr's XML feed with PHP
+nextUrl: simple-xml-flickr-feed-parser
+prevTitle: Parse an XML document with PHP
+prevUrl: parse-an-xml-document-with-php
 tags: tutorials, servers, sql
 ---
 

@@ -1,8 +1,12 @@
 ---
 title: Add or remove class with JQuery based on vertical scroll
+description: A tutorial on how to use JQuery and CSS to change the appearance of the website when scrolling down.
 createdAt: 2016-03-02T04:20:02+02:00
 updatedAt: 2022-12-31T10:58:59+02:00
-description: A tutorial on how to use JQuery and CSS to change the appearance of the website when scrolling down.
+nextTitle: Animated smooth scrolling effect for one-page website
+nextUrl: animated-smooth-scrolling-effect
+prevTitle: Add images to Drupal Views Search Page
+prevUrl: add-images-to-drupal-views-search-page
 tags: tutorials, webdev, jquery
 ---
 

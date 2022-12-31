@@ -1,8 +1,12 @@
 ---
 title: Remove unnecessary PHP sessions files on Debian
-createdAt: 2020-04-10T01:06:14.000Z
-description: How to find hidden system files that keep filling hard drives and how to remove old and unnecessary PHP session files.
-tags: tutorials, servers, bash, crontab
+description: How to locate hidden system files that continue to clog hard drives, and how to delete old and unnecessary PHP session files.
+createdAt: 2020-04-10T01:06:14+02:00
+nextTitle: Creating a bootable Manjaro USB memory stick on Linux
+nextUrl: making-bootable-usb-drive-on-linux
+prevTitle: Replace a line in a text file automatically every week with Linux bash shell script
+prevUrl: bash-replace-line-in-file
+tags: tutorials, servers, bash, cron
 ---
 
 Have you ever run out of hard drive space even when *df -h* tells there's a lot of space still unused? I've been using Ubuntu and Debian for a long time, but have never before come against this kind of problem. I looked for the problem for a long time and deleted all possible unnecessary files from the disk, but the hard drive quickly refilled.
