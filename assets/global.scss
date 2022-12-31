@@ -191,22 +191,10 @@ aside#menubar {
   a {
     &:hover {
       color: var(--text-link);
-
-      svg,
-      svg path {
-        fill: var(--text-link);
-      }
     }
 
     &:not(:hover) {
       color: var(--text);
-
-      svg {
-        &,
-        path {
-          fill: var(--text);
-        }
-      }
     }
   }
 }
