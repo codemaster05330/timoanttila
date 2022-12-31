@@ -74,18 +74,21 @@ useHead({
 const menu = [
 	{
 		description: 'A brief description of me',
+		icon: 'ic:baseline-home',
 		language: 'en',
 		path: '/',
 		title: 'Home'
 	},
 	{
 		description: 'What is happening in my life right now and what is important to me.',
+		icon: 'maki:information',
 		language: 'en',
 		path: '/about/',
 		title: 'About'
 	},
 	{
 		description: 'A collection of articles about web development, programming, and life.',
+		icon: 'material-symbols:list-alt-outline',
 		language: 'en',
 		path: '/blog/',
 		title: 'Articles'
@@ -268,6 +271,22 @@ const social = [
 						</li>
 					</ul>
 				</div>
+
+				<ul aria-label="Website's navigation" class="p-0 mb-0 mt-6 mx-0 inline-block align-middle">
+					<li
+						v-for="(item, index) in menu.filter(e => e.icon)"
+						:key="index"
+						class="inline-block align-middle"
+						role="none"
+					>
+						<LinkSquare
+							:icon="item.icon"
+							:aria="item.description"
+							:link="item.path"
+							:title="item.title"
+						/>
+					</li>
+				</ul>
 
 				<ul
 					aria-label="List of Timo Anttila's social media channels"
