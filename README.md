@@ -2,7 +2,7 @@
 
 A self-taught developer, who loves solving problems and learning new ways to deliver solutions.
 
-Full Stack Web Developer specializing in PHP, JavaScript, Nuxt, Vue, Svelte, React, MariaDB, ProcessWire, and WordPress. Currently learning TypeScript.
+Full Stack Web Developer specializing in PHP, JavaScript, Nuxt, Vue, Svelte, React, TypeScript, MariaDB, REST APIs, ProcessWire, and WordPress.
 
 Passionately improving websites usage experience and loading time. Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.
 
@@ -15,10 +15,13 @@ Designing and developing experiences that make people's lives simple.
 
 ## Technologies
 
-- PHP, Javascript, Vue, Nuxt, Svelte Kit, React, TypeScript, JQuery, HTML, SCSS
+- PHP, Javascript, Vue, Nuxt, Svelte Kit, React, TypeScript, JQuery, HTML, CSS
 - MySQL / MariaDB, PostgreSQL, SQLite, MongoDB
 - NodeJS + Express, Apache2, NGINX
 - ProcessWire, WordPress, Drupal
+- Visual Studio Code, Github, Gitlab, Postman API Platform
+- Cloudflare, Joker, Namecheap, Traficom domains
+- Slack, Google Chat, Google Meets, Microsoft Teams
 
 ## Languages
 
@@ -26,15 +29,12 @@ Designing and developing experiences that make people's lives simple.
 
 ## Find me around the web
 
-- https://timoanttila.com
-- https://tuspe.com
-- https://twitter.com/_timoanttila
+- https://github.com/timoanttila
+- [https://twitter.com/\_timoanttila](https://twitter.com/_timoanttila/with_replies)
 - https://www.linkedin.com/in/anttilatimo/
-- https://wakatime.com/@timoanttila
-- https://codestats.net/users/timoanttila
-- https://www.instagram.com/_timoanttila/
+- https://www.etoro.com/people/timoanttila
+- https://shareville.fi/jasenet/timo-anttila/wall
 - https://trakt.tv/users/timoanttila
 - https://www.goodreads.com/timoanttila
-
-
-![Timo's GitHub stats](https://github-readme-stats.vercel.app/api?username=timoanttila&show_icons=true)
+- https://codestats.net/users/timoanttila
+- https://tuspe.com/
