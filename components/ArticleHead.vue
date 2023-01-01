@@ -65,20 +65,6 @@ if (props.article.updatedAt) {
 	})
 }
 
-let link = [
-	{
-		rel: 'canonical',
-		href: canonical
-	}
-]
-
-if (props.article.alternative) {
-	link.push({
-		rel: 'alternate',
-		href: props.article.alternative
-	})
-}
-
 if (props.article.prevUrl) {
 	link.push({
 		rel: 'prev',
@@ -126,7 +112,12 @@ useHead({
 	htmlAttrs: {lang: props.article.language || 'en'},
 	title: props.article.title + ' | ' + site.name,
 	meta,
-	link,
+	link: [
+		{
+			rel: 'canonical',
+			href: canonical
+		}
+	],
 	script: [
 		{
 			type: 'application/ld+json',
