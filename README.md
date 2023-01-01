@@ -38,6 +38,3 @@ Designing and developing experiences that make people's lives simple.
 - https://www.goodreads.com/timoanttila
 - https://codestats.net/users/timoanttila
 - https://tuspe.com/
-
-
-![Timo's GitHub stats](https://github-readme-stats.vercel.app/api?username=timoanttila&show_icons=true)
