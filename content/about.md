@@ -2,7 +2,7 @@
 title: What is happening in my life right now?
 description: Welcome to getting to know more about me. This page contains a comprehensive list of everything that is currently important to me in my professional and personal life.
 createdAt: 2015-01-01T00:00:00+02:00
-updatedAt: 2022-12-31T01:17:48+02:00
+updatedAt: 2023-01-01T02:24:48+02:00
 language: en
 type: page
 ---
@@ -39,7 +39,7 @@ The emphasis is on simplicity, speed, usability, ease of updating, and delight. 
 
 - Dating a Kenyan woman and considering moving there temporarily.
 - Fascinated by artificial intelligence, technological marvels, and human behavior.
-- Investing in stocks, mutual funds, and cryptocurrencies ([eToro](https://www.etoro.com/people/timoanttila) / [Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios)).
+- Investing in stocks, mutual funds, and cryptocurrencies ([eToro](https://www.etoro.com/people/timoanttila/portfolio) / [Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios)).
 - Watching too many movies and series ([Trakt](https://trakt.tv/users/timoanttila)).
 - Proud father of Deli, a border collie
 - Equal friendship-volunteer ([Yhdenvertainen kaveritoiminta](https://www.tukiliitto.fi/toiminta/yhdenvertainen-kaveritoiminta/)).
@@ -66,12 +66,11 @@ The emphasis is on simplicity, speed, usability, ease of updating, and delight. 
 - [https://twitter.com/\_timoanttila](https://twitter.com/_timoanttila/with_replies)
 - https://www.linkedin.com/in/anttilatimo/
 - https://www.etoro.com/people/timoanttila
+- https://shareville.fi/jasenet/timo-anttila/wall
 - https://trakt.tv/users/timoanttila
 - https://www.goodreads.com/timoanttila
-- https://wakatime.com/@timoanttila
 - https://codestats.net/users/timoanttila
 - https://tuspe.com/
-- https://github.com/TuspeDesign
 
 ## Recomended books:
 
