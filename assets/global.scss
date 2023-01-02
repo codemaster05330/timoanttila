@@ -267,7 +267,17 @@ aside#menubar {
 
 @media screen and (min-width: 1300px) {
   .photoSide {
-    padding-left: 600px;
+    padding-left: 580px;
+  }
+
+  #bigPhoto {
+    width: 550px;
+  }
+}
+
+@media screen and (min-width: 1560px) {
+  .photoSide {
+    padding-left: 400px;
   }
 
   #bigPhoto {
