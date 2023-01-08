@@ -45,7 +45,7 @@ Kehityksen painopiste on aina yksinkertaisuudessa, nopeudessa, käytettävyydess
 
 ## Tekniikat / työkalut:
 
-- PHP, Javascript, Vue, Nuxt, Svelte Kit, React, TypeScript, JQuery, HTML, CSS
+- PHP, Javascript, Vue, Nuxt, React, Qwik, Svelte Kit, TypeScript, JQuery, HTML, CSS
 - MySQL / MariaDB, PostgreSQL, SQLite, MongoDB
 - NodeJS + Express, Apache2, NGINX
 - ProcessWire, WordPress, Drupal
