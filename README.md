@@ -2,7 +2,7 @@
 
 A self-taught developer, who loves solving problems and learning new ways to deliver solutions.
 
-Full Stack Web Developer specializing in PHP, JavaScript, Nuxt, Vue, Svelte, React, TypeScript, MariaDB, REST APIs, ProcessWire, and WordPress.
+Full Stack Web Developer specializing in PHP, JavaScript, Nuxt, Vue, React, Qwik, TypeScript, Svelte, MariaDB, REST APIs, ProcessWire, and WordPress.
 
 Passionately improving websites usage experience and loading time. Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.
 
@@ -15,7 +15,7 @@ Designing and developing experiences that make people's lives simple.
 
 ## Technologies
 
-- PHP, Javascript, Vue, Nuxt, Svelte Kit, React, TypeScript, JQuery, HTML, CSS
+- PHP, Javascript, Vue, Nuxt, React, Qwik, Svelte Kit, TypeScript, JQuery, HTML, CSS
 - MySQL / MariaDB, PostgreSQL, SQLite, MongoDB
 - NodeJS + Express, Apache2, NGINX
 - ProcessWire, WordPress, Drupal
