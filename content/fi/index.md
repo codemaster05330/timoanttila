@@ -13,8 +13,8 @@ type: page
 
 ## Ammattinimike:
 
-Yrittäjä
-Full Stack-kehittäjä
+Yrittäjä  
+Full Stack-kehittäjä  
 Toimitusjohtaja
 
 ## Työelämä:
