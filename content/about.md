@@ -23,7 +23,7 @@ Creating and designing experiences that make people's lives easier. Full-stack w
 
 Since starting my entrepreneurial journey over seven years ago, I've done remote work for businesses, developed hundreds of customer projects, and built booking calendars and my own e-commerce platform. Various payment interfaces and REST APIs were also implemented. Always eager to take on new challenges.
 
-JavaScript, Nuxt, Vue, PHP, Nodejs, and MariaDB are among the technologies I enjoy working with. I am also very familiar with Reactjs and TypeScript. ProcessWire and WordPress are frequently used as client admin areas and backends. My primary job is to develop React webapps.
+JavaScript, Nuxt, Vue, Qwik, PHP, Nodejs, and MariaDB are among the technologies I enjoy working with. I am also very familiar with Reactjs and TypeScript. ProcessWire and WordPress are frequently used as client admin areas and backends. My primary job is to develop React webapps.
 
 The emphasis is on simplicity, speed, usability, ease of updating, and delight. My ambition is to outperform both myself and my customers. I consider myself successful when the customer feels they have received more than they originally ordered.
 
@@ -48,7 +48,7 @@ The emphasis is on simplicity, speed, usability, ease of updating, and delight. 
 
 ## Technologies / tools:
 
-- PHP, Javascript, Vue, Nuxt, Svelte Kit, React, TypeScript, JQuery, HTML, CSS
+- PHP, Javascript, Vue, Nuxt, React, Qwik, Svelte Kit, TypeScript, JQuery, HTML, CSS
 - MySQL / MariaDB, PostgreSQL, SQLite, MongoDB
 - NodeJS + Express, Apache2, NGINX
 - ProcessWire, WordPress, Drupal
