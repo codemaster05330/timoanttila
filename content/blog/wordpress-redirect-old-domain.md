@@ -4,6 +4,8 @@ description: How to use .htaccess to redirect all traffic from the old and still
 createdAt: 2022-12-29T19:17:24+02:00
 image: wordpress
 twitter: 1608786717225676800
+nextTitle: PHP mail function test
+nextUrl: php-mail-test
 prevTitle: Upgrade Debian 9 Stretch to Debian 10 Buster
 prevUrl: upgrade-debian-stretch-to-buster
 tags: tutorials, wordpress, domain, htaccess
