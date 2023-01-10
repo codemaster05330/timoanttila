@@ -33,3 +33,7 @@ echo "A test email was sent";
 Check your email to make sure the email was delivered.
 
 If you have the file publicly accessible on your website, remember to delete it once the testing is finished!
+
+## Related Posts
+
+- [Configure SMTP on WordPress without using a plugin](/blog/wordpress-smtp/)

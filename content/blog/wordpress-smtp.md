@@ -14,15 +14,15 @@ Many plugins make it simple to change the email route, but some require a paid v
 The file `wp-config.php` can be found in the WordPress directory root (`/`). Copy and paste the following files into your WordPress website's `wp-config.php` file.
 
 ```PHP
-define( 'SMTP_username', 'youremail@gmail.com' ); // Username
-define( 'SMTP_password', 'ek56%qVE/Uc4LjD6' ); // Password or app key
-define( 'SMTP_server', 'smtp-relay.sendinblue.com' ); // SMTP server
-define( 'SMTP_FROM', 'myuser@myemail.com' ); // Sender's email address
-define( 'SMTP_NAME', 'Tuspe Design' ); // Sender's name
-define( 'SMTP_PORT', '587' ); // Server Port Number
-define( 'SMTP_SECURE', 'tls' ); // Encryption - SSL or TLS
-define( 'SMTP_AUTH', true ); // SMTP authentication
-define( 'SMTP_DEBUG',   0 ); // Debugging purposes only
+define('SMTP_username', 'youremail@gmail.com'); // Username
+define('SMTP_password', 'password'); // Password or app key
+define('SMTP_server', 'smtp-relay.sendinblue.com'); // SMTP server
+define('SMTP_FROM', 'myuser@myemail.com'); // Sender's email address
+define('SMTP_NAME', 'Tuspe Design'); // Sender's name
+define('SMTP_PORT', '587'); // Server Port Number
+define('SMTP_SECURE', 'tls'); // Encryption - SSL or TLS
+define('SMTP_AUTH', true); // SMTP authentication
+define('SMTP_DEBUG', 0); // Debugging purposes only
 ```
 
 You must also edit the corresponding information in the `functions.php` file in addition to the `wp-config.php` file. This file can be found in the WordPress website's Themes: the file can be edited from the WordPress dashboard by going to `Appearance > Theme Editor`.
@@ -30,15 +30,15 @@ You must also edit the corresponding information in the `functions.php` file in 
 ```PHP
 add_action( 'phpmailer_init', 'phpmailer_smtp' );
 function phpmailer_smtp( $phpmailer ) {
-    $phpmailer->isSMTP();     
-    $phpmailer->From = SMTP_FROM;
-    $phpmailer->FromName = SMTP_NAME;
-    $phpmailer->Host = SMTP_server;  
-    $phpmailer->Password = SMTP_password;
-    $phpmailer->Port = SMTP_PORT;
-    $phpmailer->SMTPAuth = SMTP_AUTH;
-    $phpmailer->SMTPSecure = SMTP_SECURE;
-    $phpmailer->Username = SMTP_username;
+  $phpmailer->isSMTP();     
+  $phpmailer->From = SMTP_FROM;
+  $phpmailer->FromName = SMTP_NAME;
+  $phpmailer->Host = SMTP_server;  
+  $phpmailer->Password = SMTP_password;
+  $phpmailer->Port = SMTP_PORT;
+  $phpmailer->SMTPAuth = SMTP_AUTH;
+  $phpmailer->SMTPSecure = SMTP_SECURE;
+  $phpmailer->Username = SMTP_username;
 }
 ```
 
@@ -47,3 +47,8 @@ You do not need to make any changes to the above file; simply copy and paste the
 You can now send an email through selected SMTP server.
 
 Thanks for reading!
+
+## Related Posts
+
+- [PHP mail function test](/blog/php-mail-test/)
+- [Contact form](/blog/contact-form/)

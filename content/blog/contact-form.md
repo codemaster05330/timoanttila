@@ -88,3 +88,7 @@ $conn->query("INSERT INTO Form (Name, Email, Message, Up) VALUES ('$name', '$ema
 $conn->close();
 ?>
 ```
+
+## Related Posts
+
+- [Configure SMTP on WordPress without using a plugin](/blog/wordpress-smtp/)
