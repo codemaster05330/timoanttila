@@ -282,7 +282,6 @@ const social = [
 						v-for="(item, index) in menu.filter(e => e.icon)"
 						:key="index"
 						class="inline-block align-middle"
-						role="none"
 					>
 						<LinkSquare
 							:icon="item.icon"
@@ -298,12 +297,7 @@ const social = [
 					class="p-0 mb-0 mt-6 mx-0 inline-block align-middle"
 					title="You have right to stalk me"
 				>
-					<li
-						v-for="(item, index) in social"
-						:key="index"
-						class="inline-block align-middle"
-						role="none"
-					>
+					<li v-for="(item, index) in social" :key="index" class="inline-block align-middle">
 						<LinkSquareExternal
 							:icon="item.icon"
 							:aria="`Navigate to Timo Anttila's ${item.name} profile`"

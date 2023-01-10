@@ -116,7 +116,7 @@ breadcrumb.push({
 })
 
 useHead({
-	htmlAttrs: {lang: props.article.language || 'en'},
+	htmlAttrs: {lang: props.article.language ?? 'en'},
 	title: props.article.title + ' | ' + site.name,
 	meta,
 	link,
