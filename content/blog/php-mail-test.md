@@ -2,6 +2,8 @@
 title: PHP mail function test
 description: This is a useful PHP script for testing your hosting to ensure that you can send emails from PHP-based sites that include a contact form or something similar.
 createdAt: 2023-01-09T21:33:17+02:00
+nextTitle: Configure SMTP on WordPress without using a plugin
+nextUrl: wordpress-smtp
 prevTitle: Redirect old domain to new domain in WordPress via .htaccess
 prevUrl: wordpress-redirect-old-domain
 tags: tutorials, php, mail
