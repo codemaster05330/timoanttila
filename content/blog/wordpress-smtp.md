@@ -11,7 +11,7 @@ WordPress uses PHP's `mail()` function by default, but in some hosting and VPS s
 
 Many plugins make it simple to change the email route, but some require a paid version. Extra charges to the customer are not a good thing, so a better solution is to edit the WordPress `wp-config.php` and `function.php` files.
 
-The file `wp-config.php` can be found in the WordPress directory root (`/`). Copy and paste the following files into your WordPress website's `wp-config.php` file.
+The file `wp-config.php` can be found in the WordPress directory root (`/`). Copy and paste the following files into your WordPress website's `/wp-config.php` file.
 
 ```PHP
 define('SMTP_username', 'youremail@gmail.com'); // Username
@@ -25,7 +25,7 @@ define('SMTP_AUTH', true); // SMTP authentication
 define('SMTP_DEBUG', 0); // Debugging purposes only
 ```
 
-You must also edit the corresponding information in the `functions.php` file in addition to the `wp-config.php` file. This file can be found in the WordPress website's Themes: the file can be edited from the WordPress dashboard by going to `Appearance > Theme Editor`.
+You must also edit the corresponding information in the `functions.php` file in addition to the `wp-config.php` file. This file can be found in the WordPress website's Themes: the file can be edited from the WordPress dashboard by going to `Appearance > Theme Editor` (`/wp-content/themes/<yourtheme>/functions.php`).
 
 ```PHP
 add_action( 'phpmailer_init', 'phpmailer_smtp' );
