@@ -1,10 +1,11 @@
 ---
 title: Configure SMTP on WordPress without using a plugin
 description: How to send email reliably from WordPress for free and without third-party plugins
+image: wordpress
 createdAt: 2023-01-10T20:02:24+02:00
 prevTitle: PHP mail function test
 prevUrl: php-mail-test
-tags: tutorials, php, mail, smtp, wordpress
+tags: tutorials, wordpress, smtp, php, mail
 ---
 
 WordPress uses PHP's `mail()` function by default, but in some hosting and VPS services, sending email is not permitted or is incorrectly configured, and email may not be sent at all or may end up in spam. To improve WordPress email sending, I recommend using a [Simple Mail Transfer Protocol](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) (SMTP) server to send email from WordPress and its forms. I use [Sendinblue](https://www.sendinblue.com/) because they provide 300 free emails per day.
