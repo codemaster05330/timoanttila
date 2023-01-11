@@ -17,7 +17,7 @@ const props = defineProps({
 const site = useState('site').value
 const canonical = site.url + props.article._path + '/'
 const modified = props.article.updatedAt || props.article.createdAt
-const image = props.article.image ? `/images/${props.article.image}.webp` : site.image
+const image = props.article.image ? `${site.url}/images/${props.article.image}.webp` : site.image
 const author = props.article.author || 'Timo Anttila'
 
 let meta = [
