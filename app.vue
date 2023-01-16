@@ -172,7 +172,7 @@ const social = [
 			<li><a href="#buttons">Jump to the sidebar buttons</a></li>
 		</ul>
 
-		<main class="block min-h-screen w-screen pb-6 pl-4 pr-16 pt-12">
+		<main class="block min-h-screen w-screen pb-6 pl-4 pr-16 md:pr-20 pt-12">
 			<NuxtPage />
 		</main>
 
