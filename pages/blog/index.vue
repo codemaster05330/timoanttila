@@ -10,7 +10,7 @@ const site = useState('site').value
 const title = 'Articles'
 const description = 'Stories about projects and life, easy-to-learn tutorials.'
 const pubdate = '2015-09-16T22:03:47+03:00'
-const modified = '2023-01-10T20:02:24+02:00'
+const modified = '2023-01-16T19:07:28+02:00'
 const canonical = site.url + '/blog/'
 
 useHead({

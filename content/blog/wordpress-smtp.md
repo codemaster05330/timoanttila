@@ -3,6 +3,8 @@ title: Configure SMTP on WordPress without using a plugin
 description: How to send email reliably from WordPress for free and without third-party plugins
 image: wordpress
 createdAt: 2023-01-10T20:02:24+02:00
+nextTitle: Customizing theme to add image width and height automatically in WordPress
+nextUrl: wordpress-image-size
 prevTitle: PHP mail function test
 prevUrl: php-mail-test
 tags: tutorials, wordpress, smtp, php, mail
