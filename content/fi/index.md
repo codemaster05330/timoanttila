@@ -2,7 +2,7 @@
 title: Mitä elämässäni tapahtuu juuri nyt?
 description: Tervetuloa tutustumaan minuun. Tältä sivulta löytyy kaikki minulle tärkeät asiat työ- ja yksityiselämässäni. Päivitän sivua aina kun jotain uutta tapahtuu.
 createdAt: 2015-01-01T00:00:00+02:00
-updatedAt: 2023-01-01T02:23:35+02:00
+updatedAt: 2023-03-03T23:40:35+02:00
 language: fi
 type: page
 ---
@@ -35,7 +35,7 @@ Kehityksen painopiste on aina yksinkertaisuudessa, nopeudessa, käytettävyydess
 
 ## Henkilökohtainen elämä:
 
-- Seurustelen kenialaisen naisen kanssa ja harkitsen väliaikaista muuttoa Keniaan.
+- Kihloissa kenialaisen naisen kanssa ja muutan kesällä Keniaan neljäksi vuodeksi.
 - Tekoäly, teknologiset ihmeet ja ihmisten käyttäytyminen kiehtoo.
 - Sijoitan osakkeisiin, sijoitusrahastoihin ja kryptovaluuttoihin ([eToro](https://www.etoro.com/people/timoanttila/portfolio) / [Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios)).
 - Katson liikaa elokuvia ja sarjoja ([Trakt](https://trakt.tv/users/timoanttila)).

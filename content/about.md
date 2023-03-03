@@ -2,7 +2,7 @@
 title: What is happening in my life right now?
 description: Welcome to getting to know more about me. This page contains a comprehensive list of everything that is currently important to me in my professional and personal life.
 createdAt: 2015-01-01T00:00:00+02:00
-updatedAt: 2023-01-01T02:24:48+02:00
+updatedAt: 2023-03-03T23:40:35+02:00
 language: en
 type: page
 ---
@@ -37,7 +37,7 @@ The emphasis is on simplicity, speed, usability, ease of updating, and delight. 
 
 ## Personal life:
 
-- Dating a Kenyan woman and considering moving there temporarily.
+- Engaged to a Kenyan woman and will be moving to Kenya this year for four years.
 - Fascinated by artificial intelligence, technological marvels, and human behavior.
 - Investing in stocks, mutual funds, and cryptocurrencies ([eToro](https://www.etoro.com/people/timoanttila/portfolio) / [Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios)).
 - Watching too many movies and series ([Trakt](https://trakt.tv/users/timoanttila)).

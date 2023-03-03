@@ -12,3 +12,4 @@ dist
 .serverless
 sw.*
 .DS_Store
+.output

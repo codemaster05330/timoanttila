@@ -142,11 +142,6 @@ const social = [
 		url: 'https://github.com/timoanttila'
 	},
 	{
-		icon: 'clarity:coin-bag-line',
-		name: 'eToro',
-		url: 'https://www.etoro.com/people/timoanttila'
-	},
-	{
 		icon: 'simple-icons:trakt',
 		name: 'Trakt.tv',
 		url: 'https://trakt.tv/users/timoanttila'
