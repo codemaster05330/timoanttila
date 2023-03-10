@@ -161,15 +161,9 @@ const social = [
 		:class="styleClass"
 		:style="`font-size:${fontSize}px`"
 	>
-		<ul class="false" aria-label="Links to page content and navigation">
-			<li><a href="#content">Jump to the content</a></li>
-			<li><a href="#menu">Jump to the navigation</a></li>
-			<li><a href="#buttons">Jump to the sidebar buttons</a></li>
-		</ul>
-
-		<main class="block min-h-screen w-screen pb-6 pl-4 pr-16 md:pr-20 pt-12">
-			<NuxtPage />
-		</main>
+		<a href="#content" hidden>Jump to the content</a>
+		<a href="#menu" hidden>Jump to the navigation</a>
+		<a href="#buttons" hidden>Jump to the sidebar buttons</a>
 
 		<nav
 			id="menu"
@@ -191,6 +185,10 @@ const social = [
 			</ul>
 		</nav>
 
+		<main class="block min-h-screen w-screen pb-6 pl-4 pr-16 md:pr-20 pt-12">
+			<NuxtPage />
+		</main>
+
 		<aside id="menubar" class="bg-secondary fixed h-screen right-0 top-0 w-12 z-50">
 			<div id="buttons" class="overflow-y-auto overflow-x-hidden h-full">
 				<div>
@@ -208,7 +206,7 @@ const social = [
 
 					<ButtonSquare
 						:aria-expanded="String(buttonAccessibility)"
-						:class="`w-12 h-12 mx-auto inline-block align-middle bg-transparent border-0 m-0 p-0 ${buttonAccessibility}`"
+						:class="`mx-auto inline-block align-middle bg-transparent border-0 m-0 p-0 ${buttonAccessibility}`"
 						@click="buttonAccessibility = !buttonAccessibility"
 						aria-controls="accessibility"
 						aria-haspopup="true"
@@ -272,7 +270,11 @@ const social = [
 					</ul>
 				</div>
 
-				<ul aria-label="Website's navigation" class="p-0 mb-0 mt-6 mx-0 inline-block align-middle">
+				<ul
+					aria-label="Website's navigation"
+					class="p-0 mb-0 mt-6 mx-0 align-middle"
+					:class="{false: buttonAccessibility, 'inline-block': !buttonAccessibility}"
+				>
 					<li
 						v-for="(item, index) in menu.filter(e => e.icon)"
 						:key="index"
@@ -289,7 +291,8 @@ const social = [
 
 				<ul
 					aria-label="List of Timo Anttila's social media channels"
-					class="p-0 mb-0 mt-6 mx-0 inline-block align-middle"
+					class="p-0 mb-0 mt-6 mx-0 align-middle"
+					:class="{false: buttonAccessibility, 'inline-block': !buttonAccessibility}"
 					title="You have right to stalk me"
 				>
 					<li v-for="(item, index) in social" :key="index" class="inline-block align-middle">

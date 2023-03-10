@@ -187,15 +187,15 @@ article {
 }
 
 aside#menubar {
-  button,
-  a {
-    &:hover {
-      color: var(--text-link);
-    }
+  button.true,
+  button:hover,
+  a:hover {
+    color: var(--text-link);
+  }
 
-    &:not(:hover) {
-      color: var(--text);
-    }
+  button:not(:hover):not(.true),
+  a:not(:hover) {
+    color: var(--text);
   }
 }
 

@@ -10,7 +10,7 @@ const site = useState('site').value
 const title = 'Articles'
 const description = 'Stories about projects and life, easy-to-learn tutorials.'
 const pubdate = '2015-09-16T22:03:47+03:00'
-const modified = '2023-01-16T19:07:28+02:00'
+const modified = '2023-03-10T23:13:00+02:00'
 const canonical = site.url + '/blog/'
 
 useHead({
@@ -95,18 +95,18 @@ useHead({
 			</p>
 		</header>
 
-		<ul
+		<div
 			v-if="articles"
 			id="articles"
 			class="grid gap-6 xl:grid-cols-2 2xl:grid-cols-3 m-0 pl-0"
 			aria-label="List of articles I have written"
 		>
-			<li
+			<div
 				v-for="(item, i) in articles"
 				:key="i"
-				class="listItem"
 				:aria-labelledby="`title-${i}`"
 				:aria-describedby="`description-${i}`"
+				class="listItem"
 			>
 				<div class="published">
 					<div class="text-center text-content">
@@ -122,15 +122,17 @@ useHead({
 					</div>
 				</div>
 				<div class="content">
-					<NuxtLink
-						:id="`title-${i}`"
-						:pubdate="item.createdAt"
-						:to="`${item._path}/`"
-						class="articleLink block font-koho no-underline hover:underline text-1.4em leading-tight"
-						role="article"
-					>
-						{{ item.title }}
-					</NuxtLink>
+					<h2 class="leading-tight m-0 text-1.4em">
+						<NuxtLink
+							:id="`title-${i}`"
+							:pubdate="item.createdAt"
+							:to="`${item._path}/`"
+							class="articleLink block font-koho no-underline hover:underline"
+							role="article"
+						>
+							{{ item.title }}
+						</NuxtLink>
+					</h2>
 					<time class="mt-2 text-content" :datetime="item.createdAt">
 						<DateFormat :item="item.createdAt" dateType="DD.MM.YYYY" class="block" />
 					</time>
@@ -138,8 +140,8 @@ useHead({
 						{{ item.description }}
 					</div>
 				</div>
-			</li>
-		</ul>
+			</div>
+		</div>
 	</div>
 </template>
 
