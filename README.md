@@ -15,7 +15,7 @@ Designing and developing experiences that make people's lives simple.
 
 ## Technologies
 
-- PHP, Javascript, Vue, Nuxt, React, Qwik, Svelte Kit, TypeScript, JQuery, HTML, CSS
+- PHP, Javascript, Vue, Nuxt, React, Svelte Kit, TypeScript, JQuery, HTML, CSS
 - MySQL / MariaDB, PostgreSQL, SQLite, MongoDB
 - NodeJS + Express, Apache2, NGINX
 - ProcessWire, WordPress, Drupal
