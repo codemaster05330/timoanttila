@@ -30,7 +30,7 @@ Designing and developing experiences that make people's lives simple.
 - https://www.linkedin.com/in/anttilatimo/
 - https://tuspe.com/
 - https://github.com/timoanttila
-- [https://twitter.com/\_timoanttila](https://twitter.com/_timoanttila/with_replies)
+- https://twitter.com/\_timoanttila
 - https://www.etoro.com/people/timoanttila
 - https://shareville.fi/jasenet/timo-anttila/portfolios
 - https://trakt.tv/users/timoanttila
