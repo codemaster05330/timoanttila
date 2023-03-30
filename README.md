@@ -4,7 +4,7 @@ A self-taught developer, who loves solving problems and learning new ways to del
 
 Full Stack Web Developer specializing in PHP, JavaScript, Nuxt, Vue, React, Qwik, TypeScript, Svelte, MariaDB, REST APIs, ProcessWire, and WordPress.
 
-Passionately improving websites usage experience and loading time. Always want to surpass myself and my customers. When the customer feels they have received more than they originally ordered, I succeeded.
+Passionately improving websites usage experience and loading time. Always want to surpass myself and my customers. I succeeded when the customer feels they received more than they originally ordered.
 
 Designing and developing experiences that make people's lives simple.
 
@@ -33,6 +33,4 @@ Designing and developing experiences that make people's lives simple.
 - https://twitter.com/\_timoanttila
 - https://www.etoro.com/people/timoanttila
 - https://shareville.fi/jasenet/timo-anttila/portfolios
-- https://trakt.tv/users/timoanttila
-- https://www.goodreads.com/timoanttila
 - https://codestats.net/users/timoanttila

@@ -1,4 +1,8 @@
 export default defineNuxtConfig({
+	target: 'static',
+	experimental: {
+		payloadExtraction: false
+	},
 	modules: ['@nuxt/content', '@unocss/nuxt'],
 	css: ['@/assets/global.scss'],
 	unocss: {

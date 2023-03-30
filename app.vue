@@ -43,7 +43,6 @@ useHead({
 					'https://trakt.tv/users/timoanttila',
 					'https://www.goodreads.com/timoanttila',
 					'https://www.instagram.com/_timoanttila/',
-					'https://www.youtube.com/@timoanttila',
 					'https://tuspe.com/'
 				],
 				jobTitle: [
@@ -60,10 +59,6 @@ useHead({
 					{
 						'@type': 'Organization',
 						name: 'Tuspe Design Oy'
-					},
-					{
-						'@type': 'Organization',
-						name: 'Ratsukko Oy'
 					}
 				]
 			})
@@ -92,12 +87,6 @@ const menu = [
 		language: 'en',
 		path: '/blog/',
 		title: 'Articles'
-	},
-	{
-		description: 'Mitä elämässäni tapahtuu juuri nyt ja mitä minulle on tärkeää.',
-		language: 'fi',
-		path: '/fi/',
-		title: 'Suomeksi'
 	}
 ]
 
@@ -140,16 +129,6 @@ const social = [
 		icon: 'fe:github-alt',
 		name: 'Github',
 		url: 'https://github.com/timoanttila'
-	},
-	{
-		icon: 'simple-icons:trakt',
-		name: 'Trakt.tv',
-		url: 'https://trakt.tv/users/timoanttila'
-	},
-	{
-		icon: 'mdi:goodreads',
-		name: 'Goodreads',
-		url: 'https://www.goodreads.com/timoanttila'
 	}
 ]
 </script>
