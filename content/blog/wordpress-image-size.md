@@ -2,6 +2,8 @@
 title: Customizing theme to add image width and height automatically in WordPress
 description: How to add the width and height attributes to all images in WordPress automatically
 createdAt: 2023-01-16T19:07:28+02:00
+nextTitle: Running NuxtJS in a Docker container
+nextUrl: nuxtjs-docker
 prevTitle: Configure SMTP on WordPress without using a plugin
 prevUrl: wordpress-smtp
 tags: tutorials, wordpress, seo, php, mail

@@ -42,7 +42,6 @@ The emphasis is on simplicity, speed, usability, ease of updating, and delight. 
 - Watching too many movies and series ([Trakt](https://trakt.tv/users/timoanttila)).
 - Proud father of Deli, a border collie
 - Equal friendship-volunteer ([Yhdenvertainen kaveritoiminta](https://www.tukiliitto.fi/toiminta/yhdenvertainen-kaveritoiminta/)).
-
 - Nature lover.
 
 ## Technologies / tools:

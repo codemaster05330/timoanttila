@@ -1,6 +1,6 @@
 {
   "name": "timoanttila",
-  "version": "5.1.0",
+  "version": "5.1.1",
   "description": "Personal website with many different content types and support for Markdown and SCSS. Built on Nuxt 3.",
   "homepage": "https://timoanttila.com",
   "bugs": "https://github.com/timoanttila/timoanttila/issues",
@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "dayjs": "^1.11.7",
-    "sass-loader": "^13.2.1",
+    "sass-loader": "^13.2.2",
     "sass": "^1.60.0"
   },
   "prettier": {
