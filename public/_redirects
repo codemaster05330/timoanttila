@@ -1,0 +1,5 @@
+/tutorials/* https://timoanttila.com/blog/:splat 301
+/tutorials /blog/ 301
+/tutorials/ /blog/ 301
+/fi* / 301
+/blog/setup-crontab-to-remove-the-php-session-files* /blog/setup-crontab-to-remove-php-session-files

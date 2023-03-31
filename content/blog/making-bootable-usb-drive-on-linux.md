@@ -5,7 +5,7 @@ createdAt: 2021-07-24T00:23:31+02:00
 nextTitle: Upgrade Debian 9 Stretch to Debian 10 Buster
 nextUrl: upgrade-debian-stretch-to-buster
 prevTitle: Remove unnecessary PHP sessions files on Debian
-prevUrl: setup-crontab-to-remove-the-php-session-files
+prevUrl: setup-crontab-to-remove-php-session-files
 tags: tutorials, linux
 image: etcher
 ---
