@@ -7,10 +7,11 @@ const {data: articles} = await useAsyncData('articles', () =>
 )
 
 const site = useState('site').value
-const title = 'Articles'
-const description = 'Stories about projects and life, easy-to-learn tutorials.'
+const title = 'Tutorials'
+const description =
+	'Easy to read tutorials / guides for web developers and server admins. The articles are based on my own experiences and information that I have found on the internet.'
 const pubdate = '2015-09-16T22:03:47+03:00'
-const modified = '2023-03-31T00:10:13+02:00'
+const modified = '2023-03-31T22:22:22+02:00'
 const canonical = site.url + '/blog/'
 
 useHead({
@@ -86,7 +87,7 @@ useHead({
 
 <template>
 	<div id="content">
-		<header class="text-center mb-10 max-w-lg mx-auto">
+		<header class="text-center mb-10 max-w-screen-md mx-auto">
 			<h1 class="m-0 text-title">
 				{{ title }}
 			</h1>
