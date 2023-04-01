@@ -88,3 +88,10 @@ find /backup/files/* -mtime +14 -type f -delete
 ```
 
 Thanks for reading, and happy backuping!
+
+## Related Posts
+
+- [Utilize rsync to backup or sync data on Linux](/blog/rsync/)
+- [Remove unnecessary PHP sessions files on Debian](/blog/setup-crontab-to-remove-php-session-files/)
+- [Ubuntu server log size management](/blog/linux-log-rotation/)
+- [Removing old journal files from Ubuntu](/blog/linux-journal-files/)

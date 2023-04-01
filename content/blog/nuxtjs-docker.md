@@ -2,6 +2,8 @@
 title: Running NuxtJS in a Docker container
 description: Guide how to create and run a Nuxt PWA project in a Docker container and how to share the project without Docker Hub
 createdAt: 2023-03-31T00:10:13+02:00
+nextTitle: Ubuntu server log and journal size management
+nextUrl: linux-log-rotation
 prevTitle: Customizing theme to add image width and height automatically in WordPress
 prevUrl: wordpress-image-size
 tags: tutorials, nuxt, vue, docker

@@ -11,7 +11,7 @@ const title = 'Tutorials'
 const description =
 	'Easy to read tutorials / guides for web developers and server admins. The articles are based on my own experiences and information that I have found on the internet.'
 const pubdate = '2015-09-16T22:03:47+03:00'
-const modified = '2023-03-31T22:22:22+02:00'
+const modified = '2023-04-01T14:20:00+02:00'
 const canonical = site.url + '/blog/'
 
 useHead({
