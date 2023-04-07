@@ -228,13 +228,10 @@ aside#menubar {
   }
 
   #bigPhoto {
+    height: 100vh;
+    left: 0;
     position: fixed;
     top: 0;
-    left: 0;
-  }
-
-  #bigPhoto {
-    height: 100vh;
 
     img {
       clip-path: polygon(28% 0, 100% 30%, 58% 100%, 0px 88%, 20% 0);

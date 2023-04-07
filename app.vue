@@ -3,6 +3,7 @@ const url = 'https://timoanttila.com'
 useState('site', () => ({name: 'Timo Anttila', url, image: url + '/images/laptop-social.webp'}))
 
 useHead({
+	htmlAttrs: {lang: 'en'},
 	meta: [
 		{charset: 'utf-8'},
 		{name: 'viewport', content: 'width=device-width, initial-scale=1'},
@@ -42,6 +43,7 @@ useHead({
 					'https://www.etoro.com/people/timoanttila',
 					'https://trakt.tv/users/timoanttila',
 					'https://www.goodreads.com/timoanttila',
+					'https://www.behance.net/tuspe',
 					'https://www.instagram.com/_timoanttila/',
 					'https://tuspe.com/'
 				],
@@ -70,23 +72,26 @@ const menu = [
 	{
 		description: 'A brief description of me',
 		icon: 'ic:baseline-home',
-		language: 'en',
 		path: '/',
 		title: 'Home'
 	},
 	{
 		description: 'What is happening in my life right now and what is important to me.',
 		icon: 'maki:information',
-		language: 'en',
 		path: '/about/',
 		title: 'About'
 	},
 	{
 		description: 'A collection of articles about web development, programming, and life.',
 		icon: 'material-symbols:list-alt-outline',
-		language: 'en',
 		path: '/blog/',
 		title: 'Articles'
+	},
+	{
+		description: 'A collection of my favorite photos.',
+		icon: 'mdi:photo-camera',
+		path: '/gallery/',
+		title: 'Gallery'
 	}
 ]
 
