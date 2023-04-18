@@ -86,12 +86,6 @@ const menu = [
 		icon: 'material-symbols:list-alt-outline',
 		path: '/blog/',
 		title: 'Articles'
-	},
-	{
-		description: 'A collection of my favorite photos.',
-		icon: 'mdi:photo-camera',
-		path: '/gallery/',
-		title: 'Gallery'
 	}
 ]
 

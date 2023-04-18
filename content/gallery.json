@@ -2,14 +2,26 @@
   "title": "Pictures from around the world",
   "description": "I have always loved photography. I mainly photograph animals and plants, but sometimes also people. A collection of my favorite photos.",
   "disclaimer": "All photos are taken by me. Please contact me if you want to use any of them.",
-  "pubdate": "2021-08-01",
-  "modified": "2021-08-01",
+  "pubdate": "2023-04-08T01:12:28+02:00",
+  "modified": "2023-04-08T23:42:25+02:00",
   "items": [
     {
       "date": "2023-01-23",
       "description": "A mother monkey breastfeeds her cub.",
       "image": "230123-monkey-feeds-cub",
-      "place": "Kenya"
+      "place": "Nairobi, Kenya"
+    },
+    {
+      "date": "2023-01-23",
+      "description": "Water antelope",
+      "image": "230123-water-antelope",
+      "place": "Nairobi, Kenya"
+    },
+    {
+      "date": "2023-01-23",
+      "description": "African egret",
+      "image": "230123-african-egret",
+      "place": "Nairobi, Kenya"
     },
     {
       "date": "2021-08-01",

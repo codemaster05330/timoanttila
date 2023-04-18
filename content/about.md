@@ -2,14 +2,14 @@
 title: What is happening in my life right now?
 description: Welcome to getting to know more about me. This page contains a comprehensive list of everything that is currently important to me in my professional and personal life.
 createdAt: 2015-01-01T00:00:00+02:00
-updatedAt: 2023-03-29T22:10:25+02:00
+updatedAt: 2023-04-19T00:08:25+02:00
 language: en
 type: page
 ---
 
 ## Location:
 
-[Nokia, Finland](https://goo.gl/maps/k437LzVrvYzhUvXV9 'Google Maps')
+[Eurajoki, Satakunta, Finland](https://goo.gl/maps/WjL4TPr9iazRefhy8 'Google Maps')
 
 ## Professional title:
 
