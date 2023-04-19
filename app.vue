@@ -43,7 +43,6 @@ useHead({
 					'https://www.etoro.com/people/timoanttila',
 					'https://trakt.tv/users/timoanttila',
 					'https://www.goodreads.com/timoanttila',
-					'https://www.behance.net/tuspe',
 					'https://www.instagram.com/_timoanttila/',
 					'https://tuspe.com/'
 				],
@@ -118,6 +117,11 @@ const social = [
 		icon: 'ri:linkedin-fill',
 		name: 'LinkedIn',
 		url: 'https://www.linkedin.com/in/anttilatimo/'
+	},
+	{
+		icon: 'mdi:instagram',
+		name: 'Instagram',
+		url: 'https://www.instagram.com/_timoanttila/'
 	},
 	{
 		icon: 'mdi:twitter',
