@@ -74,7 +74,7 @@ Keeping your Ubuntu server packages updated is crucial for maintaining the secur
 
 ## Related Posts
 
-- [Secure your Ubuntu server with ease: automate security package Updates](/ubuntu-server-automatic-security-updated/)
-- [Linux server journal size management](/linux-journal-files/)
-- [Ubuntu server log file size management](/linux-log-rotation/)
-- [Remove unnecessary PHP sessions files on Debian](/setup-crontab-to-remove-php-session-files/)
+- [Secure your Ubuntu server with ease: automate security package Updates](/blog/ubuntu-server-automatic-security-updated/)
+- [Linux server journal size management](/blog/linux-journal-files/)
+- [Ubuntu server log file size management](/blog/linux-log-rotation/)
+- [Remove unnecessary PHP sessions files on Debian](/blog/setup-crontab-to-remove-php-session-files/)

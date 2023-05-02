@@ -2,6 +2,8 @@
 title: 'Secure your Ubuntu server with ease: automate security package Updates'
 description: Protect your Ubuntu server effortlessly by automating security package updates. Safeguard your system from potential threats with ease.
 createdAt: 2023-05-02T20:00:00+02:00
+nextTitle: Add or remove HTML class with vanilla JavaScript based on vertical scroll
+nextUrl: change-class-with-javascript-based-on-vertical-scroll
 prevTitle: Ubuntu server package updates
 prevUrl: ubuntu-server-update
 tags: tutorials, server, ubuntu, update
@@ -57,7 +59,7 @@ It is important to note that automatic updates may not always be desirable in ce
 
 ## Related articles
 
-- [Ubuntu server package updates](/ubuntu-server-update/)
-- [Linux server journal size management](/linux-journal-files/)
-- [Ubuntu server log file size management](/linux-log-rotation/)
-- [Remove unnecessary PHP sessions files on Debian](/setup-crontab-to-remove-php-session-files/)
+- [Ubuntu server package updates](/blog/ubuntu-server-update/)
+- [Linux server journal size management](/blog/linux-journal-files/)
+- [Ubuntu server log file size management](/blog/linux-log-rotation/)
+- [Remove unnecessary PHP sessions files on Debian](/blog/setup-crontab-to-remove-php-session-files/)
