@@ -1,5 +1,5 @@
 ---
-title: 'Secure your Ubuntu server with ease: automate security package Updates'
+title: 'Secure your Ubuntu server with ease: automate security package updates'
 description: Protect your Ubuntu server effortlessly by automating security package updates. Safeguard your system from potential threats with ease.
 createdAt: 2023-05-02T20:00:00+02:00
 nextTitle: Add or remove HTML class with vanilla JavaScript based on vertical scroll

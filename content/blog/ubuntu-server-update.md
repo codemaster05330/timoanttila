@@ -2,14 +2,14 @@
 title: Ubuntu server package updates
 description: Control the package updates on your Ubuntu server. With these step-by-step instructions, you can learn how to manually update / upgrade your Ubuntu.
 createdAt: 2023-05-01T20:43:17+02:00
-nextTitle: 'Secure your Ubuntu server with ease: automate security package Updates'
+nextTitle: 'Secure your Ubuntu server with ease: automate security package updates'
 nextUrl: ubuntu-server-automatic-security-updated
 prevTitle: Linux server journal size management
 prevUrl: linux-journal-files
 tags: tutorials, server, ubuntu, update
 ---
 
-Ubuntu is one of the most popular operating systems for servers due to its reliability and security features. As with any operating system, it is important to keep the packages on your Ubuntu server updated to ensure that it is running smoothly and securely. In this article, we will discuss how to keep your Ubuntu server packages updated and how often you should run updates.
+[Ubuntu](https://ubuntu.com/) is one of the most popular operating systems for servers due to its reliability and security features. As with any operating system, it is important to keep the packages on your Ubuntu server updated to ensure that it is running smoothly and securely. In this article, we will discuss how to keep your Ubuntu server packages updated and how often you should run updates.
 
 ## Updating packages on Ubuntu Server
 
