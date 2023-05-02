@@ -2,7 +2,7 @@
 title: What is happening in my life right now?
 description: Welcome to getting to know more about me. This page contains a comprehensive list of everything that is currently important to me in my professional and personal life.
 createdAt: 2015-01-01T00:00:00+02:00
-updatedAt: 2023-04-19T00:08:25+02:00
+updatedAt: 2023-04-30T01:15:25+02:00
 language: en
 type: page
 ---
@@ -30,7 +30,7 @@ The emphasis is on simplicity, speed, usability, ease of updating, and delight. 
 - Problem solver, React and WordPress Developer at [Quux Oy](https://quux.fi/).
 - Full Stack Developer and owner at [Tuspe Design Oy](https://tuspe.com/).
 - CEO and shareholder at [Dataline Group Oy](https://www.dataline.fi/).
-- Member of the Central Electoral Commission of the City of Nokia from 2021 to 2025.
+- Subcontractor of [Vertics](https://vertics.co/).
 - Developing and running my own sports and e-commerce platforms / SaaS services.
 - Maintaining a small number of servers and being in charge of the security and backup of clients' websites.
 

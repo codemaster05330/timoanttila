@@ -115,5 +115,7 @@ man logrotate
 
 - [Removing old journal files from Ubuntu](/blog/linux-journal-files/)
 - [Remove unnecessary PHP sessions files on Debian](/blog/setup-crontab-to-remove-php-session-files/)
+- [Ubuntu server package updates](/ubuntu-server-update/)
+- [Secure your Ubuntu server with ease: automate security package Updates](/ubuntu-server-automatic-security-updated/)
 - [Backup your data automatically on Linux](/blog/backup-your-data-automatically-on-linux/)
 - [Utilize rsync to backup or sync data on Linux](/blog/rsync/)

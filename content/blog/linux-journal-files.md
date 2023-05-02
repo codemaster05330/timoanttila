@@ -2,6 +2,8 @@
 title: Linux server journal size management
 description: A guide on how to manage server journal size and delete old unnecessary files after a certain time or file size.
 createdAt: 2023-04-01T14:20:00+02:00
+nextTitle: Keep your Ubuntu server up to date with these easy steps
+nextUrl: ubuntu-server-update
 prevTitle: Ubuntu server log file size management
 prevUrl: server-log-rotation
 tags: tutorials, servers, journal
@@ -48,5 +50,7 @@ man journalctl
 
 - [Ubuntu server log size management](/blog/linux-log-rotation/)
 - [Remove unnecessary PHP sessions files on Debian](/blog/setup-crontab-to-remove-php-session-files/)
+- [Ubuntu server package updates](/ubuntu-server-update/)
+- [Secure your Ubuntu server with ease: automate security package Updates](/ubuntu-server-automatic-security-updated/)
 - [Backup your data automatically on Linux](/blog/backup-your-data-automatically-on-linux/)
 - [Utilize rsync to backup or sync data on Linux](/blog/rsync/)

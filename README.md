@@ -10,6 +10,7 @@ Designing and developing experiences that make people's lives simple.
 
 - Problem solver, React and WordPress Developer at [Quux Oy](https://quux.fi/).
 - Full Stack Developer and owner at [Tuspe Design Oy](https://tuspe.com/).
+- Subcontractor of [Vertics Oy](https://vertics.co/).
 
 ## Technologies
 
