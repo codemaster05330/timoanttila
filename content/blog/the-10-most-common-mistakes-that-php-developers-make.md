@@ -487,7 +487,7 @@ That's why the sample code presented above prints the letters a through z, but t
  php> var_export((boolean)('za' < 'z')) . "\n"; false
  ```
 
-That being the case, here's one way to properly loop through the values ‘a' through ‘z' in PHP:
+That being the case, here's one way to properly loop through the values `a` through `z` in PHP:
 
 ```PHP
  for ($i = ord('a'); $i <= ord('z'); $i++) { echo chr($i) . "\n"; }
@@ -609,7 +609,7 @@ Call Stack:
 0.0012 234704 1. {main}() /path/to/test.php:0
 ```
 
-So the main point here is that the empty() method should be used with care as it can lend itself to confusing – or even potentially misleading – results, if one is not careful.
+So the main point here is that the empty() method should be used with care as it can lend itself to confusing - or even potentially misleading - results, if one is not careful.
 
 ## Wrap-up
 
@@ -617,4 +617,10 @@ PHP's ease of use can lull developers into a false sense of comfort, leaving the
 
 The PHP language has evolved significantly over the course of its 20 year history. Familiarizing oneself with its subtleties is a worthwhile endeavor, as it will help ensure that the software you produce is more scalable, robust, and maintainable.
 
+## References
+
 - [Original content and the author](https://www.toptal.com/php/10-most-common-mistakes-php-programmers-make)
+
+## Related articles
+
+- [Upgrading PHP 7.4 to 8.2: Navigating common code problems](/blog/php-upgrade)

@@ -2,6 +2,8 @@
 title: Add or remove HTML class with vanilla JavaScript based on vertical scroll
 description: Learn how to use vanilla JavaScript to add or remove CSS classes on HTML elements to change the appearance of the website when scrolling down.
 createdAt: 2023-05-02T21:15:42+02:00
+nextTitle: 'Upgrading PHP 7.4 to 8.2: Navigating common code problems'
+nextUrl: php-upgrade
 prevTitle: 'Secure your Ubuntu server with ease: automate security package updates'
 prevUrl: ubuntu-server-automatic-security-updated
 tags: tutorials, webdev, javascript, css
