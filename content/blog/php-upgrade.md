@@ -25,7 +25,7 @@ PHP 8.2 brings significant performance improvements over PHP 7.4, including fast
 
 ### Type system
 
-PHP 8.2 introduces a more strict and expressive type system, which makes it easier to catch type errors in your code. The new type system includes several changes and improvements, including the following:
+PHP 8.2 introduces a more strict and expressive type system, which makes it easier to catch type errors in your code. The new type of system includes several changes and improvements, including the following:
 
 Mixed types can be used to represent any type of value. This is useful when working with code that has dynamic types or when dealing with legacy code.
 
@@ -39,7 +39,7 @@ Overall, the new type system in PHP 8.2 provides more ways to define and enforce
 
 ### JIT compiler
 
-PHP 8.2 includes a new JIT (Just-In-Time) compiler, experimental feature, which compiles PHP code into native machine code at runtime, which can result in faster execution times for certain types of applications.
+PHP 8.2 includes a new JIT (Just-In-Time) compiler, an experimental feature, which compiles PHP code into native machine code at runtime, which can result in faster execution times for certain types of applications.
 
 The JIT compiler works by analyzing the code as it is executed and generating optimized machine code for the parts of the code that are executed most frequently. This can result in significant performance improvements for applications that perform a lot of computation or looping.
 
@@ -47,7 +47,7 @@ However, it's worth noting that the JIT compiler is not a silver bullet for perf
 
 ### Constructor property promotion
 
-Constructor property promotion allows for more concise definition and initialization of object properties in a class. With constructor property promotion, you can define a class and its properties in a single statement. For example:
+Constructor property promotion allows for a more concise definition and initialization of object properties in a class. With constructor property promotion, you can define a class and its properties in a single statement. For example:
 
 ```php
 class Person {
@@ -79,18 +79,18 @@ The null-safe operator can help simplify code and reduce the risk of fatal error
 
 PHP 8.2 includes several improvements to error handling, making it easier to identify and debug errors in your code.
 
-One of the key improvements is the addition of a new `--rethrow `option for the php command-line interface (CLI). This option allows errors to be rethrown to the caller instead of being caught and handled by the error handler. This can make it easier to debug errors by providing more context about where the error occurred and what caused it.
+One of the key improvements is the addition of a new `--rethrow `option for the `php` command-line interface (CLI). This option allows errors to be rethrown to the caller instead of being caught and handled by the error handler. This can make it easier to debug errors by providing more context about where the error occurred and what caused it.
 
-Furthermore, PHP 8.2 introduces several new error types and codes, making it easier to identify and handle specific types of errors. For example, there is now a TypeError code for type declaration errors, as well as a ValueError code for invalid or unexpected values.
+Furthermore, PHP 8.2 introduces several new error types and codes, making it easier to identify and handle specific types of errors. For example, there is now a `TypeError` code for type declaration errors, as well as a `ValueError` code for invalid or unexpected values.
 
-Finally, PHP 8.2 includes a new throw expression for more concise and expressive error handling. With the throw expression, you can now throw an exception directly in an expression, rather than needing to write a separate statement.
+Finally, PHP 8.2 includes a new `throw` expression for more concise and expressive error handling. With the throw expression, you can now `throw` an exception directly in an expression, rather than needing to write a separate statement.
 
 Overall, the improvements to error handling in PHP 8.2 can make it easier to identify and debug errors in your code, ultimately improving the quality and reliability of your PHP applications.
 
 
 ## Common code problems when upgrading to PHP 8.2
 
-Upgrading a PHP website or project from version 7.4 to 8.2 is a significant step that requires careful planning and execution PHP 8.2 includes a number of performance enhancements, new features, and bug fixes that will improve the overall functionality of your application. However, the upgrade process may introduce compatibility and code issues that must be addressed in order to ensure a smooth transition.
+Upgrading a PHP website or project from version 7.4 to 8.2 is a significant step that requires careful planning and execution PHP 8.2 includes many performance enhancements, new features, and bug fixes that will improve the overall functionality of your application. However, the upgrade process may introduce compatibility and code issues that must be addressed to ensure a smooth transition.
 
 ### Deprecated features
 
@@ -106,7 +106,7 @@ PHP 8.2 introduces several new functions and classes that may conflict with exis
 
 ### Compatibility issues with third-party modules
 
-If your PHP project uses third-party modules, you need to ensure that they're compatible with PHP 8.2 before upgrading. You can check the module's documentation or contact the module's developer for information about compatibility. If the module isn't compatible, you may need to find an alternative or update the module's code yourself.
+If your PHP project uses third-party modules, you need to ensure that they're compatible with PHP 8.2 before upgrading. You can check the module's documentation or contact the module's developer for compatibility information. If the module isn't compatible, you may need to find an alternative or update the module's code yourself.
 
 ## How to upgrade your PHP website safely
 
