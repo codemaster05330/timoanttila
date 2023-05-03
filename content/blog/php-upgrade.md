@@ -1,7 +1,7 @@
 ---
 title: 'Upgrading PHP 7.4 to 8.2: Navigating common code problems'
 description: Learn how to safely upgrade your PHP website from version 7.4 to 8.2, including how to navigate common code problems and compatibility issues.
-createdAt: 2023-05-03T02:46:40+02:00
+createdAt: 2023-05-03T09:06:40+02:00
 prevTitle: Add or remove HTML class with vanilla JavaScript based on vertical scroll
 prevUrl: change-class-with-javascript-based-on-vertical-scroll
 tags: tutorials, webdev, php
@@ -17,7 +17,7 @@ Additionally, upgrading to PHP 8.2 can also bring significant performance improv
 
 ## What's new in PHP 8.2?
 
-Here are some of the key differences between PHP 7.4 and 8.2:
+A lot has changed, and here are some of the most significant differences between PHP 7.4 and 8.2.
 
 ### Performance
 
@@ -25,33 +25,72 @@ PHP 8.2 brings significant performance improvements over PHP 7.4, including fast
 
 ### Type system
 
-A more strict and expressive type system, making it easier to catch type errors in your code.
+PHP 8.2 introduces a more strict and expressive type system, which makes it easier to catch type errors in your code. The new type system includes several changes and improvements, including the following:
 
-### Union types
+Mixed types can be used to represent any type of value. This is useful when working with code that has dynamic types or when dealing with legacy code.
 
-Union types, which allow functions and methods to accept more than one data type as an argument.
+Union types allow you to specify that a parameter or return value can be of more than one type. For example, you can define a function that accepts either a string or an array as an argument.
+
+Named arguments, which allow you to pass arguments to a function or method by name, rather than by position. This can make your code more readable and easier to understand.
+
+Improved type inference, which allows the compiler to automatically deduce the type of a variable based on its context. This can help catch errors and make your code more concise.
+
+Overall, the new type system in PHP 8.2 provides more ways to define and enforce types in your code, which can lead to fewer errors and more robust applications.
 
 ### JIT compiler
 
-A new JIT (Just-In-Time) compiler, which can further improve performance in certain use cases.
+PHP 8.2 includes a new JIT (Just-In-Time) compiler, experimental feature, which compiles PHP code into native machine code at runtime, which can result in faster execution times for certain types of applications.
+
+The JIT compiler works by analyzing the code as it is executed and generating optimized machine code for the parts of the code that are executed most frequently. This can result in significant performance improvements for applications that perform a lot of computation or looping.
+
+However, it's worth noting that the JIT compiler is not a silver bullet for performance and may not provide significant performance benefits for all types of applications. In some cases, the overhead of compiling the code at runtime may actually slow down performance.
 
 ### Constructor property promotion
 
-Constructor property promotion, which provides a more concise way of defining and initializing object properties in a class.
+Constructor property promotion allows for more concise definition and initialization of object properties in a class. With constructor property promotion, you can define a class and its properties in a single statement. For example:
+
+```php
+class Person {
+  public function __construct(
+    public string $name, 
+    public int $age,
+    public ?string $address = null
+  ) {}
+}
+
+$person = new Person('John Doe', 35, '123 Main St.');
+```
 
 ### Null-safe operator
 
-The null-safe operator, which provides a more concise way of checking for null values in an expression.
+Traditionally, accessing an object property or method that doesn't exist or is null would result in a fatal error in PHP. To avoid this, developers would often need to write extra code to check for null values, which could make the code more complex and verbose.
+
+With the null-safe operator, you can now safely access object properties and methods without the risk of causing a fatal error. Here's an example:
+
+```php
+$address = $person?->getAddress()?->getStreet();
+```
+
+In this example, we're accessing the `getAddress()` method of the `$person` object. If `$person` is null, the expression will simply return null and no fatal error will occur. Similarly, if the result of `getAddress()` is null, the expression will return null and no fatal error will occur when accessing the `getStreet()` method.
+
+The null-safe operator can help simplify code and reduce the risk of fatal errors caused by null values. However, it's worth noting that the null-safe operator should be used with caution, as it can potentially mask errors or hide bugs if not used properly. It's important to thoroughly test your code and use best practices when using the null-safe operator.
 
 ### Improvements to error handling
 
-Several improvements to error handling, including better error messages and new error types.
+PHP 8.2 includes several improvements to error handling, making it easier to identify and debug errors in your code.
 
-Overall, PHP 8.2 brings several improvements and new features over PHP 7.4, making it a worthwhile upgrade for PHP projects looking to enhance their performance and functionality.
+One of the key improvements is the addition of a new `--rethrow `option for the php command-line interface (CLI). This option allows errors to be rethrown to the caller instead of being caught and handled by the error handler. This can make it easier to debug errors by providing more context about where the error occurred and what caused it.
+
+Furthermore, PHP 8.2 introduces several new error types and codes, making it easier to identify and handle specific types of errors. For example, there is now a TypeError code for type declaration errors, as well as a ValueError code for invalid or unexpected values.
+
+Finally, PHP 8.2 includes a new throw expression for more concise and expressive error handling. With the throw expression, you can now throw an exception directly in an expression, rather than needing to write a separate statement.
+
+Overall, the improvements to error handling in PHP 8.2 can make it easier to identify and debug errors in your code, ultimately improving the quality and reliability of your PHP applications.
+
 
 ## Common code problems when upgrading to PHP 8.2
 
-Upgrading a PHP website or project from version 7.4 to 8.2 is a significant step that requires careful planning and execution. PHP 8.2 brings several performance improvements, new features, and bug fixes that can enhance the overall functionality of your website or project. However, the upgrade process may also introduce compatibility issues and code problems that need to be addressed to ensure a smooth transition.
+Upgrading a PHP website or project from version 7.4 to 8.2 is a significant step that requires careful planning and execution PHP 8.2 includes a number of performance enhancements, new features, and bug fixes that will improve the overall functionality of your application. However, the upgrade process may introduce compatibility and code issues that must be addressed in order to ensure a smooth transition.
 
 ### Deprecated features
 
