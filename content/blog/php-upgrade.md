@@ -7,17 +7,24 @@ prevUrl: change-class-with-javascript-based-on-vertical-scroll
 tags: tutorials, webdev, php
 ---
 
+[PHP](https://www.php.net/) is a web development server-side scripting language. It's commonly used to build web pages and applications. PHP is popular among web developers because of its ease of use, flexibility, and extensive library and framework support. According to [W3Techs data](https://w3techs.com/technologies/details/pl-php), PHP is used by 77.4% of all the websites whose server-side programming language we know. So, nearly 8 out of every 10 websites you visit on the Internet use PHP in some way.
+
 Support for PHP 7.4 ended on November 28, 2022. This means that the PHP development team will no longer provide bug fixes, security updates, or other forms of support for PHP 7.4.
 
-Upgrading to PHP 8.2 is critical for security because running an outdated and unsupported version of PHP can expose your website or project to security vulnerabilities and exploits. Hackers may use these flaws to gain unauthorized access to your system, steal sensitive data, or cause other types of damage.
+Upgrading to PHP 8.2 is critical for security because running an outdated and unsupported version of PHP can expose your website or application to security vulnerabilities and exploits. Hackers may use these flaws to gain unauthorized access to your system, steal sensitive data, or cause other types of damage.
 
-By upgrading to PHP 8.2, you can ensure that you have access to the latest security patches and updates, helping to keep your website or project secure and protected from potential threats.
+By upgrading to PHP 8.2, you can ensure that you have access to the latest security patches and updates, helping to keep your website or application secure and protected from potential threats.
 
 Additionally, upgrading to PHP 8.2 can also bring significant performance improvements and new features, allowing you to take advantage of the latest technologies and tools available in the PHP ecosystem.
 
-## What's new in PHP 8.2?
+## Differences between PHP 7.4 and 8.2
 
 A lot has changed, and here are some of the most significant differences between PHP 7.4 and 8.2.
+
+### Release notes
+-  [PHP 8.0](https://www.php.net/releases/8.0/en.php)
+-  [PHP 8.1](https://www.php.net/releases/8.1/en.php)
+-  [PHP 8.2](https://www.php.net/releases/8.2/en.php)
 
 ### Performance
 
@@ -27,23 +34,23 @@ PHP 8.2 brings significant performance improvements over PHP 7.4, including fast
 
 PHP 8.2 introduces a more strict and expressive type system, which makes it easier to catch type errors in your code. The new type of system includes several changes and improvements, including the following:
 
-Mixed types can be used to represent any type of value. This is useful when working with code that has dynamic types or when dealing with legacy code.
+**Mixed types** can be used to represent any type of value. This is useful when working with code that has dynamic types or when dealing with legacy code.
 
-Union types allow you to specify that a parameter or return value can be of more than one type. For example, you can define a function that accepts either a string or an array as an argument.
+**Union types** allow you to specify that a parameter or return value can be of more than one type. For example, you can define a function that accepts either a string or an array as an argument.
 
-Named arguments, which allow you to pass arguments to a function or method by name, rather than by position. This can make your code more readable and easier to understand.
+**Named arguments** allow you to pass arguments to a function or method by name, rather than by position. This can make your code more readable and easier to understand.
 
-Improved type inference, which allows the compiler to automatically deduce the type of a variable based on its context. This can help catch errors and make your code more concise.
+**Improved type inference** allows the compiler to automatically deduce the type of a variable based on its context. This can help catch errors and make your code more concise.
 
-Overall, the new type system in PHP 8.2 provides more ways to define and enforce types in your code, which can lead to fewer errors and more robust projects.
+Overall, the new type system in PHP 8.2 provides more ways to define and enforce types in your code, which can lead to fewer errors and more robust applications.
 
 ### JIT compiler
 
-PHP 8.2 includes a new JIT (Just-In-Time) compiler, an experimental feature, which compiles PHP code into native machine code at runtime, which can result in faster execution times for certain types of projects.
+PHP 8.2 includes a new JIT (Just-In-Time) compiler, an experimental feature, which compiles PHP code into native machine code at runtime, which can result in faster execution times for certain types of applications.
 
-The JIT compiler works by analyzing the code as it is executed and generating optimized machine code for the parts of the code that are executed most frequently. This can result in significant performance improvements for projects that perform a lot of computation or looping.
+The JIT compiler works by analyzing the code as it is executed and generating optimized machine code for the parts of the code that are executed most frequently. This can result in significant performance improvements for applications that perform a lot of computation or looping.
 
-However, it's worth noting that the JIT compiler is not a silver bullet for performance and may not provide significant performance benefits for all types of projects. In some cases, the overhead of compiling the code at runtime may actually slow down performance.
+However, it's worth noting that the JIT compiler is not a silver bullet for performance and may not provide significant performance benefits for all types of applications. In some cases, the overhead of compiling the code at runtime may actually slow down performance.
 
 ### Constructor property promotion
 
@@ -85,12 +92,12 @@ Furthermore, PHP 8.2 introduces several new error types and codes, making it eas
 
 Finally, PHP 8.2 includes a new `throw` expression for more concise and expressive error handling. With the throw expression, you can now `throw` an exception directly in an expression, rather than needing to write a separate statement.
 
-Overall, the improvements to error handling in PHP 8.2 can make it easier to identify and debug errors in your code, ultimately improving the quality and reliability of your PHP projects.
+Overall, the improvements to error handling in PHP 8.2 can make it easier to identify and debug errors in your code, ultimately improving the quality and reliability of your PHP applications.
 
 
 ## Common code problems when upgrading to PHP 8.2
 
-Upgrading a PHP website or project from version 7.4 to 8.2 is a significant step that requires careful planning and execution PHP 8.2 includes many performance enhancements, new features, and bug fixes that will improve the overall functionality of your project. However, the upgrade process may introduce compatibility and code issues that must be addressed to ensure a smooth transition.
+Upgrading a PHP website or application from version 7.4 to 8.2 is a significant step that requires careful planning and execution PHP 8.2 includes many performance enhancements, new features, and bug fixes that will improve the overall functionality of your application. However, the upgrade process may introduce compatibility and code issues that must be addressed to ensure a smooth transition.
 
 ### Deprecated features
 
@@ -143,7 +150,7 @@ PHP 8.2 introduces several new functions and classes that may conflict with exis
 
 ### Compatibility issues with third-party modules
 
-If your PHP project uses third-party modules, you need to ensure that they're compatible with PHP 8.2 before upgrading. You can check the module's documentation or contact the module's developer for compatibility information. If the module isn't compatible, you may need to find an alternative or update the module's code yourself.
+If your PHP application uses third-party modules, you need to ensure that they're compatible with PHP 8.2 before upgrading. You can check the module's documentation or contact the module's developer for compatibility information. If the module isn't compatible, you may need to find an alternative or update the module's code yourself.
 
 ## How to upgrade your PHP website safely
 
@@ -161,4 +168,4 @@ Once you've tested your codebase on a staging environment and verified that it's
 
 ## Conclusion
 
-Upgrading your PHP website or project from version 7.4 to 8.2 can enhance its performance and functionality. However, it's crucial to identify and address any compatibility issues and code problems before upgrading to ensure a smooth transition. By following the steps outlined above, you can safely upgrade your PHP project to version 8.2 and enjoy its benefits.
+Upgrading your PHP website or application from version 7.4 to 8.2 can enhance its performance and functionality. However, it's crucial to identify and address any compatibility issues and code problems before upgrading to ensure a smooth transition. By following the steps outlined above, you can safely upgrade your PHP application to version 8.2 and enjoy its benefits.
