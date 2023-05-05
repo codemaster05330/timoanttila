@@ -1,10 +1,6 @@
 # Hi, I'm Timo Anttila
 
-A self-taught developer, who loves solving problems and learning new ways to deliver solutions.
-
-Full Stack Web Developer specializing in PHP, JavaScript, Nuxt, Vue, React, Qwik, TypeScript, Svelte, MariaDB, REST APIs, ProcessWire, and WordPress.
-
-Passionately improving websites usage experience and loading time. Always want to surpass myself and my customers. I succeeded when the customer feels they received more than they originally ordered.
+A self-taught seasoned web developer, who has mastered the art of building dynamic and responsive websites and web applications using a variety of cutting-edge technologies. With expertise in PHP, JavaScript, Vue, Nuxt, React, Svelte, REST API, and SQL engines, I have a proven track record of delivering high-quality solutions that not only meet but exceed client expectations.
 
 Designing and developing experiences that make people's lives simple.
 
