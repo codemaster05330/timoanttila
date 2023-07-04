@@ -27,10 +27,8 @@ JavaScript, Nuxt, Vue, PHP, Nodejs, and MariaDB are among the technologies I enj
 
 The emphasis is on simplicity, speed, usability, ease of updating, and delight. My ambition is to outperform both myself and my customers. I consider myself successful when the customer feels they have received more than they originally ordered.
 
-- Problem solver, React and WordPress Developer at [Quux Oy](https://quux.fi/).
 - Full Stack Developer and owner at [Tuspe Design Oy](https://tuspe.com/).
 - CEO and shareholder at [Dataline Group Oy](https://www.dataline.fi/).
-- Subcontractor of [Vertics](https://vertics.co/).
 - Developing and running my own sports and e-commerce platforms / SaaS services.
 - Maintaining a small number of servers and being in charge of the security and backup of clients' websites.
 
@@ -46,13 +44,14 @@ The emphasis is on simplicity, speed, usability, ease of updating, and delight. 
 
 ## Technologies / tools:
 
-- PHP, Javascript, Vue, Nuxt, React, Svelte Kit, TypeScript, JQuery, HTML, CSS
-- MySQL / MariaDB, PostgreSQL, SQLite, MongoDB
-- NodeJS + Express, Apache2, NGINX
-- ProcessWire, WordPress, Drupal
-- Visual Studio Code, Github, Gitlab, Postman API Platform
-- Cloudflare, Joker, Namecheap, Traficom domains
-- Slack, Google Chat, Google Meets, Microsoft Teams
+- Frontend: Javascript, Vue, Nuxt, React, Svelte Kit, TypeScript, JQuery, HTML, CSS
+- Backend: PHP, REST API, Cloudflare Workers
+- SQL: MySQL / MariaDB, Cloudflare D1, PostgreSQL
+- Services: NodeJS, NGINX, Apache2
+- CMS: ProcessWire, WordPress, Drupal
+- Tools: Visual Studio Code, GitHub, Gitlab, Postman API Platform
+- Domains: Cloudflare, Joker, Namecheap, Traficom domains
+- Communication: Slack, Google Chat, Google Meets, Microsoft Teams
 
 ## Languages:
 

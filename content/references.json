@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "title": "FC KTP",
+      "image": "nuxt-fcktp",
+      "link": "https://fcktp.fi/"
+    },
+    {
+      "title": "Tuspe Design",
+      "image": "nuxt-tuspe",
+      "link": "https://tuspe.com/"
+    },
+    {
+      "title": "Kauneuskeskus Ruusunen",
+      "image": "processwire-ruusunen",
+      "link": "https://ruusunen.info/"
+    },
+    {
+      "title": "Kestopigmentoinnit",
+      "image": "processwire-kestopigmentoinnit",
+      "link": "https://www.kestopigmentoinnit.fi/"
+    }
+  ]
+}
