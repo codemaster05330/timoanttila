@@ -4,16 +4,18 @@ A self-taught seasoned web developer, who has mastered the art of building dynam
 
 Passionate about crafting intuitive user experiences that enhance people's lives.
 
-## Technologies
+## Skills and expertise
 
-- Frontend: Javascript, Vue, Nuxt, React, Svelte Kit, TypeScript, JQuery, HTML, CSS
-- Backend: PHP, REST API, Cloudflare Workers
+- Frontend: Javascript, Nuxt, Vue, Svelte Kit, React, TypeScript, JQuery, HTML, CSS
+- Backend: PHP, Node.js, REST API, SaaS, Cloudflare Workers, SSH
 - SQL: MySQL / MariaDB, Cloudflare D1, PostgreSQL
-- Services: NodeJS, NGINX, Apache2
+- Tools: Visual Studio Code - Insider, Postman API Platform
+- Communication: Slack, Google Chat, Google Meets, Microsoft Teams, Discord
+- Version control: GitHub, Gitlab, Bitbucket
+- Email services: Amazon SES, Mailchimp, SendingBlue, Mailjet
+- Web Servers / Proxies: NGINX, Apache2
 - CMS: ProcessWire, WordPress, Drupal
-- Tools: Visual Studio Code, GitHub, Gitlab, Postman API Platform
-- Domains: Cloudflare, Joker, Namecheap, Traficom domains
-- Communication: Slack, Google Chat, Google Meets, Microsoft Teams
+- Domains: Cloudflare, Joker, Namecheap, Traficom
 
 ## Languages
 

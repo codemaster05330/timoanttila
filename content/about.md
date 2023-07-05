@@ -2,14 +2,14 @@
 title: What is happening in my life right now?
 description: Welcome to getting to know more about me. This page contains a comprehensive list of everything that is currently important to me in my professional and personal life.
 createdAt: 2015-01-01T00:00:00+02:00
-updatedAt: 2023-04-30T01:15:25+02:00
+updatedAt: 2023-07-05T06:29:25+02:00
 language: en
 type: page
 ---
 
 ## Location:
 
-[Eurajoki, Satakunta, Finland](https://goo.gl/maps/WjL4TPr9iazRefhy8 'Google Maps')
+Homa Bay Town, Kenya
 
 ## Professional title:
 
@@ -23,7 +23,7 @@ Creating and designing experiences that make people's lives easier. Full-stack w
 
 Since starting my entrepreneurial journey over seven years ago, I've developed hundreds of customer projects, including booking calendars for stables and events, and built my own e-commerce and sports platform. I have also made several interface solutions, including payment interfaces and REST APIs. Always eager to take on new challenges.
 
-JavaScript, Nuxt, Vue, PHP, Nodejs, and MariaDB are among the technologies I enjoy working with. I am also very familiar with Reactjs and TypeScript. ProcessWire and WordPress are frequently used as client admin areas and backends. My primary job is to develop React webapps.
+JavaScript, Nuxt, Vue, PHP, Node.js, and MariaDB are among the technologies I enjoy working with. I am also very familiar with React and TypeScript. ProcessWire and WordPress are frequently used as client admin areas and backends. My primary job is to develop React webapps.
 
 The emphasis is on simplicity, speed, usability, ease of updating, and delight. My ambition is to outperform both myself and my customers. I consider myself successful when the customer feels they have received more than they originally ordered.
 
@@ -34,28 +34,30 @@ The emphasis is on simplicity, speed, usability, ease of updating, and delight. 
 
 ## Personal life:
 
-- Engaged to a Kenyan woman and will be moving to Kenya this year for four years.
+- Engaged to a Kenyan woman and getting married in August 2023.
+- Studying religions and training to become a Catholic.
 - Fascinated by artificial intelligence, technological marvels, and human behavior.
 - Investing in stocks, mutual funds, and cryptocurrencies ([eToro](https://www.etoro.com/people/timoanttila/portfolio) / [Shareville](https://shareville.fi/jasenet/timo-anttila/portfolios)).
 - Watching too many movies and series ([Trakt](https://trakt.tv/users/timoanttila)).
-- Proud father of Deli, a border collie
-- Equal friendship-volunteer ([Yhdenvertainen kaveritoiminta](https://www.tukiliitto.fi/toiminta/yhdenvertainen-kaveritoiminta/)).
 - Nature lover.
 
-## Technologies / tools:
+## Skills and expertise
 
-- Frontend: Javascript, Vue, Nuxt, React, Svelte Kit, TypeScript, JQuery, HTML, CSS
-- Backend: PHP, REST API, Cloudflare Workers
+- Frontend: Javascript, Nuxt, Vue, Svelte Kit, React, TypeScript, JQuery, HTML, CSS
+- Backend: PHP, Node.js, REST API, SaaS, Cloudflare Workers, SSH
 - SQL: MySQL / MariaDB, Cloudflare D1, PostgreSQL
-- Services: NodeJS, NGINX, Apache2
+- Tools: Visual Studio Code - Insider, Postman API Platform
+- Communication: Slack, Google Chat, Google Meets, Microsoft Teams, Discord
+- Version control: GitHub, Gitlab, Bitbucket
+- Email services: Amazon SES, Mailchimp, SendingBlue, Mailjet
+- Web Servers / Proxies: NGINX, Apache2
 - CMS: ProcessWire, WordPress, Drupal
-- Tools: Visual Studio Code, GitHub, Gitlab, Postman API Platform
-- Domains: Cloudflare, Joker, Namecheap, Traficom domains
-- Communication: Slack, Google Chat, Google Meets, Microsoft Teams
+- Domains: Cloudflare, Joker, Namecheap, Traficom
 
 ## Languages:
 
-- Finnish, English
+- Finnish
+- English
 
 ## Find me around the web:
 
@@ -65,7 +67,6 @@ The emphasis is on simplicity, speed, usability, ease of updating, and delight. 
 - https://twitter.com/\_timoanttila
 - https://www.etoro.com/people/timoanttila
 - https://shareville.fi/jasenet/timo-anttila/portfolios
-- https://codestats.net/users/timoanttila
 
 ## Recomended books:
 
