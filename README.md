@@ -13,16 +13,20 @@ Passionate about crafting intuitive user experiences that enhance people's lives
 - Communication: Slack, Google Chat, Google Meets, Microsoft Teams, Discord
 - Version control: GitHub, Gitlab, Bitbucket
 - Email services: Amazon SES, Mailchimp, SendingBlue, Mailjet
+- User management: Amazon Cognito, Firebase Authentication
 - Web Servers / Proxies: NGINX, Apache2
 - CMS: ProcessWire, WordPress, Drupal
 - Domains: Cloudflare, Joker, Namecheap, Traficom
 
 ## Languages
 
-- Finnish, English
+- Finnish
+- English
 
 ## Find me around the web
 
+- https://timoanttila.com/
 - https://www.linkedin.com/in/anttilatimo/
 - https://tuspe.com/
 - https://twitter.com/\_timoanttila
+- https://www.instagram.com/_timoanttila/

@@ -4,6 +4,8 @@ description: Learn how to safely upgrade your PHP website from version 7.4 to 8.
 createdAt: 2023-05-03T09:06:40+02:00
 prevTitle: Add or remove HTML class with vanilla JavaScript based on vertical scroll
 prevUrl: change-class-with-javascript-based-on-vertical-scroll
+nextTitle: 'A comparison of UUID and number ID'
+nextUrl: uuid
 tags: tutorials, webdev, php
 ---
 
